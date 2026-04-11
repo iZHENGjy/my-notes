@@ -8,6 +8,38 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.15.0] - 2026-04-10
+
+### Added
+
+- Multi-agent skills layout: skills now live at `.agents/skills/<name>/SKILL.md` (canonical, read natively by OpenCode, Codex, and Cursor) with symlinks at `.claude/skills/<name>` and `.pi/skills/<name>` so Claude Code and Pi find them too. Edit canonical, all five agents follow.
+- `pnpm skills:validate` script — runs the bundled `quick_validate.py` across every skill, reports any malformed frontmatter, and exits non-zero on the first failure.
+- Bundled the official Anthropic `skill-creator` skill from [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/skill-creator), including the full agents/, scripts/, references/, and assets/ tree, plus its `LICENSE.txt` (Apache 2.0) and a `NOTICE.md` linking to the upstream third-party notices.
+
+### Changed
+
+- Converted all 14 slash commands in `.claude/commands/` into agent skills with proper `name` + `description` frontmatter. Bodies preserved verbatim except where stale references needed fixing.
+- Rewrote the `upgrade` skill (642 → 276 lines) for the new layout. Adds layout detection (skips legacy `.claude/commands/` vaults), a symlink hygiene step that uses `-L` and `readlink` to repair wrong/broken symlinks safely, and a documented migration path for legacy users. All original safety machinery preserved (backups, mandatory diffs, no auto-pick, never `cp -f`, "files we never touch" list, rollback instructions).
+- Rewrote the `init-bootstrap` skill's "available commands" section to point at skills with natural-language triggers. Replaced dead `/setup-gemini` and `/setup-firecrawl` references with concrete inline setup instructions.
+- Rewrote the README's "Claude Code Commands" section to describe skills, dropped the dead `/[command-name]` invocation hint and the dead `create-command` bullet.
+
+### Fixed
+
+- `install-claudesidian-command` skill: two pre-existing data-loss bugs caught by code review.
+  1. The `sed` range delete `/alias|function/,/^end$/d` would delete from a bash alias (which has no `end`) all the way to the next `^end$` keyword anywhere in the file, potentially nuking unrelated shell config. Split into a single-line delete for the alias and a range delete for the fish function.
+  2. Path-escaping order was reversed (escaped quotes before backslashes, double-escaping the new backslashes). Escape backslashes first.
+
+### Removed
+
+- `.claude/claude_config.json` — dead config file with no code references.
+- `.claude/commands/README.md` — stale documentation for an empty directory.
+- `.claude/commands/create-command.md` — no longer needed.
+
+### Migration
+
+- Existing vaults on the `.claude/commands/` layout: run the `upgrade` skill. It will detect the legacy layout and walk through the migration step by step (move command files to `.agents/skills/<name>/SKILL.md`, add frontmatter via `add-frontmatter`, create symlinks, validate). Migration is one-time. After it succeeds, future upgrades use the normal flow.
+- Closes #16 (Upgrade to using Skills), #17 (unknown slash command: /setup-gemini and /setup-firecrawl), and #30 (OpenCode Compatibility).
+
 ## [0.14.2] - 2026-01-13
 
 ### Changed
@@ -473,7 +505,8 @@ and this project adheres to
 - API keys stored in environment variables
 - .mcp.json gitignored for security
 
-[Unreleased]: https://github.com/heyitsnoah/claudesidian/compare/v0.14.2...HEAD
+[Unreleased]: https://github.com/heyitsnoah/claudesidian/compare/v0.15.0...HEAD
+[0.15.0]: https://github.com/heyitsnoah/claudesidian/compare/v0.14.2...v0.15.0
 [0.14.2]: https://github.com/heyitsnoah/claudesidian/compare/v0.14.1...v0.14.2
 [0.14.1]: https://github.com/heyitsnoah/claudesidian/compare/v0.14.0...v0.14.1
 [0.14.0]: https://github.com/heyitsnoah/claudesidian/compare/v0.13.1...v0.14.0
