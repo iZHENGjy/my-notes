@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Use portable Bash shebangs (`#!/usr/bin/env bash`) instead of hardcoded `/bin/bash` in project scripts
+
 ## [0.15.0] - 2026-04-10
 
 ### Added

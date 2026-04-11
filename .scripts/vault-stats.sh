@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Vault Statistics Script
 # Shows basic stats about your Obsidian vault
