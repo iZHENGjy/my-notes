@@ -280,8 +280,21 @@ The migration path:
 4. **Add `name`/`description` frontmatter** to any file that lacks it. Use the
    `add-frontmatter` skill.
 5. **Create symlinks** for `.claude/skills/` and `.pi/skills/` (see step 6).
-6. **Validate frontmatter** — check that every `SKILL.md` has both `name` and
-   `description` fields:
+6. **Validate frontmatter.** Use the `quick_validate.py` script bundled with
+   the `skill-creator` skill in this repo:
+   ```bash
+   for d in .agents/skills/*/; do
+     uv run --with pyyaml python \
+       .agents/skills/skill-creator/scripts/quick_validate.py "$d"
+   done
+   ```
+   This enforces the full skill schema (name, description, allowed-tools,
+   compatibility, license, metadata) and will reject any file with extra or
+   missing required keys.
+
+   If `uv` is not installed or `skill-creator` is somehow missing, fall back
+   to this minimal inline check that only verifies `name` and `description`
+   are present:
    ```bash
    for f in .agents/skills/*/SKILL.md; do
      dir=$(basename "$(dirname "$f")")
@@ -298,9 +311,6 @@ The migration path:
      ' "$f" | sed "s|^|  $dir: |"
    done
    ```
-   This is a minimal check. If the user has `skill-creator` installed locally,
-   they can run its bundled `quick_validate.py` for stricter schema validation,
-   but it is not required and not bundled with this repo.
 7. **Then run the normal upgrade flow** to pull in any additional upstream
    changes.
 
