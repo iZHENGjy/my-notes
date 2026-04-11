@@ -27,3 +27,11 @@ build/
 
 # Ignore markdown files
 *.md
+
+# Ignore the skills canonical and its symlink mirrors. Most contents are
+# upstream copies (e.g. anthropics/skills, kepano/obsidian-skills) that
+# should stay verbatim — reformatting would diverge from upstream and
+# invalidate the attribution.
+.agents/
+.claude/skills/
+.pi/

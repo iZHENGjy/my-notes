@@ -139,28 +139,37 @@ claudesidian/
 - Completed projects with their outputs
 - Old notes no longer relevant
 
-## Claude Code Commands
+## Skills
 
-Pre-configured AI assistants ready to use:
+Claudesidian ships with agent skills that auto-discover when you describe a
+task. Skills work in Claude Code, OpenCode, Codex, Cursor, and Pi — they live
+in `.agents/skills/<name>/SKILL.md` (canonical) with symlinks in
+`.claude/skills/` and `.pi/skills/`.
 
 - `thinking-partner` - Explore ideas through questions
 - `inbox-processor` - Organize your captures
 - `research-assistant` - Deep dive into topics
 - `daily-review` - End of day reflection
 - `weekly-synthesis` - Find patterns in your week
-- `create-command` - Build new custom commands
 - `de-ai-ify` - Remove AI writing patterns from text
+- `add-frontmatter` - Add YAML properties to notes
+- `download-attachment` - Save URLs to your attachments folder
+- `pragmatic-review` - YAGNI/KISS code review
+- `pull-request` - Open a PR from your changes
+- `release` - Cut a new claudesidian release
 - `upgrade` - Update to the latest claudesidian version
 - `init-bootstrap` - Re-run the setup wizard
 - `install-claudesidian-command` - Install shell command to launch vault from
   anywhere
 
-Run with: `/[command-name]` in Claude Code
+Skills trigger automatically when you describe what you want — e.g. "wrap up
+my day" loads `daily-review`, "open a PR for this" loads `pull-request`. No
+slash command needed.
 
-### Staying Updated with `/upgrade`
+### Staying updated with `upgrade`
 
 Claudesidian automatically checks for updates when you start Claude Code and
-will remind you to run `/upgrade` when new features are available.
+will remind you to run the `upgrade` skill when new features are available.
 
 The upgrade command intelligently merges new features while preserving your
 customizations:
