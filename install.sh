@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "🚀 Claudesidian Setup Script"
 echo "=========================="

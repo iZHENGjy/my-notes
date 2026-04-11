@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Firecrawl batch scraper script
 # Usage: ./firecrawl-batch.sh [-o|--output-dir <dir>] <url1> <url2> ...

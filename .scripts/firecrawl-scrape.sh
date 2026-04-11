@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Firecrawl scraper script that saves directly to file
 # Usage: ./firecrawl-scrape.sh <url> <output_file>

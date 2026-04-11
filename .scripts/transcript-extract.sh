@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Transcript extraction script for YouTube videos
 # Usage: .scripts/transcript-extract.sh <youtube-url> [output-path]

@@ -86,6 +86,7 @@ Use these categories:
 - Use clear, descriptive variable names
 - Comment complex logic
 - Keep functions focused and small
+- For Bash scripts, use portable shebangs like `#!/usr/bin/env bash` instead of hardcoding `/bin/bash`
 - Test your changes thoroughly
 
 ## Questions?

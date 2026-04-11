@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Skill discovery hook - suggests relevant skills when user mentions "skill"
 # Exit 0 stdout → added as context for Claude
 # No dependencies - pure bash
