@@ -154,14 +154,36 @@ After updating any skill in `.agents/skills/<name>/`, verify the symlinks in
 for name in $(ls .agents/skills); do
   for agent in claude pi; do
     link=".${agent}/skills/${name}"
-    if [ ! -e "$link" ]; then
-      mkdir -p ".${agent}/skills"
-      ln -s "../../.agents/skills/${name}" "$link"
-      echo "✅ Restored symlink $link"
+    target="../../.agents/skills/${name}"
+    mkdir -p ".${agent}/skills"
+    if [ -L "$link" ]; then
+      # Symlink exists — verify it points to the right place
+      current="$(readlink "$link")"
+      if [ "$current" != "$target" ]; then
+        rm "$link"
+        ln -s "$target" "$link"
+        echo "✅ Repaired symlink $link (was → $current)"
+      fi
+    elif [ -e "$link" ]; then
+      # Real file or directory at this path — do not trample user data
+      echo "⚠️  $link exists as a real file/dir, not a symlink. Skipping."
+      echo "    Manual fix: inspect, back up if needed, then rm and rerun."
+    else
+      # Nothing there — create
+      ln -s "$target" "$link"
+      echo "✅ Created symlink $link"
     fi
   done
 done
 ```
+
+The `-L` test is critical: a broken symlink (target missing) returns false from
+`-e` but true from `-L`, so checking `-e` alone would try to `ln -s` over the
+existing broken link and fail with "File exists". Conversely, a symlink
+pointing the wrong way would pass `-e` (because the wrong target still exists)
+and silently stay wrong. Always check `-L` first, then verify the target with
+`readlink`, then fall through to `-e` for real files, then create if nothing
+exists.
 
 If upstream introduced a brand-new skill, this loop also creates its symlinks.
 
@@ -258,7 +280,27 @@ The migration path:
 4. **Add `name`/`description` frontmatter** to any file that lacks it. Use the
    `add-frontmatter` skill.
 5. **Create symlinks** for `.claude/skills/` and `.pi/skills/` (see step 6).
-6. **Validate** with `skill-creator`'s `quick_validate.py`.
+6. **Validate frontmatter** — check that every `SKILL.md` has both `name` and
+   `description` fields:
+   ```bash
+   for f in .agents/skills/*/SKILL.md; do
+     dir=$(basename "$(dirname "$f")")
+     awk '
+       BEGIN { in_fm=0; has_name=0; has_desc=0 }
+       /^---$/ { in_fm++; next }
+       in_fm==1 && /^name:/ { has_name=1 }
+       in_fm==1 && /^description:/ { has_desc=1 }
+       END {
+         if (!has_name) print "  ✗ missing name"
+         if (!has_desc) print "  ✗ missing description"
+         if (has_name && has_desc) print "  ✓ ok"
+       }
+     ' "$f" | sed "s|^|  $dir: |"
+   done
+   ```
+   This is a minimal check. If the user has `skill-creator` installed locally,
+   they can run its bundled `quick_validate.py` for stricter schema validation,
+   but it is not required and not bundled with this repo.
 7. **Then run the normal upgrade flow** to pull in any additional upstream
    changes.
 
