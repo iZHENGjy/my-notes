@@ -1,104 +1,102 @@
 ---
 name: pull-request
-description: Create a new feature branch, commit changes, push to GitHub, and open a pull request — all in one command. Use when the user asks to open a PR, create a pull request, or push changes for review.
+description: Create a new feature branch, commit changes, push to GitHub, and open a pull request — all in one command. Use when the user asks to open a PR, create a pull request, or push changes for review. / 一条命令搞定：建 feature 分支、提交改动、推到 GitHub、开 PR。当用户要"开 PR"、"create pull request"、"推改动求审"时触发。
 ---
 
-# Pull Request Command
+# Pull Request 命令
 
-Creates a new feature branch, commits changes, pushes to GitHub, and opens a
-pull request - all in one command. Perfect for contributing features or fixes.
+一条命令搞定整个 PR 流程：建分支、提交、推到 GitHub、用合适描述开 PR。贡献功能或修复时用最合适。
 
-## Task
+## 任务
 
-Automate the entire pull request workflow: create branch, stage changes, commit
-with descriptive message, push to GitHub, and open PR with proper description.
+把整个 pull request 工作流自动化：建分支、暂存改动、用描述性消息提交、推到 GitHub、开带正确描述的 PR。
 
-## Process
+## 流程
 
-### 1. **Check Prerequisites**
+### 1. **检查前置**
 
-- Ensure git repository exists
-- Check for uncommitted changes to include
-- Verify GitHub CLI (`gh`) is available
-- Get current branch as base branch
-- If already on feature branch, ask: "Create PR from current branch?"
+- 确认是 git 仓库
+- 检查要包含的未提交改动
+- 验证 GitHub CLI（`gh`）可用
+- 把当前分支当 base 分支
+- 如果已经在 feature 分支上，问："从当前分支创建 PR？"
 
-### 2. **Create Feature Branch**
+### 2. **建 Feature 分支**
 
 ```bash
-# Generate branch name from PR title or use provided name
-# Sanitize branch name: lowercase, replace spaces with hyphens, remove special chars
+# 从 PR 标题生成分支名，或用提供的名字
+# 清洗分支名：小写、空格换连字符、去特殊字符
 branch_name=$(echo "$branch_name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]/-/g' | sed 's/--*/-/g')
 
-# Check if branch already exists
+# 检查分支是否已存在
 if git show-ref --verify --quiet refs/heads/$branch_name; then
   echo "Branch $branch_name already exists, using alternative name"
   branch_name="${branch_name}-$(date +%s)"
 fi
 
-# Format: feature/short-description or fix/issue-name
+# 格式：feature/short-description 或 fix/issue-name
 git checkout -b $branch_name
 ```
 
-### 3. **Stage and Review Changes**
+### 3. **暂存并审查改动**
 
-- Show `git status` to user
-- Show `git diff --staged` for review
-- If no staged changes, stage all changes: `git add -A`
-- Confirm changes with user before proceeding
+- 给用户看 `git status`
+- 给用户看 `git diff --staged`
+- 没暂存改动就 `git add -A` 暂存全部
+- 继续前和用户确认改动
 
-### 4. **Commit Changes**
+### 4. **提交改动**
 
-- Analyze changes to create meaningful commit message
-- Use conventional commits format (feat:, fix:, docs:, etc.)
-- Include detailed commit body if changes are complex
+- 分析改动，写有意义的 commit 信息
+- 用 conventional commits 格式（feat:、fix:、docs: 等）
+- 改动复杂时加详细 commit body
 
 ```bash
 git commit -m "feat: add new feature
 
-- Detail 1
-- Detail 2
+- 细节 1
+- 细节 2
 
 🤖 Generated with Claude Code"
 ```
 
-### 5. **Push to GitHub**
+### 5. **推到 GitHub**
 
 ```bash
-# Push with upstream tracking
+# 推并设置 upstream tracking
 git push -u origin feature/[branch-name]
 ```
 
-### 6. **Create Pull Request**
+### 6. **创建 Pull Request**
 
-Use `gh pr create` with:
+用 `gh pr create`，配上：
 
-- Descriptive title
-- Detailed body with:
-  - Summary of changes
-  - Testing checklist
-  - Related issues (if any)
-- Set base branch (usually main/master)
+- 描述性标题
+- 详细 body：
+  - 改动摘要
+  - 测试 checklist
+  - 相关 issue（如果有）
+- 设置 base 分支（一般是 main / master）
 
 ```bash
 gh pr create \
   --title "Feature: Add awesome new capability" \
   --body "$(cat <<'EOF'
 ## Summary
-Brief description of what this PR does
+简要描述这个 PR 做了什么
 
 ## Changes
-- Added feature X
-- Fixed bug Y
-- Improved performance of Z
+- 加了 X 功能
+- 修了 Y bug
+- 改进了 Z 的性能
 
 ## Testing
-- [ ] Tested locally
-- [ ] All tests pass
-- [ ] Documentation updated
+- [ ] 本地测过
+- [ ] 所有测试通过
+- [ ] 文档更新
 
 ## Screenshots
-(if applicable)
+（如果适用）
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
 EOF
@@ -106,79 +104,79 @@ EOF
   --base main
 ```
 
-### 7. **Provide Next Steps**
+### 7. **给出后续步骤**
 
-- Show PR URL
-- Remind about review process
-- Suggest next actions (request review, add labels, etc.)
+- 显示 PR URL
+- 提醒审查流程
+- 建议下一步动作（请人审、加标签等）
 
-## Arguments
+## 参数
 
-- **Optional**: Branch name (auto-generated from changes if not provided)
-- **Optional**: PR title (analyzed from changes if not provided)
-- **Optional**: Target branch (defaults to main/master)
+- **可选**：分支名（不给就从改动自动生成）
+- **可选**：PR 标题（不给就从改动分析）
+- **可选**：目标分支（默认 main / master）
 
-## Example Usage
+## 用法示例
 
 ```bash
-# Auto-generate branch and PR from changes
+# 从改动自动生成分支和 PR
 /pull-request
 
-# Specify branch name
+# 指定分支名
 /pull-request feature/add-auth
 
-# Full specification
+# 完整指定
 /pull-request fix/bug-123 "Fix: Resolve authentication timeout issue" develop
 ```
 
-## Output Example
+## 输出示例
 
 ```
-📝 Analyzing changes...
-🌿 Creating branch: feature/add-download-command
-✅ Committed: feat: add download-attachment command
-📤 Pushed to origin
-🔗 Pull Request created: https://github.com/user/repo/pull/42
+📝 分析改动...
+🌿 创建分支：feature/add-download-command
+✅ 已提交：feat: add download-attachment command
+📤 已推到 origin
+🔗 PR 已创建：https://github.com/user/repo/pull/42
 
-Next steps:
-- Request review from team members
-- Add relevant labels
-- Link related issues
+下一步：
+- 请团队成员审查
+- 加合适的标签
+- 链接相关 issue
 ```
 
-## Branch Naming Conventions
+## 分支命名规范
 
-- **Features**: `feature/description`
-- **Fixes**: `fix/issue-or-description`
-- **Documentation**: `docs/what-updated`
-- **Refactoring**: `refactor/what-changed`
-- **Performance**: `perf/optimization`
-- **Tests**: `test/what-tested`
+- **新功能**：`feature/description`
+- **修复**：`fix/issue-or-description`
+- **文档**：`docs/what-updated`
+- **重构**：`refactor/what-changed`
+- **性能**：`perf/optimization`
+- **测试**：`test/what-tested`
 
-## Commit Message Format
+## Commit 信息格式
 
-Follow conventional commits:
+遵循 conventional commits：
 
-- `feat:` New feature
-- `fix:` Bug fix
-- `docs:` Documentation only
-- `style:` Formatting, missing semicolons, etc.
-- `refactor:` Code change that neither fixes a bug nor adds a feature
-- `perf:` Performance improvement
-- `test:` Adding missing tests
-- `chore:` Changes to build process or auxiliary tools
+- `feat:` 新功能
+- `fix:` Bug 修复
+- `docs:` 仅文档
+- `style:` 格式化、缺分号等
+- `refactor:` 不修 bug 也不加功能的代码改动
+- `perf:` 性能改进
+- `test:` 加缺失测试
+- `chore:` 构建流程或辅助工具变更
 
-## Safety Features
+## 安全特性
 
-- Confirm before pushing if changes are large
-- Show diff before committing
-- Verify PR description before creating
-- Check if PR already exists for branch
-- Handle merge conflicts gracefully
+- 改动很大时 push 前确认
+- commit 前给出 diff
+- 创建前验证 PR 描述
+- 检查该分支是否已有 PR
+- 优雅处理 merge 冲突
 
-## Error Handling
+## 错误处理
 
-- If no changes: "No changes to create PR"
-- If already on feature branch: Ask if should create PR from current branch
-- If PR exists: Show existing PR URL
-- If push fails: Check permissions and remote settings
+- 没改动："No changes to create PR"
+- 已经在 feature 分支：问要不要从当前分支建 PR
+- PR 已存在：显示已有 PR URL
+- push 失败：检查权限和 remote 设置

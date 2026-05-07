@@ -1,0 +1,3704 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CME 222 MASS TRANSFER "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                250,
+                103,
+                744,
+                257
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusive Mass Transfer "
+                    }
+                ]
+            },
+            "bbox": [
+                280,
+                505,
+                722,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Dr. Tan Peng Chee "
+                    }
+                ]
+            },
+            "bbox": [
+                377,
+                690,
+                627,
+                735
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A4 #407 "
+                    }
+                ]
+            },
+            "bbox": [
+                448,
+                738,
+                556,
+                772
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "pengchee.tan@xmu.edu.my "
+                    }
+                ]
+            },
+            "bbox": [
+                316,
+                781,
+                688,
+                825
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Table of Content "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                81,
+                205,
+                469,
+                268
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Molecular Diffusivity "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Estimation of Diffusion Coefficient (Gas Diffusivity) "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                331,
+                784,
+                605
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Molecular Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                226,
+                440,
+                776,
+                527
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                44,
+                101,
+                525,
+                164
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Dimension "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                43,
+                196,
+                193,
+                242
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {- J _ {A , z}}{d c _ {A} / d z} = \\left(\\frac {N}{L ^ {2} t}\\right) \\left(\\frac {1}{N / L ^ {3} \\cdot 1 / L}\\right) = \\frac {L ^ {2}}{t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2399b6685a033ba162dd0c1fbd09927654377a2cf7342181a65ad8ba2c89fa69.jpg"
+                }
+            },
+            "bbox": [
+                70,
+                296,
+                525,
+                396
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Unit: cm2/s or m2/s "
+                    }
+                ]
+            },
+            "bbox": [
+                587,
+                340,
+                845,
+                387
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Depends on the pressure, temperature, composition of system, medium of diffusion "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Diffusion coefficients/mass diffusivity "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                41,
+                490,
+                941,
+                687
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For gases: 10-6 to 10-5 m2/s "
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                709,
+                470,
+                759
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For liquids: 10-10 to 10-9 m2/s, "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                783,
+                490,
+                831
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For solids: 10-14 to 10-10 m2/s "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                857,
+                486,
+                900
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                922,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                81,
+                42,
+                559,
+                101
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f39b6b53430d4d627a1509cef244fe5228b9b60770bb884061a0711f3a597c07.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table J.1Binary mass diffusivities in gasesT"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>System</td><td>T(K)</td><td>\\( {D}_{AB}P\\left( {{\\mathrm{\\;{cm}}}^{2}\\text{atm/s}}\\right) \\)</td><td>\\( {D}_{AB}P\\left( {{\\mathrm{\\;m}}^{2}\\mathrm{{Pa}}/\\mathrm{s}}\\right) \\)</td></tr><tr><td colspan=\"4\">Air</td></tr><tr><td>Ammonia</td><td>273</td><td>0.198</td><td>2.006</td></tr><tr><td>Aniline</td><td>298</td><td>0.0726</td><td>0.735</td></tr><tr><td>Benzene</td><td>298</td><td>0.0962</td><td>0.974</td></tr><tr><td>Bromine</td><td>293</td><td>0.091</td><td>0.923</td></tr><tr><td>Carbon dioxide</td><td>273</td><td>0.136</td><td>1.378</td></tr><tr><td>Carbon disulfide</td><td>273</td><td>0.0883</td><td>0.894</td></tr><tr><td>Chlorine</td><td>273</td><td>0.124</td><td>1.256</td></tr><tr><td>Diphenyl</td><td>491</td><td>0.160</td><td>1.621</td></tr><tr><td>Ethyl acetate</td><td>273</td><td>0.0709</td><td>0.718</td></tr><tr><td>Ethanol</td><td>298</td><td>0.132</td><td>1.337</td></tr><tr><td>Ethyl ether</td><td>293</td><td>0.0896</td><td>0.908</td></tr><tr><td>Iodine</td><td>298</td><td>0.0834</td><td>0.845</td></tr><tr><td>Methanol</td><td>298</td><td>0.162</td><td>1.641</td></tr><tr><td>Mercury</td><td>614</td><td>0.473</td><td>4.791</td></tr><tr><td>Naphthalene</td><td>298</td><td>0.0611</td><td>0.619</td></tr><tr><td>Nitrobenzene</td><td>298</td><td>0.0868</td><td>0.879</td></tr><tr><td>n-Octane</td><td>298</td><td>0.0602</td><td>0.610</td></tr><tr><td>Oxygen</td><td>273</td><td>0.175</td><td>1.773</td></tr><tr><td>Propyl acetate</td><td>315</td><td>0.092</td><td>0.932</td></tr><tr><td>Sulfur dioxide</td><td>273</td><td>0.122</td><td>1.236</td></tr><tr><td>Toluene</td><td>298</td><td>0.0844</td><td>0.855</td></tr><tr><td>Water</td><td>298</td><td>0.260</td><td>2.634</td></tr><tr><td colspan=\"4\">Ammonia</td></tr><tr><td>Ethylene</td><td>293</td><td>0.177</td><td>1.793</td></tr><tr><td colspan=\"4\">Argon</td></tr><tr><td>Neon</td><td>293</td><td>0.329</td><td>3.333</td></tr><tr><td colspan=\"4\">Carbon dioxide</td></tr><tr><td>Benzene</td><td>318</td><td>0.0715</td><td>0.724</td></tr><tr><td>Carbon disulfide</td><td>318</td><td>0.0715</td><td>0.724</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                195,
+                150,
+                777,
+                970
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                80,
+                42,
+                559,
+                100
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/0494e2fc5585b749839b410f97265b07cb9dfebf4f22c3df23abd07fdc79c51e.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>System</td><td>T(K)</td><td>DAB P(cm2atm/s)</td><td>DAB P(m2Pa/s)</td></tr><tr><td>Ethanol</td><td>273</td><td>0.0693</td><td>0.702</td></tr><tr><td>Ethyl ether</td><td>273</td><td>0.0541</td><td>0.548</td></tr><tr><td>Hydrogen</td><td>273</td><td>0.550</td><td>5.572</td></tr><tr><td>Methane</td><td>273</td><td>0.153</td><td>1.550</td></tr><tr><td>Methanol</td><td>298.6</td><td>0.105</td><td>1.064</td></tr><tr><td>Nitrogen</td><td>298</td><td>0.165</td><td>1.672</td></tr><tr><td>Nitrous oxide</td><td>298</td><td>0.117</td><td>1.185</td></tr><tr><td>Propane</td><td>298</td><td>0.0863</td><td>0.874</td></tr><tr><td>Water</td><td>298</td><td>0.164</td><td>1.661</td></tr><tr><td>Carbon monoxide</td><td></td><td></td><td></td></tr><tr><td>Ethylene</td><td>273</td><td>0.151</td><td>1.530</td></tr><tr><td>Hydrogen</td><td>273</td><td>0.651</td><td>6.595</td></tr><tr><td>Nitrogen</td><td>288</td><td>0.192</td><td>1.945</td></tr><tr><td>Oxygen</td><td>273</td><td>0.185</td><td>1.874</td></tr><tr><td>Helium</td><td></td><td></td><td></td></tr><tr><td>Argon</td><td>273</td><td>0.641</td><td>6.493</td></tr><tr><td>Benzene</td><td>298</td><td>0.384</td><td>3.890</td></tr><tr><td>Ethanol</td><td>298</td><td>0.494</td><td>5.004</td></tr><tr><td>Hydrogen</td><td>293</td><td>1.64</td><td>16.613</td></tr><tr><td>Neon</td><td>293</td><td>1.23</td><td>12.460</td></tr><tr><td>Water</td><td>298</td><td>0.908</td><td>9.198</td></tr><tr><td>Hydrogen</td><td></td><td></td><td></td></tr><tr><td>Ammonia</td><td>293</td><td>0.849</td><td>8.600</td></tr><tr><td>Argon</td><td>293</td><td>0.770</td><td>7.800</td></tr><tr><td>Benzene</td><td>273</td><td>0.317</td><td>3.211</td></tr><tr><td>Ethane</td><td>273</td><td>0.439</td><td>4.447</td></tr><tr><td>Methane</td><td>273</td><td>0.625</td><td>6.331</td></tr><tr><td>Oxygen</td><td>273</td><td>0.697</td><td>7.061</td></tr><tr><td>Water</td><td>293</td><td>0.850</td><td>8.611</td></tr><tr><td>Nitrogen</td><td></td><td></td><td></td></tr><tr><td>Ammonia</td><td>293</td><td>0.241</td><td>2.441</td></tr><tr><td>Ethylene</td><td>298</td><td>0.163</td><td>1.651</td></tr><tr><td>Hydrogen</td><td>288</td><td>0.743</td><td>7.527</td></tr><tr><td>Iodine</td><td>273</td><td>0.070</td><td>0.709</td></tr><tr><td>Oxygen</td><td>273</td><td>0.181</td><td>1.834</td></tr><tr><td>Oxygen</td><td></td><td></td><td></td></tr><tr><td>Ammonia</td><td>293</td><td>0.253</td><td>2.563</td></tr><tr><td>Benzene</td><td>296</td><td>0.0939</td><td>0.951</td></tr><tr><td>Ethylene</td><td>293</td><td>0.182</td><td>1.844</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                223,
+                107,
+                691,
+                987
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                80,
+                42,
+                559,
+                101
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/5d657c0ad00388fbf86745d15d330df22a8286fda2e100f9f024d339628fc99d.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table J.2Binary mass diffusivities in liquidst "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Solute A</td><td>Solvent B</td><td>Temperature (K)</td><td>Solute concentration (g mol/L or kg mol/m3)</td><td>Diffusivity (cm2/s × 105or m2/s × 109)</td></tr><tr><td>Chlorine</td><td>Water</td><td>289</td><td>0.12</td><td>1.26</td></tr><tr><td rowspan=\"5\">Hydrogen chloride</td><td rowspan=\"5\">Water</td><td rowspan=\"2\">273</td><td>9</td><td>2.7</td></tr><tr><td>2</td><td>1.8</td></tr><tr><td rowspan=\"2\">283</td><td>9</td><td>3.3</td></tr><tr><td>2.5</td><td>2.5</td></tr><tr><td>289</td><td>0.5</td><td>2.44</td></tr><tr><td rowspan=\"2\">Ammonia</td><td rowspan=\"2\">Water</td><td>278</td><td>3.5</td><td>1.24</td></tr><tr><td>288</td><td>1.0</td><td>1.77</td></tr><tr><td rowspan=\"2\">Carbon dioxide</td><td rowspan=\"2\">Water</td><td>283</td><td>0</td><td>1.46</td></tr><tr><td>293</td><td>0</td><td>1.77</td></tr><tr><td rowspan=\"5\">Sodium chloride</td><td rowspan=\"5\">Water</td><td rowspan=\"5\">291</td><td>0.05</td><td>1.26</td></tr><tr><td>0.2</td><td>1.21</td></tr><tr><td>1.0</td><td>1.24</td></tr><tr><td>3.0</td><td>1.36</td></tr><tr><td>5.4</td><td>1.54</td></tr><tr><td>Methanol</td><td>Water</td><td>288</td><td>0</td><td>1.28</td></tr><tr><td rowspan=\"3\">Acetic acid</td><td rowspan=\"3\">Water</td><td rowspan=\"2\">285.5</td><td>1.0</td><td>0.82</td></tr><tr><td>0.01</td><td>0.91</td></tr><tr><td>291</td><td>1.0</td><td>0.96</td></tr><tr><td rowspan=\"3\">Ethanol</td><td rowspan=\"3\">Water</td><td rowspan=\"2\">283</td><td>3.75</td><td>0.50</td></tr><tr><td>0.05</td><td>0.83</td></tr><tr><td>289</td><td>2.0</td><td>0.90</td></tr><tr><td>n-Butanol</td><td>Water</td><td>288</td><td>0</td><td>0.77</td></tr><tr><td>Carbon dioxide</td><td>Ethanol</td><td>290</td><td>0</td><td>3.2</td></tr><tr><td>Chloroform</td><td>Ethanol</td><td>293</td><td>2.0</td><td>1.25</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                188,
+                172,
+                795,
+                920
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                79,
+                42,
+                559,
+                101
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/8a914c8fc5f32a34ff77fb65adf1ccede7222a799dc959f3cee4578539c93229.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Table J3Binary diffusivities in solidst "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Solute</td><td>Solid</td><td>Temperature (K)</td><td>Diffusivity (cm2/s or m2/s × 104)</td><td>Diffusivity (ft2/h)</td></tr><tr><td rowspan=\"2\">Helium</td><td rowspan=\"2\">Pyrex</td><td>293</td><td>4.49 × 10-11</td><td>1.74 × 10-10</td></tr><tr><td>773</td><td>2.00 × 10-8</td><td>7.76 × 10-8</td></tr><tr><td rowspan=\"2\">Hydrogen</td><td rowspan=\"2\">Nickel</td><td>358</td><td>1.16 × 10-8</td><td>4.5 × 10-8</td></tr><tr><td>438</td><td>1.05 × 10-7</td><td>4.07 × 10-7</td></tr><tr><td>Bismuth</td><td>Lead</td><td>293</td><td>1.10 × 10-16</td><td>4.27 × 10-16</td></tr><tr><td>Mercury</td><td>Lead</td><td>293</td><td>2.50 × 10-15</td><td>9.7 × 10-15</td></tr><tr><td>Antimony</td><td>Silver</td><td>293</td><td>3.51 × 10-21</td><td>1.36 × 10-20</td></tr><tr><td>Aluminum</td><td>Copper</td><td>293</td><td>1.30 × 10-30</td><td>5.04 × 10-30</td></tr><tr><td>Cadmium</td><td>Copper</td><td>293</td><td>2.71 × 10-15</td><td>1.05 × 10-14</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                100,
+                266,
+                922,
+                729
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                558,
+                159
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Equality of Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                201,
+                459,
+                244
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Only true for a binary system of constant molar density (concentration) "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Occur at constant temperature and pressure for gas system "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "One mole of A move in z direction, one mole of B move in opposite direction "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                274,
+                845,
+                551
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} c _ {A} + c _ {B} = c = \\frac {P}{R T} \\\\ J _ {A} = - J _ {B} \\\\ - D _ {A B} \\frac {d c _ {A}}{d z} = - (- D _ {B A} \\frac {d c _ {B}}{d z}) \\\\ D _ {A B} = D _ {B A} \\\\ \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b16708e607b812c94f099755134120d82369e8038d362c41e8a561259a1ee8dc.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                553,
+                601,
+                888
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Estimation of Diffusion Coefficient (Gas Diffusivity) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                45,
+                403,
+                958,
+                566
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                558,
+                172
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Based upon the kinetic theory of gases "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Assumption: "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                233,
+                650,
+                355
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "✓ Ideal gas "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "✓ Low density gaseous mixture "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "✓ Molecules are regarded as rigid spheres that exert no intermolecular forces "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "✓ Elastic collision between the rigid molecules "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                381,
+                941,
+                722
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11 "
+                    }
+                ]
+            },
+            "bbox": [
+                898,
+                940,
+                919,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Self-Diffusion Coefficient "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                216,
+                387,
+                257
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusivity for an ideal gas mixture of species A diffusing through its isotope A* "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                294,
+                941,
+                385
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A A *} = \\frac {1}{3} \\lambda u",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d0aededf7ba6054f2be569050c54f51817b17a2e3d4566af8b2ddb79ef0d8f9c.jpg"
+                }
+            },
+            "bbox": [
+                433,
+                414,
+                583,
+                501
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mean Free Path (??) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                533,
+                322,
+                577
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\lambda = \\frac {\\kappa T}{\\sqrt {2} \\pi \\sigma_ {A} ^ {2} P}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/abf0f5d350717cd1c6b5bf1f9c407dab20e7e1a6788e15d1dd383ca1ff04fedc.jpg"
+                }
+            },
+            "bbox": [
+                427,
+                609,
+                588,
+                712
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mean Speed (??) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                744,
+                281,
+                788
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u = \\sqrt {\\frac {8 \\kappa N T}{\\pi M _ {A}}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/15d9ded6d91ef4c3ebf31cdf7a96525ed49ec8015e8048d11e1d56b6f31e37ba.jpg"
+                }
+            },
+            "bbox": [
+                433,
+                820,
+                584,
+                955
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Substituting the expression into first equation "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                216,
+                611,
+                261
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A A *} = \\frac {2 T ^ {\\frac {3}{2}}}{3 \\pi^ {\\frac {3}{2}} \\sigma_ {A} ^ {2} P} \\left(\\frac {\\kappa^ {3} N}{M _ {A}}\\right) ^ {\\frac {1}{2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b82db4c3839208854e57a657e8421069352b6dc7a9acf60528406eead6829ec1.jpg"
+                }
+            },
+            "bbox": [
+                369,
+                281,
+                650,
+                429
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "????: Molecular weight of diffusing species A (kg/mol) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                537,
+                684,
+                583
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??: Avogadro’s number (6.022 x 1023 molecules/mol) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                612,
+                684,
+                655
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "P: Pressure (Pa) "
+                    }
+                ]
+            },
+            "bbox": [
+                77,
+                688,
+                276,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??: Absolute temperature (K) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                766,
+                405,
+                807
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??: Boltzmann constant (1.38 x 10 -23 J/K) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                840,
+                551,
+                883
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??: Lennard-Jones diameter of the spherical molecules (m) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                916,
+                758,
+                957
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Mean Free Path "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                218,
+                281,
+                257
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• A molecule travels in a straight line before collision "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• The distance travelled by a molecule before collision is termed free path "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Mean free path: average distance travelled by a molecule between two successive collision "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Mean free path increases as the number of molecules per unit volume decreases (less collision) "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                294,
+                943,
+                707
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1410a0210d075d326f0f5221239324e9ed0d8de406b05d7347bd30f04136437b.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                287,
+                724,
+                725,
+                927
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Lennard-Jones Diameter/Collision Diameter "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                229,
+                570,
+                268
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "When two gas molecules approach one another, they cannot come closer beyond a certain distance "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Is the closest distance between the centers of the two molecules taking part in a collision "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Is the distance at which the intermolecular potential between the two particles is zero "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Related to the mean free path: smaller the collision or molecular diameter, the larger the mean free path "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                290,
+                609,
+                929
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/dc81ef18664691f4dae98f06b311c45553746cb02282eae5ecf65ba7afd8df6c.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                652,
+                238,
+                936,
+                431
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5999909ca00366d0b4843e2371763bc2b644c3dcec9a4ad25d7be1307fa48571.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                663,
+                518,
+                991,
+                883
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Coefficient for Binary Mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                76,
+                214,
+                555,
+                262
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A and B with unequal diameters "
+                    }
+                ]
+            },
+            "bbox": [
+                76,
+                294,
+                512,
+                340
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {2}{3} \\left(\\frac {\\kappa}{\\pi}\\right) ^ {\\frac {3}{2}} N ^ {\\frac {1}{2}} T ^ {\\frac {3}{2}} \\frac {\\left(\\frac {1}{2 M _ {A}} + \\frac {1}{2 M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\left(\\frac {\\sigma_ {A} + \\sigma_ {B}}{2}\\right) ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/81695e93778b04e73ac928c2ea3e6fd4a6506f64b5d8b8c73778fecb3d07969c.jpg"
+                }
+            },
+            "bbox": [
+                268,
+                446,
+                750,
+                670
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = D _ {B A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5bd6cfea54f5df02ea22bca3666320012998e4f0915d5671960b3d22a19c609c.jpg"
+                }
+            },
+            "bbox": [
+                737,
+                751,
+                869,
+                794
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                938,
+                923,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• Gas phase diffusion is dependent on pressure and temperature "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                214,
+                900,
+                262
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} \\propto \\frac {1}{P} \\quad D _ {A B} \\propto \\mathrm {T} ^ {3 / 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/df0c0142ba7adffaeae5f64bfd560f43c3250d7cff0ff6587104e3463605bfa4.jpg"
+                }
+            },
+            "bbox": [
+                280,
+                312,
+                655,
+                398
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• Can use to predict mass diffusivity at different pressure and temperature "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                446,
+                941,
+                540
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                938,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Hirschfelder Equation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                216,
+                320,
+                257
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "A more rigorous equation "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Account for force of attraction and repulsion between molecules "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Estimate diffusion coefficient for gas pairs of nonpolar and nonreacting molecules "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                268,
+                938,
+                444
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {\\frac {3}{2}} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fad7305d84c3547c0124b6a3e7ddf95eab36a12f3de8cfdc0f07d1688dd6b6de.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                459,
+                683,
+                603
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "D _ { A B } { } "
+                    },
+                    {
+                        "type": "text",
+                        "content": ": mass diffusivity of A through B (cm2/s) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                662,
+                555,
+                705
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "T: absolute temperature (K) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                714,
+                384,
+                755
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "M _ { A } , M _ { B }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "M _ { B }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ": molecular weight (g/mol) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                766,
+                441,
+                807
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "P: absolute pressure (atm) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                816,
+                376,
+                857
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { A B }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ": collision diameter (Å) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                864,
+                366,
+                909
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varOmega _ { D }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ": collision integral (dimensionless) "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                918,
+                484,
+                959
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2bb8d12946e904a38398f04837163a9022a9bac9065033d90f6e4e185de32e15.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                645,
+                688,
+                879,
+                879
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                938,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Collision Integral "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                231,
+                288,
+                275
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Is a function of dimensionless temperature ???? ?????? "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "?????? is the energy of molecular interaction for binary system A and "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                307,
+                943,
+                446
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8fcab9e62c4354bee2d9d8002b19aae8edb9212875561acb4027a27269a2f00a.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "B (J) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                287,
+                466,
+                740,
+                862
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Binary gas phase Lennard-Jones collision integral "
+                    }
+                ]
+            },
+            "bbox": [
+                211,
+                888,
+                816,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Hirschfelder Equation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                214,
+                348,
+                262
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Can be used to extrapolate experimental data "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Collision integral "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\left( \\varOmega _ { D } \\right)"
+                            },
+                            {
+                                "type": "text",
+                                "content": "decreases with increasing temperature, causing increase of "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "D _ { A B } "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• So, "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "D _ { A B } "
+                            },
+                            {
+                                "type": "text",
+                                "content": "influence by P, T and "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\varOmega _ { D }"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                285,
+                941,
+                531
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B _ {T 2}, P 2} = D _ {A B _ {T 1}, P 1} \\left(\\frac {P _ {1}}{P _ {2}}\\right) \\left(\\frac {T _ {2}}{T _ {1}}\\right) ^ {\\frac {3}{2}} \\frac {\\Omega_ {D , T 1}}{\\Omega_ {D , T 2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0d2463a36168cc884e5663905559128da2356e89a6ce440ece3c8d904872992a.jpg"
+                }
+            },
+            "bbox": [
+                240,
+                646,
+                720,
+                788
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                938,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 1 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                94,
+                316,
+                168
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "a. Evaluate the diffusion coefficient of carbon dioxide in air at 20oC and atmospheric pressure. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "b. Compare this value with the experimental value reported in appendix table J.1. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                216,
+                943,
+                403
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                919,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                558,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Fuller Correlation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                216,
+                297,
+                257
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• Used when reliable Lennard-Jones parameter ( ??, ??) are unavailable "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                285,
+                941,
+                392
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {1 0 ^ {- 3} T ^ {1 . 7 5} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {1 / 2}}{P \\left[ (\\Sigma v) _ {A} ^ {1 / 3} + (\\Sigma v) _ {B} ^ {1 / 3} \\right] ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e5ddffc45e81bc6ee4764b5c9db96a5ee196f03ff0f8287277003453975daf89.jpg"
+                }
+            },
+            "bbox": [
+                293,
+                470,
+                625,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??????: diffusivity (cm2/s) "
+                    }
+                ]
+            },
+            "bbox": [
+                76,
+                685,
+                352,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "T: temperature (K) "
+                    }
+                ]
+            },
+            "bbox": [
+                79,
+                753,
+                308,
+                796
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "P: pressure (atm) "
+                    }
+                ]
+            },
+            "bbox": [
+                77,
+                820,
+                294,
+                864
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "v: diffusion volume "
+                    }
+                ]
+            },
+            "bbox": [
+                79,
+                888,
+                309,
+                924
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                555,
+                168
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/00d728c5ffdd1124de9dc8e4ab57cf7d9dcb396650b1da761cd1f6633d622262.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fuller Correlation "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"6\">Atomic and structure diffusion-volume increments, v</td></tr><tr><td>C</td><td>16.5</td><td>Cl</td><td></td><td>19.5</td><td></td></tr><tr><td>H</td><td>1.98</td><td>S</td><td></td><td>17.0</td><td></td></tr><tr><td>O</td><td>5.48</td><td>Aromatic ring</td><td></td><td>-20.2</td><td></td></tr><tr><td>N</td><td>5.69</td><td>Heterocyclic ring</td><td></td><td>-20.2</td><td></td></tr><tr><td colspan=\"6\">Diffusion volumes for simple molecules, v</td></tr><tr><td>H2</td><td>7.07</td><td>Ar</td><td>16.1</td><td>H2O</td><td>12.7</td></tr><tr><td>D2</td><td>6.70</td><td>Kr</td><td>22.8</td><td>CCIF2</td><td>114.8</td></tr><tr><td>He</td><td>2.88</td><td>CO</td><td>18.9</td><td>SF6</td><td>69.7</td></tr><tr><td>N2</td><td>17.9</td><td>CO2</td><td>26.9</td><td>Cl2</td><td>37.7</td></tr><tr><td>O2</td><td>16.6</td><td>N2O</td><td>35.9</td><td>Br2</td><td>67.2</td></tr><tr><td>Air</td><td>20.1</td><td>NH3</td><td>14.9</td><td>SO2</td><td>41.1</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                170,
+                296,
+                795,
+                779
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "If diffusion volume of molecule is not in the table, it can be calculated using the atomic diffusion volume. "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                820,
+                941,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 2 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                94,
+                320,
+                168
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Determine the diffusion coefficient of benzene in air at 30 oC and 1 atm using Fuller equation. "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                214,
+                941,
+                307
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusivity for Polar Compound "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                200,
+                426,
+                242
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Hirschfelder equation is valid but collision integral need to estimate in different way "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Example of polar gas: NH3, SO2, H2S "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Collision integral is evaluated by "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                262,
+                941,
+                472
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varOmega_ {D} = \\varOmega_ {D o} + \\frac {0 . 1 9 6 \\delta_ {A B} ^ {2}}{T ^ {*}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3fcd1f8676ca6f329dcc1c0a0b11b7a41c074c3f7e75de31afeda75b6c182aba.jpg"
+                }
+            },
+            "bbox": [
+                383,
+                490,
+                633,
+                579
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Brokaw Equation "
+                    }
+                ]
+            },
+            "bbox": [
+                806,
+                483,
+                920,
+                562
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta_ {A B} = (\\delta_ {A} \\delta_ {B}) ^ {\\frac {1}{2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6859b844e7068dbb543da317173c442729d5818b7885e32730d5e0d391caf512.jpg"
+                }
+            },
+            "bbox": [
+                426,
+                596,
+                591,
+                662
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta = \\frac {1 . 9 4 \\times 1 0 ^ {3} \\mu_ {p} ^ {2}}{V _ {b} T _ {b}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c94c5644f0ae91f1b8b4deaae4f2348e6b90bb1845181a8e5b1068d3553b66c3.jpg"
+                }
+            },
+            "bbox": [
+                406,
+                677,
+                609,
+                772
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mu_ {P} \\colon \\text {d i p o l e m o m e n t (D e b y e)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/337063cc7f08590812897ef6205e5338fc73dbd5349b01b4829b685e7e39040c.jpg"
+                }
+            },
+            "bbox": [
+                72,
+                794,
+                390,
+                835
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "V _ {b} \\colon \\mathrm {l i q u i d m o l a r v o l u m e o f c o m p o u n d a t i s b o i l i n g p o i n t (c m ^ {3} / m o l)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/19345a75949e2ceba29936d672322426d6e6f659bda0aa43821d54ecbaba6651.jpg"
+                }
+            },
+            "bbox": [
+                72,
+                857,
+                816,
+                901
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "T _ {b} \\colon \\mathrm {n o r m a l b o i l i n g p o i n t (K)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f2d7ba61046ab4f9fc08f7c0bf96892f66df3cf4c6e0b233d1d34b5d9410a59f.jpg"
+                }
+            },
+            "bbox": [
+                73,
+                920,
+                390,
+                962
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "25 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                556,
+                166
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusivity for Polar Compound "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                200,
+                455,
+                242
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "T ^ {*} = \\kappa T / \\varepsilon_ {A B}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/347434fbd3ceab5864c29c8f270b93878f33915e39f5e00aa57cfb11367a63cc.jpg"
+                }
+            },
+            "bbox": [
+                91,
+                327,
+                250,
+                379
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7728a45057d83c905c4ad920a05dd2d3fa699e3b6ea836b7f36fa3600544d04c.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                326,
+                327,
+                513,
+                379
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\varepsilon_ {A B}}{\\kappa} = \\left(\\frac {\\varepsilon_ {A}}{\\kappa} \\frac {\\varepsilon_ {B}}{\\kappa}\\right) ^ {1 / 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/962349df238529c6e14eb3d148490b3fc1f6f24fba1254e401afae21a27ca04a.jpg"
+                }
+            },
+            "bbox": [
+                583,
+                270,
+                791,
+                368
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon / \\kappa = 1. 1 8 (1 + 1. 3 \\delta^ {2}) T _ {b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c95054ca1fdc319ee570c4aca8255849fd59e4df8a70d9612ebe784b59947d12.jpg"
+                }
+            },
+            "bbox": [
+                590,
+                374,
+                881,
+                425
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma_ {A B} = (\\sigma_ {A} \\sigma_ {B}) ^ {1 / 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4dbdf6b4397beeb0c6943492bbd20073874c3dba749c4eab5d674e8c456bedce.jpg"
+                }
+            },
+            "bbox": [
+                100,
+                479,
+                306,
+                542
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0b10250bab343d49916fbf3d3f7376cab6adf9b37f1c46fbd337418b6a668f24.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                326,
+                488,
+                513,
+                540
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma = \\left(\\frac {1 . 5 8 5 V _ {b}}{1 + 1 . 3 \\delta^ {2}}\\right) ^ {1 / 3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/82de85c7e992948af16f74dc41a386d836889765018ba53b9ab74d76b220d65c.jpg"
+                }
+            },
+            "bbox": [
+                588,
+                481,
+                806,
+                585
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Omega_ {D _ {0}} = \\frac {A}{(T ^ {*}) ^ {B}} + \\frac {C}{\\exp (D T ^ {*})} + \\frac {E}{\\exp (F T ^ {*})} + \\frac {G}{\\exp (H T ^ {*})}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/10c03f05b080dbf535d8daf75acbe1b4b8498d3198bd495ef19e4d37f767930b.jpg"
+                }
+            },
+            "bbox": [
+                75,
+                650,
+                619,
+                740
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/c1bb81395029b47d300b51c0d43a2d640a9aa07f3f59d979603b36e3c1aeeb6c.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>A = 1.06036</td><td>E = 1.03587</td></tr><tr><td>B = 0.15610</td><td>F = 1.52996</td></tr><tr><td>C = 0.19300</td><td>G = 1.76474</td></tr><tr><td>D = 0.47635</td><td>H = 3.89411</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                75,
+                770,
+                473,
+                938
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": []
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 3 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                322,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An absorption tower is proposed to remove selectively ammonia from an exhaust gas stream. Estimate the diffusivity of ammonia in air at 101325 Pa and 373 K using the Brokaw equation. Boiling point for ammonia and air is 239.81 K and 78.8 K. The dipole moment for ammonia is 1.46 debye. Assume the dipole moment of air is zero. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                231,
+                948,
+                590
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/3b8ed6a63152e46d417526b7c4cc09c81bcc41a098ac5a1cb40d1b40d6773ea6.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": " Table 24.4 Molecular volumes at normal boiling point for some commonly encountered compounds "
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Compound</td><td>Molecular volume, in \\( {\\mathrm{{cm}}}^{3}/\\mathrm{g}\\mathrm{{mol}} \\)</td><td>Compound</td><td>Molecular volume, in \\( {\\mathrm{{cm}}}^{3}/\\mathrm{g}\\mathrm{{mol}} \\)</td></tr><tr><td>Hydrogen, \\( {\\mathrm{H}}_{2} \\)</td><td>14.3</td><td>Nitric oxide, NO</td><td>23.6</td></tr><tr><td>Oxygen, \\( {\\mathrm{O}}_{2} \\)</td><td>25.6</td><td>Nitrous oxide, \\( {\\mathrm{N}}_{2}\\mathrm{O} \\)</td><td>36.4</td></tr><tr><td>Nitrogen, \\( {\\mathrm{N}}_{2} \\)</td><td>31.2</td><td>Ammonia, \\( {\\mathrm{{NH}}}_{3} \\)</td><td>25.8</td></tr><tr><td>Air</td><td>29.9</td><td>Water, \\( {\\mathrm{H}}_{2}\\mathrm{O} \\)</td><td>18.9</td></tr><tr><td>Carbon monoxide, CO</td><td>30.7</td><td>Hydrogen sulfide, \\( {\\mathrm{H}}_{2}\\mathrm{\\;S} \\)</td><td>32.9</td></tr><tr><td>Carbon dioxide, \\( {\\mathrm{{CO}}}_{2} \\)</td><td>34.0</td><td>Bromine, \\( {\\mathrm{{Br}}}_{2} \\)</td><td>53.2</td></tr><tr><td>Carbonyl sulfide, COS</td><td>51.5</td><td>Chlorine, \\( {\\mathrm{{Cl}}}_{2} \\)</td><td>48.4</td></tr><tr><td>Sulfur dioxide, \\( {\\mathrm{{SO}}}_{2} \\)</td><td>44.8</td><td>Iodine, \\( {\\mathrm{I}}_{2} \\)</td><td>71.5</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                244,
+                653,
+                775,
+                937
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "27 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Gas Mass Diffusivity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                556,
+                172
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusivity in Multicomponent Gas Mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                196,
+                552,
+                242
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {1 - \\text {m i x t u r e}} = \\frac {1}{y _ {2} ^ {\\prime} / D _ {1 - 2} + y _ {3} ^ {\\prime} / D _ {1 - 3} + \\cdots + y _ {n} ^ {\\prime} / D _ {1 - n}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5153a95bfc4930306cf725fe85d0e68f3f83178cc169d849b5f15801c841459b.jpg"
+                }
+            },
+            "bbox": [
+                154,
+                320,
+                729,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Wilke Equation "
+                    }
+                ]
+            },
+            "bbox": [
+                841,
+                342,
+                958,
+                425
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??1−??????????????: mass diffusivity for component 1 in the gas mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                514,
+                791,
+                562
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "D _ { 1 - n }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ": mass diffusivity of component 1 diffusing through component n "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                574,
+                861,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "y _ { n } ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ": mole fraction of component n in gas mixture evaluated on component 1-free basis "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                638,
+                941,
+                727
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {2} ^ {\\prime} = \\frac {y _ {2}}{y _ {2} + y _ {3} + \\cdots y _ {n}} = \\frac {y _ {2}}{1 - y _ {1}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bff70e03eff16d37b81fefc928e1860f758a5a90a67c8d83399ec684ab20e140.jpg"
+                }
+            },
+            "bbox": [
+                280,
+                775,
+                641,
+                866
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "28 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 4 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                94,
+                320,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "In the chemical vapor deposition of silane (SiH4) on a silicon wafer, a process gas stream rich in an inert nitrogen carrier gas has the following composition: "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                225,
+                945,
+                400
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathsf {y} _ {\\mathsf {S I H 4}} = 0. 0 0 7 5, \\qquad \\mathsf {y} _ {\\mathsf {H 2}} = 0. 0 1 5, \\qquad \\mathsf {y} _ {\\mathsf {N 2}} = 0. 9 7 7 5",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/26e59b527f1e86b6135f0cc5a6e24f09519601b1b8b25133c17f1af674a82240.jpg"
+                }
+            },
+            "bbox": [
+                75,
+                418,
+                680,
+                468
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The gas mixture is maintained at 900 K and 100 Pa total system pressure. Determine the diffusivity of silane through the gas mixture. The Lennard-Jones constants for silane are "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ } ^ { \\varepsilon _ { A } } / _ { K } = 2 0 7 . 6 K"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "K"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { \\mathsf { A } } = 4 . 0 8"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Å "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                544,
+                943,
+                718
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "29 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Take Home Message "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D _ { A B } = D _ { B A }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(for system of constant molar concentration) "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                235,
+                795,
+                281
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Self diffusion coefficient "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                346,
+                376,
+                387
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A A *} = \\frac {2 T ^ {\\frac {3}{2}}}{3 \\pi^ {\\frac {3}{2}} \\sigma_ {A} ^ {2} P} \\left(\\frac {\\kappa^ {3} N}{M _ {A}}\\right) ^ {\\frac {1}{2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c04c535e8a21fcdddb0f79a07c00ee0b18b4fcbe252562add987638ceae6343d.jpg"
+                }
+            },
+            "bbox": [
+                350,
+                400,
+                647,
+                550
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion coefficient for binary mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                614,
+                545,
+                655
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {2}{3} \\left(\\frac {\\kappa}{\\pi}\\right) ^ {\\frac {3}{2}} N ^ {\\frac {1}{2}} T ^ {\\frac {3}{2}} \\frac {\\left(\\frac {1}{2 M _ {A}} + \\frac {1}{2 M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\left(\\frac {\\sigma_ {A} + \\sigma_ {B}}{2}\\right) ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/660d074f6b1a561eb2f664c6976544dd72736d320191ade4c3638ddf796882f5.jpg"
+                }
+            },
+            "bbox": [
+                288,
+                666,
+                709,
+                859
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "* No interaction between molecules "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                868,
+                516,
+                907
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "30 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Take Home Message "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Hirschfelder Equation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                235,
+                347,
+                279
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {\\frac {3}{2}} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6c4a9278cf2147c551db8209d6531b0b4f4459598a8431b132a130f09e5fa66c.jpg"
+                }
+            },
+            "bbox": [
+                94,
+                307,
+                445,
+                455
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Consider interaction between molecules "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• For non-polar, non-reacting gas system "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                530,
+                312,
+                913,
+                468
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Fuller Correlation "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                90,
+                614,
+                288,
+                650
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {1 0 ^ {- 3} T ^ {1 . 7 5} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {1 / 2}}{P \\left[ (\\Sigma v) _ {A} ^ {1 / 3} + (\\Sigma v) _ {B} ^ {1 / 3} \\right] ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/68652c0ce6cc7f2a59df88e096ccc41cb58608397515b9338a010172f6e2b798.jpg"
+                }
+            },
+            "bbox": [
+                86,
+                688,
+                419,
+                846
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "When Lennard Jones parameter is not available "
+                    }
+                ]
+            },
+            "bbox": [
+                530,
+                703,
+                952,
+                779
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "31 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                919,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Take Home Message "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Hirschfelder Equation + Brokaw Equation "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                235,
+                590,
+                279
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {\\frac {3}{2}} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9bdedd74481fe9a8fef71dc1909ac81c6da1ab7ce10e6c0d0e8f2e4434d538d0.jpg"
+                }
+            },
+            "bbox": [
+                94,
+                307,
+                445,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• For polar system "
+                    }
+                ]
+            },
+            "bbox": [
+                530,
+                311,
+                755,
+                355
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varOmega_ {D} = \\varOmega_ {D o} + \\frac {0 . 1 9 6 \\delta_ {A B} ^ {2}}{T ^ {*}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/523b264fddf275c16556b3c5d03cdbf8e88a0e705fcf5d42f3d2f4591ccb1f37.jpg"
+                }
+            },
+            "bbox": [
+                94,
+                525,
+                338,
+                611
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusivity in Multicomponent Gas Mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                725,
+                537,
+                766
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "D _ {1 - \\text {m i x t u r e}} = \\frac {1}{y _ {2} ^ {\\prime} / D _ {1 - 2} + y _ {3} ^ {\\prime} / D _ {1 - 3} + \\cdots + y _ {n} ^ {\\prime} / D _ {1 - n}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4c732e2efd84b27d028e6e4b4b51b1c9b163d915097012ec6ec1b2067f05f1ec.jpg"
+                }
+            },
+            "bbox": [
+                84,
+                800,
+                612,
+                890
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "32 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ]
+]

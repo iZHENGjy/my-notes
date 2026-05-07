@@ -1,33 +1,33 @@
-# Welcome to Your AI-Powered Second Brain
+# 欢迎来到你的 AI 第二大脑
 
-This is your Inbox - a temporary landing zone for new ideas, quick captures, and daily thoughts.
+这里是 Inbox —— 新想法、临时记录、每日念头的临时落脚点。
 
-## Your First Steps
+## 第一步
 
-1. **Start Claude Code** in this directory
-2. **Tell it you're in thinking mode**: "I'm exploring [topic] in thinking mode"
-3. **Let it search and ask questions** to help you think
-4. **Capture insights** as you go
+1. **在这个目录里启动 Claude Code**
+2. **告诉它你在 thinking mode**："我正在 thinking mode 探索 [话题]"
+3. **让它搜索、提问** —— 帮你想清楚
+4. **随手记下洞察**
 
-## Quick Tips
+## 几个小技巧
 
-- Don't worry about organization initially - just capture
-- Process your inbox weekly (move items to Projects/Areas/Resources)
-- Use Daily Notes for stream-of-consciousness capture
-- Let Claude Code help you find connections
+- 一开始别担心整理 —— 先记下来再说
+- 每周处理一次 inbox（移到 Projects / Areas / Resources）
+- 用 Daily Notes 做意识流记录
+- 让 Claude Code 帮你发现联系
 
-## Try This Now
+## 现在试试
 
-Ask Claude Code:
+问 Claude Code：
 ```
-I'm new to this vault. Can you help me understand 
-how to use you as a thinking partner? 
-Let's explore a topic I'm curious about.
+我刚开始用这个 vault。能解释下
+怎么把你当成 thinking partner 用吗？
+我们一起探索一个我感兴趣的话题。
 ```
 
-## Remember
+## 记住
 
-The goal isn't to create perfect notes - it's to enhance your thinking. This system grows more valuable over time as you add more notes and Claude Code helps you discover connections you didn't see before.
+目标不是写出完美笔记 —— 是让你的思考更好。这套系统的价值会随你笔记的累积越来越大，Claude Code 会帮你看见以前看不到的连接。
 
 ---
-*Move this to Archive once you're comfortable with the system*
+*等你熟悉这套系统后，把这个文件移到 Archive*

@@ -1,0 +1,3497 @@
+[
+    {
+        "type": "text",
+        "text": "CME 222 MASS TRANSFER ",
+        "text_level": 1,
+        "bbox": [
+            250,
+            105,
+            738,
+            251
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Diffusive Mass Transfer ",
+        "text_level": 1,
+        "bbox": [
+            280,
+            507,
+            719,
+            555
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dr. Tan Peng Chee ",
+        "bbox": [
+            379,
+            692,
+            625,
+            733
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A4 #407 ",
+        "bbox": [
+            450,
+            738,
+            556,
+            770
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "pengchee.tan@xmu.edu.my ",
+        "bbox": [
+            316,
+            783,
+            687,
+            822
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Table of Content ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            205,
+            469,
+            268
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "• Estimation of Diffusion Coefficient (Liquid, Solid, Pore Diffusivity) ",
+        "bbox": [
+            80,
+            335,
+            936,
+            494
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 ",
+        "bbox": [
+            905,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Estimation of Diffusion Coefficient (Liquid Diffusivity) ",
+        "text_level": 1,
+        "bbox": [
+            88,
+            403,
+            912,
+            601
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            100,
+            577,
+            174
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Theory of diffusion is not as advanced, less experimental data ",
+            "• Diffusivities in liquids are 4-5 order of magnitude smaller than gases ",
+            "• Can diffuse as molecules or ions (Ex: NaCl) "
+        ],
+        "bbox": [
+            45,
+            214,
+            941,
+            490
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            100,
+            580,
+            170
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Eyring “hole” Theory ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            218,
+            326,
+            268
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• The liquid is treated as quasi-crystalline lattice model interspersed with holes ",
+            "• The transport involves the jumping of solute molecules into the holes within the lattice model "
+        ],
+        "bbox": [
+            40,
+            292,
+            943,
+            561
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/d3ec70d53f1ab7202ee5f4ae2dda5f43fd0b8db7ca3bc1853c4294e8d1fd4624.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            90,
+            683,
+            304,
+            931
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/cd7a78ff0d8c93deeb6f74585908e9b1a64b3a59e17a6814b9efc461b5e20d62.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            527,
+            666,
+            700,
+            935
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            103,
+            577,
+            170
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Hydrodynamical Theory ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            222,
+            369,
+            264
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Liquid diffusion coefficient is related to solute molecules’ mobility ",
+            "• Depends on the velocity of molecules under the influence of a unit driving force ",
+            "• Provide relation between force and velocity ",
+            "• Stokes-Einstein Equation: considering the drag on a sphere moving in a continuous fluid "
+        ],
+        "bbox": [
+            45,
+            294,
+            938,
+            777
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 ",
+        "bbox": [
+            909,
+            942,
+            920,
+            964
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            101,
+            580,
+            170
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Stokes-Einstein Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            218,
+            359,
+            262
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Describe the diffusion of colloidal particles or large round molecules through a solvent that behaves as a continuum relative to diffusing species ",
+        "bbox": [
+            40,
+            283,
+            941,
+            461
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {k T}{6 \\pi r \\mu_ {B}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            409,
+            501,
+            576,
+            600
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "where: ",
+        "bbox": [
+            73,
+            577,
+            163,
+            616
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\text {D i f f u s i v i t y o f A i n d i l u t e s o l u t i o n B (m} ^ {2} / \\mathrm {s})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            90,
+            640,
+            647,
+            688
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\kappa = \\mathrm {B o l t z m a n n c o n s t a n t} (1. 3 8 \\times 1 0 ^ {- 2 3} \\mathrm {J / K}),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            707,
+            625,
+            755
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT = \\mathrm {A b s o l u t e t e m p e r a t u r e} (\\mathsf {K}),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            775,
+            470,
+            822
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr = \\mathrm {S o l u t e p a r t i c l e s r a d i u s} (\\mathfrak {m}),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            842,
+            481,
+            888
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mu_ {B} = \\mathrm {S o l v e n t v i s c o s i t y (k g / m . s)}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            909,
+            476,
+            957
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            101,
+            581,
+            170
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Wilke-Chang Equation ",
+        "text_level": 1,
+        "bbox": [
+            40,
+            218,
+            326,
+            262
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• For nonelectrolytes in an infinitely dilute solution ",
+            "• For solute of small to moderate molecular weight (< 400) "
+        ],
+        "bbox": [
+            41,
+            285,
+            786,
+            396
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {7 . 4 \\times 1 0 ^ {- 8} T (\\Phi_ {B} M _ {B}) ^ {\\frac {1}{2}}}{V _ {A} ^ {0 . 6} \\mu_ {B}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            446,
+            663,
+            570
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "where: ",
+        "bbox": [
+            45,
+            583,
+            136,
+            620
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\text {D i f f u s i v i t y o f A t h r o u g h l i q u i d s o l v e n t B (c m} ^ {2} / \\mathrm {s})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            62,
+            635,
+            695,
+            681
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nM _ {B} = \\mathrm {M o l e c u l a r w e i g h t o f s o l v e n t (g / m o l)},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            73,
+            692,
+            583,
+            738
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT = \\mathrm {A b s o l u t e t e m p e r a t u r e} (\\mathsf {K}),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            73,
+            748,
+            441,
+            792
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {A} = M o l e c u l a r v o l u m e o f s o l u t e a t n o r m a l b o i l i n g p o i n t (c m ^ {3} / m o l)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            73,
+            801,
+            865,
+            850
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mu_ {B} = \\text {V i s c o s i t y o f s o l u t i o n (c P)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            859,
+            434,
+            905
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Phi_ {B} = \\mathrm {A s s o c i a t i o n p a r a m e t e r f o r s o l v e n t B}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            914,
+            580,
+            957
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            100,
+            581,
+            170
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/c7f11afbf73c9f36b7e1afa6f5705e7f0464d113abe8d357c4910513c75fbedf.jpg",
+        "table_caption": [
+            "Table 24.4 Molecular volumes at normal boiling point for some commonly encountered compounds "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Compound</td><td>Molecular volume, \nin cm3/g mol</td><td>Compound</td><td>Molecular volume, \nin cm3/g mol</td></tr><tr><td>Hydrogen, H2</td><td>14.3</td><td>Nitric oxide, NO</td><td>23.6</td></tr><tr><td>Oxygen, O2</td><td>25.6</td><td>Nitrous oxide, N2O</td><td>36.4</td></tr><tr><td>Nitrogen, N2</td><td>31.2</td><td>Ammonia, NH3</td><td>25.8</td></tr><tr><td>Air</td><td>29.9</td><td>Water, H2O</td><td>18.9</td></tr><tr><td>Carbon monoxide, CO</td><td>30.7</td><td>Hydrogen sulfide, H2S</td><td>32.9</td></tr><tr><td>Carbon dioxide, CO2</td><td>34.0</td><td>Bromine, Br2</td><td>53.2</td></tr><tr><td>Carbonyl sulfide, COS</td><td>51.5</td><td>Chlorine, Cl2</td><td>48.4</td></tr><tr><td>Sulfur dioxide, SO2</td><td>44.8</td><td>Iodine, I2</td><td>71.5</td></tr></table>",
+        "bbox": [
+            29,
+            366,
+            951,
+            864
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            101,
+            577,
+            170
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/d198f3f44cb3b6f397a93a1d77a299e54d1751e5c1357803a32d9cf3cd227484.jpg",
+        "table_caption": [
+            "Table 24.5Atomic volumes for complex molecular volumes for simple substancest "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Element</td><td>Atomic volume, in cm3/g mol</td><td>Element</td><td>Atomic volume, in cm3/g mol</td></tr><tr><td>Bromine</td><td>27.0</td><td>Oxygen, except as noted below</td><td>7.4</td></tr><tr><td>Carbon</td><td>14.8</td><td>Oxygen, in methyl esters</td><td>9.1</td></tr><tr><td>Chlorine</td><td>21.6</td><td>Oxygen, in methyl ethers</td><td>9.9</td></tr><tr><td>Hydrogen</td><td>3.7</td><td>Oxygen, in higher ethers</td><td></td></tr><tr><td>Iodine</td><td>37.0</td><td>and other esters</td><td>11.0</td></tr><tr><td>Nitrogen, double bond</td><td>15.6</td><td>Oxygen, in acids</td><td>12.0</td></tr><tr><td>Nitrogen, in primary amines</td><td>10.5</td><td>Sulfur</td><td>25.6</td></tr><tr><td>Nitrogen, in secondary amines</td><td>12.0</td><td></td><td></td></tr></table>",
+        "bbox": [
+            66,
+            329,
+            941,
+            759
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            100,
+            580,
+            170
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Volume Correction ",
+        "bbox": [
+            41,
+            218,
+            276,
+            257
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/01dfdba011cd80ccb0b245112405e3a4cc8e7fe70fbfd5a6a9a229916a22fb28.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Ring</td><td>Correction</td></tr><tr><td>Three-membered ring, as ethylene oxide</td><td>Deduct 6</td></tr><tr><td>Four-membered ring, as cyclobutane</td><td>Deduct 8.5</td></tr><tr><td>Five-membered ring, as furan</td><td>Deduct 11.5</td></tr><tr><td>Pyridine</td><td>Deduct 15</td></tr><tr><td>Benzene ring</td><td>Deduct 15</td></tr><tr><td>Naphthalene ring</td><td>Deduct 30</td></tr><tr><td>Anthracene ring</td><td>Deduct 47.5</td></tr></table>",
+        "bbox": [
+            84,
+            335,
+            855,
+            807
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 ",
+        "bbox": [
+            900,
+            940,
+            919,
+            966
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            100,
+            577,
+            170
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Estimation of VA ",
+        "bbox": [
+            47,
+            218,
+            266,
+            270
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {A} = 0. 2 8 5 V _ {c} ^ {1. 0 4 8}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            377,
+            337,
+            602,
+            392
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "???? = critical volume of species A (cm3/mol) ",
+        "bbox": [
+            47,
+            485,
+            612,
+            538
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            103,
+            577,
+            170
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "table",
+        "img_path": "images/6d90ca14209c7056cb1de8534a3df5783e2c231856e6314bd5d7953b0cef6a7f.jpg",
+        "table_caption": [
+            "Association Parameter "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Solvent</td><td>ΦB</td></tr><tr><td>Water</td><td>2.26</td></tr><tr><td>Methanol</td><td>1.9</td></tr><tr><td>Ethanol</td><td>1.5</td></tr><tr><td>Benzene, ether, heptane, and other unassociated solvents</td><td>1.0</td></tr></table>",
+        "bbox": [
+            159,
+            305,
+            772,
+            725
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            942,
+            920,
+            964
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Example 1 ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            103,
+            281,
+            170
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Estimate the liquid diffusion coefficient of ethanol in a dilute solution of water at 10 oC. Given that the solution viscosity is 1.45 cP. ",
+        "bbox": [
+            40,
+            214,
+            950,
+            414
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "Liquid diffusivity $\\mathsf { D } _ { \\mathsf { A B } }$ is not equal to DBA ",
+        "bbox": [
+            270,
+            835,
+            709,
+            877
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            100,
+            577,
+            170
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Kayduk and Laudie Equation ",
+        "text_level": 1,
+        "bbox": [
+            65,
+            218,
+            459,
+            264
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "• For infinite dilution diffusion coefficients of nonelectrolytes in water ",
+        "bbox": [
+            65,
+            290,
+            959,
+            407
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = 1 3. 2 6 \\times 1 0 ^ {- 5} \\mu_ {B} ^ {- 1. 1 4} V _ {A} ^ {- 0. 5 8 9}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            293,
+            509,
+            729,
+            561
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "?????? = Mass diffusivity of A through liquid B, water (cm2/s) ",
+        "bbox": [
+            65,
+            733,
+            834,
+            781
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mu_ {B} = \\mathrm {V i s c o s i t y o f w a t e r (c P)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            65,
+            809,
+            437,
+            855
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "???? = Molecular volume of solute at normal boiling point (cm3/mol) ",
+        "bbox": [
+            66,
+            883,
+            940,
+            929
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            100,
+            580,
+            170
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Scheibel Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            218,
+            272,
+            259
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Eliminate association factor in Wilke-Chang relation ",
+        "bbox": [
+            41,
+            283,
+            719,
+            327
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {K T}{\\mu_ {B} V _ {A} ^ {\\frac {1}{3}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            394,
+            570,
+            531
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nK = 8. 2 \\times 1 0 ^ {- 8} \\left[ 1 + \\left(\\frac {3 V _ {B}}{V _ {A}}\\right) ^ {\\frac {2}{3}} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            313,
+            570,
+            670,
+            701
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Except ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            729,
+            136,
+            770
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. For benzene as solvent, if $V _ { A } < 2 ~ V _ { B } , { \\sf K } = 1 8 . 9 \\times 1 0 ^ { - 8 }$ $V _ { A } < 2 ~ V _ { B }$ ",
+            "2. For other organic solvent, if ???? < 2.5 ????, K = 17.5 × 10−8 "
+        ],
+        "bbox": [
+            40,
+            794,
+            784,
+            905
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Example 2 ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            103,
+            288,
+            170
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Recalculate the diffusion coefficient of ethanol in dilute solution of water in Example 2 if the association parameter is not available. ",
+        "bbox": [
+            41,
+            220,
+            941,
+            340
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            100,
+            580,
+            170
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Leffler and Cullinan Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            220,
+            441,
+            268
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "• Predicting liquid diffusion coefficient in concentrated solution ",
+        "bbox": [
+            41,
+            292,
+            902,
+            340
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} \\mu = (D _ {A B} ^ {o} \\mu_ {B}) ^ {x _ {B}} (D _ {B A} ^ {o} \\mu_ {A}) ^ {x _ {A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            291,
+            437,
+            691,
+            492
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "???????? = Infinite dilution diffusion coefficient ",
+        "bbox": [
+            41,
+            585,
+            600,
+            635
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "????, ???? = Molar fraction of A and B in solution ",
+        "bbox": [
+            41,
+            659,
+            641,
+            709
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            100,
+            581,
+            170
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Tyne Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            218,
+            225,
+            262
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "• Extrapolate diffusivity at different temperature ",
+        "bbox": [
+            41,
+            285,
+            641,
+            327
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boxed { \\begin{array}{c} \\frac {D _ {A B , T 1}}{D _ {A B , T 2}} = \\left(\\frac {T _ {c} - T _ {2}}{T _ {c} - T _ {1}}\\right) ^ {n} \\end{array} }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            34,
+            403,
+            348,
+            624
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "T1 and T2 are in K ",
+        "bbox": [
+            405,
+            412,
+            634,
+            459
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "T is critical temperature of solvent B n is constant related to latent heat of vaporization of solvent at its normal boiling point temperature ",
+        "bbox": [
+            405,
+            477,
+            861,
+            681
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "images/b0bb193984a374c1fdc489cefb8cef15fbd39a6c6e4420ce445e0653d0a4aa7f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>ΔHv, (kJ/kmol)</td><td>7,900–30,000</td><td>30,000–39,000</td><td>39,000–46,000</td><td>46,000–50,000</td><td>&gt;50,000</td></tr><tr><td>n</td><td>3</td><td>4</td><td>6</td><td>8</td><td>10</td></tr></table>",
+        "bbox": [
+            70,
+            714,
+            916,
+            838
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Example 3 ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            103,
+            288,
+            170
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Refer to the data in Appendix Table J2, estimate the diffusivity of acetic acid in water at 400 K and concentration of 0.01 mol/L. Heat of vaporization of water at normal boiling point (100oC, 1 atm) is 40656 J/mol; Critical temperature of water is 647.4K. ",
+        "bbox": [
+            41,
+            214,
+            950,
+            492
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            101,
+            581,
+            170
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Nernst Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            203,
+            227,
+            242
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "• Determine diffusion coefficient for dilute solution of completely ionized univalent electrolytes ",
+        "bbox": [
+            41,
+            253,
+            941,
+            335
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {2 R T}{\\left(\\frac {1}{\\lambda_ {+} ^ {0}} + \\frac {1}{\\lambda_ {-} ^ {0}}\\right) F _ {a} ^ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            91,
+            390,
+            320,
+            531
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "For univalent ions ",
+        "bbox": [
+            109,
+            596,
+            331,
+            635
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "?????? = Diffusion coefficient of A in B (cm2/s) ",
+        "bbox": [
+            438,
+            388,
+            916,
+            431
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "?? = Gas constant (8.314 J/K.mol) ",
+        "bbox": [
+            440,
+            440,
+            813,
+            481
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "T = Absolute temperature (K) ",
+        "bbox": [
+            440,
+            492,
+            766,
+            531
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "$\\lambda _ { + } ^ { 0 } , \\lambda _ { - } ^ { 0 } =$ Limiting ionic conductances (A/cm2) ",
+        "bbox": [
+            438,
+            540,
+            937,
+            583
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "???? = Faraday constant (96500 Coulombs/mol) ",
+        "bbox": [
+            440,
+            594,
+            950,
+            635
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• For polyvalent salt: Replace the constant 2 by $( \\textstyle { \\frac { 1 } { n ^ { + } } } + { \\frac { 1 } { n ^ { - } } } )$ ",
+            "• $n ^ { + }$ and ??− are the valence of cation and anion "
+        ],
+        "bbox": [
+            41,
+            744,
+            700,
+            851
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21 ",
+        "bbox": [
+            895,
+            940,
+            919,
+            966
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Liquid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            100,
+            581,
+            170
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Limiting Ionic Conductances In Water (25 oC) ",
+        "bbox": [
+            45,
+            216,
+            602,
+            262
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "images/33e968cf9f70b8da271699da7f032bdf39c50d7cf6b4d0b1245315d76e403373.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Cation</td><td>λ0+</td><td>Anion</td><td>λ0-</td></tr><tr><td>H+</td><td>349.8</td><td>OH-</td><td>197.6</td></tr><tr><td>Li+</td><td>38.7</td><td>Cl-</td><td>76.3</td></tr><tr><td>Na+</td><td>50.1</td><td>Br-</td><td>78.3</td></tr><tr><td>K+</td><td>73.5</td><td>I-</td><td>76.8</td></tr><tr><td>NH4+</td><td>73.4</td><td>NO3-</td><td>71.4</td></tr></table>",
+        "bbox": [
+            163,
+            364,
+            833,
+            714
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Estimation of Diffusion Coefficient (Solid Diffusivity) ",
+        "text_level": 1,
+        "bbox": [
+            88,
+            403,
+            912,
+            601
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Solid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            105,
+            550,
+            170
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Solid diffusion is common in the synthesis of many engineering materials ",
+            "• Semiconductor: Dopants are introduced into solid silicon to control the conductivity ",
+            "• Steel: Hardening of steel due to diffusion of carbon and other elements through iron ",
+            "• Two common diffusion mechanism: vacancy diffusion, interstitial diffusion "
+        ],
+        "bbox": [
+            45,
+            214,
+            941,
+            777
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Vacancy Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            101,
+            466,
+            170
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Atom “jumps” from a lattice position of solid into neighboring unoccupied lattice site/vacancy ",
+            "• Atom continues to diffuse through solid by a series of jumps ",
+            "• Atom must “push” other atoms to move from one site to another ",
+            "Requires energy ",
+            "Causes distortion of lattice ",
+            "• Diffusion rate depends on number of vacancy & activation energy to exchange "
+        ],
+        "bbox": [
+            40,
+            218,
+            943,
+            933
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/63909fc55c284c86b68bdf78d831c319e36c7a35bce072d86b36572de211a16f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            590,
+            546,
+            887,
+            879
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "25 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Interstitial Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            103,
+            502,
+            159
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Atom jumps from one interstitial site to a neighboring one ",
+            "• Involve dilation and distortion of lattice ",
+            "• Faster than vacancy diffusion because the diffusing atoms is usually smaller and there are more interstitial site than vacancy "
+        ],
+        "bbox": [
+            40,
+            220,
+            940,
+            487
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "site ",
+        "bbox": [
+            79,
+            514,
+            131,
+            553
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/70866c0add1b9d44faf6b9538b3d65cddab8e37a0413f315594fa27acd5bf028.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            191,
+            525,
+            480,
+            901
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/9a8d9da769620cf78e32ae7c5019885d8745c72f85f2c43dbb6362c0a3a2e7da.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            566,
+            614,
+            847,
+            787
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "26 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Solid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            100,
+            556,
+            174
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "• The diffusivity increases with increasing temperature according to Arrhenius equation ",
+        "bbox": [
+            41,
+            214,
+            941,
+            342
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = D _ {o} e ^ {- Q / R T}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            116,
+            420,
+            373,
+            494
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "images/c9cb041a4d9b71a28c6315cd2f768f1a2f42a9d65961526b74abffa9d5bc7858.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            422,
+            433,
+            494,
+            479
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\ln (D _ {A B}) = - \\frac {Q}{R} \\frac {1}{T} + \\ln (D _ {o})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            531,
+            407,
+            906,
+            512
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "?????? = Solid diffusion coefficient of A within solid B ",
+        "bbox": [
+            40,
+            585,
+            716,
+            635
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "???? = Proportionality constant ",
+        "bbox": [
+            41,
+            661,
+            438,
+            707
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Q = Activation energy (J/mol) ",
+        "bbox": [
+            41,
+            733,
+            441,
+            781
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "R = Gas constant (8.314 J/mol·K) ",
+        "bbox": [
+            41,
+            805,
+            502,
+            855
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "T = Absolute temperature (K) ",
+        "bbox": [
+            41,
+            879,
+            441,
+            929
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "27 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Solid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            103,
+            550,
+            170
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/cfb745c317d0fa454ae202e73d7e07e2d7c38d11f910d72d9f1bf747609b6893.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            72,
+            201,
+            488,
+            951
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Diffusion coefficients of substitutional dopants in crystalline silicon ",
+            "• Can determine Q and Do "
+        ],
+        "bbox": [
+            506,
+            435,
+            947,
+            657
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "28 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/56d161f69a4ed05226cf4d2e112382aee2e4f18e91deaeac7aba740f2c9b9f7a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            77,
+            112,
+            563,
+            461
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "images/ca1bb58e92906edb05cdd994b90409c6fcb0465ac8e428da4a2b86dec276222f.jpg",
+        "image_caption": [
+            "1000/T "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            84,
+            579,
+            569,
+            916
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "29 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Solid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            101,
+            552,
+            170
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "images/873ee3159630def14851097b93124177148fbe2134eff5d8e878b5034d0a077b.jpg",
+        "table_caption": [
+            "Table 24.6 Data for self-diffusion in pure metals "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Structure</td><td>Metal</td><td>Do(mm2/s)</td><td>Q(kJ/mole)</td></tr><tr><td>fcc</td><td>Au</td><td>10.7</td><td>176.9</td></tr><tr><td>fcc</td><td>Cu</td><td>31</td><td>200.3</td></tr><tr><td>fcc</td><td>Ni</td><td>190</td><td>279.7</td></tr><tr><td>fcc</td><td>Fe(γ)</td><td>49</td><td>284.1</td></tr><tr><td>bcc</td><td>Fe(α)</td><td>200</td><td>239.7</td></tr><tr><td>bcc</td><td>Fe(δ)</td><td>1980</td><td>238.5</td></tr></table>",
+        "bbox": [
+            159,
+            235,
+            772,
+            657
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/8ea997a440b04e607325c9d315304be129136dfd806712044eb68bccc578fd23.jpg",
+        "image_caption": [
+            "Body-centered cubic "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            237,
+            681,
+            363,
+            879
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/9ab8b3a0d868c1c06f17fba6507d7bda18be565a2e5dc2c6d5f9a82d077fc267.jpg",
+        "image_caption": [
+            "Face-centered cubic "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            576,
+            679,
+            706,
+            879
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "30 ",
+        "bbox": [
+            895,
+            938,
+            920,
+            966
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Solid Mass Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            105,
+            550,
+            170
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "table",
+        "img_path": "images/a9c736c092c0b0b033ea529f3b7a4e92cc1195002d9989fc4bf57f2fb3aa1e73.jpg",
+        "table_caption": [
+            "Table 24.7Diffusion parameters for interstitial solutes in iron "
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Structure</td><td>Solute</td><td>Do(mm2/s)</td><td>Q(kJ/mole)</td></tr><tr><td>bcc</td><td>C</td><td>2.0</td><td>84.1</td></tr><tr><td>bcc</td><td>N</td><td>0.3</td><td>76.1</td></tr><tr><td>bcc</td><td>H</td><td>0.1</td><td>13.4</td></tr><tr><td>fcc</td><td>C</td><td>2.5</td><td>144.2</td></tr></table>",
+        "bbox": [
+            109,
+            300,
+            843,
+            646
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "31 ",
+        "bbox": [
+            898,
+            942,
+            916,
+            964
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Estimation of Diffusion Coefficient (Pore Diffusivity) ",
+        "text_level": 1,
+        "bbox": [
+            88,
+            403,
+            912,
+            601
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "32 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            103,
+            480,
+            162
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Diffusion of gas molecules through a very small capillary pores ",
+            "• Happen when the pore diameter is smaller than the mean free path of gas molecules and the density of gas is low ",
+            "• Gas molecules collide with the wall more frequently than with each other ",
+            "• Usually happen in gaseous phase diffusion (mean free path of liquid is small) ",
+            "Gas flux is reduced by wall collision "
+        ],
+        "bbox": [
+            41,
+            218,
+            938,
+            724
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "33 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            96,
+            534,
+            164
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Knudsen number ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            214,
+            263,
+            261
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Measure of the relative important of Knudsen diffusion ",
+            "• If > 1, Knudsen diffusion is important "
+        ],
+        "bbox": [
+            41,
+            283,
+            751,
+            396
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "text": "$$\nK n = \\frac {\\lambda}{d _ {\\text {p o r e}}} = \\frac {\\text {m e a n f r e e p a t h l e n g t h o f t h e d i f f u s i n g s p e c i e s}}{\\text {p o r e d i a m e t e r}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            148,
+            457,
+            830,
+            559
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "• Knudsen number increase when pressure decrease and temperature increase ",
+        "bbox": [
+            40,
+            614,
+            941,
+            727
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "34 ",
+        "bbox": [
+            895,
+            938,
+            920,
+            966
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            96,
+            534,
+            164
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            218,
+            286,
+            261
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Obtained from self-diffusion coefficient ",
+            "• Replace ?? with dpore as molecules is more likely to collide with pore wall "
+        ],
+        "bbox": [
+            40,
+            283,
+            941,
+            401
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A A ^ {*}} = \\frac {\\lambda u}{3} = \\frac {\\lambda}{3} \\sqrt {\\frac {8 \\kappa N T}{\\pi M _ {A}}} \\quad \\longrightarrow \\quad D _ {K A} = \\frac {d _ {\\text {p o r e}}}{3} u = \\frac {d _ {\\text {p o r e}}}{3} \\sqrt {\\frac {8 \\kappa N T}{\\pi M _ {A}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            461,
+            926,
+            568
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Substituting k = 1.38 x 10-16 gcm2/s2K and N = 6.02 x 1023 mol-1 ",
+        "bbox": [
+            40,
+            616,
+            827,
+            662
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boxed {D _ {K A} = 4 8 5 0 d _ {p o r e} \\sqrt {\\frac {T}{M _ {A}}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            34,
+            751,
+            366,
+            914
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {K A} = \\mathrm {K n u d s e n d i f f u s i v i t y (c m ^ {2} / s)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            750,
+            813,
+            792
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\nd _ {p o r e} = \\mathrm {D i a m e t e r o f p o r e (c m)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            792,
+            777,
+            831
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\nM _ {A} = \\mathrm {M o l e c u l a r w e i g h t (g / m o l)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            835,
+            781,
+            872
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT = \\mathrm {T e m p e r a t u r e} (K)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            875,
+            675,
+            914
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "35 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusion + Molecular Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            75,
+            977,
+            135
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Effective Diffusivity ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            220,
+            306,
+            270
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{D _ {A e}} = \\frac {1 - \\alpha y _ {A}}{D _ {A B}} + \\frac {1}{D _ {K A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            98,
+            361,
+            341,
+            446
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha = 1 + \\frac {N _ {B}}{N _ {A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            555,
+            392,
+            688,
+            477
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "When ?? =0 (NA=-NB) or when yA is close to zero ",
+        "bbox": [
+            40,
+            587,
+            680,
+            638
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{D _ {A e}} = \\frac {1}{D _ {A B}} + \\frac {1}{D _ {K A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            696,
+            330,
+            798
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Applied for straight, cylindrical pores aligned in parallel array ",
+        "bbox": [
+            459,
+            688,
+            822,
+            835
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "page_number",
+        "text": "36 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusion + Molecular Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            77,
+            970,
+            131
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Effective Diffusivity In Random Pores ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            220,
+            550,
+            264
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• In most porous materials, pores of various diameter are twisted and interconnected ",
+            "Diffusion path is tortuous "
+        ],
+        "bbox": [
+            41,
+            292,
+            941,
+            485
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A e} ^ {\\prime} = \\varepsilon^ {2} D _ {A e}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            520,
+            606,
+            588
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\varepsilon = \\frac {\\text {V o l u m e o c c u p i e d b y p o r e s w i t h i n t h e p o r u s s o l i d}}{\\text {T o t a l v o l u m e o f p o r u s s o l i d (s o l i d + p o r e s)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            129,
+            677,
+            850,
+            787
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\varepsilon = \\mathrm {v o i d f r a c t i o n}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            41,
+            885,
+            262,
+            931
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "37 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Types of Porous Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            79,
+            758,
+            153
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Pure molecular diffusion ",
+        "bbox": [
+            306,
+            177,
+            437,
+            233
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Pore wall ",
+        "bbox": [
+            334,
+            268,
+            413,
+            296
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/0b2799e5152dce8622384b25ae44514bfdb540c18c0ae69e1db74cf726eac861.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            288,
+            307,
+            462,
+            388
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {3 / 2} \\left[ \\frac {I}{M _ {A}} + \\frac {I}{M _ {B}} \\right] ^ {1 / 2}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            263,
+            431,
+            493,
+            533
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Pure knudsen diffusion ",
+        "bbox": [
+            565,
+            177,
+            684,
+            233
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Pore wall ",
+        "bbox": [
+            583,
+            275,
+            663,
+            301
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/c22a113853ee8b21057f29a00461750bfa4ea5da1d9a42ef95c91f55b4788a79.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            556,
+            303,
+            734,
+            429
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {K A} = \\frac {d _ {p o r e}}{3} \\sqrt {\\frac {8 \\kappa N T}{\\pi M _ {A}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            537,
+            448,
+            712,
+            518
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Knudsen $^ +$ molecular diffusion ",
+        "bbox": [
+            287,
+            587,
+            458,
+            640
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Pore wall ",
+        "bbox": [
+            334,
+            683,
+            409,
+            707
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/5a5ef477f9479e44a07c4e609f816f5b237eb591fdbfc88ae1cfcdadb422227b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            300,
+            709,
+            447,
+            831
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {I}{D _ {A e}} \\cong \\frac {I}{D _ {A B}} + \\frac {I}{D _ {K A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            853,
+            447,
+            914
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Random porous material ",
+        "bbox": [
+            561,
+            574,
+            691,
+            627
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/9d5a3dd7c71f3a251df0b0f22fb6ee9f2461bdeafee6355fd68301ae31f1ef3a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            523,
+            648,
+            752,
+            864
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A e} ^ {\\prime} = \\varepsilon^ {2} D _ {A e}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            577,
+            892,
+            695,
+            925
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "page_number",
+        "text": "38 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Example 4 ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            103,
+            288,
+            170
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "One step in the manufacture of optical fibers is the chemical vapor deposition of silane $\\left( \\mathsf { S i H } _ { 4 } \\right)$ on the inside surface of a hollow glass fiber to form a very thin cladding of solid silicon by reaction: ",
+        "bbox": [
+            40,
+            212,
+            941,
+            294
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm {S i H} _ {4} (\\mathsf {g}) \\rightarrow \\mathrm {S i} (\\mathsf {s}) + 2 \\mathrm {H} _ {2} (\\mathsf {g})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            370,
+            305,
+            611,
+            342
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Typically, the process is carried out at high temperature and very low total system pressure. Optical fibers for high bandwidth data transmission have very small inner pore diameters, typically less than 20 µm. If the inner diameter of the Si-coated hollow glass fiber is 10 µm, assess the importance of Knudsen diffusion for $\\mathsf { S i H } _ { 4 }$ inside the fiber lumen at 900 K and 100 Pa total system pressure. Calculate the effective diffusivity of silane in this system. Silane is diluted to 1 mol% in the inert carrier gas helium. The binary gas diffusivity of silane in helium at 25 oC and 1 atm total system pressure is 0.571 cm2/s, with ????????4 = 4.08 Å and $\\begin{array} { r } { \\frac { \\varepsilon _ { S i H 4 } } { k } = 2 0 7 . 6 \\mathsf { K } . } \\end{array}$ .. The molecular weight of silane is 32 g/mol. ",
+        "bbox": [
+            40,
+            351,
+            948,
+            685
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "image",
+        "img_path": "images/7643f4f363b7cf48e37554081de84035141d0ed0124b30032729576aeb4ca954.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            416,
+            716,
+            783,
+            950
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "page_number",
+        "text": "39 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Hindered Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            101,
+            480,
+            159
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• The diffusion of a solute molecule through a tiny capillary pore filled with liquid solvent ",
+            "As solute diameter approaches the diameter of pore, the diffusive transport of solute through the solvent is hindered by the presence of pore and pore wall "
+        ],
+        "bbox": [
+            45,
+            214,
+            943,
+            566
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "page_number",
+        "text": "40 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Hindered Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            101,
+            480,
+            159
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Effective Diffusion Coefficient ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            220,
+            444,
+            261
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A e} = D _ {A B} ^ {\\circ} F _ {1} (\\varphi) F _ {2} (\\varphi)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            73,
+            335,
+            373,
+            396
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$D _ { A B } ^ { o } = \\mathsf { D i }$ ffusion coefficient of solute A in solvent B at infinite dilution ",
+        "bbox": [
+            455,
+            316,
+            947,
+            412
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "??1 (??), ??2 (??) = correction factor (0 to 1) ",
+        "bbox": [
+            456,
+            429,
+            950,
+            475
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Reduced Pore Diameter ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            566,
+            375,
+            607
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\varphi = \\frac {d _ {s}}{d _ {p o r e}} = \\frac {\\mathrm {s o l u t e m o l e c u l a r d i a m e t e r}}{\\mathrm {p o r e d i a m e t e r}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            659,
+            588,
+            770
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• If $\\varphi > 1$ , solute too large to enter pore (solute exclusion) ",
+            "Use to separate large biomolecules such as protein "
+        ],
+        "bbox": [
+            51,
+            838,
+            769,
+            937
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "page_number",
+        "text": "4 1 ",
+        "bbox": [
+            895,
+            940,
+            919,
+            964
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Hindered Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            101,
+            480,
+            159
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Stearic Partition Coefficient , $F _ { 1 } \\left( \\varphi \\right)$ ",
+        "bbox": [
+            41,
+            218,
+            470,
+            261
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {1} (\\varphi) = \\frac {\\text {f l u x a r e a a v a i l a b l e t o s o l u t e}}{\\text {t o t a l f l u x a r e a}} = \\frac {\\pi \\left(d _ {p o r e} - d _ {s}\\right) ^ {2}}{\\pi d _ {p o r e} ^ {2}} = (1 - \\varphi) ^ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            54,
+            312,
+            855,
+            435
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "For 0 ≤ ??1 ?? ≤ 1 ",
+        "bbox": [
+            27,
+            468,
+            255,
+            516
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Hydrodynamic Hindrance Factor, $F _ { 2 } \\left( \\varphi \\right)$ ",
+        "bbox": [
+            41,
+            570,
+            533,
+            614
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {2} (\\varphi) = 1 - 2. 1 0 4 \\varphi + 2. 0 9 \\varphi^ {3} - 0. 9 5 \\varphi^ {5}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            63,
+            679,
+            634,
+            733
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Assume diffusion of rigid spherical solute in straight cylindrical pore ",
+            "Reasonable for $0 \\le ( \\varphi ) \\le 0 . 6$ "
+        ],
+        "bbox": [
+            41,
+            827,
+            908,
+            925
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "page_number",
+        "text": "42 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Example 5 ",
+        "text_level": 1,
+        "bbox": [
+            45,
+            103,
+            288,
+            170
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "It is desired to separate a mixture of two industrial enzymes, lysozyme and catalase, in a dilute, aqueous solution (water solvent) by a gel filtration membrane. A mesoporous membrane with cylindrical pores of 30 nm diameter is available. The following separation factor $( \\alpha )$ for the process is proposed ",
+        "bbox": [
+            40,
+            214,
+            941,
+            412
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha = \\frac {D _ {A e}}{D _ {B e}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            448,
+            440,
+            537,
+            518
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Given that the molecular weight and diameter of lysozyme (species A) is 14100 g/mol and 4.12 nm. For catalase (species B), the molecular weight and diameter is 250000 g/mol and 10.44 nm respectively. Determine the separation factor for this process at 298K. ",
+        "bbox": [
+            40,
+            535,
+            941,
+            679
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "image",
+        "img_path": "images/97e2a2df1cc74add478e269935b0269691f677db2b37b060293931e6742a8631.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            452,
+            688,
+            759,
+            961
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "page_number",
+        "text": "43 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Take Home Message ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            94,
+            556,
+            170
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Stokes-Einstein Equation ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            250,
+            387,
+            294
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {k T}{6 \\pi r \\mu_ {B}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            335,
+            234,
+            431
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Wilke-Chang Equation ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            455,
+            355,
+            500
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {7 . 4 \\times 1 0 ^ {- 8} T (\\Phi_ {B} M _ {B}) ^ {\\frac {1}{2}}}{V _ {A} ^ {0 . 6} \\mu_ {B}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            540,
+            381,
+            653
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Kayduk and Laudie Equation ",
+        "text_level": 1,
+        "bbox": [
+            69,
+            722,
+            433,
+            766
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = 1 3. 2 6 \\times 1 0 ^ {- 5} \\mu_ {B} ^ {- 1. 1 4} V _ {A} ^ {- 0. 5 8 9}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            785,
+            473,
+            835
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "For larger molecules, dilute ",
+        "bbox": [
+            505,
+            350,
+            813,
+            392
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Nonelectrolyte, dilute, small to moderate size (Mw < 400) ",
+        "bbox": [
+            504,
+            542,
+            845,
+            624
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Dilute nonelectrolyte in water ",
+        "bbox": [
+            505,
+            755,
+            831,
+            796
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "page_number",
+        "text": "44 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Take Home Message ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            103,
+            525,
+            170
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Scheibel Equation ",
+        "text_level": 1,
+        "bbox": [
+            43,
+            218,
+            275,
+            261
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = \\frac {K T}{\\mu_ {B} V _ {A} ^ {\\frac {1}{3}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            41,
+            329,
+            194,
+            464
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Eliminate association factor ",
+        "bbox": [
+            569,
+            344,
+            880,
+            383
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Leffler and Cullinan Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            542,
+            405,
+            585
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} \\mu = (D _ {A B} ^ {o} \\mu_ {B}) ^ {x _ {B}} (D _ {B A} ^ {o} \\mu_ {A}) ^ {x _ {A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            41,
+            607,
+            405,
+            655
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "For concentrated solution ",
+        "bbox": [
+            569,
+            609,
+            858,
+            646
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Tyne Equation ",
+        "text_level": 1,
+        "bbox": [
+            41,
+            742,
+            227,
+            787
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {D _ {A B , T 1}}{D _ {A B , T 2}} = \\left(\\frac {T _ {c} - T _ {2}}{T _ {c} - T _ {1}}\\right) ^ {n}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            41,
+            829,
+            290,
+            940
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Predict diffusivity at different temperature ",
+        "bbox": [
+            566,
+            850,
+            926,
+            950
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "page_number",
+        "text": "45 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Take Home Message ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            103,
+            523,
+            170
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Solid Diffusion ",
+        "bbox": [
+            43,
+            218,
+            227,
+            257
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A B} = D _ {o} e ^ {- \\underline {{O}} / R T}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            50,
+            318,
+            286,
+            387
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Vacancy & Interstitial diffusion ",
+        "bbox": [
+            459,
+            338,
+            800,
+            379
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Knudsen Diffusivity ",
+        "bbox": [
+            43,
+            485,
+            286,
+            527
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {K A} = 4 8 5 0 d _ {p o r e} \\sqrt {\\frac {T}{M _ {A}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            41,
+            585,
+            320,
+            718
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Mean free path larger than pore size ",
+        "bbox": [
+            459,
+            587,
+            870,
+            629
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "page_number",
+        "text": "46 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Take Home Message ",
+        "text_level": 1,
+        "bbox": [
+            44,
+            103,
+            523,
+            170
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Effective Diffusivity Equation ",
+        "bbox": [
+            43,
+            218,
+            397,
+            259
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{D _ {A e}} = \\frac {1 - \\alpha y _ {A}}{D _ {A B}} + \\frac {1}{D _ {K A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            320,
+            309,
+            403
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{D _ {A e}} = \\frac {1}{D _ {A B}} + \\frac {1}{D _ {K A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            77,
+            477,
+            288,
+            562
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Effective Diffusivity In Random Pores ",
+        "bbox": [
+            43,
+            685,
+            502,
+            725
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A e} ^ {\\prime} = \\varepsilon^ {2} D _ {A e}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            118,
+            748,
+            295,
+            807
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Straight, cylindrical pore ",
+        "bbox": [
+            570,
+            344,
+            840,
+            383
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Pore with tortuous path ",
+        "bbox": [
+            570,
+            701,
+            830,
+            740
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "page_number",
+        "text": "47 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Take Home Message ",
+        "text_level": 1,
+        "bbox": [
+            47,
+            105,
+            520,
+            170
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Hindered Diffusion ",
+        "bbox": [
+            47,
+            222,
+            275,
+            253
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD _ {A e} = D _ {A B} ^ {\\circ} F _ {1} (\\varphi) F _ {2} (\\varphi)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            47,
+            307,
+            341,
+            364
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Pore filled with solvent, more significant if the size of molecule approaching pore diameter ",
+        "bbox": [
+            465,
+            259,
+            945,
+            409
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "page_number",
+        "text": "48 ",
+        "bbox": [
+            898,
+            942,
+            920,
+            964
+        ],
+        "page_idx": 47
+    }
+]

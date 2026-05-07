@@ -1,107 +1,95 @@
 ---
 name: init-bootstrap
-description: Interactive setup wizard that helps new users create a personalized CLAUDE.md file based on their Obsidian workflow preferences. Use when the user wants to set up claudesidian, onboard a new vault, or run the bootstrap/init/setup wizard.
+description: Interactive setup wizard that helps new users create a personalized CLAUDE.md file based on their Obsidian workflow preferences. Use when the user wants to set up claudesidian, onboard a new vault, or run the bootstrap/init/setup wizard. / 交互式 setup wizard，根据用户的 Obsidian 工作流偏好生成个性化 CLAUDE.md。当用户要"设置 claudesidian"、"新 vault 上手"、"跑 bootstrap / init / setup wizard"时触发。
 allowed-tools: [Read, Write, MultiEdit, Bash, Task]
 ---
 
 # Initialize Bootstrap Configuration
 
-This command helps you create a personalized CLAUDE.md configuration file by
-asking questions about your Obsidian workflow and preferences.
+这个命令通过提问你的 Obsidian 工作流和偏好，帮你创建个性化的 CLAUDE.md 配置文件。
 
-## Task
+## 任务
 
-Read the CLAUDE-BOOTSTRAP.md template and interactively gather information about
-the user's:
+读 CLAUDE-BOOTSTRAP.md 模板，交互式收集用户的：
 
-- Existing vault structure (if any)
-- Workflow preferences
-- Note-taking style
-- Organization methods
-- Specific requirements
+- 已有 vault 结构（如有）
+- 工作流偏好
+- 笔记风格
+- 组织方法
+- 具体需求
 
-Then generate a customized CLAUDE.md file tailored to their needs.
+然后生成定制好的 CLAUDE.md。
 
-## Process
+## 流程
 
-1. **Initial Environment Setup**
-   - Get current date with `date` command for timestamps
-   - Check current folder name and ask if they want to rename it
-   - If yes, guide them through renaming (handle parent directory move)
-   - Check for package.json and install dependencies:
-     - Try `pnpm install` first (faster, better)
-     - Fall back to `npm install` if pnpm not available
-   - Verify core dependencies are installed
-   - Check git status:
-     - If no .git folder: Initialize git repository
-     - If has remote origin: Ask about development work
-       - Personal vault: Remove origin and .github folder
-       - Contributing: Keep origin and workflows intact
-     - If clean local repo: Ready to go
-   - Don't create folders yet - wait until after asking about organization
-     method
+1. **初始环境设置**
+   - 用 `date` 命令取当前日期作时间戳
+   - 检查当前文件夹名，问要不要重命名
+   - 是的话，引导重命名（处理父目录移动）
+   - 检查 package.json，装依赖：
+     - 先试 `pnpm install`（更快、更好）
+     - 没 pnpm 就回退到 `npm install`
+   - 确认核心依赖装好
+   - 检查 git 状态：
+     - 没 .git：初始化 git 仓库
+     - 有 remote origin：问是否做开发工作
+       - 个人 vault：移除 origin 和 .github 文件夹
+       - 贡献者：保留 origin 和 workflows
+     - 干净本地仓库：可继续
+   - **不要**现在建文件夹 — 等问完组织方法再说
 
-2. **Check Existing Configuration**
-   - Look for existing CLAUDE.md
-   - If exists, ask if they want to update or start fresh
-   - Check for CLAUDE-BOOTSTRAP.md template
+2. **检查已有配置**
+   - 看是否有 CLAUDE.md
+   - 有的话问要更新还是从头开始
+   - 检查 CLAUDE-BOOTSTRAP.md 模板
 
-3. **Gather Vault Information**
-   - Search common locations for existing Obsidian vaults (.obsidian folder)
-   - Check these paths with appropriate depth limits:
-     - `~/Documents` (maxdepth 3) - all platforms
-     - `~/Desktop` (maxdepth 3) - all platforms
-     - `~/Library/Mobile Documents/iCloud~md~obsidian/Documents` (maxdepth 5 -
-       **macOS only**, iCloud vaults)
-     - Home directory `~/` (maxdepth 2) - all platforms
-     - Current directory parent (maxdepth 2) - all platforms
-   - If found, ask: "Found Obsidian vault at [path]. Is this the vault you want
-     to import?"
-   - Count files correctly: `find [path] -type f -name "*.md" | wc -l` (no depth
-     limit)
-   - Show vault size: `du -sh [path]`
-   - If confirmed, analyze vault structure:
-     - Run `tree -L 3 -d [path]` to see folder hierarchy
-     - Sample 10-15 random notes to understand content types
-     - List 30-50 recent file names to detect naming patterns
-     - Check for daily notes folder and format
-     - Identify most active folders by file count
-     - Detect if using PARA, Zettelkasten, Johnny Decimal, or custom
-   - If not the right one or none found:
-     - **On macOS only:** Ask: "Is your vault stored in iCloud Drive? (yes/no)"
-     - If yes (macOS): "Please enter the full path to your vault (e.g.,
-       ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/YourVault)"
-     - If no, or on Linux/Windows: "Please enter the path to your existing
-       vault, or type 'skip' to start fresh"
-     - **Validate user-provided paths** (see "User Path Validation" section
-       below)
-   - If no existing vault or user skips, they're starting fresh
+3. **收集 Vault 信息**
+   - 在常见位置搜已有 Obsidian vault（.obsidian 文件夹）
+   - 检查这些路径，深度限制合适：
+     - `~/Documents`（maxdepth 3）— 所有平台
+     - `~/Desktop`（maxdepth 3）— 所有平台
+     - `~/Library/Mobile Documents/iCloud~md~obsidian/Documents`（maxdepth 5 — **仅 macOS**，iCloud vault）
+     - 用户主目录 `~/`（maxdepth 2）— 所有平台
+     - 当前目录的父目录（maxdepth 2）— 所有平台
+   - 找到就问："Found Obsidian vault at [path]. Is this the vault you want to import?"
+   - 正确数文件：`find [path] -type f -name "*.md" | wc -l`（不限深度）
+   - 显示 vault 大小：`du -sh [path]`
+   - 用户确认后，分析 vault 结构：
+     - 跑 `tree -L 3 -d [path]` 看文件夹层级
+     - 随机抽 10-15 个笔记理解内容类型
+     - 列 30-50 个最近文件名检测命名模式
+     - 检查每日笔记文件夹和格式
+     - 按文件数找出最活跃文件夹
+     - 检测是否用 PARA、Zettelkasten、Johnny Decimal 或自定义
+   - 不是要的或没找到：
+     - **仅 macOS**：问 "Is your vault stored in iCloud Drive? (yes/no)"
+     - 是（macOS）："Please enter the full path to your vault (e.g., ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/YourVault)"
+     - 否，或在 Linux/Windows 上："Please enter the path to your existing vault, or type 'skip' to start fresh"
+     - **校验用户提供的路径**（见下面 "User Path Validation" 段）
+   - 没 vault 或用户跳过：从零开始
 
-4. **Ask Configuration Questions**
-   - "What's your name?" (for personalization)
-   - "Would you like me to research your public work to better understand your
-     context?"
-     - If yes: Search for information
-     - ALWAYS show findings and ask "Is this correct?" for confirmation
-     - If multiple people found, list them numbered for selection
-     - If wrong person, offer to search again or skip
-     - Save relevant context about their work, writing style, areas of expertise
+4. **询问配置问题**
+   - "What's your name?"（用于个性化）
+   - "Would you like me to research your public work to better understand your context?"
+     - 是：搜信息
+     - **总是**显示发现并问 "Is this correct?" 让用户确认
+     - 找到多个人：编号列出供选择
+     - 错的人：建议再搜一次或跳过
+     - 保存关于他们工作、写作风格、专长领域的相关上下文
    - "Do you follow the PARA method or have a different organization system?"
-   - "What are your main use cases? (research, writing, project management,
-     knowledge base, daily notes)"
+   - "What are your main use cases? (research, writing, project management, knowledge base, daily notes)"
 
-   **If using PARA, ask specific setup questions:**
+   **如果用 PARA，问具体设置问题**：
    [PARA Method by Tiago Forte](https://fortelabs.com/blog/para/)
-   - "What active projects are you working on?" (Create folders in 01_Projects)
-   - "What areas of responsibility do you maintain?" (e.g., Work, Health,
-     Finance, Family)
-   - "What topics do you research frequently?" (Set up in 03_Resources)
-   - "Any projects you recently completed?" (Can archive with summaries)
+   - "What active projects are you working on?"（在 01_Projects 建文件夹）
+   - "What areas of responsibility do you maintain?"（如 Work、Health、Finance、Family）
+   - "What topics do you research frequently?"（设到 03_Resources）
+   - "Any projects you recently completed?"（可归档加 summary）
 
-   **General preferences:**
-   - Check .obsidian/community-plugins.json to see what plugins they use
-   - Analyze existing files to detect naming convention automatically
-   - Check for attachments folder to see if they work with media files
+   **通用偏好**：
+   - 看 .obsidian/community-plugins.json 知道用了什么插件
+   - 分析已有文件自动检测命名约定
+   - 检查附件文件夹看是否处理多媒体文件
    - "Do you use git for version control?"
    - "Any specific websites or resources you reference often?"
    - "Do you have any specific writing style preferences?"
@@ -109,45 +97,32 @@ Then generate a customized CLAUDE.md file tailored to their needs.
    - "Would you like a weekly review ritual? (e.g., Thursday project review)"
    - "Do you prefer 'thinking mode' (questions/exploration) vs 'writing mode'?"
 
-5. **Optional Tool Setup**
+5. **可选工具设置**
 
-   **Gemini Vision (already included)**
-   - Ask: "Gemini Vision is already included for analyzing images, PDFs, and
-     videos. Would you like to activate it? (yes/no/later)"
-   - Explain: "You just need a free API key from Google. This lets Claude
-     analyze any visual content in your vault."
-   - If later: "No problem! You can set it up anytime by getting an API key
-     from https://aistudio.google.com/apikey and adding `GEMINI_API_KEY` to
-     your shell profile, then running `claude mcp add --scope project
-     gemini-vision node .claude/mcp-servers/gemini-vision.mjs`."
-   - If yes:
-     - Guide to get API key from https://aistudio.google.com/apikey (free, takes
-       30 seconds)
-     - Help add to shell profile (.zshrc, .bashrc, etc.)
-     - Run
-       `claude mcp add --scope project gemini-vision node .claude/mcp-servers/gemini-vision.mjs`
-     - Configure .mcp.json with API key
-     - Test the connection with a sample command
+   **Gemini Vision（已包含）**
+   - 问："Gemini Vision is already included for analyzing images, PDFs, and videos. Would you like to activate it? (yes/no/later)"
+   - 解释："You just need a free API key from Google. This lets Claude analyze any visual content in your vault."
+   - 选 later："No problem! You can set it up anytime by getting an API key from https://aistudio.google.com/apikey and adding `GEMINI_API_KEY` to your shell profile, then running `claude mcp add --scope project gemini-vision node .claude/mcp-servers/gemini-vision.mjs`."
+   - 选 yes：
+     - 引导从 https://aistudio.google.com/apikey 拿 API key（免费，30 秒搞定）
+     - 帮加到 shell profile（.zshrc、.bashrc 等）
+     - 跑 `claude mcp add --scope project gemini-vision node .claude/mcp-servers/gemini-vision.mjs`
+     - 用 API key 配 .mcp.json
+     - 用样例命令测连接
 
-   **Firecrawl (already included)**
-   - Ask: "Firecrawl is included for web research. Would you like to set it up?
-     (yes/no/later)"
-   - Explain: "This is a game-changer for research! When you find an article or
-     website, you can save it directly to your vault as markdown - preserving
-     the content forever, making it searchable, and letting Claude analyze it.
-     Perfect for building a research library."
-   - Example: "Just tell Claude: 'Save this article to my vault: [URL]' and it's
-     done!"
-   - If later: "You can set it up anytime by getting an API key from
-     https://firecrawl.dev and configuring the scripts in `.scripts/`."
-   - If yes:
-     - Guide to get API key from https://firecrawl.dev (free tier available)
-     - Help configure the scripts in .scripts/
-     - Show example usage: `.scripts/firecrawl-scrape.sh https://example.com`
+   **Firecrawl（已包含）**
+   - 问："Firecrawl is included for web research. Would you like to set it up? (yes/no/later)"
+   - 解释："This is a game-changer for research! When you find an article or website, you can save it directly to your vault as markdown - preserving the content forever, making it searchable, and letting Claude analyze it. Perfect for building a research library."
+   - 例子："Just tell Claude: 'Save this article to my vault: [URL]' and it's done!"
+   - 选 later："You can set it up anytime by getting an API key from https://firecrawl.dev and configuring the scripts in `.scripts/`."
+   - 选 yes：
+     - 引导从 https://firecrawl.dev 拿 API key（有免费版）
+     - 帮配置 .scripts/ 里的脚本
+     - 显示用法示例：`.scripts/firecrawl-scrape.sh https://example.com`
 
-6. **Generate Custom Configuration**
-   - Get current date: `date +"%B %d, %Y"` for the CLAUDE.md header
-   - Save preferences to `.claude/vault-config.json`:
+6. **生成定制配置**
+   - 取当前日期：`date +"%B %d, %Y"` 用于 CLAUDE.md 标头
+   - 把偏好存到 `.claude/vault-config.json`：
      ```json
      {
        "user": {
@@ -184,87 +159,85 @@ Then generate a customized CLAUDE.md file tailored to their needs.
        "lastUpdated": "2025-01-13"
      }
      ```
-   - Start with CLAUDE-BOOTSTRAP.md as base
-   - Add user-specific sections:
-     - Custom folder structure with their actual projects/areas
-     - Personal workflows
-     - Preferred tools and scripts
-     - Specific guidelines
-     - MCP configuration if set up
-   - Include their websites/resources if provided
-   - Add any custom naming conventions
-   - Pre-populate with their projects and areas:
-     - Create project folders in 01_Projects/
-     - Create area folders in 02_Areas/
-     - Create resource topics in 03_Resources/
-     - Add README files explaining each project/area
+   - 以 CLAUDE-BOOTSTRAP.md 为基础
+   - 加用户专属段：
+     - 含其实际项目 / area 的自定义文件夹结构
+     - 个人工作流
+     - 偏好的工具和脚本
+     - 具体指南
+     - 已配置的话加 MCP 配置
+   - 提供了的话加他们的网站 / 资源
+   - 加任何自定义命名约定
+   - 用他们的项目和 area 预填：
+     - 在 01_Projects/ 建项目文件夹
+     - 在 02_Areas/ 建 area 文件夹
+     - 在 03_Resources/ 建资源主题
+     - 加 README 文件解释每个项目 / area
 
-7. **Import Existing Vault (if applicable)**
-   - If user has existing vault:
-     - Create OLD_VAULT folder: `mkdir OLD_VAULT`
-     - Copy entire vault preserving structure:
-       `cp -r [vault-path]/* ./OLD_VAULT/`
-     - Copy Obsidian configuration: `cp -r [vault-path]/.obsidian ./`
-     - Check for and copy other important files:
-       - `.trash/` (Obsidian's trash folder)
-       - `.smart-connections/` (if using that plugin)
-       - Any workspace files: `.obsidian.vimrc`, etc.
-     - Skip copying: `.git/` (they'll have their own), `.claude/` (using ours)
-     - Show summary: "Imported your vault to OLD_VAULT/ (X files, Y folders)"
-     - Explain: "Your original structure is preserved in OLD_VAULT. You can
-       gradually migrate files to the PARA folders as needed."
+7. **导入已有 vault（如适用）**
+   - 用户有已有 vault：
+     - 建 OLD_VAULT 文件夹：`mkdir OLD_VAULT`
+     - 保留结构复制整个 vault：`cp -r [vault-path]/* ./OLD_VAULT/`
+     - 复制 Obsidian 配置：`cp -r [vault-path]/.obsidian ./`
+     - 检查并复制其他重要文件：
+       - `.trash/`（Obsidian 回收站）
+       - `.smart-connections/`（如用该插件）
+       - 任何 workspace 文件：`.obsidian.vimrc` 等
+     - 跳过复制：`.git/`（他们有自己的）、`.claude/`（用我们的）
+     - 显示总结："Imported your vault to OLD_VAULT/ (X files, Y folders)"
+     - 解释："Your original structure is preserved in OLD_VAULT. You can gradually migrate files to the PARA folders as needed."
 
-8. **Create Supporting Files**
-   - Generate initial folder structure if new vault
-   - Create README files for main folders
-   - For each project folder, create subfolders:
-     - Research/ (source materials)
-     - Chats/ (AI conversations)
-     - Daily Progress/ (running log)
-   - Create 05_Attachments/Organized/ directory
-   - Set up .gitignore if using git (include .mcp.json, node_modules)
-   - Create initial templates if requested
-   - Create WEEKLY_REVIEW.md if user wants review ritual
-   - Remove FIRST_RUN marker file if it exists
-   - Make initial git commit if repository was initialized
+8. **创建辅助文件**
+   - 新 vault 生成初始文件夹结构
+   - 给主文件夹建 README
+   - 每个项目文件夹建子目录：
+     - Research/（源材料）
+     - Chats/（AI 对话）
+     - Daily Progress/（运行日志）
+   - 建 05_Attachments/Organized/ 目录
+   - 用 git 就建 .gitignore（含 .mcp.json、node_modules）
+   - 按要求创建初始模板
+   - 用户要复盘仪式就建 WEEKLY_REVIEW.md
+   - 移除 FIRST_RUN 标记文件（如存在）
+   - 仓库已初始化就做初始 git commit
 
-9. **Run Test Commands**
-   - Execute `pnpm vault:stats` to verify scripts work
-   - Test attachment commands if folders exist
-   - Test MCP tools if configured
-   - Verify git is tracking files correctly
+9. **跑测试命令**
+   - 执行 `pnpm vault:stats` 验证脚本工作
+   - 测附件命令（如果文件夹存在）
+   - 配置了的话测 MCP 工具
+   - 确认 git 正确跟踪文件
 
-10. **Provide Next Steps**
+10. **给出后续步骤**
 
-- Summary of what was created and configured
-- Quick start guide specific to their setup
-- List of available commands they can use
-- Test commands to verify everything works
-- Suggestions for first tasks based on their use cases
-- How to modify configuration later
+- 总结建了什么、配置了什么
+- 针对他们设置的 quick start 指南
+- 可用命令列表
+- 测试命令验证一切工作
+- 基于他们用例建议的初步任务
+- 后续怎么改配置
 
-## Example Output
+## 输出示例
 
 ```markdown
 # Your Obsidian Vault Configuration
 
-Generated on: [Run `date +"%B %d, %Y"` to get current date] Last updated: [Same
-date] Based on your preferences for: [main use cases] Setup completed with: ✅
-Dependencies ✅ Folder structure ✅ Git initialized
+Generated on: [跑 `date +"%B %d, %Y"` 取当前日期] Last updated: [同日期]
+Based on your preferences for: [主用例] Setup completed with: ✅ Dependencies ✅
+Folder structure ✅ Git initialized
 
 ## Your Custom Folder Structure
 
-[Their specific structure with explanations]
+[他们的具体结构 + 解释]
 
 ## Your Workflows
 
 ### Daily Routine
 
-[Based on their answers]
+[基于他们的回答]
 
 ### Project Management
 
-[Their specific approach]
+[他们的具体方法]
 
 ### Research Method (Noah Brier Style)
 
@@ -276,18 +249,18 @@ Dependencies ✅ Folder structure ✅ Git initialized
 
 ### Weekly Review Ritual
 
-[If enabled: Every Thursday at 4pm, review all projects]
+[启用的话：每周四下午 4 点复盘所有项目]
 
 ## Your Preferences
 
 ### File Naming
 
-- Pattern: [their convention]
-- Examples: [specific examples]
+- Pattern: [他们的约定]
+- Examples: [具体例子]
 
 ### Tools & Scripts
 
-[Relevant scripts for their workflow]
+[他们工作流相关的脚本]
 
 ## MCP Servers (if configured)
 
@@ -307,31 +280,30 @@ Dependencies ✅ Folder structure ✅ Git initialized
 
 ### Claude Skills
 
-Skills auto-discover when you describe the task. Examples:
+skill 在你描述任务时自动发现。例：
 
 - "Help me think through X" → `thinking-partner`
 - "Wrap up my day" / "daily review" → `daily-review`
 - "Process my inbox" → `inbox-processor`
 - "Re-run the setup wizard" → `init-bootstrap`
 
-Skills live in `.agents/skills/` (canonical) with symlinks in `.claude/skills/`
-and `.pi/skills/`. They work in Claude Code, OpenCode, Codex, Cursor, and Pi.
+skill 在 `.agents/skills/`（标准位置），通过 symlink 链到 `.claude/skills/` 和 `.pi/skills/`。在 Claude Code、OpenCode、Codex、Cursor、Pi 都能用。
 
 ## Quick Start
 
-1. [Personalized first step]
-2. [Next action based on their goals]
-3. [Specific to their workflow]
+1. [个性化第一步]
+2. [基于他们目标的下一步]
+3. [针对他们工作流]
 
 ## Pro Tips from Research Masters
 
-- **Be a token maximalist**: Provide lots of context to Claude
-- **Writing scales**: Document everything for future reference
+- **Be a token maximalist**：给 Claude 大量上下文
+- **Writing scales**：把一切写下来供未来参考
   ([Noah Brier](https://every.to/superorganizers/ceo-by-day-internet-sleuth-by-night-267452))
-- **Trust emergence**: Important ideas will keep surfacing
-- **Start with writing**: Always begin projects in text form
-- **Review regularly**: Set aside time weekly to prune and update
-- **PARA Method**: Projects, Areas, Resources, Archive
+- **Trust emergence**：重要想法会反复浮现
+- **Start with writing**：项目总是从文字形式开始
+- **Review regularly**：每周抽时间修剪和更新
+- **PARA Method**：Projects、Areas、Resources、Archive
   ([Tiago Forte](https://fortelabs.com/blog/para/))
 
 ## Setup Summary
@@ -342,55 +314,49 @@ repository initialized and disconnected from original ✅ CLAUDE.md personalized
 First commit made - if git was initialized]
 ```
 
-## Important Implementation Notes
+## 重要实现注意
 
-### Handling Multiple Vaults
+### 处理多个 vault
 
-When multiple vaults are detected:
+检测到多个 vault 时：
 
-1. **Always list all vaults found** with clear numbering and details
-2. **Require explicit selection** - don't assume which vault to use
-3. **Confirm the selection** before proceeding with import
-4. **Handle ambiguous responses** - if user provides unclear input (like pasting
-   a screenshot), ask for clarification:
-   - "I see you've shared a screenshot. Could you please type the number (1-3)
-     of the vault you'd like to import?"
-   - "I need a clear selection. Please type '1', '2', or '3' to choose a vault,
-     or 'skip' to start fresh."
+1. **总是列出所有找到的 vault**，编号清楚加细节
+2. **要求显式选择** — 别假设用哪个
+3. **进行导入前确认选择**
+4. **处理模糊回答** — 用户输入不清（如粘贴截图）时，要求澄清：
+   - "I see you've shared a screenshot. Could you please type the number (1-3) of the vault you'd like to import?"
+   - "I need a clear selection. Please type '1', '2', or '3' to choose a vault, or 'skip' to start fresh."
 
-### Never Proceed Without Clear Confirmation
+### 没明确确认绝不进行
 
-If the user's response is unclear:
+用户回答不清时：
 
-- Don't guess or assume
-- Ask for explicit confirmation
-- Provide clear options again
-- Example: "I want to make sure I import the right vault. Please type the number
-  of your choice (1, 2, or 3)."
+- **别**猜或假设
+- 要求显式确认
+- 再次给出清晰选项
+- 例："I want to make sure I import the right vault. Please type the number of your choice (1, 2, or 3)."
 
-### Platform Compatibility
+### 平台兼容
 
-This command is designed to work across Linux, macOS, and Windows (WSL/Git
-Bash), with platform-specific features:
+本命令设计跨 Linux、macOS、Windows（WSL / Git Bash）工作，含平台专属功能：
 
-**All Platforms:**
+**所有平台**：
 
-- Search ~/Documents, ~/Desktop, home directory
-- Standard Obsidian vault detection
-- Full vault import and setup
+- 搜 ~/Documents、~/Desktop、主目录
+- 标准 Obsidian vault 检测
+- 完整 vault 导入和设置
 
-**macOS Only:**
+**仅 macOS**：
 
-- iCloud Drive vault detection and import
-- Obsidian's iCloud sync is macOS-only, so iCloud features are disabled on other
-  platforms
+- iCloud Drive vault 检测和导入
+- Obsidian 的 iCloud 同步只有 macOS，所以 iCloud 功能在其他平台禁用
 
-**Platform Detection:**
+**平台检测**：
 
 ```bash
-# Check platform
+# 检查平台
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  # macOS - enable iCloud features
+  # macOS - 启用 iCloud 功能
   PLATFORM="macOS"
   ICLOUD_SUPPORTED=true
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
@@ -398,57 +364,54 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
   PLATFORM="Linux"
   ICLOUD_SUPPORTED=false
 elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
-  # Windows (Git Bash or WSL)
+  # Windows (Git Bash 或 WSL)
   PLATFORM="Windows"
   ICLOUD_SUPPORTED=false
 fi
 ```
 
-### iCloud Vault Search Implementation
+### iCloud Vault 搜索实现
 
-When searching for vaults, use this find command pattern:
+搜 vault 时用这个 find 命令模式：
 
 ```bash
-# Standard locations (shallow search)
-# Note: 2>/dev/null suppresses expected permission errors from system directories
-# If no vaults are found, we'll ask the user for their vault path
+# 标准位置（浅搜）
+# 注意：2>/dev/null 抑制系统目录的预期权限错误
+# 没找到 vault 时会问用户 vault 路径
 find ~/Documents ~/Desktop -maxdepth 3 -type d -name ".obsidian" 2>/dev/null
 
-# iCloud location (deeper search needed due to nested structure)
-# Only search on macOS
+# iCloud 位置（嵌套结构需要更深搜索）
+# 仅 macOS
 if [[ "$OSTYPE" == "darwin"* ]]; then
   find ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents -maxdepth 5 -type d -name ".obsidian" 2>/dev/null
 fi
 
-# Home directory (shallow to avoid deep recursion)
+# 主目录（浅搜避免深递归）
 find ~ -maxdepth 2 -type d -name ".obsidian" 2>/dev/null
 ```
 
-The iCloud path requires:
+iCloud 路径需要：
 
-- Higher maxdepth (5) due to nested folder structure
-- Escaped spaces in path name
-- Silent error handling (2>/dev/null) as many users won't have iCloud
-- Platform check (macOS only)
+- 更高 maxdepth（5），因为嵌套文件夹结构
+- 路径里空格转义
+- 静默错误处理（2>/dev/null），很多用户没 iCloud
+- 平台检查（仅 macOS）
 
-**Error Handling Note:** Permission errors are suppressed (2>/dev/null) because
-they're expected when searching system directories. If no vaults are found, the
-script gracefully prompts the user for their vault path.
+**错误处理注意**：权限错误被抑制（2>/dev/null），因为搜系统目录时是预期的。没找到 vault 时脚本会优雅地提示用户 vault 路径。
 
-### User Path Validation
+### 用户路径校验
 
-When users manually provide a vault path, validate it thoroughly with helpful
-error messages:
+用户手动提供 vault 路径时，彻底校验并给有用错误信息：
 
 ```bash
-# User provided path
+# 用户提供的路径
 USER_PATH="$1"
 
-# Expand tilde and resolve to absolute path
+# 展开 ~ 并解析为绝对路径
 USER_PATH="${USER_PATH/#\~/$HOME}"
 REAL_PATH=$(realpath "$USER_PATH" 2>/dev/null)
 
-# Validation 1: Path exists
+# 校验 1：路径存在
 if [ -z "$REAL_PATH" ]; then
   echo "❌ Error: Path does not exist: $USER_PATH"
   echo ""
@@ -459,7 +422,7 @@ if [ -z "$REAL_PATH" ]; then
   exit 1
 fi
 
-# Validation 2: Is a directory
+# 校验 2：是目录
 if [ ! -d "$REAL_PATH" ]; then
   echo "❌ Error: Not a directory: $REAL_PATH"
   echo ""
@@ -467,7 +430,7 @@ if [ ! -d "$REAL_PATH" ]; then
   exit 1
 fi
 
-# Validation 3: Contains .obsidian folder
+# 校验 3：含 .obsidian 文件夹
 if [ ! -d "$REAL_PATH/.obsidian" ]; then
   echo "❌ Error: Not a valid Obsidian vault (no .obsidian folder)"
   echo "   Looking in: $REAL_PATH"
@@ -480,7 +443,7 @@ if [ ! -d "$REAL_PATH/.obsidian" ]; then
   exit 1
 fi
 
-# Validation 4: Readable permissions
+# 校验 4：可读权限
 if [ ! -r "$REAL_PATH/.obsidian" ]; then
   echo "❌ Error: Cannot read vault directory (permission denied)"
   echo "   Path: $REAL_PATH"
@@ -491,35 +454,34 @@ if [ ! -r "$REAL_PATH/.obsidian" ]; then
   exit 1
 fi
 
-# Show resolved path if different from input
+# 解析后的路径和输入不同就显示
 if [ "$USER_PATH" != "$REAL_PATH" ]; then
   echo "✓ Resolved path: $REAL_PATH"
 fi
 
-# Valid vault path
+# 合法 vault 路径
 VAULT_PATH="$REAL_PATH"
 echo "✓ Valid Obsidian vault found"
 ```
 
-This validation:
+这个校验做了：
 
-- Expands `~` to home directory properly
-- Resolves symlinks and relative paths to absolute paths
-- Checks all essential requirements (exists, is directory, has .obsidian,
-  readable)
-- Provides helpful, actionable error messages with suggestions
-- Shows the resolved path so users understand what's being checked
-- Trusts users (allows symlinks, paths outside home directory)
-- Cross-platform compatible (works on Linux, macOS, Windows/WSL)
+- 把 `~` 正确展开到主目录
+- 解析 symlink 和相对路径到绝对路径
+- 检查所有必要要求（存在、是目录、有 .obsidian、可读）
+- 给有帮助、可操作的错误信息和建议
+- 显示解析后路径让用户理解检查的是什么
+- 信任用户（允许 symlink、主目录外路径）
+- 跨平台兼容（Linux、macOS、Windows / WSL）
 
-### iCloud Sync State Checking
+### iCloud 同步状态检查
 
-When a user selects an iCloud vault, check sync state and warn if needed:
+用户选 iCloud vault 时，检查同步状态并按需警告：
 
 ```bash
-# After user confirms vault selection
+# 用户确认 vault 选择后
 if [[ "$OSTYPE" == "darwin"* ]] && [[ "$vault_path" == *"iCloud"* ]]; then
-  # Check for common iCloud sync indicators
+  # 检查常见 iCloud 同步指标
   if [ -f "$vault_path/.icloud" ] || [ -f "$vault_path/.obsidian/.icloud" ]; then
     echo ""
     echo "📱 iCloud Sync Notice:"
@@ -539,15 +501,15 @@ if [[ "$OSTYPE" == "darwin"* ]] && [[ "$vault_path" == *"iCloud"* ]]; then
 fi
 ```
 
-This provides a soft warning that:
+这给一个软警告：
 
-- Only runs on macOS for iCloud paths
-- Checks for placeholder files that indicate incomplete download
-- Asks for confirmation if sync issues detected
-- Gives gentle reminder even when no issues found
-- Lets users proceed if they choose
+- 仅在 macOS 的 iCloud 路径上跑
+- 检查表示下载未完的占位文件
+- 检测到同步问题就要求确认
+- 即使没问题也给温和提醒
+- 让用户选择是否继续
 
-## Interactive Example
+## 交互示例
 
 ````
 User: Set up claudesidian for my vault
@@ -791,71 +753,59 @@ writing assistant.
    management, daily notes, knowledge base, or combination?)
 
 User: I'll use it for research and writing, plus managing client projects
+Assistant: 太好了！我会按 research、writing、客户项目管理来配置 vault。
 
-Assistant: Great! I'll configure your vault for research, writing, and client
-project management.
+2. **What specific projects are you currently working on?** (I will create folders for each in 01_Projects)
 
-2. **What specific projects are you currently working on?** (I'll create folders
-   for each in 01_Projects)
+User: I am writing a book about productivity systems, building a SaaS app, and planning a conference talk
 
-User: I'm writing a book about productivity systems, building a SaaS app, and
-planning a conference talk
-
-Assistant: Perfect! I'll set up project folders for:
+Assistant: 完美！项目文件夹会建：
 
 - 01_Projects/Book - Productivity Systems/
 - 01_Projects/SaaS App Development/
 - 01_Projects/Conference Talk/
 
-3. **What ongoing areas of responsibility do you maintain?** (These go in
-   02_Areas - things without an end date)
+3. **What ongoing areas of responsibility do you maintain?** (放到 02_Areas，没有结束日期的)
 
 User: My newsletter, health & fitness, personal finances, and family activities
 
-Assistant: I'll create area folders for:
+Assistant: 我会建 area 文件夹：
 
 - 02_Areas/Newsletter/
 - 02_Areas/Health & Fitness/
 - 02_Areas/Finances/
 - 02_Areas/Family/
 
-4. **What topics do you frequently research or reference?** (I'll organize these
-   in 03_Resources)
+4. **What topics do you frequently research or reference?** (放到 03_Resources)
 
 User: AI tools, productivity methods, SaaS metrics, and writing techniques
 
-Assistant: Setting up resource folders for:
+Assistant: 设置 resource 文件夹：
 
 - 03_Resources/AI Tools/
 - 03_Resources/Productivity Methods/
 - 03_Resources/SaaS Metrics/
 - 03_Resources/Writing Techniques/
 
-[Continues with questions...]
+[继续问其他问题...]
 
-**Gemini Vision Setup** Gemini Vision is already included in claudesidian! It
-can analyze images, PDFs, and videos in your vault. To activate it, you just
-need a free Google API key (takes 30 seconds). Would you like to set it up now?
-(yes/no/later)
+**Gemini Vision 设置** Gemini Vision 已经包含在 claudesidian 里！能分析你 vault 里的图片、PDF、视频。要激活它，只需要一个免费的 Google API key（30 秒搞定）。要现在设置吗？(yes/no/later)
 
 User: later
 
-No problem! You can set it up anytime — get a free key from
-https://aistudio.google.com/apikey and add `GEMINI_API_KEY` to your shell
-profile.
+没问题！随时可以设置 — 从 https://aistudio.google.com/apikey 拿免费 key，把 `GEMINI_API_KEY` 加到 shell profile。
 
-**Firecrawl Setup** Firecrawl is a game-changer for research! Save any article
-or website directly to your vault as markdown. Perfect for building a permanent,
-searchable research library. Would you like to set it up? (yes/no/later)
+**Firecrawl 设置** Firecrawl 是研究的 game-changer！把任何文章或网站直接存到 vault 作为 markdown。完美用于建永久、可搜索的研究库。要设置吗？(yes/no/later)
 
 User: yes
 
-Great choice! Firecrawl will transform how you collect research.
+好选择！Firecrawl 会改变你收集研究的方式。
 
-Assistant: Excellent! Here's how to get your API key:
+Assistant: 太好了！这是怎么拿你的 API key：
 
-1. Go to https://aistudio.google.com/apikey
-2. Click "Create API Key"
-3. Copy the key (starts with AIzaSy...)
+1. 去 https://aistudio.google.com/apikey
+2. 点 "Create API Key"
+3. 复制 key（AIzaSy... 开头）
 
-Once you have it, paste it here and I'll configure everything for you.
+拿到后粘贴到这里，我会给你配好一切。
+````

@@ -1,0 +1,3676 @@
+[
+    {
+        "type": "text",
+        "text": "CME 222 MASS TRANSFER ",
+        "text_level": 1,
+        "bbox": [
+            250,
+            103,
+            741,
+            257
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/5727695c28a335c9d18a3ca57535041caefdd84d01b5124cba79dce2141444ee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            81,
+            351,
+            320,
+            877
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Introduction ",
+        "bbox": [
+            383,
+            507,
+            612,
+            557
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dr. Tan Peng Chee ",
+        "bbox": [
+            380,
+            690,
+            625,
+            735
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A4 #407 ",
+        "bbox": [
+            450,
+            738,
+            555,
+            772
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "pengchee.tan@xmu.edu.my ",
+        "bbox": [
+            316,
+            781,
+            688,
+            825
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Moodle Enrolment ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            506,
+            179
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Course: CME222 Mass Transfer 2026/04 Peng Chee Tan ",
+        "bbox": [
+            69,
+            296,
+            929,
+            350
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Enrolment key: CME222 ",
+        "bbox": [
+            72,
+            405,
+            455,
+            457
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Course Learning Outcome ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            114,
+            691,
+            187
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Apply the fundamental knowledge of mass transfer in practical problem ",
+            "• Distinguish the mechanisms of mass transfer and calculate the mass transfer diffusion coefficients of gases, liquids, and solids ",
+            "• Analyse diffusional process and calculate the flux in one phase and two-phase system "
+        ],
+        "bbox": [
+            83,
+            264,
+            916,
+            931
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/7613f36db1f88c9f79714a1e8a9fa977e8e303e63716f5b08dfce679ded52e8d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"3\">Course Learning Outcomes</td><td colspan=\"11\">Programme Learning Outcomes (PLO)</td><td></td></tr><tr><td>Engineering Knowledge</td><td>Problem Analysis</td><td>Design/ Development of Solutions</td><td>Investigation</td><td>Modern Tool Usage</td><td>The Engineer and Society</td><td>Environmental and Sustainability</td><td>Ethics</td><td>Communication</td><td>Individual and Team Work</td><td>Life Long Learning</td><td>Project Management and Finance</td></tr><tr><td>PLO1</td><td>PLO2</td><td>PLO3</td><td>PLO4</td><td>PLO5</td><td>PLO6</td><td>PLO7</td><td>PLO8</td><td>PLO9</td><td>PLO10</td><td>PLO11</td><td>PLO12</td></tr><tr><td>CLO1</td><td>√</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CLO2</td><td></td><td>√</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CLO3</td><td></td><td>√</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+        "bbox": [
+            27,
+            168,
+            976,
+            850
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 ",
+        "bbox": [
+            906,
+            942,
+            920,
+            964
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Course Structure ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            75,
+            477,
+            135
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Credit Value ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            225,
+            266,
+            268
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• 3 credits (2h lecture +2h tutorial) ",
+        "bbox": [
+            80,
+            296,
+            565,
+            344
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Lecture & Tutorial Class ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            438,
+            441,
+            479
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Lecture: Wednesday 1 pm to 3 pm ",
+            "• Tutorial: Thursday 1 pm to 3 pm (Group 1) "
+        ],
+        "bbox": [
+            80,
+            511,
+            697,
+            631
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Thursday 3 pm to 5 pm (Group 2) ",
+        "bbox": [
+            241,
+            651,
+            701,
+            701
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Please be punctual! ",
+        "bbox": [
+            331,
+            844,
+            623,
+            890
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Course Structure ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            75,
+            477,
+            135
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Assessment ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            174,
+            256,
+            214
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/734f24d8e460b9050b629b5f978f842c91906ff913c67b77cd290d4c6768cf8f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Assessment</td><td>Weightage (%)</td></tr><tr><td>Assignment</td><td>25</td></tr><tr><td>Test (Week 8)</td><td>25</td></tr><tr><td>Final Examination</td><td>50</td></tr><tr><td>TOTAL</td><td>100</td></tr></table>",
+        "bbox": [
+            113,
+            262,
+            730,
+            572
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Passing Criteria ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            672,
+            300,
+            718
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Pass Final Exam (score above 40) AND ",
+            "• Total mark above 55 "
+        ],
+        "bbox": [
+            70,
+            742,
+            641,
+            851
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Course Content ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            116,
+            445,
+            177
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/49cec0c922c0943791c045afad73b500fe1bb6be895d2453270a17b0953c89b5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            102,
+            227,
+            276,
+            437
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Introduction ",
+        "text_level": 1,
+        "bbox": [
+            281,
+            235,
+            454,
+            281
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Basic concept of mass transfer ",
+            "• Momentum, energy and mass transfer analogies "
+        ],
+        "bbox": [
+            281,
+            322,
+            870,
+            431
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            283,
+            512,
+            411,
+            557
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/b8879a64d4fb9e08a4b7f726e6217b90776b629c11bcffb68bcd3221323ab413.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            102,
+            596,
+            276,
+            807
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Concentration, velocities, fluxes ",
+            "• Molecular diffusivity ",
+            "• Fick’s first law, Fick’s second law ",
+            "• Equimolar counter diffusion, Unimolecular diffusion ",
+            "• Transient diffusion "
+        ],
+        "bbox": [
+            281,
+            600,
+            897,
+            903
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Course Content ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            116,
+            445,
+            177
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/92a7fc3117e444a35f4d59e3b94067c235525ee1cea0483b261827924e1c59f8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            76,
+            235,
+            255,
+            501
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Convective Mass Transfer ",
+        "text_level": 1,
+        "bbox": [
+            262,
+            235,
+            634,
+            281
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Mass transfer coefficient for various geometry (plate, spheres, cylinder and etc.) ",
+            "• Laminar concentration boundary layer "
+        ],
+        "bbox": [
+            259,
+            322,
+            922,
+            494
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/12369d321ffa8bd44c1392d1e86d01d63fc4253337ace35e24749af459909266.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            76,
+            592,
+            255,
+            859
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Interphase Mass Transfer ",
+        "text_level": 1,
+        "bbox": [
+            262,
+            594,
+            630,
+            644
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Diffusion between phases ",
+            "• Two-resistance film theory ",
+            "• Gas-liquid absorption "
+        ],
+        "bbox": [
+            261,
+            681,
+            590,
+            855
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "References ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            341,
+            179
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• James Welty, Gregory L. Rorrer, David G. Foster (2019). Fundamentals of Momentum, Heat and Mass Transfer. 7th Edition, Wiley ",
+            "• Theodore L. Bergman, Adrienne S. Lavine, Frank P. Incropera, David P. DeWitt (2016). Fundamentals of Heat and Mass Transfer 8th Edition. Wiley. ",
+            "• R. Byron Bird, Warren E. Stewart, Edwin N. Lightfoot, Daniel J. Klingenberg (2014). Introductory Transport Phenomena, 1st Edition, Wiley. "
+        ],
+        "bbox": [
+            75,
+            244,
+            929,
+            885
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "References ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            118,
+            341,
+            175
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "JAMESWELTY·GREGORYL.RORRER·DAVIDG.FOSTER",
+        "bbox": [
+            294,
+            233,
+            652,
+            251
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "FundamentalsofMomentum, HeatandMassTransfer ",
+        "bbox": [
+            287,
+            281,
+            661,
+            361
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Seventh Edition ",
+        "bbox": [
+            441,
+            388,
+            505,
+            405
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/7e43b541fcde8ce26272df4a7d9064eaa8e71838547c2074813d741141a7aaa6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            395,
+            455,
+            568,
+            816
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "WILEY ",
+        "bbox": [
+            600,
+            857,
+            661,
+            879
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Consultation Hours ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            531,
+            179
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Tuesday ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            257,
+            212,
+            307
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "10 am to 12 pm ",
+        "bbox": [
+            77,
+            337,
+            312,
+            387
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Tuesday ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            496,
+            212,
+            546
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2 pm to 4 pm ",
+        "bbox": [
+            76,
+            577,
+            275,
+            627
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 ",
+        "bbox": [
+            900,
+            940,
+            918,
+            964
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Table of Content ",
+        "text_level": 1,
+        "bbox": [
+            80,
+            205,
+            469,
+            268
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Basic Concept of Mass Transfer ",
+            "• Momentum, Energy, and Mass Transfer Analogies "
+        ],
+        "bbox": [
+            80,
+            335,
+            788,
+            605
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Basic Concepts of Mass Transfer ",
+        "text_level": 1,
+        "bbox": [
+            61,
+            444,
+            937,
+            525
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Transport Phenomena ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            594,
+            187
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/31cb44eec3d48f3581493ad7ca75878167e6bb135e726b0bb86f22d59b76f4c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            33,
+            268,
+            970,
+            700
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Transport Phenomena ",
+        "text_level": 1,
+        "bbox": [
+            52,
+            107,
+            572,
+            181
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "These three transports should be studied together: ",
+        "bbox": [
+            52,
+            266,
+            837,
+            318
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Frequently occur simultaneously in industrial process ",
+            "• The basic equations are closely related "
+        ],
+        "bbox": [
+            52,
+            350,
+            906,
+            485
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/a69eef0b249f866e7c07224a9fe3d66cb5cc78bf92d17ab00dc9fe82401c9154.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            173,
+            533,
+            470,
+            929
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            651,
+            179
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Mass transfer is defined as the transports of one or more chemical species in fluid mixture due to some driving force ",
+            "• Driving force: concentration differences, temperature differences, pressure differences, difference due to gravity, magnetic or electrical field "
+        ],
+        "bbox": [
+            70,
+            242,
+            919,
+            616
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            94,
+            650,
+            157
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Concentration Gradient ",
+        "bbox": [
+            86,
+            270,
+            380,
+            312
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/56cd160e089aa16e27a96a841aa804de281ea5270e86e74c8a64e7f73dc85cff.jpg",
+        "image_caption": [
+            "Evaporation "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            84,
+            453,
+            302,
+            883
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "There is a natural tendency for mass to transfer in a system with two or more components when their concentrations vary from point to point, minimizing these differences ",
+        "bbox": [
+            452,
+            190,
+            975,
+            488
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/1f1e4fe308086a45b7bc7c887e66bf7e8f7a205e3d1802e6b6ee0acbd599eb3f.jpg",
+        "image_caption": [
+            "Dye dispersion "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            455,
+            509,
+            883,
+            872
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            650,
+            177
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Temperature Gradient ",
+        "text_level": 1,
+        "bbox": [
+            83,
+            255,
+            359,
+            300
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Separation of uranium isotopes ",
+            "• Liquid uranium hexafluoride feed into the space between two concentric vertical pipes ",
+            "• Upward flow on hot side, downward flow on cold side ",
+            "• Heavier U-238 accumulate near cold side ",
+            "• Lighter accumulate near hot side ",
+            "• Taller column → more efficiency separation "
+        ],
+        "bbox": [
+            47,
+            379,
+            605,
+            838
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/6bed33b73520a79f32d4c9883382884971074618f31e4b7da30ee48aea9a051b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            644,
+            279,
+            937,
+            842
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            650,
+            177
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Pressure difference ",
+        "bbox": [
+            100,
+            257,
+            343,
+            296
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/85b46e377b5096fd7a231af35ffde1cc225e90daec722d64d2baef13ed4716d5.jpg",
+        "image_caption": [
+            "Membrane "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            268,
+            377,
+            698,
+            712
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            650,
+            177
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Gravity Effect ",
+        "bbox": [
+            137,
+            257,
+            308,
+            300
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "• Due to difference in density ",
+        "bbox": [
+            436,
+            259,
+            841,
+            307
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/02e3dd4ae90e59bf89f4188a82af8a403939474e1a0e57bfb35c14a1d9c0a8eb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            98,
+            370,
+            348,
+            842
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/14109cde3e33cc8eb615655f35a06e7d53bf3d77353f52998910a50124bfc04a.jpg",
+        "image_caption": [
+            "Centrifugation "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            488,
+            472,
+            936,
+            742
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20 ",
+        "bbox": [
+            891,
+            937,
+            916,
+            964
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            650,
+            177
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Magnetic Field ",
+        "text_level": 1,
+        "bbox": [
+            130,
+            257,
+            313,
+            300
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Charged particle send through magnetic field ",
+            "• Charged particle experiences a force when moving through a magnetic field ",
+            "• Ion deflected "
+        ],
+        "bbox": [
+            56,
+            379,
+            552,
+            655
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/9899a4906f530a34aad2b3a373b8418abf32f64a94e5073d90b6d3eadfd5ee55.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            645,
+            262,
+            958,
+            868
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21 ",
+        "bbox": [
+            891,
+            937,
+            915,
+            964
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            650,
+            177
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Electric Field ",
+        "text_level": 1,
+        "bbox": [
+            140,
+            257,
+            302,
+            296
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Ions, atoms or molecules that have a charge, can be affected by an electrical driving force ",
+            "• The direction of the electrical driving force results in the ion moving toward a region where the opposite charge exists "
+        ],
+        "bbox": [
+            55,
+            379,
+            906,
+            601
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/fd61fefc8bd4c518cb3b5b1c5448f1dfd83ed9cb348423ce9add53fb60925d4a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            127,
+            662,
+            459,
+            909
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/08cf9a9056846cc9c7d882db3ec00e76acbf1e08eeed09c19678bd138a1dddc2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            481,
+            662,
+            809,
+            907
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22 ",
+        "bbox": [
+            891,
+            938,
+            916,
+            962
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "What is Mass Transfer?? ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            650,
+            177
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Electric Field ",
+        "text_level": 1,
+        "bbox": [
+            140,
+            257,
+            305,
+            296
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Cl- is oxidized to chlorine at anode (A) ",
+            "• Selective membrane allows Na+ to freely flow across ",
+            "• At cathode, water is reduced to hydroxide and hydrogen gas "
+        ],
+        "bbox": [
+            62,
+            359,
+            766,
+            522
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/d7b13b3e69f84a84032efcc7414adffd7131329047a2f27cabe0369b4160e041.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            190,
+            540,
+            733,
+            824
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 \\mathrm {N a C l} + 2 \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\mathrm {C l} _ {2} + \\mathrm {H} _ {2} + 2 \\mathrm {N a O H}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            252,
+            859,
+            659,
+            901
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23 ",
+        "bbox": [
+            891,
+            938,
+            916,
+            962
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "More Examples… ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            483,
+            187
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Perfume presents a pleasant fragrance that is imparted throughout the surrounding atmosphere ",
+            "Drying of clothes ",
+            "Evaporation of water spilled on the floor when water molecules diffuse into the air surrounding it ",
+            "• Dispersion of air pollutants released from a power plant smoke stack into the environment "
+        ],
+        "bbox": [
+            70,
+            222,
+            925,
+            733
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/9c3128018cc1a81976ac97db7005e8a39d620cc4221dabfbde64eeb1e3dcd67d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            150,
+            744,
+            354,
+            950
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/f6d535d89acb419a750018e4a8299e80224685aaf858de302c63cb917071e605.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            420,
+            748,
+            637,
+            950
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/157c875bd89151c2514af9c81ad0119833a9e3abc6a24b7f3abb38d5589a5f18.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            702,
+            751,
+            901,
+            950
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Mode of Mass Transfer ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            606,
+            177
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/c23de59311bb82276aa836aa12f48b20aa8616d1e7892bfad679d1d9908a5b7f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            97,
+            296,
+            937,
+            831
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "25 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            288,
+            175
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Diffusion is the transport of molecules, ions, or small particles from a region of relatively high concentration into a region of lower concentration ",
+            "• In the absence of a concentration gradient, molecules continue to move randomly (Brownian motion), but no net mass transfer occurs and the system remains uniform "
+        ],
+        "bbox": [
+            70,
+            248,
+            922,
+            712
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "26 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            288,
+            175
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "images/9ebd1415a4af2cf2b8e30cb1ffbbd98498d3bc0da04228b0e264f0fea45bad16.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            45,
+            281,
+            527,
+            759
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Mass diffusion is in the direction of decreasing concentration ",
+            "After a sufficient time, uniform concentrations of A and B are achieved ",
+            "There is no net transport of species A or B across the imaginary plane "
+        ],
+        "bbox": [
+            527,
+            192,
+            963,
+            801
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "27 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            112,
+            288,
+            174
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "A ",
+        "bbox": [
+            133,
+            253,
+            170,
+            301
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "B ",
+        "bbox": [
+            238,
+            253,
+            269,
+            300
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "A ",
+        "bbox": [
+            127,
+            466,
+            163,
+            514
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "B ",
+        "bbox": [
+            238,
+            466,
+            270,
+            512
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/89bc4c2f41e1bb46b4659ae7afd380dd19b1b8098da001aba2f90df9f3102371.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            88,
+            659,
+            316,
+            798
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Diffusion stops when reaches equilibrium ",
+        "bbox": [
+            37,
+            827,
+            470,
+            942
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/769900bb86891afaea7eaa60024601eb500cb26a0b274f98edb9eb579cc04d1b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            512,
+            77,
+            731,
+            348
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/d10445ace78f7361c4f16de3fa5e9fcfeba53bfce716f6ee5a4072f1238b92cf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            512,
+            351,
+            686,
+            633
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/1e5701fadf3b3ad6310e7ce5642f30e4c7ec526aba81bacaba62aff3bf49625b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            512,
+            637,
+            684,
+            927
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/f42a888b9f5ca2d480e659f1e2f8b2983667bd65fc92fd1bace2aebead3889b3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            754,
+            120,
+            925,
+            346
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/2145852f9ea222d1bd21ab9e37a7ae79142d56f10170a277fb24fd962f383a31.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            754,
+            351,
+            925,
+            633
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "images/a1e1f8706010b582bd399310cad38b649a69bd480ae01f5ebde8aa3dccfe9052.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            754,
+            637,
+            925,
+            924
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "28 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            288,
+            175
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Difference between diffusion in solid, liquid & gas???? ",
+        "bbox": [
+            405,
+            246,
+            716,
+            383
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "images/70eb92f717582534fa7294c0687eefd4e3efcba16da1cd744de953cda1d0ff25.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            125,
+            453,
+            331,
+            872
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "29 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Diffusion ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            288,
+            175
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "solid ",
+        "text_level": 1,
+        "bbox": [
+            143,
+            222,
+            283,
+            305
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/2530cb541e707523e6a9860ad4929d27b7bd99b07952620a965473607ad870ce.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            137,
+            320,
+            283,
+            559
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/1fc239468b389d64cbcc19e1712da79ec2fb3bdaac6ba15948621ac65b367bb7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            84,
+            555,
+            130,
+            618
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "rigid ",
+        "bbox": [
+            141,
+            566,
+            209,
+            614
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/d231b168eced947db021849abaedec25705e6e4a3b5e9253f71c0a81f46b8b04.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            84,
+            629,
+            130,
+            694
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "fixed shape ",
+        "bbox": [
+            137,
+            635,
+            306,
+            687
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/325e443f63bc244c4fcaf6e2f2381b8a93d45eb0ba6af68b22b2fd612b05b880.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            84,
+            703,
+            130,
+            764
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "fixed volume ",
+        "bbox": [
+            137,
+            712,
+            326,
+            755
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "cannot be squashed ",
+        "bbox": [
+            97,
+            835,
+            315,
+            872
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "",
+        "text_level": 1,
+        "bbox": [
+            409,
+            222,
+            573,
+            320
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/320b32df65817ef7571389bdbaa78ed8e955f01be4d6d9de0e9dc2715f636bac.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            418,
+            322,
+            566,
+            561
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/fb3fe7e57a884226c210a06b988445905428150bc8cb2f1725dd4ba8efbcbd73.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            356,
+            555,
+            402,
+            618
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "not rigid ",
+        "bbox": [
+            419,
+            566,
+            545,
+            614
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/96da0fa2ec288c97a19a5942992246642c616162aae3d105f7af1242b710af8d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            356,
+            629,
+            402,
+            694
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "no fixed shape ",
+        "bbox": [
+            418,
+            635,
+            631,
+            687
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/e4a70956719503cfaf1e4572c6d6e7fb51bfc2f1e9e5ea2a2115a15934e4ac10.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            356,
+            703,
+            402,
+            766
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "fixed volume ",
+        "bbox": [
+            419,
+            712,
+            609,
+            755
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "cannot be squashed ",
+        "bbox": [
+            372,
+            835,
+            591,
+            872
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "gas ",
+        "text_level": 1,
+        "bbox": [
+            762,
+            242,
+            858,
+            320
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/4396eff525d0fa7cf999e9c97d8ed242d154efa0e7a900697e6857b564196ea2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            734,
+            322,
+            881,
+            561
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/021412bb0f709008a93216a6347065172758bbbf20d4ceda6cb8278b03ce04f7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            651,
+            555,
+            697,
+            618
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "not rigid ",
+        "bbox": [
+            702,
+            566,
+            827,
+            614
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/e811e355c509f6055a12e3359c7c4100700f19e5366b1f2f4b66bd3e2d75e8fd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            651,
+            629,
+            697,
+            694
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "no fixed shape ",
+        "bbox": [
+            702,
+            635,
+            913,
+            687
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/c14a1a6f01aa5f56256c938ad07099f7c356231478213ff98e8a37397886da9b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            651,
+            703,
+            697,
+            764
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "no fixed volume ",
+        "bbox": [
+            698,
+            712,
+            933,
+            757
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/b34b377f80847f96d94bb438c2f3da78823ba77af04f803e968c79f64d59b43c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            656,
+            787,
+            920,
+            875
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "30 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Medium: ",
+        "bbox": [
+            84,
+            207,
+            216,
+            251
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "gases > liquids > solids ",
+        "bbox": [
+            312,
+            296,
+            661,
+            346
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/3534b698feeae0e2d35aafd97559ba6b67181cbb3463753e2dcc66441ce2b72c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            56,
+            429,
+            312,
+            650
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/0ac179a69e92c801cc54479d635c4aab84ec5c866be0261c0c51643ed2253101.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            381,
+            429,
+            627,
+            646
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/864962b474eac9075c364d21ae75f13da1be6b79e463d537939e409034161a17.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            719,
+            396,
+            894,
+            655
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/3bfe9c9ab77f50b74ba08d98ef12baee31b41740d153a9ac0ed07bfce675d17b.jpg",
+        "image_caption": [
+            "(c)Solid to liquid "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            233,
+            709,
+            458,
+            888
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/07fda7888828862ec26248011977a31fed063cf8f7b58077baf7a1b7ae115838.jpg",
+        "image_caption": [
+            "(d）Solid to solid "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            512,
+            718,
+            731,
+            887
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "31 ",
+        "bbox": [
+            895,
+            940,
+            918,
+            966
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            412,
+            181
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Temperature: ",
+        "bbox": [
+            84,
+            207,
+            288,
+            259
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "high temperature > low temperature ",
+        "bbox": [
+            227,
+            272,
+            765,
+            324
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "images/53b5bd92876cb7c3e004979f35c9d6c0c4409ea516ea9d3f9d497b604a5d5484.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            320,
+            381,
+            637,
+            751
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "32 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Particle Size/Molecular weight ",
+        "bbox": [
+            77,
+            250,
+            525,
+            303
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "small particle > large particle ",
+        "bbox": [
+            281,
+            333,
+            706,
+            381
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/49b23db61619ce594e6b2099058ace2461c8fcc045a6fa0580fd06497a0b3f4c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            56,
+            409,
+            427,
+            714
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/82e191bf2759966f6cf678234ae2bb821fd24f894c99c486dabf2c8e62e1775e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            16,
+            746,
+            640,
+            916
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/628a48e69afaf41f3c2c92b05f5e3e51526cc342644741a1de1ce61d490d136d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            658,
+            466,
+            970,
+            851
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Which one diffuse faster? ",
+        "bbox": [
+            673,
+            881,
+            961,
+            918
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "34 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "image",
+        "img_path": "images/d7603637e1db9851317cbd851ffeb7907c224b9acd75da4093fd4f37a9d40367.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            44,
+            262,
+            600,
+            825
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "image",
+        "img_path": "images/00ad25c694fa31e0083da24f371ab36a908f3e2763a09955241e0ee4a304ef1f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            602,
+            466,
+            986,
+            718
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "35 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Concentration gradient ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            250,
+            419,
+            303
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "High concentration gradient > Small concentration gradient ",
+        "text_level": 1,
+        "bbox": [
+            77,
+            331,
+            912,
+            379
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "images/0671fea69fa883e9ef2bfe4e0fd7469a753e474542391749fc9cb2b651393c55.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            72,
+            407,
+            419,
+            666
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "images/ab5ce1b2cfc6e110bfc84fd75235c56d33b3e8f68995f8cb8f249f4cd0c9b22c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            73,
+            692,
+            419,
+            950
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "• Concentration gradient: ",
+        "bbox": [
+            461,
+            490,
+            787,
+            531
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Concentration difference of a solute between two points in space ",
+        "bbox": [
+            491,
+            557,
+            936,
+            666
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "36 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            412,
+            181
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Surface Area ",
+        "bbox": [
+            77,
+            251,
+            276,
+            296
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Large SA > Small SA ",
+        "bbox": [
+            337,
+            331,
+            652,
+            387
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "images/f9cb9ebeaab3c8673c95344f84774339f15a8a9b021605ea6f5b0898522afd51.jpg",
+        "image_caption": [
+            ""
+        ],
+        "image_footnote": [],
+        "bbox": [
+            294,
+            585,
+            500,
+            725
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "images/8a2e2e26641eeed2cb482fbc57c2a45de22dcdf39e910b68b4776a3afa64a5d0.jpg",
+        "image_caption": [
+            ""
+        ],
+        "image_footnote": [],
+        "bbox": [
+            563,
+            583,
+            691,
+            722
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "page_number",
+        "text": "37 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Rate ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Dynamics of system: ",
+        "bbox": [
+            75,
+            225,
+            387,
+            277
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Dynamic > Static ",
+        "bbox": [
+            219,
+            290,
+            477,
+            340
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "image",
+        "img_path": "images/f9bf641368692b862510ccd4fad4c28df68c19a322178fddb72c5ee573193a41.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            101,
+            374,
+            544,
+            881
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Stirring helps the sugar molecules transfer to the bulk water much faster ",
+        "bbox": [
+            600,
+            520,
+            969,
+            722
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "38 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Convection ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            116,
+            341,
+            177
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Mass transfer between a moving fluid and a surface or between immiscible moving fluids ",
+            "• Affected by the dynamics characteristic of the flowing fluid ",
+            "• Fluid motion combines with diffusion to promote the transfer of a species for which there exists a concentration gradient ",
+            "• Analogous to convection heat transfer "
+        ],
+        "bbox": [
+            70,
+            248,
+            904,
+            627
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/6f629b49266c57e4d14b2256f65f7ea5a079200d9a9327d94bfb698c7cf50f00.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            94,
+            635,
+            409,
+            920
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "images/71da6f0690b1e6cea5270ba33511bc67dc3ecc614171c93493d89a1e30c44cfb.jpg",
+        "image_caption": [
+            "Convection Current ",
+            "Ground "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            625,
+            631,
+            870,
+            931
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "page_number",
+        "text": "39 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "Convection ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            341,
+            177
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Example: ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            248,
+            201,
+            288
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Water evaporates faster in the presence of wind ",
+            "• Sublimation of naphthalene (solid form) into the moving air ",
+            "• Spreading of water pollutant in flowing river "
+        ],
+        "bbox": [
+            70,
+            314,
+            830,
+            485
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "image",
+        "img_path": "images/1aff943d9a54a06e82ec2e1b2c29fceadbe51914f6e632d0ef4da1bdd4beda59.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            131,
+            575,
+            427,
+            829
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "image",
+        "img_path": "images/247488285c8a67f296fad3733f797ec980655c870d0b6aa12af9ff2fe6d5132f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            516,
+            585,
+            893,
+            838
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "page_number",
+        "text": "40 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Application of Mass Transfer in Industrial Process ",
+        "text_level": 1,
+        "bbox": [
+            140,
+            412,
+            861,
+            546
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "page_number",
+        "text": "41 ",
+        "bbox": [
+            897,
+            940,
+            918,
+            964
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            372,
+            187
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Gas absorption ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            248,
+            281,
+            288
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Separation of component from gas stream using a solvent ",
+            "• Example: to capture volatile organic compound, absorption of CO2 from flue gas "
+        ],
+        "bbox": [
+            70,
+            314,
+            901,
+            490
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Stripping ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            581,
+            200,
+            625
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "• To recover the solvent used in absorption ",
+        "bbox": [
+            70,
+            648,
+            623,
+            692
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "page_number",
+        "text": "42 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            372,
+            187
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "image",
+        "img_path": "images/b96fd3ef155defd7c516adf7c3ec8cc9ada82c88fbbe6cb8408bd35ede4c1001.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            175,
+            262,
+            811,
+            916
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "page_number",
+        "text": "43 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            118,
+            356,
+            187
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Distillation ",
+        "text_level": 1,
+        "bbox": [
+            72,
+            248,
+            220,
+            287
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Mass transfer between vapor and liquid at each stage ",
+        "bbox": [
+            70,
+            314,
+            776,
+            359
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "image",
+        "img_path": "images/d1ec72a55b7be5511e28b259af0e104c1266ad6c7b39f29da415399077ca9cee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            311,
+            396,
+            687,
+            920
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "page_number",
+        "text": "44 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            118,
+            356,
+            183
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Liquid-Liquid Extraction ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            246,
+            398,
+            288
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Separate component based on its relative solubilities in two immiscible solvents ",
+            "Net transfer of component from one liquid to another liquid ",
+            "Example: "
+        ],
+        "bbox": [
+            70,
+            314,
+            901,
+            555
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Extraction of penicillin from fermentation broth using solvent such as butyl acetate ",
+            "• Extraction of acetic acid from water using an organic solvent "
+        ],
+        "bbox": [
+            120,
+            581,
+            901,
+            812
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "page_number",
+        "text": "45 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            118,
+            356,
+            183
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "image",
+        "img_path": "images/d988f0f60f4d3177dfcc6862678001ea8ca45b5ae476a1961e66f7d792ce685c.jpg",
+        "image_caption": [
+            "Liquid-Liquid Extraction "
+        ],
+        "image_footnote": [],
+        "bbox": [
+            100,
+            351,
+            604,
+            577
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Cocurrent ",
+        "bbox": [
+            716,
+            450,
+            841,
+            487
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "image",
+        "img_path": "images/e237a9e351b9313e8795f799a2031d61cdb72dd4954c62378a35bc6b714be033.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            109,
+            666,
+            630,
+            892
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Countercurrent ",
+        "bbox": [
+            684,
+            735,
+            873,
+            770
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "page_number",
+        "text": "46 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            116,
+            356,
+            187
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Solid-Liquid Extraction/Leaching ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            246,
+            512,
+            294
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Or known as solid-liquid extraction ",
+            "• Extract component out from solid using solvent ",
+            "Example: "
+        ],
+        "bbox": [
+            70,
+            314,
+            691,
+            488
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Extraction of caffeine from tea/coffee bean using solvent ",
+            "• Oil extraction from soybeans, cotton seeds, peanuts using hexane ",
+            "• Extraction of pharmaceutical product from plant roots, leaves, and stems ",
+            "Gold is leached from its ore using aqueous sodium cyanide solution "
+        ],
+        "bbox": [
+            120,
+            514,
+            901,
+            955
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "page_number",
+        "text": "47 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            372,
+            187
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Drying ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            248,
+            165,
+            288
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Dry the material in industry ",
+            "Example rotary drum dryer, flash dryer ",
+            "• Direct (contact with heating stream) or indirect type "
+        ],
+        "bbox": [
+            70,
+            314,
+            740,
+            490
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "image",
+        "img_path": "images/2039a6544216629404a907d390b72d09292ef12453d7096c03ec647cd21b9350.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            113,
+            629,
+            481,
+            853
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "image",
+        "img_path": "images/651814510655565fa4e1e6e8a4dce09d0f30498e02483af12bfeeff98d1011c2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            552,
+            581,
+            870,
+            818
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "page_number",
+        "text": "48 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Applications ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            372,
+            187
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Membrane Separation ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            248,
+            369,
+            288
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Water separation: Removal of dye, oil, heavy metal contaminant from effluent, produced water ",
+            "• Gas separation: CO2 removal, biogas upgrading, hydrogen recovery ",
+            "• Others: Concentration of product, clarification of fruit juice "
+        ],
+        "bbox": [
+            70,
+            314,
+            904,
+            627
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "image",
+        "img_path": "images/aef812635a01a447bccdff70faf07cf40fc1bf212b3911c24f81c92ca5619dab.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            295,
+            687,
+            737,
+            924
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "page_number",
+        "text": "49 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Momentum, Energy, and Mass Transfer Analogies ",
+        "text_level": 1,
+        "bbox": [
+            101,
+            405,
+            900,
+            568
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "page_number",
+        "text": "51 ",
+        "bbox": [
+            895,
+            940,
+            919,
+            966
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Analogies ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            312,
+            187
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "table",
+        "img_path": "images/722e9b2e3a02918e2b840ee138274066a54a9583189cf211d155da8e27660c25.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Transport Phenomenon</td><td>Governing Law</td><td>Driving Potential</td></tr><tr><td>Mass Transfer</td><td>Fick&#x27;s Law of Diffusion</td><td>Concentration Gradient, dCb/dx</td></tr><tr><td>Heat Transfer</td><td>Fourier&#x27;s law of conduction</td><td>Temperature Gradient, dT/dx</td></tr><tr><td>Momentum Transfer</td><td>Newton&#x27;s Law of Viscosity</td><td>Velocity Gradient, du/dy</td></tr></table>",
+        "bbox": [
+            31,
+            287,
+            961,
+            742
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "page_number",
+        "text": "52 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Analogies ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            312,
+            187
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Mass Transfer ",
+        "bbox": [
+            59,
+            272,
+            263,
+            316
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "equation",
+        "text": "$$\nj = - D \\frac {d c}{d x}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            416,
+            359,
+            577,
+            462
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Heat Transfer ",
+        "bbox": [
+            59,
+            516,
+            255,
+            559
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "equation",
+        "text": "$$\nq = - k \\frac {d T}{d x}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            419,
+            562,
+            577,
+            666
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Momentum Transfer ",
+        "bbox": [
+            59,
+            720,
+            341,
+            764
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\tau = - \\mu \\frac {d u}{d y}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            420,
+            766,
+            576,
+            877
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Shear stress/momentum flux ",
+        "bbox": [
+            59,
+            888,
+            384,
+            925
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "page_number",
+        "text": "53 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "Analogies ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            312,
+            187
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• All three transports can be contributed by molecular transport and bulk flow ",
+            "• Mass : Diffusion vs Convection ",
+            "• Heat: Conduction vs Convection ",
+            "• Momentum: Viscous vs Convection "
+        ],
+        "bbox": [
+            59,
+            290,
+            865,
+            655
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "page_number",
+        "text": "54 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "Replacement Classes ",
+        "text_level": 1,
+        "bbox": [
+            34,
+            27,
+            538,
+            96
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "table",
+        "img_path": "images/b766b281c5f04cfaa3d460c6b8457b6b24723a3472cbc5954ab7cdcaaf630e71.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Original Class</td><td>Replacement Class</td></tr><tr><td>27 May 2026 (Week 8, Wednesday)\n10 am – 12 pm</td><td>29 May 2026 (Week 8, Friday)\n2 pm – 4 pm TEST</td></tr><tr><td>17 June 2026 (Week 11, Wednesday)\n10 am – 12 pm</td><td>12 June 2026 (Week 10, Friday)\n10 am – 12 pm</td></tr></table>",
+        "bbox": [
+            40,
+            170,
+            916,
+            579
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "page_number",
+        "text": "55 ",
+        "bbox": [
+            900,
+            942,
+            920,
+            962
+        ],
+        "page_idx": 52
+    }
+]

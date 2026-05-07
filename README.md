@@ -1,310 +1,292 @@
-# Claudesidian: Claude Code + Obsidian Starter Kit
+# Claudesidian: Claude Code + Obsidian 启动套件
 
-Turn your Obsidian vault into an AI-powered second brain using Claude Code.
+把你的 Obsidian vault 变成 AI 驱动的第二大脑。
 
-## What is this?
+## 这是什么？
 
-This is a pre-configured Obsidian vault structure designed to work seamlessly
-with Claude Code, enabling you to:
+一套预配置好的 Obsidian vault 结构，和 Claude Code 无缝协作，让你能：
 
-- Use AI as a thinking partner, not just a writing assistant
-- Organize knowledge using the PARA method
-- Maintain version control with Git
-- Access your vault from anywhere (including mobile)
+- 把 AI 当成 thinking partner，不只是写作助手
+- 用 PARA 方法组织知识
+- 用 Git 做版本控制
+- 在任何地方访问你的 vault（包括手机）
 
-## Quick Start
+## 快速上手
 
-### 1. Get the Starter Kit
+### 1. 拿到启动套件
 
-**Option A: Clone with Git**
+**方案 A：用 Git Clone**
 
 ```bash
-# Clone with your preferred folder name (replace 'my-vault' with any name you like)
+# 用你想要的文件夹名（把 'my-vault' 换成任何名字）
 git clone https://github.com/heyitsnoah/claudesidian.git my-vault
 cd my-vault
 
-# Examples:
+# 例子：
 # git clone https://github.com/heyitsnoah/claudesidian.git obsidian-notes
 # git clone https://github.com/heyitsnoah/claudesidian.git knowledge-base
 # git clone https://github.com/heyitsnoah/claudesidian.git second-brain
 ```
 
-**Option B: Download ZIP (no Git required)**
+**方案 B：下载 ZIP（不需要 Git）**
 
-1. Click "Code" → "Download ZIP" on GitHub
-2. Extract to your desired location
-3. Open the folder in Claude Code
+1. 在 GitHub 点 "Code" → "Download ZIP"
+2. 解压到你想放的位置
+3. 在 Claude Code 里打开这个目录
 
-### 2. Run the Setup Wizard
+### 2. 跑 Setup Wizard
 
 ```bash
-# Start Claude Code in the directory
+# 在目录里启动 Claude Code
 claude
 
-# Run the interactive setup wizard (in Claude Code)
+# 跑交互式 setup wizard（在 Claude Code 里）
 /init-bootstrap
 ```
 
-This will:
+它会做这些事：
 
-- Install dependencies automatically
-- Disconnect from the original claudesidian repository
-- **Intelligently analyze** your existing vault structure and patterns
-- **Import your existing Obsidian vault** safely to OLD_VAULT/ (if you have one)
-- **Research your public work** for personalized context (with your permission)
-- Ask you about your workflow preferences
-- Create a personalized CLAUDE.md configuration
-- Set up your folder structure
-- Optionally configure Gemini Vision for image/video analysis
-- Optionally configure Firecrawl for web research
-- Initialize Git for version control
+- 自动装依赖
+- 断开和原始 claudesidian 仓库的连接
+- **智能分析**你已有的 vault 结构和模式
+- **安全导入**你已有的 Obsidian vault 到 OLD_VAULT/（如果你有的话）
+- **研究你的公开作品**用于个性化上下文（需要你授权）
+- 询问你的工作流偏好
+- 创建个性化的 CLAUDE.md 配置
+- 搭好目录结构
+- 可选：配置 Gemini Vision 用于图像 / 视频分析
+- 可选：配置 Firecrawl 用于网页调研
+- 初始化 Git 用于版本控制
 
-### 3. Open in Obsidian (Optional but Recommended)
+### 3. 在 Obsidian 里打开（可选但推荐）
 
-- Download [Obsidian](https://obsidian.md)
-- Open vault from the claudesidian folder
-- This gives you a visual interface alongside Claude Code
+- 下载 [Obsidian](https://obsidian.md)
+- 从 claudesidian 文件夹打开 vault
+- 这样你能在 Claude Code 之外有一个可视界面
 
-### 4. Your First Session
+### 4. 第一次会话
 
-Tell Claude Code:
-
-```
-I'm starting a new project about [topic].
-I'm in thinking mode, not writing mode.
-Please search my vault for any relevant existing notes,
-then help me explore this topic by asking questions.
-```
-
-Or use one of the pre-configured commands (in Claude Code):
+告诉 Claude Code：
 
 ```
-/thinking-partner   # For collaborative exploration
-/daily-review       # For end-of-day reflection
-/research-assistant # For deep dives into topics
+我要开始一个新项目，关于 [话题]。
+我现在是 thinking mode，不是 writing mode。
+请搜下 vault 里相关的已有笔记，
+然后通过提问帮我探索这个话题。
 ```
 
-## Folder Structure
+或用预配置好的 skill（在 Claude Code 里）：
+
+```
+/thinking-partner   # 协作探索
+/daily-review       # 一天结束的复盘
+/research-assistant # 深入研究某话题
+```
+
+## 目录结构
 
 ```
 claudesidian/
-├── 00_Inbox/           # Temporary capture point for new ideas
-├── 01_Projects/        # Active, time-bound initiatives
-├── 02_Areas/           # Ongoing responsibilities
-├── 03_Resources/       # Reference materials and knowledge base
-├── 04_Archive/         # Completed projects and inactive items
-├── 05_Attachments/     # Images, PDFs, and other files
-├── 06_Metadata/        # Vault configuration and templates
-│   ├── Reference/      # Documentation and guides
-│   └── Templates/      # Reusable note templates
-└── .scripts/           # Helper scripts for automation
+├── 00_Inbox/           # 新想法的临时捕获区
+├── 01_Projects/        # 活跃的限时事务
+├── 02_Areas/           # 持续性责任
+├── 03_Resources/       # 参考资料和知识库
+├── 04_Archive/         # 完成或不活跃的事物
+├── 05_Attachments/     # 图片、PDF 等
+├── 06_Metadata/        # Vault 配置和模板
+│   ├── Reference/      # 文档和指南
+│   └── Templates/      # 可复用的笔记模板
+└── .scripts/           # 自动化辅助脚本
 ```
 
-## Key Concepts
+## 核心概念
 
-### Thinking Mode vs Writing Mode
+### Thinking Mode 和 Writing Mode
 
-**Thinking Mode** (Research & Exploration):
+**Thinking Mode**（调研与探索）：
 
-- Claude asks questions to understand your goals
-- Searches existing notes for relevant content
-- Helps make connections between ideas
-- Maintains a log of insights and progress
+- Claude 提问理解你的目标
+- 搜索已有笔记里的相关内容
+- 帮你在想法之间建立连接
+- 维护洞察和进展的日志
 
-**Writing Mode** (Content Creation):
+**Writing Mode**（内容创作）：
 
-- Generates drafts based on your research
-- Helps structure and edit content
-- Creates final deliverables
+- 基于你的调研生成草稿
+- 帮你组织和编辑内容
+- 创建最终交付物
 
-### The PARA Method
+### PARA 方法
 
-**Projects**: Have a deadline and specific outcome
+**Projects**：有截止日期和具体产出
 
-- Example: "Q4 2025 Marketing Strategy"
-- Create a folder in `01_Projects/`
+- 例："Q4 2025 营销策略"
+- 在 `01_Projects/` 里建文件夹
 
-**Areas**: Ongoing without an end date
+**Areas**：持续性、没有结束日期
 
-- Example: "Health", "Finances", "Team Management"
-- Lives in `02_Areas/`
+- 例："健康"、"财务"、"团队管理"
+- 放在 `02_Areas/`
 
-**Resources**: Topics of ongoing interest
+**Resources**：长期感兴趣的话题
 
-- Example: "AI Research", "Writing Tips"
-- Store in `03_Resources/`
+- 例："AI 研究"、"写作技巧"
+- 存到 `03_Resources/`
 
-**Archive**: Inactive items
+**Archive**：不活跃的事物
 
-- Completed projects with their outputs
-- Old notes no longer relevant
+- 完成的项目和它们的产出
+- 不再相关的旧笔记
 
 ## Skills
 
-Claudesidian ships with agent skills that auto-discover when you describe a
-task. Skills work in Claude Code, OpenCode, Codex, Cursor, and Pi — they live
-in `.agents/skills/<name>/SKILL.md` (canonical) with symlinks in
-`.claude/skills/` and `.pi/skills/`.
+Claudesidian 自带一些 agent skill，能在你描述任务时自动触发。Skill 在 Claude Code、OpenCode、Codex、Cursor 和 Pi 里都能用 —— 它们存在 `.agents/skills/<name>/SKILL.md`（标准位置），并通过 symlink 链接到 `.claude/skills/` 和 `.pi/skills/`。
 
-- `thinking-partner` - Explore ideas through questions
-- `inbox-processor` - Organize your captures
-- `research-assistant` - Deep dive into topics
-- `daily-review` - End of day reflection
-- `weekly-synthesis` - Find patterns in your week
-- `de-ai-ify` - Remove AI writing patterns from text
-- `add-frontmatter` - Add YAML properties to notes
-- `download-attachment` - Save URLs to your attachments folder
-- `pragmatic-review` - YAGNI/KISS code review
-- `pull-request` - Open a PR from your changes
-- `release` - Cut a new claudesidian release
-- `upgrade` - Update to the latest claudesidian version
-- `init-bootstrap` - Re-run the setup wizard
-- `install-claudesidian-command` - Install shell command to launch vault from
-  anywhere
+- `thinking-partner` — 通过提问探索想法
+- `inbox-processor` — 整理你的捕获条目
+- `research-assistant` — 深入研究话题
+- `daily-review` — 一天结束的复盘
+- `weekly-synthesis` — 找出本周的模式
+- `de-ai-ify` — 去掉文本里的 AI 写作痕迹
+- `add-frontmatter` — 给笔记加 YAML 属性
+- `download-attachment` — 把 URL 存到附件文件夹
+- `pragmatic-review` — YAGNI/KISS 风格的代码审查
+- `pull-request` — 从你的改动开 PR
+- `release` — 发布新版 claudesidian
+- `upgrade` — 升级到最新版 claudesidian
+- `init-bootstrap` — 重新跑 setup wizard
+- `install-claudesidian-command` — 装一个 shell 命令，从任何地方启动 vault
 
-Skills trigger automatically when you describe what you want — e.g. "wrap up
-my day" loads `daily-review`, "open a PR for this" loads `pull-request`. No
-slash command needed.
+Skill 会在你描述需求时自动触发 —— 比如说"收个尾"会加载 `daily-review`，"开个 PR 吧"会加载 `pull-request`。不需要打 slash 命令。
 
-### Staying updated with `upgrade`
+### 用 `upgrade` 保持最新
 
-Claudesidian automatically checks for updates when you start Claude Code and
-will remind you to run the `upgrade` skill when new features are available.
+Claudesidian 在你启动 Claude Code 时会自动检查更新，有新功能时提醒你跑 `upgrade` skill。
 
-The upgrade command intelligently merges new features while preserving your
-customizations:
+upgrade 命令会智能合并新功能，同时保护你的自定义内容：
 
 ```bash
-# Preview what would be updated (recommended first)
+# 预览要更新什么（推荐先看一下）
 /upgrade check
 
-# Run the interactive upgrade
+# 跑交互式升级
 /upgrade
 
-# Skip confirmations for safe updates (advanced)
+# 跳过确认直接更新（高级用法）
 /upgrade force
 ```
 
-**What the upgrade does:**
+**升级会做什么**：
 
-- Creates a timestamped backup before making any changes
-- Shows you diffs for each file before updating
-- Preserves your personal notes and customizations
-- Only updates system files (commands, agents, scripts)
-- Never touches your content folders (00_Inbox, 01_Projects, etc.)
-- Provides rollback capability if needed
+- 改之前先做带时间戳的备份
+- 每个文件改之前先给你看 diff
+- 保护你的个人笔记和自定义
+- 只更新系统文件（命令、agent、脚本）
+- 永远不动你的内容文件夹（00_Inbox、01_Projects 等）
+- 必要时能回滚
 
-**Safety features:**
+**安全特性**：
 
-- All your personal content is protected
-- Complete backup created in `.backup/upgrade-[timestamp]/`
-- File-by-file review and confirmation
-- Progress tracked in `.upgrade-checklist.md`
-- Can be stopped and resumed at any time
+- 你所有个人内容都受保护
+- 完整备份建在 `.backup/upgrade-[timestamp]/`
+- 文件级 diff 复查和确认
+- 进度记录在 `.upgrade-checklist.md`
+- 任何时候都能停下来续上
 
-## Vision & Document Analysis (Optional)
+## 视觉与文档分析（可选）
 
-With [Google Gemini](https://ai.google.dev/) MCP configured, Claude Code can
-process your attachments directly without having to describe them. This means:
+配上 [Google Gemini](https://ai.google.dev/) MCP 后，Claude Code 能直接处理你的附件，不用你描述给它听。这意味着：
 
-- **Direct image analysis**: Claude sees the actual image, not your description
-- **PDF text extraction**: Full document text without copy-pasting
-- **Bulk processing**: Analyze multiple screenshots or documents at once
-- **Smart organization**: Auto-generate filenames based on image content
-- **Comparison tasks**: Compare before/after screenshots, designs, etc.
+- **直接图像分析**：Claude 看真实的图，不是你的描述
+- **PDF 文字提取**：完整文档文本，不用复制粘贴
+- **批量处理**：一次分析多张截图或多个文档
+- **智能整理**：基于图片内容自动生成文件名
+- **对比任务**：对比改造前后的截图、设计稿等
 
-**Why this matters**: Instead of describing "a screenshot showing an error
-message", Claude Code directly sees and reads the error. Perfect for debugging
-UI issues, analyzing charts, or processing scanned documents.
+**为什么重要**：与其让你描述"一张显示报错信息的截图"，Claude Code 直接看到并读出错误。调试 UI 问题、分析图表、处理扫描文档都很合适。
 
-**Getting a Gemini API key:**
+**拿 Gemini API key**：
 
-1. Visit [Google AI Studio](https://aistudio.google.com)
-2. Sign in with your Google account
-3. Click "Get API key" in the left sidebar
-4. Create a new API key (it's free!)
-5. Set it in your environment: `export GEMINI_API_KEY="your-key-here"`
+1. 访问 [Google AI Studio](https://aistudio.google.com)
+2. 用 Google 账号登录
+3. 点左侧栏的 "Get API key"
+4. 创建新 API key（免费！）
+5. 设到环境变量：`export GEMINI_API_KEY="your-key-here"`
 
-See `.claude/mcp-servers/README.md` for full setup instructions
+完整安装指南看 `.claude/mcp-servers/README.md`
 
-## Web Research (Optional)
+## 网页调研（可选）
 
-With [Firecrawl](https://www.firecrawl.dev/) configured, our helper scripts
-fetch and save full web content directly to your vault. This means:
+配上 [Firecrawl](https://www.firecrawl.dev/) 后，辅助脚本能抓完整网页内容直接存到 vault。这意味着：
 
-- **Full text capture**: Scripts pipe complete article text to files, not
-  summaries
-- **Context preservation**: Claude doesn't need to hold web content in memory
-- **Batch processing**: Save multiple articles at once with `firecrawl-batch.sh`
-- **Clean markdown**: Web pages converted to readable, searchable markdown
-- **Permanent archive**: Your research stays in your vault forever
+- **完整文本捕获**：脚本把整篇文章文本写入文件，不是摘要
+- **保留上下文**：Claude 不用把网页内容塞进 context
+- **批量处理**：用 `firecrawl-batch.sh` 一次存多篇文章
+- **干净的 markdown**：网页转成可读、可搜索的 markdown
+- **永久归档**：你的研究永远留在 vault 里
 
-**Why this matters**: Instead of Claude reading a webpage and summarizing it
-(losing detail), the scripts save the FULL text. Claude can then search and
-analyze thousands of saved articles without hitting context limits. Perfect for
-research projects, documentation archives, or building a knowledge base.
+**为什么重要**：与其让 Claude 读网页然后摘要（丢失细节），脚本会保存完整文本。然后 Claude 能搜索和分析成千上万篇存好的文章，不用担心 context 溢出。研究项目、文档归档、构建知识库都很合适。
 
-**Example workflow:**
+**例子工作流**：
 
 ```bash
-# Save a single article
+# 存单篇文章
 npm run firecrawl:scrape -- "https://example.com/article" "03_Resources/Articles"
 
-# Batch save multiple URLs
+# 批量存多个 URL
 npm run firecrawl:batch -- urls.txt "03_Resources/Research"
 ```
 
-**Getting a Firecrawl API key:**
+**拿 Firecrawl API key**：
 
-1. Visit [Firecrawl](https://www.firecrawl.dev) and sign up
-2. Get 300 free credits to start (open-source, can self-host)
-3. Go to your dashboard to find your API key
-4. Copy the key (format: `fc-xxxxx...`)
-5. Set it in your environment: `export FIRECRAWL_API_KEY="fc-your-key-here"`
+1. 访问 [Firecrawl](https://www.firecrawl.dev) 注册
+2. 注册送 300 免费 credits（开源，也能自部署）
+3. 在 dashboard 找你的 API key
+4. 复制 key（格式：`fc-xxxxx...`）
+5. 设到环境变量：`export FIRECRAWL_API_KEY="fc-your-key-here"`
 
-## Helper Scripts
+## 辅助脚本
 
-Run these with `pnpm`:
+用 `pnpm` 跑：
 
-- `attachments:list` - Show unprocessed attachments
-- `attachments:organized` - Count organized files
-- `attachments:sizes` - Find large files
-- `attachments:orphans` - Find unreferenced attachments
-- `vault:stats` - Show vault statistics
+- `attachments:list` — 显示未处理附件
+- `attachments:organized` — 统计已整理的文件
+- `attachments:sizes` — 找大文件
+- `attachments:orphans` — 找没人引用的附件
+- `vault:stats` — 显示 vault 统计
 
-## Advanced Setup
+## 进阶设置
 
-### Quick Launch from Anywhere
+### 从任何地方快速启动
 
-Install a shell command to launch your vault from any directory:
+装一个 shell 命令，能从任何目录启动你的 vault：
 
 ```bash
-# In Claude Code, run:
+# 在 Claude Code 里跑：
 /install-claudesidian-command
 ```
 
-This creates a `claudesidian` alias that:
+这会创建一个 `claudesidian` alias：
 
-- Changes to your vault directory automatically
-- Tries to resume your existing session (if one exists)
-- Falls back to starting a new session
-- Returns to your original directory when done
+- 自动切到你的 vault 目录
+- 尝试恢复已有会话（如果有）
+- 没有则启动新会话
+- 完事后回到原目录
 
-**Usage:**
+**用法**：
 
 ```bash
-# From anywhere in your terminal:
+# 从终端任何位置：
 claudesidian
 
-# It will automatically resume your last session or start a new one
+# 它会自动恢复上次会话，或启动新会话
 ```
 
-The command is added to your shell config (~/.zshrc, ~/.bashrc, etc.) so it
-persists across terminal sessions.
+命令会加到你的 shell 配置（~/.zshrc、~/.bashrc 等），跨终端会话保留。
 
-### Git Integration
+### Git 集成
 
-Initialize Git for version control:
+初始化 Git 做版本控制：
 
 ```bash
 git init
@@ -314,25 +296,25 @@ git remote add origin your-repo-url
 git push -u origin main
 ```
 
-Best practices:
+最佳实践：
 
-- Commit after each work session
-- Use descriptive commit messages
-- Pull before starting work
+- 每次工作会话后 commit
+- 写描述性的 commit 信息
+- 开始工作前先 pull
 
-### Mobile Access
+### 移动端访问
 
-1. Set up a small server (mini PC, cloud VPS, or home server)
-2. Install Tailscale for secure VPN access
-3. Clone your vault to the server
-4. Use Termius or similar SSH client on mobile
-5. Run Claude Code remotely
+1. 搭一个小 server（mini PC、云 VPS 或家用 server）
+2. 装 Tailscale 做安全 VPN 接入
+3. 把 vault clone 到 server
+4. 手机上用 Termius 或类似 SSH 客户端
+5. 远程跑 Claude Code
 
-### Custom Commands
+### 自定义命令
 
-Create specialized commands by saving instructions in `.claude/commands/`:
+把指令存到 `.claude/commands/` 创建专门命令：
 
-**Research Assistant** (`06_Metadata/Agents/research-assistant.md`):
+**研究助手**（`06_Metadata/Agents/research-assistant.md`）：
 
 ```markdown
 You are a research assistant.
@@ -343,124 +325,116 @@ You are a research assistant.
 - Suggest areas for further exploration
 ```
 
-## Tips & Best Practices
+## 几条经验之谈
 
-### From Experience
+### 实践得来的
 
-1. **Start in thinking mode**: Resist the urge to generate content immediately
-2. **Be a token maximalist**: More context = better results
-3. **Save everything**: Capture chats, fragments, partial thoughts
-4. **Trust but verify**: Always read AI-generated content
-5. **Break your flow**: AI helps you resume easily
+1. **先进 thinking mode**：抑制立刻生成内容的冲动
+2. **当 token maximalist**：上下文越多结果越好
+3. **什么都存**：聊天、片段、不完整的想法都留下来
+4. **信任但要验证**：AI 生成的内容一定要读
+5. **大胆中断**：AI 帮你轻松续上
 
-## Troubleshooting
+## 排错
 
-### Claude Code can't find my notes
+### Claude Code 找不到我的笔记
 
-- Make sure you're running Claude Code from the vault root directory
-- Check file permissions
-- Verify markdown files have `.md` extension
+- 确认从 vault 根目录启动 Claude Code
+- 检查文件权限
+- 确认 markdown 文件后缀是 `.md`
 
-### Git conflicts
+### Git 冲突
 
-- Always pull before starting work
-- Commit frequently with clear messages
-- Use branches for experimental changes
+- 开始工作前一定 pull
+- 频繁 commit，写清楚的信息
+- 实验性改动用分支
 
-### Attachment management
+### 附件管理
 
-- Run `npm run attachments:create-organized` to set up folders
-- Use helper scripts to find orphaned files
-- Keep attachments under 10MB for Git
+- 跑 `npm run attachments:create-organized` 建好目录
+- 用辅助脚本找孤儿文件
+- 附件控制在 10MB 以下（Git 友好）
 
-## Philosophy
+## 哲学
 
-This setup is based on key principles:
+这套系统基于几条核心原则：
 
-1. **AI amplifies thinking, not just writing**
-2. **Local files = full control**
-3. **Structure enables creativity**
-4. **Iteration beats perfection**
-5. **The goal is insight, not just information**
+1. **AI 放大思考，不只是写作**
+2. **本地文件 = 完全控制**
+3. **结构使创造成为可能**
+4. **迭代胜过完美**
+5. **目标是洞察，不只是信息**
 
-## Contributing
+## 贡献
 
-We welcome contributions from the community! This is a living template that gets
-better with everyone's input.
+欢迎社区贡献！这是一个活的模板，靠每个人的输入变得更好。
 
-### How to Contribute
+### 怎么贡献
 
-1. **Fork the repository** on GitHub
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Make your changes**
-4. **Test your changes** to ensure everything works
-5. **Commit your changes** (`git commit -m 'Add amazing feature'`)
-6. **Push to the branch** (`git push origin feature/amazing-feature`)
-7. **Open a Pull Request** with a clear description of what you've done
+1. **Fork 仓库**
+2. **建 feature 分支**（`git checkout -b feature/amazing-feature`）
+3. **改你想改的**
+4. **测一下**确保没坏
+5. **Commit**（`git commit -m 'Add amazing feature'`）
+6. **推到分支**（`git push origin feature/amazing-feature`）
+7. **开 PR**，写清楚改了什么
 
-### What We're Looking For
+### 我们想要的
 
-- **New commands**: Useful Claude Code commands for common workflows
-- **New agents**: Specialized agents for specific tasks
-- **Documentation improvements**: Better explanations, examples, or guides
-- **Bug fixes**: Found something broken? Fix it!
-- **Workflow templates**: Share your productive workflows
-- **Helper scripts**: Automation tools that make vault management easier
-- **Integration guides**: Connect Claudesidian with other tools
-- **Core updates**: Improvements to the upgrade system, setup wizard, or other
-  core features
+- **新命令**：常见工作流的实用 Claude Code 命令
+- **新 agent**：针对特定任务的专门 agent
+- **文档改进**：更好的解释、例子、指南
+- **Bug 修复**：发现坏东西？修了它！
+- **工作流模板**：分享你高效的工作流
+- **辅助脚本**：让 vault 管理更轻松的自动化工具
+- **集成指南**：把 Claudesidian 和其他工具连起来
+- **核心更新**：升级系统、setup wizard 或其他核心功能的改进
 
-### Guidelines
+### 准则
 
-- Keep commands focused and single-purpose
-- Write clear documentation with examples
-- Test thoroughly before submitting
-- Follow existing code style and structure
-- Update the CHANGELOG.md with your changes
-- **AI-generated content is welcome, but you MUST carefully read and review
-  everything before submitting** - never submit code you don't understand
+- 命令保持单一目的
+- 写清楚的文档，带例子
+- 提交前充分测试
+- 遵循已有代码风格和结构
+- 在 CHANGELOG.md 加你的改动
+- **AI 生成的内容欢迎，但提交前你必须仔细读和审查每一行** — 永远别提交你自己看不懂的代码
 
-### Getting Updates
+### 拿到更新
 
-When new features are contributed and merged, users can easily get them with:
+新功能合并后，用户能轻松拿到：
 
 ```bash
 /upgrade
 ```
 
-The upgrade command intelligently merges new features while preserving your
-personal customizations, making it easy to benefit from community contributions
-without losing your work.
+upgrade 命令智能合并新功能，同时保护你的个人定制，让你能享受到社区贡献而不丢工作。
 
-### Questions or Ideas?
+### 有问题或想法？
 
-- Open an issue to discuss major changes before starting work
-- Join discussions in existing issues
-- Share your use cases - they help us understand needs better
+- 大改之前开 issue 讨论
+- 加入已有 issue 的讨论
+- 分享你的用例 — 帮我们更好理解需求
 
-Remember: best practices emerge from use, not theory. Your real-world experience
-makes this better for everyone!
+记住：最佳实践来自使用，不是理论。你真实的经验让这套系统对所有人都更好！
 
-## Resources
+## 资源
 
-- [Obsidian Documentation](https://help.obsidian.md)
+- [Obsidian 文档](https://help.obsidian.md)
 - [PARA Method](https://fortelabs.com/blog/para/)
-- [Claude Code Documentation](https://claude.ai/docs)
+- [Claude Code 文档](https://claude.ai/docs)
 
-## Inspiration
+## 灵感来源
 
-This starter kit was inspired by the workflows discussed in:
+这个启动套件的灵感来自：
 
-- [How to Use Claude Code as a Second Brain](https://every.to/podcast/how-to-use-claude-code-as-a-thinking-partner) -
-  Noah Brier's interview with Dan Shipper
-- Built by the team at [Alephic](https://alephic.com) - an AI-first strategy and
-  software partner that helps organizations solve complex challenges through
-  custom AI systems
+- [How to Use Claude Code as a Second Brain](https://every.to/podcast/how-to-use-claude-code-as-a-thinking-partner) —
+  Noah Brier 和 Dan Shipper 的访谈
+- 由 [Alephic](https://alephic.com) 团队搭建 — 一家 AI-first 的战略与软件合作伙伴，帮助组织通过定制 AI 系统解决复杂问题
 
-## License
+## 许可证
 
-MIT - Use this however you want. Make it your own.
+MIT — 想怎么用就怎么用，让它变成你自己的。
 
 ---
 
-_Remember: The bicycle feels wobbly at first, then you forget it was ever hard._
+_记住：自行车一开始骑起来摇摇晃晃，然后某天你会忘记它曾经难过。_

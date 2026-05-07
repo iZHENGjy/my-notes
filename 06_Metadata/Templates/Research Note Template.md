@@ -1,32 +1,32 @@
 # {{title}}
 
-**Source**: [URL or reference]
-**Date**: {{date}}
-**Tags**: #research
+**来源**: [URL 或参考]
+**日期**: {{date}}
+**标签**: #research
 
-## Summary
-<!-- Key points in 2-3 sentences -->
+## 摘要
+<!-- 2-3 句话讲完关键点 -->
 
-## Key Insights
+## 关键洞察
 - 
 - 
 - 
 
-## Notable Quotes
+## 值得引用的话
 > 
 
-## Questions Raised
+## 引发的问题
 - 
 - 
 
-## Connections
-<!-- How does this relate to other notes? -->
-- See: [[related note]]
-- Contradicts: [[other perspective]]
-- Builds on: [[foundation concept]]
+## 关联
+<!-- 这和其他笔记什么关系？ -->
+- 见：[[related note]]
+- 反对：[[other perspective]]
+- 基于：[[foundation concept]]
 
-## Action Items
+## 待办
 - [ ] 
 
 ---
-*For synthesis: "Review all research notes in [folder] and identify patterns"*
+*做综合时："看下 [文件夹] 里所有研究笔记，找出模式"*

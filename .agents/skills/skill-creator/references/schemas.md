@@ -1,12 +1,12 @@
 # JSON Schemas
 
-This document defines the JSON schemas used by skill-creator.
+本文档定义 skill-creator 用的 JSON schema。
 
 ---
 
 ## evals.json
 
-Defines the evals for a skill. Located at `evals/evals.json` within the skill directory.
+定义 skill 的 eval。位于 skill 目录下 `evals/evals.json`。
 
 ```json
 {
@@ -26,19 +26,19 @@ Defines the evals for a skill. Located at `evals/evals.json` within the skill di
 }
 ```
 
-**Fields:**
-- `skill_name`: Name matching the skill's frontmatter
-- `evals[].id`: Unique integer identifier
-- `evals[].prompt`: The task to execute
-- `evals[].expected_output`: Human-readable description of success
-- `evals[].files`: Optional list of input file paths (relative to skill root)
-- `evals[].expectations`: List of verifiable statements
+**字段**：
+- `skill_name`：和 skill frontmatter 里 name 匹配
+- `evals[].id`：唯一整数标识
+- `evals[].prompt`：要执行的任务
+- `evals[].expected_output`：成功的人类可读描述
+- `evals[].files`：可选，输入文件路径列表（相对 skill 根）
+- `evals[].expectations`：可验证陈述列表
 
 ---
 
 ## history.json
 
-Tracks version progression in Improve mode. Located at workspace root.
+跟踪 Improve 模式的版本进展。位于 workspace 根。
 
 ```json
 {
@@ -71,21 +71,21 @@ Tracks version progression in Improve mode. Located at workspace root.
 }
 ```
 
-**Fields:**
-- `started_at`: ISO timestamp of when improvement started
-- `skill_name`: Name of the skill being improved
-- `current_best`: Version identifier of the best performer
-- `iterations[].version`: Version identifier (v0, v1, ...)
-- `iterations[].parent`: Parent version this was derived from
-- `iterations[].expectation_pass_rate`: Pass rate from grading
-- `iterations[].grading_result`: "baseline", "won", "lost", or "tie"
-- `iterations[].is_current_best`: Whether this is the current best version
+**字段**：
+- `started_at`：改进开始的 ISO 时间戳
+- `skill_name`：被改进 skill 的 name
+- `current_best`：当前最佳版本的版本标识
+- `iterations[].version`：版本标识（v0、v1、...）
+- `iterations[].parent`：从哪个父版本派生
+- `iterations[].expectation_pass_rate`：评分得到的通过率
+- `iterations[].grading_result`："baseline"、"won"、"lost" 或 "tie"
+- `iterations[].is_current_best`：是否是当前最佳
 
 ---
 
 ## grading.json
 
-Output from the grader agent. Located at `<run-dir>/grading.json`.
+grader agent 的输出。位于 `<run-dir>/grading.json`。
 
 ```json
 {
@@ -149,20 +149,20 @@ Output from the grader agent. Located at `<run-dir>/grading.json`.
 }
 ```
 
-**Fields:**
-- `expectations[]`: Graded expectations with evidence
-- `summary`: Aggregate pass/fail counts
-- `execution_metrics`: Tool usage and output size (from executor's metrics.json)
-- `timing`: Wall clock timing (from timing.json)
-- `claims`: Extracted and verified claims from the output
-- `user_notes_summary`: Issues flagged by the executor
-- `eval_feedback`: (optional) Improvement suggestions for the evals, only present when the grader identifies issues worth raising
+**字段**：
+- `expectations[]`：评分后的 expectation，含证据
+- `summary`：聚合的通过 / 失败计数
+- `execution_metrics`：工具用量和输出大小（来自 executor 的 metrics.json）
+- `timing`：实际耗时（来自 timing.json）
+- `claims`：从输出抽取并验证的 claim
+- `user_notes_summary`：executor 标记的问题
+- `eval_feedback`：（可选）对 eval 的改进建议，仅在 grader 识别出值得提的问题时存在
 
 ---
 
 ## metrics.json
 
-Output from the executor agent. Located at `<run-dir>/outputs/metrics.json`.
+executor agent 的输出。位于 `<run-dir>/outputs/metrics.json`。
 
 ```json
 {
@@ -183,22 +183,22 @@ Output from the executor agent. Located at `<run-dir>/outputs/metrics.json`.
 }
 ```
 
-**Fields:**
-- `tool_calls`: Count per tool type
-- `total_tool_calls`: Sum of all tool calls
-- `total_steps`: Number of major execution steps
-- `files_created`: List of output files created
-- `errors_encountered`: Number of errors during execution
-- `output_chars`: Total character count of output files
-- `transcript_chars`: Character count of transcript
+**字段**：
+- `tool_calls`：每种工具的调用次数
+- `total_tool_calls`：所有工具调用总和
+- `total_steps`：主要执行步骤数
+- `files_created`：创建的输出文件列表
+- `errors_encountered`：执行中遇到的错误数
+- `output_chars`：输出文件总字符数
+- `transcript_chars`：transcript 字符数
 
 ---
 
 ## timing.json
 
-Wall clock timing for a run. Located at `<run-dir>/timing.json`.
+一次运行的实际耗时。位于 `<run-dir>/timing.json`。
 
-**How to capture:** When a subagent task completes, the task notification includes `total_tokens` and `duration_ms`. Save these immediately — they are not persisted anywhere else and cannot be recovered after the fact.
+**怎么捕获**：subagent 任务完成时，任务通知含 `total_tokens` 和 `duration_ms`。**立刻存** — 别处不持久化，事后没法恢复。
 
 ```json
 {
@@ -218,7 +218,7 @@ Wall clock timing for a run. Located at `<run-dir>/timing.json`.
 
 ## benchmark.json
 
-Output from Benchmark mode. Located at `benchmarks/<timestamp>/benchmark.json`.
+Benchmark 模式的输出。位于 `benchmarks/<timestamp>/benchmark.json`。
 
 ```json
 {
@@ -285,30 +285,30 @@ Output from Benchmark mode. Located at `benchmarks/<timestamp>/benchmark.json`.
 }
 ```
 
-**Fields:**
-- `metadata`: Information about the benchmark run
-  - `skill_name`: Name of the skill
-  - `timestamp`: When the benchmark was run
-  - `evals_run`: List of eval names or IDs
-  - `runs_per_configuration`: Number of runs per config (e.g. 3)
-- `runs[]`: Individual run results
-  - `eval_id`: Numeric eval identifier
-  - `eval_name`: Human-readable eval name (used as section header in the viewer)
-  - `configuration`: Must be `"with_skill"` or `"without_skill"` (the viewer uses this exact string for grouping and color coding)
-  - `run_number`: Integer run number (1, 2, 3...)
-  - `result`: Nested object with `pass_rate`, `passed`, `total`, `time_seconds`, `tokens`, `errors`
-- `run_summary`: Statistical aggregates per configuration
-  - `with_skill` / `without_skill`: Each contains `pass_rate`, `time_seconds`, `tokens` objects with `mean` and `stddev` fields
-  - `delta`: Difference strings like `"+0.50"`, `"+13.0"`, `"+1700"`
-- `notes`: Freeform observations from the analyzer
+**字段**：
+- `metadata`：本次 benchmark 运行信息
+  - `skill_name`：skill 的 name
+  - `timestamp`：benchmark 跑的时间
+  - `evals_run`：eval 名或 ID 列表
+  - `runs_per_configuration`：每配置的运行次数（如 3）
+- `runs[]`：单次运行结果
+  - `eval_id`：数字 eval 标识
+  - `eval_name`：人类可读的 eval 名（viewer 里当 section 标题）
+  - `configuration`：必须是 `"with_skill"` 或 `"without_skill"`（viewer 用这个精确字符串分组和配色）
+  - `run_number`：整数运行编号（1、2、3...）
+  - `result`：嵌套对象，含 `pass_rate`、`passed`、`total`、`time_seconds`、`tokens`、`errors`
+- `run_summary`：每配置的统计聚合
+  - `with_skill` / `without_skill`：各自含 `pass_rate`、`time_seconds`、`tokens` 对象，含 `mean` 和 `stddev` 字段
+  - `delta`：差值字符串如 `"+0.50"`、`"+13.0"`、`"+1700"`
+- `notes`：analyzer 的自由观察
 
-**Important:** The viewer reads these field names exactly. Using `config` instead of `configuration`, or putting `pass_rate` at the top level of a run instead of nested under `result`, will cause the viewer to show empty/zero values. Always reference this schema when generating benchmark.json manually.
+**重要**：viewer 精确读这些字段名。用 `config` 而不是 `configuration`，或把 `pass_rate` 放运行顶层而不是嵌在 `result` 下，会让 viewer 显示空 / 零值。**手动生成 benchmark.json 时总要参考这个 schema**。
 
 ---
 
 ## comparison.json
 
-Output from blind comparator. Located at `<grading-dir>/comparison-N.json`.
+盲对比 comparator 的输出。位于 `<grading-dir>/comparison-N.json`。
 
 ```json
 {
@@ -383,7 +383,7 @@ Output from blind comparator. Located at `<grading-dir>/comparison-N.json`.
 
 ## analysis.json
 
-Output from post-hoc analyzer. Located at `<grading-dir>/analysis.json`.
+事后 analyzer 的输出。位于 `<grading-dir>/analysis.json`。
 
 ```json
 {

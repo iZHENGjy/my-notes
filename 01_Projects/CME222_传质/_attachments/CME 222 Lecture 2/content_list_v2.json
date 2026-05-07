@@ -1,0 +1,3298 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "CME 222 MASS TRANSFER "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                250,
+                103,
+                741,
+                257
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusive Mass Transfer "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                280,
+                505,
+                722,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Dr. Tan Peng Chee "
+                    }
+                ]
+            },
+            "bbox": [
+                377,
+                690,
+                625,
+                733
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A4 #407 "
+                    }
+                ]
+            },
+            "bbox": [
+                450,
+                738,
+                556,
+                772
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "pengchee.tan@xmu.edu.my "
+                    }
+                ]
+            },
+            "bbox": [
+                316,
+                781,
+                688,
+                825
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Table of Content "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                81,
+                205,
+                469,
+                268
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Concentrations, Velocities "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Fluxes & Fick’s First Law "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                331,
+                558,
+                503
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concentrations, Velocities "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                151,
+                444,
+                848,
+                520
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concentration "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                114,
+                409,
+                177
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mass Concentration "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                222,
+                322,
+                261
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rho_ {A} = \\frac {m _ {A}}{V}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6d2cfdf2b4f7d12c8ac46023c90a0ffdf55a91ce4238095b4f6bdf56358bca61.jpg"
+                }
+            },
+            "bbox": [
+                437,
+                333,
+                552,
+                412
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "???? = mass concentration of species A "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m _ { A } = { \\mathsf { m a s s } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of species A V = total volume of mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                459,
+                533,
+                587
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/45f89dd3fc478a591183b6a2fce512f5bd14f4ec2108e2943b7140dc3642cd97.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                677,
+                327,
+                981,
+                640
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Total Mass Concentration/Density "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                681,
+                490,
+                722
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rho = \\sum_ {i = 1} ^ {n} \\rho_ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/789b32a19520b566ffd6b60155fb4ca0cc4996d803d9258e7ed51c54705f4147.jpg"
+                }
+            },
+            "bbox": [
+                433,
+                766,
+                555,
+                892
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                922,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concentration "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                114,
+                409,
+                177
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Specific Volume (υ) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                198,
+                316,
+                242
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Volume occupied by a unit mass of the substance. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Inverse of density "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                268,
+                726,
+                381
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v = \\frac {V}{m} = \\frac {1}{\\rho}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/97bdb6d2d1afb4472b126244e78363cbe2c4b8ba5be99ef862c2e167807d57b0.jpg"
+                }
+            },
+            "bbox": [
+                415,
+                440,
+                550,
+                538
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Mass Fraction (??) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                579,
+                300,
+                625
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "w _ {A} = \\frac {m _ {A}}{m} = \\frac {\\rho_ {A}}{\\rho}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/309f73bdbbbd6c5d2e683a276d84f5a19c4fde69d39e55b07a670e1815e61392.jpg"
+                }
+            },
+            "bbox": [
+                406,
+                664,
+                587,
+                751
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "m _ {A} = \\mathrm {m a s s o f A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2c1d4e4fa51e0a8c5a5a90d77cea5deb75c70fd2a16fef29b8485ff17a606197.jpg"
+                }
+            },
+            "bbox": [
+                669,
+                674,
+                847,
+                711
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "m = t o t a l m a s s o f m i x t u r e",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d7b6b524ccee7e555b00461a3078f3ff18d6febc0ecbe967dd9802570ac846f1.jpg"
+                }
+            },
+            "bbox": [
+                670,
+                714,
+                954,
+                746
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sum_ {i = 1} ^ {n} w _ {i} = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4fd673dfc1761d92edf4fb001c04d8cf1e47b2f1d1f1b29da8b42b1d52612185.jpg"
+                }
+            },
+            "bbox": [
+                444,
+                837,
+                573,
+                964
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Summation of mass fraction equal to 1 "
+                    }
+                ]
+            },
+            "bbox": [
+                652,
+                866,
+                879,
+                944
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concentration "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                114,
+                409,
+                177
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Molar Concentration "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                198,
+                330,
+                238
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mole of A per unit volume of mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                268,
+                550,
+                312
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} = \\frac {n _ {A}}{V} = \\frac {\\rho_ {A}}{M _ {A}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5e2eb6eab08bd785ccec827fa65ba2ca323602b07b6e624c45001a3dff7af213.jpg"
+                }
+            },
+            "bbox": [
+                375,
+                370,
+                545,
+                459
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• For gas phase, concentration often expressed in term of pressure "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                546,
+                922,
+                592
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} = \\frac {n _ {A}}{V} = \\frac {P _ {A}}{R T}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ba3a79e7ffb955957f95ca9a2987fd1a6206ecf90d975be6bcfa8fe71c993d7c.jpg"
+                }
+            },
+            "bbox": [
+                366,
+                675,
+                533,
+                766
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sum_ {i = 1} ^ {n} c _ {i} = \\mathbf {c}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ef890679a46d67c7467dab387dfc3ed368749faff313218da33c61924958bb6c.jpg"
+                }
+            },
+            "bbox": [
+                709,
+                672,
+                823,
+                787
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "n _ {A} = \\mathrm {m o l e o f A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4d92ecb2a19eef1e656988da6ed4b00431d612a350371d15057d59933a37f0a8.jpg"
+                }
+            },
+            "bbox": [
+                95,
+                814,
+                263,
+                853
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "P _ {A} = \\text {p a r t i a l p r e s s u r e o f A (m o l e f r a c t i o n x t o t a l p r e s s u r e)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/25a2c6e4c8ca696c8ba6276669df332836091d9bc749c9bda636c252951b185f.jpg"
+                }
+            },
+            "bbox": [
+                95,
+                855,
+                719,
+                894
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "M _ {A} = \\mathrm {m o l e c u l a r w e i g h t o f A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ed6a54d25afb98de4893a888cd5497d9c3a3feea1292912ad55b1569bd699a06.jpg"
+                }
+            },
+            "bbox": [
+                97,
+                896,
+                400,
+                933
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                922,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concentration "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                114,
+                409,
+                177
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mole Fraction "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                198,
+                247,
+                238
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For solid and liquid, "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                268,
+                316,
+                312
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {A} = \\frac {n _ {A}}{n} = \\frac {c _ {A}}{c}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e58e8630c0ef177254973f893ec69ff991befaa643dd1aa78a2575632a1cb44e.jpg"
+                }
+            },
+            "bbox": [
+                413,
+                396,
+                581,
+                479
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For gas, "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                522,
+                177,
+                566
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {A} = \\frac {n _ {A}}{n} = \\frac {c _ {A}}{c} = \\frac {P _ {A}}{P}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/de24daec217bff26c86c1232fd6033a19e8cf026ccdb25faa91b5dd8b5090919.jpg"
+                }
+            },
+            "bbox": [
+                383,
+                607,
+                611,
+                696
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Summation of mole fraction equal to 1 "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                783,
+                541,
+                829
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                922,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Concentration "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                114,
+                406,
+                177
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "How can I correlate mass fraction and mole fraction? "
+                    }
+                ]
+            },
+            "bbox": [
+                416,
+                277,
+                638,
+                398
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} x _ {A} o r y _ {A} = \\frac {\\frac {w _ {A}}{M _ {A}}}{\\frac {w _ {A}}{M _ {A}} + \\frac {w _ {B}}{M _ {B}}} \\\\ w _ {A} = \\frac {x _ {A} M _ {A}}{x _ {A} M _ {A} + x _ {B} M _ {B}} \\\\ \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6da357537748adbe365eb9ec644ecebf0efb39dd967cd050c12a1a6472b5299c.jpg"
+                }
+            },
+            "bbox": [
+                388,
+                507,
+                641,
+                838
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/dcd486a1c891de4b1f393ad56fcb16781c5b44fb4e1ce3d05e6d1e0f500769a0.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                798,
+                170,
+                954,
+                512
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Can be applied for ya "
+                    }
+                ]
+            },
+            "bbox": [
+                713,
+                781,
+                952,
+                825
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                922,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 1 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                114,
+                312,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The composition of air is often given in terms of only two principal species in the gas mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                266,
+                941,
+                364
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "O2, "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "y _ { O _ { 2 } } = 0 . 2 1"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "N2, "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "y _ { N _ { 2 } } = 0 . 7 9"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                409,
+                288,
+                512
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The molecular weight of oxygen is 0.032 kg/mol and of nitrogen is 0.028 kg/mol. Condition: 25 oC and 101300 Pa abs. "
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                557,
+                916,
+                651
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Determine "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                93,
+                700,
+                234,
+                738
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "i. Mean molecular weight of the air "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "ii. Mass fraction of both oxygen and nitrogen "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "iii. Molar concentration of both oxygen and nitrogen "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                746,
+                777,
+                883
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9 "
+                    }
+                ]
+            },
+            "bbox": [
+                906,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Velocity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                114,
+                266,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• In multicomponent mixture, each species will normally move at different velocities "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                220,
+                922,
+                305
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Mass-Average Velocity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                405,
+                359,
+                451
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Defined in term of mass densities "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                477,
+                525,
+                516
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {v} = \\frac {\\sum_ {i = 1} ^ {n} \\rho_ {i} \\mathbf {v} _ {i}}{\\sum_ {i = 1} ^ {n} \\rho_ {i}} = \\frac {\\sum_ {i = 1} ^ {n} \\rho_ {i} \\mathbf {v} _ {i}}{\\rho} = \\sum_ {i = 1} ^ {n} \\omega_ {i} \\mathbf {v} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8bd27eb000c6f4a5863fbafa47d538c391a66d501506d045469e72073e40cf5e.jpg"
+                }
+            },
+            "bbox": [
+                206,
+                557,
+                659,
+                809
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                938,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Velocity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                114,
+                266,
+                187
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Molar-Average Velocity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                220,
+                362,
+                264
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Defined in term of molar concentration "
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                290,
+                583,
+                329
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {V} = \\frac {\\sum_ {i = 1} ^ {n} c _ {i} \\mathbf {v} _ {i}}{\\sum_ {i = 1} ^ {n} c _ {i}} = \\frac {\\sum_ {i = 1} ^ {n} c _ {i} \\mathbf {v} _ {i}}{c} = \\sum_ {i = 1} ^ {n} x _ {i} \\mathbf {v} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/59700935da1d7c5f3e5794d9224961a933070a70fde679964be1611f05fb5377.jpg"
+                }
+            },
+            "bbox": [
+                254,
+                387,
+                656,
+                635
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11 "
+                    }
+                ]
+            },
+            "bbox": [
+                900,
+                940,
+                919,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Velocity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                114,
+                266,
+                187
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion Velocity "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                70,
+                220,
+                288,
+                264
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Velocity of a species in relative to average velocity "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                290,
+                694,
+                333
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion velocity of species i relative to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "v _ { i d = } v _ { i } - \\mathrm { v }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "mass-average velocity "
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                412,
+                777,
+                509
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion velocity of species i relative to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { i d = } v _ { i } - \\mathsf { V }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "molar-average velocity "
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                574,
+                776,
+                670
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 2 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                114,
+                320,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A gas mixture containing 65 mol% NH3, 8 mol% N2, 24 mol% H2 and 3 mol% Ar is flowing through a pipe 25 mm in diameter at a total pressure of 4 atm. "
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                268,
+                926,
+                412
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The velocities of the components are as follows: "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                457,
+                720,
+                501
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N H _ {3} = 0. 0 3 \\mathrm {m / s}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d6f66054eedf87960163d78a95ae50335bbf2ebd53fcea5e19e59b1d0c446f3e.jpg"
+                }
+            },
+            "bbox": [
+                95,
+                505,
+                297,
+                550
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {2} = 0. 0 3 \\mathrm {m / s}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/01fcad73610aa118ce9b7a36bf950ead1dedf87fa41c61cef2ca0601985656ac.jpg"
+                }
+            },
+            "bbox": [
+                95,
+                551,
+                276,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H _ {2} = 0. 0 3 5 \\mathrm {m / s}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/49ee5620c86bbe24fc5ba3a47808aa36da97e10e33eb2f4c53702c7ce8eb0fdc.jpg"
+                }
+            },
+            "bbox": [
+                95,
+                598,
+                291,
+                644
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm {A r} = 0. 0 2 \\mathrm {m / s}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b5b786e4b084f4f78dda4260010b1cc297463f25ef53eea53c39407c68551cca.jpg"
+                }
+            },
+            "bbox": [
+                95,
+                646,
+                273,
+                683
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Calculate the molar-average, mass-average velocity, and mass diffusion velocity of H2. "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                737,
+                912,
+                835
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Fluxes & Fick’s First Law "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                168,
+                444,
+                837,
+                514
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Fick’s Law - Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                94,
+                476,
+                159
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• In 1855, Fick quantified the observation of diffusion "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Flux is the amount of the particular species passes through a cross section area at a given time (can be in mass or molar unit) "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Fick’s first law proposed molar flux for isothermal, isobaric system "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                59,
+                201,
+                905,
+                435
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {J} _ {A} = - D _ {A B} \\nabla c _ {A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4e5afb1d58b605023b256fccd29817900aaea9d140b4c0344962e393e798996a.jpg"
+                }
+            },
+            "bbox": [
+                91,
+                507,
+                281,
+                551
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• For diffusion of a binary mixture of A and B in z-direction "
+                    }
+                ]
+            },
+            "bbox": [
+                59,
+                607,
+                790,
+                651
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "J _ {A, z} = - D _ {A B} \\frac {d c _ {A}}{d z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/120da5d9757ceffb8188e355547cd4c53306786172e211b4104e9326de0a4bf2.jpg"
+                }
+            },
+            "bbox": [
+                90,
+                720,
+                295,
+                809
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "????,?? = molar flux of component A (mol/m2.s) "
+                    }
+                ]
+            },
+            "bbox": [
+                381,
+                714,
+                861,
+                759
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "?????? = diffusivity or diffusion coefficient (m2/s) "
+                    }
+                ]
+            },
+            "bbox": [
+                383,
+                785,
+                880,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "?????? ???? = concentration gradient ( "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathtt { C _ { A } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in mol/m3, and z in m) "
+                    }
+                ]
+            },
+            "bbox": [
+                383,
+                850,
+                986,
+                914
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": []
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Fick’s Law - Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                469,
+                162
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Can be expressed in another form "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                201,
+                497,
+                244
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "J _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f3dbf62730908e85826cd46c7fa4d28c41586b8a5615aab837bb871db2d049c9.jpg"
+                }
+            },
+            "bbox": [
+                337,
+                325,
+                581,
+                431
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where cA = cyA "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                492,
+                259,
+                538
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Fick’s Law - Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                94,
+                469,
+                157
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "j _ {A, z} = - \\rho D _ {A B} \\frac {d \\omega_ {A}}{d z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1183bac6ae026fd1171dc674b958530a00928f76b8b4eae874b14674102ad951.jpg"
+                }
+            },
+            "bbox": [
+                316,
+                325,
+                573,
+                425
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "j _ {A, z} = - D _ {A B} \\frac {d \\rho_ {A}}{d z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d46fabc0b10e324a7c339e3d96732b2c358ba3579ba68f08dba2dd2c9910091b.jpg"
+                }
+            },
+            "bbox": [
+                341,
+                562,
+                563,
+                657
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "j _ {A, z} = \\mathrm {m a s s f l u x o f A (k g / m ^ {2} . s)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fa9fa26c8ab0cad4cd75f24f38509b0626db76d046358db1d02d3a83c8e6abbb.jpg"
+                }
+            },
+            "bbox": [
+                91,
+                785,
+                422,
+                825
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 3 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                114,
+                322,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A mixture of He and N2 gas is contained in a pipe at 298 K and 1 atm total pressure. At one end of the pipe the partial pressure of He is 0.6 atm and the partial pressure of He is 0.2 atm at the other end (0.2m apart). Calculate the molar and mass flux of He at steady state if DHe-N2 is 0.687 x 10-4 m2/s. "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                244,
+                929,
+                581
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Example 4 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                114,
+                320,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A plate of iron is exposed to a carburizing (carbon-rich) atmosphere on one side and a decarburizing (carbon-deficient) atmosphere on the other side at 700 oC. If a condition of steady state is achieved, calculate the mass diffusion flux of carbon through the plate if the concentration of carbon at position of 5 and 10 mm beneath the carburizing surface are 100 and 66.67 mol/m3, respectively. Assume a diffusion coefficient of 3 x 10-7 cm2/s at this temperature. "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                244,
+                929,
+                787
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19 "
+                    }
+                ]
+            },
+            "bbox": [
+                897,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                180,
+                157
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux is contributed by: "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                201,
+                387,
+                244
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "✓ Concentration gradient "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "✓ Bulk motion "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                272,
+                445,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• For binary system with constant average velocity, molar diffusion flux can be expressed as "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                490,
+                902,
+                575
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "J _ {A, z} = c _ {A} \\left(V _ {A d, z}\\right) = c _ {A} \\left(v _ {A, z} - V _ {z}\\right)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/34d04e2477702b4843783302d1a005b8725026d7c4afee332cb37ab09795091d.jpg"
+                }
+            },
+            "bbox": [
+                270,
+                596,
+                659,
+                651
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "??????,?? is the molar diffusion velocity "
+                    }
+                ]
+            },
+            "bbox": [
+                93,
+                712,
+                520,
+                759
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "v _ { A , z }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the velocity of component A "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                781,
+                527,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "???? is the molar-average velocity of stream "
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                850,
+                609,
+                894
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                181,
+                157
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Diffusion velocity is measured relative to the moving fluid "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "To a stationary observer, A is moving faster than the bulk of the phase since its diffusion velocity "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "( V _ { A d } )"
+                            },
+                            {
+                                "type": "text",
+                                "content": "is added to that of the bulk phase (V) "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                201,
+                906,
+                407
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v _ {A} = V _ {A d} + \\mathsf {V}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e9dd9af6dcb1059f69076bf5bcf601bcb13f4f19e494142cf4ee8d33260bec03.jpg"
+                }
+            },
+            "bbox": [
+                88,
+                503,
+                250,
+                551
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7215c3156aacc9ca67dac0833782f8e8fce44c179e8e81b977dccc6ec1e828fb.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                348,
+                466,
+                545,
+                581
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                570,
+                453,
+                970,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Multiply with cA "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                651,
+                263,
+                698
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} v _ {A} = c _ {A} V _ {A d} + c _ {A} \\mathsf {V}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/afdfc1bcf1ca220bc0eac7556cb613f3c3f19828ab566fe313d3bc09623b7ce5.jpg"
+                }
+            },
+            "bbox": [
+                359,
+                751,
+                636,
+                801
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                919,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                98,
+                180,
+                155
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion flux of A relative to moving fluid (concentration gradient contribution) "
+                    }
+                ]
+            },
+            "bbox": [
+                326,
+                251,
+                670,
+                385
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} v _ {A} = c _ {A} V _ {A d} + c _ {A} \\mathsf {V}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3bdab55cca167d50940f71c5c2224af0f21ac9f7ad09f343901a8d5103454c85.jpg"
+                }
+            },
+            "bbox": [
+                330,
+                483,
+                602,
+                531
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Total flux of A relative to stationary point "
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                622,
+                343,
+                712
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Convective flux of A relative to stationary point (bulk motion contribution) "
+                    }
+                ]
+            },
+            "bbox": [
+                575,
+                603,
+                950,
+                735
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Let NA = total flux = ???????? "
+                    }
+                ]
+            },
+            "bbox": [
+                41,
+                833,
+                347,
+                879
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                96,
+                181,
+                157
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Introduce new term total flux represented by NA "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                201,
+                656,
+                250
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "J _ {A, z} = c _ {A} \\left(v _ {A, z} - V _ {z}\\right) = - c D _ {A B} \\frac {d y _ {A}}{d z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9da1d2255b153e7848ba7acfcf78ba3fa7d103d70dc9504294d3f0e1b68de91a.jpg"
+                }
+            },
+            "bbox": [
+                66,
+                300,
+                476,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Rearrangement, "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                431,
+                276,
+                477
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} v _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z} + c _ {A} V _ {z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bb799750d82e82ecae989d29b62bcffcf75c7df619d66d416b9636b92f269623.jpg"
+                }
+            },
+            "bbox": [
+                270,
+                518,
+                591,
+                605
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Molar-average velocity, "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                650,
+                359,
+                690
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "V _ {z} = \\frac {1}{c} \\big (c _ {A} v _ {A, z} + c _ {B} v _ {B, z} \\big)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d643c786469bc14dda502111d2e4a0e0cc3ebf67f951d4b502942031bedfa2fa.jpg"
+                }
+            },
+            "bbox": [
+                288,
+                692,
+                573,
+                775
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} V _ {z} = y _ {A} \\big (c _ {A} v _ {A, z} + c _ {B} v _ {B, z} \\big)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/618c6a3a926ce6667fca33cd717016140a0af88a0e29313c6d9080fed315b226.jpg"
+                }
+            },
+            "bbox": [
+                273,
+                818,
+                590,
+                870
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                96,
+                180,
+                157
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a0a3499c06318d3c30849781b2d9b3e8c0d6617b62eb676c8713b55c123cac51.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                661,
+                77,
+                820,
+                201
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} v _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z} + y _ {A} \\big (c _ {A} v _ {A, z} + c _ {B} v _ {B, z} \\big)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/35cc36a1c97b183b5b761d4e6e914c39f2db1f4d75afeb78b579c5989e9457b6.jpg"
+                }
+            },
+            "bbox": [
+                208,
+                177,
+                708,
+                268
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathsf {N} _ {\\mathsf {A}} = c _ {A} v _ {A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b38d0339e97b68885fd8b3f15749fb45efe8a631693667a262bfe186f44f4bba.jpg"
+                }
+            },
+            "bbox": [
+                791,
+                218,
+                911,
+                262
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathsf {N} _ {\\mathtt {B}} = c _ {B} v _ {B}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c71a7029ca54336c182ee8ff4f065cb565ee0d9e89d904cf1c4315817ad74456.jpg"
+                }
+            },
+            "bbox": [
+                791,
+                288,
+                913,
+                333
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z} + y _ {A} \\big (N _ {A, z} + N _ {B, z} \\big)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/28b88aba7be1f9426b9a142acd3befe2630ac1fe283a9ebc9fbe6715e5471652.jpg"
+                }
+            },
+            "bbox": [
+                241,
+                351,
+                672,
+                440
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This relation may be generalized and written in vector form "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                483,
+                795,
+                524
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {N} _ {\\boldsymbol {A}} = - c D _ {A B} \\nabla \\boldsymbol {y} _ {\\boldsymbol {A}} + y _ {\\boldsymbol {A}} \\left(\\boldsymbol {N} _ {\\boldsymbol {A}} + \\boldsymbol {N} _ {\\boldsymbol {B}}\\right)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bb773a5474d9b165b0390a019ea861790046bc351d4afcebe172a11e7df1286f.jpg"
+                }
+            },
+            "bbox": [
+                259,
+                570,
+                654,
+                614
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "If species A were diffusing in a multicomponent mixture, "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                661,
+                756,
+                703
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb {N} _ {\\pmb {A}} = - c D _ {A M} \\pmb {\\nabla} \\pmb {y} _ {\\pmb {A}} + y _ {A} \\sum_ {i = 1} ^ {n} \\pmb {N} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d5366488ee34cdde412c26e983c567d0274015b27cc87c9b95a319981d09e0b7.jpg"
+                }
+            },
+            "bbox": [
+                284,
+                746,
+                630,
+                870
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "D _ { A M }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is the diffusivity of A in the mixture "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                916,
+                630,
+                957
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                76,
+                96,
+                180,
+                155
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Expression for mass flux "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                229,
+                412,
+                275
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb {n} _ {A} = - \\rho D _ {A B} \\nabla \\pmb {w} _ {A} + w _ {A} (\\pmb {n} _ {A} + \\pmb {n} _ {B})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/31b977e6bf3c0b405a62c8a3cf0a81075ff97722fa8b3d54096586f60b9ac064.jpg"
+                }
+            },
+            "bbox": [
+                237,
+                325,
+                677,
+                379
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "where "
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                427,
+                159,
+                466
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "n _ {A} = \\rho_ {A} v _ {A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2bac5c22adde284015b21b1728e101fdb3bf70188014eda72f28f7b3e7e1b6ed.jpg"
+                }
+            },
+            "bbox": [
+                69,
+                531,
+                219,
+                572
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "n _ {B} = \\rho_ {B} v _ {B}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2743646a21fda11c93954143be72941e62b1838dea418f0ef2d1ccfecd8b8337.jpg"
+                }
+            },
+            "bbox": [
+                69,
+                629,
+                222,
+                670
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "25 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Flux "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                96,
+                180,
+                157
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d917f742f07a5e560de80b4424ef0b9e935e5809ca290af30b47646a5ecfe943.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>Flux</td><td>Gradient</td><td>Fick rate equation</td></tr><tr><td rowspan=\"2\">nA</td><td>∇ωA</td><td>nA = -ρDAB∇ωA + ωA(nA + nB)</td></tr><tr><td>∇ρA</td><td>nA = -DAB∇ρA + ωA(nA + nB)</td></tr><tr><td rowspan=\"2\">NA</td><td>∇yA</td><td>NA = -cDAB∇yA + yA(NA + NB)</td></tr><tr><td>∇cA</td><td>NA = -DAB∇cA + yA(NA + NB)</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                77,
+                268,
+                861,
+                540
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Consider a dye-filled balloon dropped into the moving stream "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                659,
+                829,
+                705
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Dye diffuse radially while being carried downstream "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Two contribution in mass transfer "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                727,
+                745,
+                831
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": []
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Take Home Message "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                94,
+                556,
+                170
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• Mass concentration vs Molar concentration "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Diffusion velocity (Mass/molar basis) "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                266,
+                645,
+                375
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v _ {i d} = v _ {i} - \\mathbf {v}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a5bf9000506dd41d146714af265bda964500ebb0cd1d2979a6e251ee2ac107a4.jpg"
+                }
+            },
+            "bbox": [
+                363,
+                424,
+                512,
+                462
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Fick’s first law "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                533,
+                293,
+                572
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "J _ {A, z} = - D _ {A B} \\frac {d c _ {A}}{d z}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/131699cb1ab49119a2d2a40853b95844de76c147c08b02351428f2182579f951.jpg"
+                }
+            },
+            "bbox": [
+                341,
+                609,
+                547,
+                698
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Diffusion flux and convective flux "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                733,
+                523,
+                772
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "c _ {A} v _ {A} = c _ {A} V _ {a d} + c _ {A} \\mathsf {V}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cd9b1b060d1a9b3f47e3f531e3c253fe7b79c1012646414f82e5b3ed929008df.jpg"
+                }
+            },
+            "bbox": [
+                348,
+                818,
+                627,
+                868
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {N} _ {\\boldsymbol {A}} = - c D _ {A B} \\nabla \\boldsymbol {y} _ {\\boldsymbol {A}} + y _ {A} (\\boldsymbol {N} _ {\\boldsymbol {A}} + \\boldsymbol {N} _ {\\boldsymbol {B}})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1fb720f2a17f680de40f9180ac007b3b48737a4a70469ba73dd77a863b736f4b.jpg"
+                }
+            },
+            "bbox": [
+                323,
+                912,
+                683,
+                953
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "27 "
+                    }
+                ]
+            },
+            "bbox": [
+                895,
+                940,
+                920,
+                966
+            ]
+        }
+    ]
+]

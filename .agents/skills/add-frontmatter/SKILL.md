@@ -1,47 +1,46 @@
 ---
 name: add-frontmatter
-description: Add or update YAML frontmatter properties to enhance Obsidian note organization. Use when the user asks to add, fix, normalize, or improve frontmatter, properties, metadata, tags, or YAML on a note or folder of notes.
+description: Add or update YAML frontmatter properties to enhance Obsidian note organization. Use when the user asks to add, fix, normalize, or improve frontmatter, properties, metadata, tags, or YAML on a note or folder of notes. / 给 Obsidian 笔记加 / 更新 YAML frontmatter，增强组织性。当用户要"加 frontmatter"、"修 properties"、"规范化 metadata / tags / YAML"（针对单个笔记或一个文件夹）时触发。
 ---
 
-You will analyze Obsidian notes and add intelligent YAML frontmatter properties
-to enhance organization and discoverability.
+你的任务是分析 Obsidian 笔记，加上智能的 YAML frontmatter 属性，增强组织性和可发现性。
 
-## Input
+## 输入
 
-- Path: file or folder to process
-- Current date: use the system date
+- 路径：要处理的文件或文件夹
+- 当前日期：用系统日期
 
-## Your Task
+## 任务
 
-### Step 1: Identify Notes to Process
+### Step 1：识别要处理的笔记
 
 ```bash
-# If single file
-Read the specified file
+# 单个文件
+读取指定文件
 
-# If folder
-Find all .md files in folder
+# 文件夹
+找出文件夹里所有 .md 文件
 ```
 
-### Step 2: Analyze Note Content
+### Step 2：分析笔记内容
 
-For each note, examine:
+每个笔记看：
 
-- Main topics and themes
-- Note type (meeting, daily, reference, project)
-- Key entities (people, projects, dates)
-- Existing properties (preserve valid ones)
-- Title quality (add/improve if needed)
+- 主要话题和主题
+- 笔记类型（meeting、daily、reference、project）
+- 关键实体（人、项目、日期）
+- 已有属性（保留有效的）
+- 标题质量（必要时改 / 加）
 
-### Step 3: Generate Appropriate Properties
+### Step 3：生成合适的属性
 
-#### Standard Properties by Note Type
+#### 各类型笔记的标准属性
 
-**Meeting Notes:**
+**会议笔记**：
 
 ```yaml
 ---
-title: [Descriptive meeting title]
+title: [描述性的会议标题]
 date: YYYY-MM-DD
 type: meeting
 attendees: ['Person 1', 'Person 2']
@@ -54,7 +53,7 @@ status: complete
 ---
 ```
 
-**Daily Notes:**
+**每日笔记**：
 
 ```yaml
 ---
@@ -68,11 +67,11 @@ mood: productive
 ---
 ```
 
-**Reference/Article Notes:**
+**参考 / 文章笔记**：
 
 ```yaml
 ---
-title: [Article or concept title]
+title: [文章或概念标题]
 type: reference
 source: "[[Source Note]]" or URL
 author: Author Name
@@ -82,11 +81,11 @@ key_concepts: [concept1, concept2]
 ---
 ```
 
-**Project Notes:**
+**项目笔记**：
 
 ```yaml
 ---
-title: [Project Name - Component]
+title: [项目名 - 组件]
 type: project
 status: in-progress
 deadline: YYYY-MM-DD
@@ -96,89 +95,89 @@ priority: high
 ---
 ```
 
-### Step 4: Apply Properties
+### Step 4：应用属性
 
-For each note:
+每个笔记：
 
-1. Check for existing frontmatter
-2. Merge new properties (don't duplicate)
-3. Fix any deprecated formats:
+1. 检查是否已有 frontmatter
+2. 合并新属性（不重复）
+3. 修复废弃格式：
    - `tag` → `tags`
    - `alias` → `aliases`
    - `cssclass` → `cssclasses`
-4. Ensure valid YAML syntax
+4. 保证 YAML 语法有效
 
-### Step 5: Update File
+### Step 5：更新文件
 
 ```yaml
-# Format:
+# 格式：
 ---
 property: value
 list_property: ['item1', 'item2']
 date_property: YYYY-MM-DD
 linked_property: '[[Note Name]]'
 ---
-[Original content]
+[原内容]
 ```
 
-## Property Guidelines
+## 属性指南
 
-### Naming Conventions
+### 命名规范
 
-- Use lowercase with underscores: `date_created`, `action_items`
-- Be consistent with existing vault patterns
-- Prefer clear over clever names
+- 用小写 + 下划线：`date_created`、`action_items`
+- 和已有 vault 模式保持一致
+- 清晰胜过聪明
 
-### Value Types
+### 值类型
 
-- **Text**: Simple strings, use quotes for links
-- **List**: Arrays for multiple values
-- **Date**: ISO format (YYYY-MM-DD)
-- **Number**: For counts, ratings, priorities
-- **Checkbox**: For boolean states
+- **文本**：简单字符串，链接要加引号
+- **列表**：多值用数组
+- **日期**：ISO 格式（YYYY-MM-DD）
+- **数字**：用于计数、评分、优先级
+- **复选框**：用于布尔状态
 
-### Quality Checks
+### 质量检查
 
-- ✅ Valid YAML syntax
-- ✅ No duplicate properties
-- ✅ Appropriate property types
-- ✅ Quoted internal links
-- ✅ Meaningful values (not empty)
+- ✅ YAML 语法有效
+- ✅ 没重复属性
+- ✅ 类型合适
+- ✅ 内部链接加引号
+- ✅ 值有意义（不空）
 
-## Special Cases
+## 特殊情况
 
-### Untitled Notes
+### 没标题的笔记
 
-Generate title from:
+从下面生成标题：
 
-1. First heading if exists
-2. First paragraph summary
-3. Main topic/concept discussed
+1. 第一个 heading（如果有）
+2. 第一段总结
+3. 主要讨论的话题 / 概念
 
-### Bulk Processing
+### 批量处理
 
-When processing folders:
+处理文件夹时：
 
-- Maintain consistency across similar notes
-- Use same property names for same concepts
-- Report summary of changes made
+- 同类笔记保持一致
+- 同概念用同属性名
+- 报告变更总结
 
-### Existing Properties
+### 已有属性
 
-- Preserve valid existing properties
-- Update deprecated formats
-- Merge new properties carefully
-- Never delete without reason
+- 保留有效的已有属性
+- 更新废弃格式
+- 小心合并新属性
+- 没理由不删
 
-## Examples
+## 例子
 
-### Before:
+### 改前：
 
 ```markdown
-Had a great meeting with the team about Q1 planning...
+今天和团队开了一个不错的会，讨论 Q1 规划...
 ```
 
-### After:
+### 改后：
 
 ```markdown
 ---
@@ -191,8 +190,7 @@ tags: [meeting, planning, q1-2025]
 status: complete
 ---
 
-Had a great meeting with the team about Q1 planning...
+今天和团队开了一个不错的会，讨论 Q1 规划...
 ```
 
-Remember: Properties should enhance organization, not clutter. Only add what
-provides value for finding and connecting notes.
+记住：属性应该增强组织，而不是制造杂乱。只加那些有助于查找和连接笔记的内容。

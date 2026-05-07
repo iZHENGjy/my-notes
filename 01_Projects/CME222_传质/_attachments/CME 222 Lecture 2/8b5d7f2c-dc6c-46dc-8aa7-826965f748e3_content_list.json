@@ -1,0 +1,2115 @@
+[
+    {
+        "type": "text",
+        "text": "CME 222 MASS TRANSFER ",
+        "text_level": 1,
+        "bbox": [
+            250,
+            103,
+            741,
+            257
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Diffusive Mass Transfer ",
+        "text_level": 1,
+        "bbox": [
+            280,
+            505,
+            722,
+            559
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dr. Tan Peng Chee ",
+        "bbox": [
+            377,
+            690,
+            625,
+            733
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A4 #407 ",
+        "bbox": [
+            450,
+            738,
+            556,
+            772
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "pengchee.tan@xmu.edu.my ",
+        "bbox": [
+            316,
+            781,
+            688,
+            825
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Table of Content ",
+        "text_level": 1,
+        "bbox": [
+            81,
+            205,
+            469,
+            268
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Concentrations, Velocities ",
+            "• Fluxes & Fick’s First Law "
+        ],
+        "bbox": [
+            80,
+            331,
+            558,
+            503
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Concentrations, Velocities ",
+        "text_level": 1,
+        "bbox": [
+            151,
+            444,
+            848,
+            520
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Concentration ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Mass Concentration ",
+        "bbox": [
+            70,
+            222,
+            322,
+            261
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\rho_ {A} = \\frac {m _ {A}}{V}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            437,
+            333,
+            552,
+            412
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "???? = mass concentration of species A $m _ { A } = { \\mathsf { m a s s } }$ of species A V = total volume of mixture ",
+        "bbox": [
+            66,
+            459,
+            533,
+            587
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/45f89dd3fc478a591183b6a2fce512f5bd14f4ec2108e2943b7140dc3642cd97.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            677,
+            327,
+            981,
+            640
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Total Mass Concentration/Density ",
+        "bbox": [
+            69,
+            681,
+            490,
+            722
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\rho = \\sum_ {i = 1} ^ {n} \\rho_ {i}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            766,
+            555,
+            892
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            964
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Concentration ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Specific Volume (υ) ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            198,
+            316,
+            242
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Volume occupied by a unit mass of the substance. ",
+            "Inverse of density "
+        ],
+        "bbox": [
+            70,
+            268,
+            726,
+            381
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nv = \\frac {V}{m} = \\frac {1}{\\rho}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            440,
+            550,
+            538
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Mass Fraction (??) ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            579,
+            300,
+            625
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nw _ {A} = \\frac {m _ {A}}{m} = \\frac {\\rho_ {A}}{\\rho}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            664,
+            587,
+            751
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nm _ {A} = \\mathrm {m a s s o f A}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            669,
+            674,
+            847,
+            711
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nm = t o t a l m a s s o f m i x t u r e\n$$",
+        "text_format": "latex",
+        "bbox": [
+            670,
+            714,
+            954,
+            746
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sum_ {i = 1} ^ {n} w _ {i} = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            444,
+            837,
+            573,
+            964
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Summation of mass fraction equal to 1 ",
+        "bbox": [
+            652,
+            866,
+            879,
+            944
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Concentration ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Molar Concentration ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            198,
+            330,
+            238
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Mole of A per unit volume of mixture ",
+        "bbox": [
+            70,
+            268,
+            550,
+            312
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} = \\frac {n _ {A}}{V} = \\frac {\\rho_ {A}}{M _ {A}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            370,
+            545,
+            459
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "• For gas phase, concentration often expressed in term of pressure ",
+        "bbox": [
+            70,
+            546,
+            922,
+            592
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} = \\frac {n _ {A}}{V} = \\frac {P _ {A}}{R T}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            675,
+            533,
+            766
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sum_ {i = 1} ^ {n} c _ {i} = \\mathbf {c}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            709,
+            672,
+            823,
+            787
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nn _ {A} = \\mathrm {m o l e o f A}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            814,
+            263,
+            853
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP _ {A} = \\text {p a r t i a l p r e s s u r e o f A (m o l e f r a c t i o n x t o t a l p r e s s u r e)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            855,
+            719,
+            894
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nM _ {A} = \\mathrm {m o l e c u l a r w e i g h t o f A}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            97,
+            896,
+            400,
+            933
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Concentration ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            114,
+            409,
+            177
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Mole Fraction ",
+        "bbox": [
+            70,
+            198,
+            247,
+            238
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "For solid and liquid, ",
+        "bbox": [
+            70,
+            268,
+            316,
+            312
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx _ {A} = \\frac {n _ {A}}{n} = \\frac {c _ {A}}{c}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            396,
+            581,
+            479
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "For gas, ",
+        "bbox": [
+            70,
+            522,
+            177,
+            566
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {A} = \\frac {n _ {A}}{n} = \\frac {c _ {A}}{c} = \\frac {P _ {A}}{P}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            383,
+            607,
+            611,
+            696
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Summation of mole fraction equal to 1 ",
+        "bbox": [
+            69,
+            783,
+            541,
+            829
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Concentration ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            114,
+            406,
+            177
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "How can I correlate mass fraction and mole fraction? ",
+        "bbox": [
+            416,
+            277,
+            638,
+            398
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} x _ {A} o r y _ {A} = \\frac {\\frac {w _ {A}}{M _ {A}}}{\\frac {w _ {A}}{M _ {A}} + \\frac {w _ {B}}{M _ {B}}} \\\\ w _ {A} = \\frac {x _ {A} M _ {A}}{x _ {A} M _ {A} + x _ {B} M _ {B}} \\\\ \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            388,
+            507,
+            641,
+            838
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/dcd486a1c891de4b1f393ad56fcb16781c5b44fb4e1ce3d05e6d1e0f500769a0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            798,
+            170,
+            954,
+            512
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Can be applied for ya ",
+        "bbox": [
+            713,
+            781,
+            952,
+            825
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 ",
+        "bbox": [
+            906,
+            940,
+            922,
+            966
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Example 1 ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            312,
+            187
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The composition of air is often given in terms of only two principal species in the gas mixture ",
+        "bbox": [
+            91,
+            266,
+            941,
+            364
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "O2, $y _ { O _ { 2 } } = 0 . 2 1$ ",
+            "N2, $y _ { N _ { 2 } } = 0 . 7 9$ "
+        ],
+        "bbox": [
+            91,
+            409,
+            288,
+            512
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "The molecular weight of oxygen is 0.032 kg/mol and of nitrogen is 0.028 kg/mol. Condition: 25 oC and 101300 Pa abs. ",
+        "bbox": [
+            90,
+            557,
+            916,
+            651
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Determine ",
+        "text_level": 1,
+        "bbox": [
+            93,
+            700,
+            234,
+            738
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "i. Mean molecular weight of the air ",
+            "ii. Mass fraction of both oxygen and nitrogen ",
+            "iii. Molar concentration of both oxygen and nitrogen "
+        ],
+        "bbox": [
+            91,
+            746,
+            777,
+            883
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 ",
+        "bbox": [
+            906,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Velocity ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            266,
+            187
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "• In multicomponent mixture, each species will normally move at different velocities ",
+        "bbox": [
+            70,
+            220,
+            922,
+            305
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Mass-Average Velocity ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            405,
+            359,
+            451
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Defined in term of mass densities ",
+        "bbox": [
+            70,
+            477,
+            525,
+            516
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathbf {v} = \\frac {\\sum_ {i = 1} ^ {n} \\rho_ {i} \\mathbf {v} _ {i}}{\\sum_ {i = 1} ^ {n} \\rho_ {i}} = \\frac {\\sum_ {i = 1} ^ {n} \\rho_ {i} \\mathbf {v} _ {i}}{\\rho} = \\sum_ {i = 1} ^ {n} \\omega_ {i} \\mathbf {v} _ {i}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            206,
+            557,
+            659,
+            809
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10 ",
+        "bbox": [
+            897,
+            938,
+            920,
+            966
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Velocity ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            266,
+            187
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Molar-Average Velocity ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            220,
+            362,
+            264
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Defined in term of molar concentration ",
+        "bbox": [
+            72,
+            290,
+            583,
+            329
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathbf {V} = \\frac {\\sum_ {i = 1} ^ {n} c _ {i} \\mathbf {v} _ {i}}{\\sum_ {i = 1} ^ {n} c _ {i}} = \\frac {\\sum_ {i = 1} ^ {n} c _ {i} \\mathbf {v} _ {i}}{c} = \\sum_ {i = 1} ^ {n} x _ {i} \\mathbf {v} _ {i}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            254,
+            387,
+            656,
+            635
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11 ",
+        "bbox": [
+            900,
+            940,
+            919,
+            964
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Velocity ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            114,
+            266,
+            187
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Diffusion Velocity ",
+        "text_level": 1,
+        "bbox": [
+            70,
+            220,
+            288,
+            264
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Velocity of a species in relative to average velocity ",
+        "bbox": [
+            70,
+            290,
+            694,
+            333
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Diffusion velocity of species i relative to $v _ { i d = } v _ { i } - \\mathrm { v }$ mass-average velocity ",
+        "bbox": [
+            90,
+            412,
+            777,
+            509
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Diffusion velocity of species i relative to $V _ { i d = } v _ { i } - \\mathsf { V }$ molar-average velocity ",
+        "bbox": [
+            90,
+            574,
+            776,
+            670
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Example 2 ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            320,
+            187
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A gas mixture containing 65 mol% NH3, 8 mol% N2, 24 mol% H2 and 3 mol% Ar is flowing through a pipe 25 mm in diameter at a total pressure of 4 atm. ",
+        "bbox": [
+            90,
+            268,
+            926,
+            412
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "The velocities of the components are as follows: ",
+        "bbox": [
+            91,
+            457,
+            720,
+            501
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN H _ {3} = 0. 0 3 \\mathrm {m / s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            505,
+            297,
+            550
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN _ {2} = 0. 0 3 \\mathrm {m / s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            551,
+            276,
+            596
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH _ {2} = 0. 0 3 5 \\mathrm {m / s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            598,
+            291,
+            644
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm {A r} = 0. 0 2 \\mathrm {m / s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            95,
+            646,
+            273,
+            683
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Calculate the molar-average, mass-average velocity, and mass diffusion velocity of H2. ",
+        "bbox": [
+            91,
+            737,
+            912,
+            835
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "Fluxes & Fick’s First Law ",
+        "text_level": 1,
+        "bbox": [
+            168,
+            444,
+            837,
+            514
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "Fick’s Law - Flux ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            94,
+            476,
+            159
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• In 1855, Fick quantified the observation of diffusion ",
+            "• Flux is the amount of the particular species passes through a cross section area at a given time (can be in mass or molar unit) ",
+            "• Fick’s first law proposed molar flux for isothermal, isobaric system "
+        ],
+        "bbox": [
+            59,
+            201,
+            905,
+            435
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathbf {J} _ {A} = - D _ {A B} \\nabla c _ {A}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            91,
+            507,
+            281,
+            551
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "• For diffusion of a binary mixture of A and B in z-direction ",
+        "bbox": [
+            59,
+            607,
+            790,
+            651
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\nJ _ {A, z} = - D _ {A B} \\frac {d c _ {A}}{d z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            90,
+            720,
+            295,
+            809
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "????,?? = molar flux of component A (mol/m2.s) ",
+        "bbox": [
+            381,
+            714,
+            861,
+            759
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "?????? = diffusivity or diffusion coefficient (m2/s) ",
+        "bbox": [
+            383,
+            785,
+            880,
+            829
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "?????? ???? = concentration gradient ( $\\mathtt { C _ { A } }$ in mol/m3, and z in m) ",
+        "bbox": [
+            383,
+            850,
+            986,
+            914
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Fick’s Law - Flux ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            94,
+            469,
+            162
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Can be expressed in another form ",
+        "bbox": [
+            70,
+            201,
+            497,
+            244
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nJ _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            325,
+            581,
+            431
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "where cA = cyA ",
+        "bbox": [
+            70,
+            492,
+            259,
+            538
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Fick’s Law - Flux ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            94,
+            469,
+            157
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nj _ {A, z} = - \\rho D _ {A B} \\frac {d \\omega_ {A}}{d z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            316,
+            325,
+            573,
+            425
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nj _ {A, z} = - D _ {A B} \\frac {d \\rho_ {A}}{d z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            562,
+            563,
+            657
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nj _ {A, z} = \\mathrm {m a s s f l u x o f A (k g / m ^ {2} . s)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            91,
+            785,
+            422,
+            825
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Example 3 ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            322,
+            187
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "A mixture of He and N2 gas is contained in a pipe at 298 K and 1 atm total pressure. At one end of the pipe the partial pressure of He is 0.6 atm and the partial pressure of He is 0.2 atm at the other end (0.2m apart). Calculate the molar and mass flux of He at steady state if DHe-N2 is 0.687 x 10-4 m2/s. ",
+        "bbox": [
+            75,
+            244,
+            929,
+            581
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Example 4 ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            114,
+            320,
+            187
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "A plate of iron is exposed to a carburizing (carbon-rich) atmosphere on one side and a decarburizing (carbon-deficient) atmosphere on the other side at 700 oC. If a condition of steady state is achieved, calculate the mass diffusion flux of carbon through the plate if the concentration of carbon at position of 5 and 10 mm beneath the carburizing surface are 100 and 66.67 mol/m3, respectively. Assume a diffusion coefficient of 3 x 10-7 cm2/s at this temperature. ",
+        "bbox": [
+            75,
+            244,
+            929,
+            787
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19 ",
+        "bbox": [
+            897,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            96,
+            180,
+            157
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Flux is contributed by: ",
+        "bbox": [
+            70,
+            201,
+            387,
+            244
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "✓ Concentration gradient ",
+            "✓ Bulk motion "
+        ],
+        "bbox": [
+            120,
+            272,
+            445,
+            385
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "• For binary system with constant average velocity, molar diffusion flux can be expressed as ",
+        "bbox": [
+            70,
+            490,
+            902,
+            575
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nJ _ {A, z} = c _ {A} \\left(V _ {A d, z}\\right) = c _ {A} \\left(v _ {A, z} - V _ {z}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            596,
+            659,
+            651
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "??????,?? is the molar diffusion velocity ",
+        "bbox": [
+            93,
+            712,
+            520,
+            759
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "$v _ { A , z }$ is the velocity of component A ",
+        "bbox": [
+            94,
+            781,
+            527,
+            829
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "???? is the molar-average velocity of stream ",
+        "bbox": [
+            94,
+            850,
+            609,
+            894
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            96,
+            181,
+            157
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Diffusion velocity is measured relative to the moving fluid ",
+            "To a stationary observer, A is moving faster than the bulk of the phase since its diffusion velocity $( V _ { A d } )$ is added to that of the bulk phase (V) "
+        ],
+        "bbox": [
+            70,
+            201,
+            906,
+            407
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nv _ {A} = V _ {A d} + \\mathsf {V}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            88,
+            503,
+            250,
+            551
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/7215c3156aacc9ca67dac0833782f8e8fce44c179e8e81b977dccc6ec1e828fb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            348,
+            466,
+            545,
+            581
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            570,
+            453,
+            970,
+            627
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Multiply with cA ",
+        "bbox": [
+            70,
+            651,
+            263,
+            698
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} v _ {A} = c _ {A} V _ {A d} + c _ {A} \\mathsf {V}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            751,
+            636,
+            801
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21 ",
+        "bbox": [
+            895,
+            940,
+            919,
+            966
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            98,
+            180,
+            155
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Diffusion flux of A relative to moving fluid (concentration gradient contribution) ",
+        "bbox": [
+            326,
+            251,
+            670,
+            385
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} v _ {A} = c _ {A} V _ {A d} + c _ {A} \\mathsf {V}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            330,
+            483,
+            602,
+            531
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Total flux of A relative to stationary point ",
+        "bbox": [
+            45,
+            622,
+            343,
+            712
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Convective flux of A relative to stationary point (bulk motion contribution) ",
+        "bbox": [
+            575,
+            603,
+            950,
+            735
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Let NA = total flux = ???????? ",
+        "bbox": [
+            41,
+            833,
+            347,
+            879
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            96,
+            181,
+            157
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Introduce new term total flux represented by NA ",
+        "bbox": [
+            70,
+            201,
+            656,
+            250
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nJ _ {A, z} = c _ {A} \\left(v _ {A, z} - V _ {z}\\right) = - c D _ {A B} \\frac {d y _ {A}}{d z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            300,
+            476,
+            388
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Rearrangement, ",
+        "bbox": [
+            70,
+            431,
+            276,
+            477
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} v _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z} + c _ {A} V _ {z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            518,
+            591,
+            605
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Molar-average velocity, ",
+        "bbox": [
+            69,
+            650,
+            359,
+            690
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {z} = \\frac {1}{c} \\big (c _ {A} v _ {A, z} + c _ {B} v _ {B, z} \\big)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            288,
+            692,
+            573,
+            775
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} V _ {z} = y _ {A} \\big (c _ {A} v _ {A, z} + c _ {B} v _ {B, z} \\big)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            273,
+            818,
+            590,
+            870
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            96,
+            180,
+            157
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/a0a3499c06318d3c30849781b2d9b3e8c0d6617b62eb676c8713b55c123cac51.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            661,
+            77,
+            820,
+            201
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} v _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z} + y _ {A} \\big (c _ {A} v _ {A, z} + c _ {B} v _ {B, z} \\big)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            208,
+            177,
+            708,
+            268
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathsf {N} _ {\\mathsf {A}} = c _ {A} v _ {A}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            791,
+            218,
+            911,
+            262
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathsf {N} _ {\\mathtt {B}} = c _ {B} v _ {B}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            791,
+            288,
+            913,
+            333
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN _ {A, z} = - c D _ {A B} \\frac {d y _ {A}}{d z} + y _ {A} \\big (N _ {A, z} + N _ {B, z} \\big)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            241,
+            351,
+            672,
+            440
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "This relation may be generalized and written in vector form ",
+        "bbox": [
+            69,
+            483,
+            795,
+            524
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {N} _ {\\boldsymbol {A}} = - c D _ {A B} \\nabla \\boldsymbol {y} _ {\\boldsymbol {A}} + y _ {\\boldsymbol {A}} \\left(\\boldsymbol {N} _ {\\boldsymbol {A}} + \\boldsymbol {N} _ {\\boldsymbol {B}}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            259,
+            570,
+            654,
+            614
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "If species A were diffusing in a multicomponent mixture, ",
+        "bbox": [
+            69,
+            661,
+            756,
+            703
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\pmb {N} _ {\\pmb {A}} = - c D _ {A M} \\pmb {\\nabla} \\pmb {y} _ {\\pmb {A}} + y _ {A} \\sum_ {i = 1} ^ {n} \\pmb {N} _ {i}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            746,
+            630,
+            870
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "where $D _ { A M }$ is the diffusivity of A in the mixture ",
+        "bbox": [
+            69,
+            916,
+            630,
+            957
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            76,
+            96,
+            180,
+            155
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Expression for mass flux ",
+        "bbox": [
+            70,
+            229,
+            412,
+            275
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\pmb {n} _ {A} = - \\rho D _ {A B} \\nabla \\pmb {w} _ {A} + w _ {A} (\\pmb {n} _ {A} + \\pmb {n} _ {B})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            237,
+            325,
+            677,
+            379
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "where ",
+        "bbox": [
+            69,
+            427,
+            159,
+            466
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nn _ {A} = \\rho_ {A} v _ {A}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            531,
+            219,
+            572
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nn _ {B} = \\rho_ {B} v _ {B}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            69,
+            629,
+            222,
+            670
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "25 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Flux ",
+        "text_level": 1,
+        "bbox": [
+            75,
+            96,
+            180,
+            157
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/d917f742f07a5e560de80b4424ef0b9e935e5809ca290af30b47646a5ecfe943.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Flux</td><td>Gradient</td><td>Fick rate equation</td></tr><tr><td rowspan=\"2\">nA</td><td>∇ωA</td><td>nA = -ρDAB∇ωA + ωA(nA + nB)</td></tr><tr><td>∇ρA</td><td>nA = -DAB∇ρA + ωA(nA + nB)</td></tr><tr><td rowspan=\"2\">NA</td><td>∇yA</td><td>NA = -cDAB∇yA + yA(NA + NB)</td></tr><tr><td>∇cA</td><td>NA = -DAB∇cA + yA(NA + NB)</td></tr></table>",
+        "bbox": [
+            77,
+            268,
+            861,
+            540
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Consider a dye-filled balloon dropped into the moving stream ",
+        "bbox": [
+            70,
+            659,
+            829,
+            705
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Dye diffuse radially while being carried downstream ",
+            "• Two contribution in mass transfer "
+        ],
+        "bbox": [
+            73,
+            727,
+            745,
+            831
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "Take Home Message ",
+        "text_level": 1,
+        "bbox": [
+            73,
+            94,
+            556,
+            170
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Mass concentration vs Molar concentration ",
+            "Diffusion velocity (Mass/molar basis) "
+        ],
+        "bbox": [
+            73,
+            266,
+            645,
+            375
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nv _ {i d} = v _ {i} - \\mathbf {v}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            363,
+            424,
+            512,
+            462
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Fick’s first law ",
+        "bbox": [
+            75,
+            533,
+            293,
+            572
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nJ _ {A, z} = - D _ {A B} \\frac {d c _ {A}}{d z}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            609,
+            547,
+            698
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "Diffusion flux and convective flux ",
+        "bbox": [
+            73,
+            733,
+            523,
+            772
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc _ {A} v _ {A} = c _ {A} V _ {a d} + c _ {A} \\mathsf {V}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            348,
+            818,
+            627,
+            868
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {N} _ {\\boldsymbol {A}} = - c D _ {A B} \\nabla \\boldsymbol {y} _ {\\boldsymbol {A}} + y _ {A} (\\boldsymbol {N} _ {\\boldsymbol {A}} + \\boldsymbol {N} _ {\\boldsymbol {B}})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            323,
+            912,
+            683,
+            953
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "27 ",
+        "bbox": [
+            895,
+            940,
+            920,
+            966
+        ],
+        "page_idx": 26
+    }
+]

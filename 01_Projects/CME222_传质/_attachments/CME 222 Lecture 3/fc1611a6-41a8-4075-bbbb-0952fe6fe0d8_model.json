@@ -1,0 +1,4328 @@
+[
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.25,
+                0.104,
+                0.745,
+                0.259
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                500,
+                156,
+                1490,
+                156,
+                1490,
+                388,
+                500,
+                388
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.281,
+                0.507,
+                0.723,
+                0.561
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                562,
+                760,
+                1446,
+                760,
+                1446,
+                841,
+                562,
+                841
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.378,
+                0.692,
+                0.629,
+                0.737
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                756,
+                1038,
+                1258,
+                1038,
+                1258,
+                1105,
+                756,
+                1105
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.449,
+                0.739,
+                0.558,
+                0.774
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                898,
+                1108,
+                1116,
+                1108,
+                1116,
+                1161,
+                898,
+                1161
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.317,
+                0.783,
+                0.69,
+                0.826
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                634,
+                1174,
+                1380,
+                1174,
+                1380,
+                1239,
+                634,
+                1239
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.082,
+                0.206,
+                0.47,
+                0.269
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                164,
+                309,
+                940,
+                309,
+                940,
+                403,
+                164,
+                403
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.081,
+                0.332,
+                0.456,
+                0.397
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                162,
+                498,
+                912,
+                498,
+                912,
+                595,
+                162,
+                595
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.085,
+                0.448,
+                0.786,
+                0.606
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                170,
+                672,
+                1572,
+                672,
+                1572,
+                909,
+                170,
+                909
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.081,
+                0.332,
+                0.786,
+                0.606
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.965
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1447,
+                1816,
+                1447
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.227,
+                0.441,
+                0.777,
+                0.528
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                454,
+                661,
+                1554,
+                661,
+                1554,
+                792,
+                454,
+                792
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1450,
+                1816,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.045,
+                0.102,
+                0.525,
+                0.165
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                90,
+                153,
+                1050,
+                153,
+                1050,
+                247,
+                90,
+                247
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.044,
+                0.198,
+                0.194,
+                0.243
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                88,
+                297,
+                388,
+                297,
+                388,
+                364,
+                88,
+                364
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.071,
+                0.297,
+                0.525,
+                0.398
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {- J _ {A , z}}{d c _ {A} / d z} = \\left(\\frac {N}{L ^ {2} t}\\right) \\left(\\frac {1}{N / L ^ {3} \\cdot 1 / L}\\right) = \\frac {L ^ {2}}{t}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.588,
+                0.342,
+                0.847,
+                0.388
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1176,
+                513,
+                1694,
+                513,
+                1694,
+                582,
+                1176,
+                582
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.492,
+                0.943,
+                0.609
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                84,
+                738,
+                1886,
+                738,
+                1886,
+                913,
+                84,
+                913
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.043,
+                0.638,
+                0.584,
+                0.688
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                86,
+                957,
+                1168,
+                957,
+                1168,
+                1032,
+                86,
+                1032
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.042,
+                0.492,
+                0.943,
+                0.688
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.091,
+                0.71,
+                0.472,
+                0.76
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                182,
+                1065,
+                944,
+                1065,
+                944,
+                1140,
+                182,
+                1140
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.092,
+                0.784,
+                0.491,
+                0.832
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                184,
+                1176,
+                982,
+                1176,
+                982,
+                1248,
+                184,
+                1248
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.092,
+                0.858,
+                0.487,
+                0.9
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                184,
+                1287,
+                974,
+                1287,
+                974,
+                1350,
+                184,
+                1350
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.923,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1846,
+                1413,
+                1846,
+                1450,
+                1816,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.082,
+                0.043,
+                0.561,
+                0.103
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                164,
+                64,
+                1122,
+                64,
+                1122,
+                154,
+                164,
+                154
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.198,
+                0.124,
+                0.473,
+                0.148
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                396,
+                186,
+                946,
+                186,
+                946,
+                222,
+                396,
+                222
+            ]
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.196,
+                0.151,
+                0.778,
+                0.971
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>System</td><td>T(K)</td><td>\\( {D}_{AB}P\\left( {{\\mathrm{\\;{cm}}}^{2}\\text{atm/s}}\\right) \\)</td><td>\\( {D}_{AB}P\\left( {{\\mathrm{\\;m}}^{2}\\mathrm{{Pa}}/\\mathrm{s}}\\right) \\)</td></tr><tr><td colspan=\"4\">Air</td></tr><tr><td>Ammonia</td><td>273</td><td>0.198</td><td>2.006</td></tr><tr><td>Aniline</td><td>298</td><td>0.0726</td><td>0.735</td></tr><tr><td>Benzene</td><td>298</td><td>0.0962</td><td>0.974</td></tr><tr><td>Bromine</td><td>293</td><td>0.091</td><td>0.923</td></tr><tr><td>Carbon dioxide</td><td>273</td><td>0.136</td><td>1.378</td></tr><tr><td>Carbon disulfide</td><td>273</td><td>0.0883</td><td>0.894</td></tr><tr><td>Chlorine</td><td>273</td><td>0.124</td><td>1.256</td></tr><tr><td>Diphenyl</td><td>491</td><td>0.160</td><td>1.621</td></tr><tr><td>Ethyl acetate</td><td>273</td><td>0.0709</td><td>0.718</td></tr><tr><td>Ethanol</td><td>298</td><td>0.132</td><td>1.337</td></tr><tr><td>Ethyl ether</td><td>293</td><td>0.0896</td><td>0.908</td></tr><tr><td>Iodine</td><td>298</td><td>0.0834</td><td>0.845</td></tr><tr><td>Methanol</td><td>298</td><td>0.162</td><td>1.641</td></tr><tr><td>Mercury</td><td>614</td><td>0.473</td><td>4.791</td></tr><tr><td>Naphthalene</td><td>298</td><td>0.0611</td><td>0.619</td></tr><tr><td>Nitrobenzene</td><td>298</td><td>0.0868</td><td>0.879</td></tr><tr><td>n-Octane</td><td>298</td><td>0.0602</td><td>0.610</td></tr><tr><td>Oxygen</td><td>273</td><td>0.175</td><td>1.773</td></tr><tr><td>Propyl acetate</td><td>315</td><td>0.092</td><td>0.932</td></tr><tr><td>Sulfur dioxide</td><td>273</td><td>0.122</td><td>1.236</td></tr><tr><td>Toluene</td><td>298</td><td>0.0844</td><td>0.855</td></tr><tr><td>Water</td><td>298</td><td>0.260</td><td>2.634</td></tr><tr><td colspan=\"4\">Ammonia</td></tr><tr><td>Ethylene</td><td>293</td><td>0.177</td><td>1.793</td></tr><tr><td colspan=\"4\">Argon</td></tr><tr><td>Neon</td><td>293</td><td>0.329</td><td>3.333</td></tr><tr><td colspan=\"4\">Carbon dioxide</td></tr><tr><td>Benzene</td><td>318</td><td>0.0715</td><td>0.724</td></tr><tr><td>Carbon disulfide</td><td>318</td><td>0.0715</td><td>0.724</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.966
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1449,
+                1816,
+                1449
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.081,
+                0.043,
+                0.561,
+                0.101
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                162,
+                64,
+                1122,
+                64,
+                1122,
+                151,
+                162,
+                151
+            ]
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.224,
+                0.108,
+                0.692,
+                0.988
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>System</td><td>T(K)</td><td>DAB P(cm2atm/s)</td><td>DAB P(m2Pa/s)</td></tr><tr><td>Ethanol</td><td>273</td><td>0.0693</td><td>0.702</td></tr><tr><td>Ethyl ether</td><td>273</td><td>0.0541</td><td>0.548</td></tr><tr><td>Hydrogen</td><td>273</td><td>0.550</td><td>5.572</td></tr><tr><td>Methane</td><td>273</td><td>0.153</td><td>1.550</td></tr><tr><td>Methanol</td><td>298.6</td><td>0.105</td><td>1.064</td></tr><tr><td>Nitrogen</td><td>298</td><td>0.165</td><td>1.672</td></tr><tr><td>Nitrous oxide</td><td>298</td><td>0.117</td><td>1.185</td></tr><tr><td>Propane</td><td>298</td><td>0.0863</td><td>0.874</td></tr><tr><td>Water</td><td>298</td><td>0.164</td><td>1.661</td></tr><tr><td>Carbon monoxide</td><td></td><td></td><td></td></tr><tr><td>Ethylene</td><td>273</td><td>0.151</td><td>1.530</td></tr><tr><td>Hydrogen</td><td>273</td><td>0.651</td><td>6.595</td></tr><tr><td>Nitrogen</td><td>288</td><td>0.192</td><td>1.945</td></tr><tr><td>Oxygen</td><td>273</td><td>0.185</td><td>1.874</td></tr><tr><td>Helium</td><td></td><td></td><td></td></tr><tr><td>Argon</td><td>273</td><td>0.641</td><td>6.493</td></tr><tr><td>Benzene</td><td>298</td><td>0.384</td><td>3.890</td></tr><tr><td>Ethanol</td><td>298</td><td>0.494</td><td>5.004</td></tr><tr><td>Hydrogen</td><td>293</td><td>1.64</td><td>16.613</td></tr><tr><td>Neon</td><td>293</td><td>1.23</td><td>12.460</td></tr><tr><td>Water</td><td>298</td><td>0.908</td><td>9.198</td></tr><tr><td>Hydrogen</td><td></td><td></td><td></td></tr><tr><td>Ammonia</td><td>293</td><td>0.849</td><td>8.600</td></tr><tr><td>Argon</td><td>293</td><td>0.770</td><td>7.800</td></tr><tr><td>Benzene</td><td>273</td><td>0.317</td><td>3.211</td></tr><tr><td>Ethane</td><td>273</td><td>0.439</td><td>4.447</td></tr><tr><td>Methane</td><td>273</td><td>0.625</td><td>6.331</td></tr><tr><td>Oxygen</td><td>273</td><td>0.697</td><td>7.061</td></tr><tr><td>Water</td><td>293</td><td>0.850</td><td>8.611</td></tr><tr><td>Nitrogen</td><td></td><td></td><td></td></tr><tr><td>Ammonia</td><td>293</td><td>0.241</td><td>2.441</td></tr><tr><td>Ethylene</td><td>298</td><td>0.163</td><td>1.651</td></tr><tr><td>Hydrogen</td><td>288</td><td>0.743</td><td>7.527</td></tr><tr><td>Iodine</td><td>273</td><td>0.070</td><td>0.709</td></tr><tr><td>Oxygen</td><td>273</td><td>0.181</td><td>1.834</td></tr><tr><td>Oxygen</td><td></td><td></td><td></td></tr><tr><td>Ammonia</td><td>293</td><td>0.253</td><td>2.563</td></tr><tr><td>Benzene</td><td>296</td><td>0.0939</td><td>0.951</td></tr><tr><td>Ethylene</td><td>293</td><td>0.182</td><td>1.844</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1450,
+                1816,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.081,
+                0.043,
+                0.561,
+                0.103
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                162,
+                64,
+                1122,
+                64,
+                1122,
+                154,
+                162,
+                154
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.19,
+                0.142,
+                0.485,
+                0.169
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                380,
+                212,
+                970,
+                212,
+                970,
+                253,
+                380,
+                253
+            ]
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.189,
+                0.174,
+                0.797,
+                0.922
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Solute A</td><td>Solvent B</td><td>Temperature (K)</td><td>Solute concentration (g mol/L or kg mol/m3)</td><td>Diffusivity (cm2/s × 105or m2/s × 109)</td></tr><tr><td>Chlorine</td><td>Water</td><td>289</td><td>0.12</td><td>1.26</td></tr><tr><td rowspan=\"5\">Hydrogen chloride</td><td rowspan=\"5\">Water</td><td rowspan=\"2\">273</td><td>9</td><td>2.7</td></tr><tr><td>2</td><td>1.8</td></tr><tr><td rowspan=\"2\">283</td><td>9</td><td>3.3</td></tr><tr><td>2.5</td><td>2.5</td></tr><tr><td>289</td><td>0.5</td><td>2.44</td></tr><tr><td rowspan=\"2\">Ammonia</td><td rowspan=\"2\">Water</td><td>278</td><td>3.5</td><td>1.24</td></tr><tr><td>288</td><td>1.0</td><td>1.77</td></tr><tr><td rowspan=\"2\">Carbon dioxide</td><td rowspan=\"2\">Water</td><td>283</td><td>0</td><td>1.46</td></tr><tr><td>293</td><td>0</td><td>1.77</td></tr><tr><td rowspan=\"5\">Sodium chloride</td><td rowspan=\"5\">Water</td><td rowspan=\"5\">291</td><td>0.05</td><td>1.26</td></tr><tr><td>0.2</td><td>1.21</td></tr><tr><td>1.0</td><td>1.24</td></tr><tr><td>3.0</td><td>1.36</td></tr><tr><td>5.4</td><td>1.54</td></tr><tr><td>Methanol</td><td>Water</td><td>288</td><td>0</td><td>1.28</td></tr><tr><td rowspan=\"3\">Acetic acid</td><td rowspan=\"3\">Water</td><td rowspan=\"2\">285.5</td><td>1.0</td><td>0.82</td></tr><tr><td>0.01</td><td>0.91</td></tr><tr><td>291</td><td>1.0</td><td>0.96</td></tr><tr><td rowspan=\"3\">Ethanol</td><td rowspan=\"3\">Water</td><td rowspan=\"2\">283</td><td>3.75</td><td>0.50</td></tr><tr><td>0.05</td><td>0.83</td></tr><tr><td>289</td><td>2.0</td><td>0.90</td></tr><tr><td>n-Butanol</td><td>Water</td><td>288</td><td>0</td><td>0.77</td></tr><tr><td>Carbon dioxide</td><td>Ethanol</td><td>290</td><td>0</td><td>3.2</td></tr><tr><td>Chloroform</td><td>Ethanol</td><td>293</td><td>2.0</td><td>1.25</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.965
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1447,
+                1816,
+                1447
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.08,
+                0.043,
+                0.561,
+                0.103
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                160,
+                64,
+                1122,
+                64,
+                1122,
+                154,
+                160,
+                154
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.103,
+                0.226,
+                0.448,
+                0.263
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                206,
+                339,
+                896,
+                339,
+                896,
+                394,
+                206,
+                394
+            ]
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.101,
+                0.267,
+                0.923,
+                0.731
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Solute</td><td>Solid</td><td>Temperature (K)</td><td>Diffusivity (cm2/s or m2/s × 104)</td><td>Diffusivity (ft2/h)</td></tr><tr><td rowspan=\"2\">Helium</td><td rowspan=\"2\">Pyrex</td><td>293</td><td>4.49 × 10-11</td><td>1.74 × 10-10</td></tr><tr><td>773</td><td>2.00 × 10-8</td><td>7.76 × 10-8</td></tr><tr><td rowspan=\"2\">Hydrogen</td><td rowspan=\"2\">Nickel</td><td>358</td><td>1.16 × 10-8</td><td>4.5 × 10-8</td></tr><tr><td>438</td><td>1.05 × 10-7</td><td>4.07 × 10-7</td></tr><tr><td>Bismuth</td><td>Lead</td><td>293</td><td>1.10 × 10-16</td><td>4.27 × 10-16</td></tr><tr><td>Mercury</td><td>Lead</td><td>293</td><td>2.50 × 10-15</td><td>9.7 × 10-15</td></tr><tr><td>Antimony</td><td>Silver</td><td>293</td><td>3.51 × 10-21</td><td>1.36 × 10-20</td></tr><tr><td>Aluminum</td><td>Copper</td><td>293</td><td>1.30 × 10-30</td><td>5.04 × 10-30</td></tr><tr><td>Cadmium</td><td>Copper</td><td>293</td><td>2.71 × 10-15</td><td>1.05 × 10-14</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1450,
+                1816,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.559,
+                0.161
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1118,
+                142,
+                1118,
+                241,
+                152,
+                241
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.072,
+                0.202,
+                0.461,
+                0.246
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                144,
+                303,
+                922,
+                303,
+                922,
+                369,
+                144,
+                369
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.071,
+                0.275,
+                0.786,
+                0.365
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                142,
+                412,
+                1572,
+                412,
+                1572,
+                547,
+                142,
+                547
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.071,
+                0.392,
+                0.847,
+                0.44
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                142,
+                588,
+                1694,
+                588,
+                1694,
+                660,
+                142,
+                660
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.071,
+                0.464,
+                0.82,
+                0.553
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                142,
+                696,
+                1640,
+                696,
+                1640,
+                829,
+                142,
+                829
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.071,
+                0.275,
+                0.847,
+                0.553
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.336,
+                0.554,
+                0.602,
+                0.89
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{l} c _ {A} + c _ {B} = c = \\frac {P}{R T} \\\\ J _ {A} = - J _ {B} \\\\ - D _ {A B} \\frac {d c _ {A}}{d z} = - (- D _ {B A} \\frac {d c _ {B}}{d z}) \\\\ D _ {A B} = D _ {B A} \\\\ \\end{array}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.908,
+                0.942,
+                0.921,
+                0.966
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1816,
+                1413,
+                1842,
+                1413,
+                1842,
+                1449,
+                1816,
+                1449
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.047,
+                0.404,
+                0.959,
+                0.567
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                94,
+                606,
+                1918,
+                606,
+                1918,
+                850,
+                94,
+                850
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.942,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1413,
+                1842,
+                1413,
+                1842,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.559,
+                0.173
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1118,
+                142,
+                1118,
+                259,
+                152,
+                259
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.235,
+                0.65,
+                0.283
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                352,
+                1300,
+                352,
+                1300,
+                424,
+                150,
+                424
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.309,
+                0.291,
+                0.356
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                463,
+                582,
+                463,
+                582,
+                534,
+                150,
+                534
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.075,
+                0.235,
+                0.65,
+                0.356
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.382,
+                0.3,
+                0.432
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                252,
+                573,
+                600,
+                573,
+                600,
+                648,
+                252,
+                648
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.455,
+                0.567,
+                0.505
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                252,
+                682,
+                1134,
+                682,
+                1134,
+                757,
+                252,
+                757
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.528,
+                0.943,
+                0.648
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                252,
+                792,
+                1886,
+                792,
+                1886,
+                972,
+                252,
+                972
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.675,
+                0.766,
+                0.724
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                252,
+                1012,
+                1532,
+                1012,
+                1532,
+                1086,
+                252,
+                1086
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.126,
+                0.382,
+                0.943,
+                0.724
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.899,
+                0.942,
+                0.92,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1798,
+                1413,
+                1840,
+                1413,
+                1840,
+                1450,
+                1798,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.218,
+                0.388,
+                0.258
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                327,
+                776,
+                327,
+                776,
+                387,
+                154,
+                387
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.295,
+                0.943,
+                0.386
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                442,
+                1886,
+                442,
+                1886,
+                579,
+                152,
+                579
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.434,
+                0.415,
+                0.584,
+                0.503
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A A *} = \\frac {1}{3} \\lambda u\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.535,
+                0.323,
+                0.579
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                802,
+                646,
+                802,
+                646,
+                868,
+                152,
+                868
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.429,
+                0.61,
+                0.589,
+                0.713
+            ],
+            "angle": 0,
+            "content": "\\[\n\\lambda = \\frac {\\kappa T}{\\sqrt {2} \\pi \\sigma_ {A} ^ {2} P}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.745,
+                0.282,
+                0.789
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1117,
+                564,
+                1117,
+                564,
+                1183,
+                152,
+                1183
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.434,
+                0.822,
+                0.586,
+                0.957
+            ],
+            "angle": 0,
+            "content": "\\[\nu = \\sqrt {\\frac {8 \\kappa N T}{\\pi M _ {A}}}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.941,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1411,
+                1844,
+                1411,
+                1844,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.217,
+                0.612,
+                0.262
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                325,
+                1224,
+                325,
+                1224,
+                393,
+                152,
+                393
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.37,
+                0.283,
+                0.65,
+                0.431
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A A *} = \\frac {2 T ^ {\\frac {3}{2}}}{3 \\pi^ {\\frac {3}{2}} \\sigma_ {A} ^ {2} P} \\left(\\frac {\\kappa^ {3} N}{M _ {A}}\\right) ^ {\\frac {1}{2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.538,
+                0.686,
+                0.585
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                807,
+                1372,
+                807,
+                1372,
+                877,
+                152,
+                877
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.614,
+                0.686,
+                0.656
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                921,
+                1372,
+                921,
+                1372,
+                984,
+                152,
+                984
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.078,
+                0.69,
+                0.277,
+                0.732
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                156,
+                1035,
+                554,
+                1035,
+                554,
+                1098,
+                156,
+                1098
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.767,
+                0.406,
+                0.808
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1150,
+                812,
+                1150,
+                812,
+                1212,
+                152,
+                1212
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.842,
+                0.552,
+                0.884
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1263,
+                1104,
+                1263,
+                1104,
+                1326,
+                152,
+                1326
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.918,
+                0.759,
+                0.959
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1377,
+                1518,
+                1377,
+                1518,
+                1438,
+                152,
+                1438
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.941,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1411,
+                1842,
+                1411,
+                1842,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.098,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                147,
+                1118,
+                147,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.219,
+                0.282,
+                0.258
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                328,
+                564,
+                328,
+                564,
+                387,
+                154,
+                387
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.296,
+                0.742,
+                0.342
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                444,
+                1484,
+                444,
+                1484,
+                513,
+                152,
+                513
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.374,
+                0.943,
+                0.462
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                561,
+                1886,
+                561,
+                1886,
+                693,
+                152,
+                693
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.496,
+                0.943,
+                0.582
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                744,
+                1886,
+                744,
+                1886,
+                872,
+                152,
+                872
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.619,
+                0.944,
+                0.708
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                928,
+                1888,
+                928,
+                1888,
+                1062,
+                152,
+                1062
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.076,
+                0.296,
+                0.944,
+                0.708
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.288,
+                0.725,
+                0.726,
+                0.929
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.942,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1413,
+                1844,
+                1413,
+                1844,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.098,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                147,
+                1118,
+                147,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.23,
+                0.572,
+                0.27
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                345,
+                1144,
+                345,
+                1144,
+                405,
+                152,
+                405
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.291,
+                0.611,
+                0.448
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                436,
+                1222,
+                436,
+                1222,
+                672,
+                152,
+                672
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.471,
+                0.611,
+                0.628
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                706,
+                1222,
+                706,
+                1222,
+                942,
+                152,
+                942
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.651,
+                0.609,
+                0.749
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                976,
+                1218,
+                976,
+                1218,
+                1123,
+                152,
+                1123
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.771,
+                0.611,
+                0.931
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1156,
+                1222,
+                1156,
+                1222,
+                1396,
+                152,
+                1396
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.076,
+                0.291,
+                0.611,
+                0.931
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.653,
+                0.24,
+                0.937,
+                0.432
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.664,
+                0.52,
+                0.992,
+                0.885
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.942,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1413,
+                1842,
+                1413,
+                1842,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1118,
+                142,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.215,
+                0.556,
+                0.263
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                322,
+                1112,
+                322,
+                1112,
+                394,
+                154,
+                394
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.295,
+                0.513,
+                0.341
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                442,
+                1026,
+                442,
+                1026,
+                511,
+                154,
+                511
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.269,
+                0.448,
+                0.75,
+                0.672
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {2}{3} \\left(\\frac {\\kappa}{\\pi}\\right) ^ {\\frac {3}{2}} N ^ {\\frac {1}{2}} T ^ {\\frac {3}{2}} \\frac {\\left(\\frac {1}{2 M _ {A}} + \\frac {1}{2 M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\left(\\frac {\\sigma_ {A} + \\sigma_ {B}}{2}\\right) ^ {2}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.738,
+                0.752,
+                0.87,
+                0.795
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = D _ {B A}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.94,
+                0.924,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1410,
+                1848,
+                1410,
+                1848,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1118,
+                142,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.215,
+                0.9,
+                0.263
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                322,
+                1800,
+                322,
+                1800,
+                394,
+                152,
+                394
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.281,
+                0.314,
+                0.656,
+                0.399
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} \\propto \\frac {1}{P} \\quad D _ {A B} \\propto \\mathrm {T} ^ {3 / 2}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.448,
+                0.943,
+                0.542
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                672,
+                1886,
+                672,
+                1886,
+                813,
+                152,
+                813
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.94,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1410,
+                1842,
+                1410,
+                1842,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.218,
+                0.322,
+                0.258
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                327,
+                644,
+                327,
+                644,
+                387,
+                152,
+                387
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.27,
+                0.4,
+                0.308
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                405,
+                800,
+                405,
+                800,
+                462,
+                152,
+                462
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.32,
+                0.825,
+                0.357
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                480,
+                1650,
+                480,
+                1650,
+                535,
+                152,
+                535
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.371,
+                0.94,
+                0.446
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                556,
+                1880,
+                556,
+                1880,
+                669,
+                152,
+                669
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.076,
+                0.27,
+                0.94,
+                0.446
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.335,
+                0.461,
+                0.684,
+                0.605
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {\\frac {3}{2}} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.664,
+                0.556,
+                0.706
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                996,
+                1112,
+                996,
+                1112,
+                1059,
+                152,
+                1059
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.715,
+                0.386,
+                0.757
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1072,
+                772,
+                1072,
+                772,
+                1135,
+                152,
+                1135
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.767,
+                0.443,
+                0.808
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1150,
+                886,
+                1150,
+                886,
+                1212,
+                152,
+                1212
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.818,
+                0.377,
+                0.859
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1227,
+                754,
+                1227,
+                754,
+                1288,
+                152,
+                1288
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.865,
+                0.367,
+                0.91
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1297,
+                734,
+                1297,
+                734,
+                1365,
+                152,
+                1365
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.92,
+                0.486,
+                0.96
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                1380,
+                972,
+                1380,
+                972,
+                1440,
+                152,
+                1440
+            ]
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.647,
+                0.69,
+                0.88,
+                0.881
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.94,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1410,
+                1844,
+                1410,
+                1844,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.098,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                147,
+                1118,
+                147,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.233,
+                0.29,
+                0.276
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                349,
+                580,
+                349,
+                580,
+                414,
+                154,
+                414
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.308,
+                0.688,
+                0.38
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                462,
+                1376,
+                462,
+                1376,
+                570,
+                152,
+                570
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.402,
+                0.944,
+                0.447
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                603,
+                1888,
+                603,
+                1888,
+                670,
+                152,
+                670
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.076,
+                0.308,
+                0.944,
+                0.447
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.116,
+                0.468,
+                0.179,
+                0.513
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                232,
+                702,
+                358,
+                702,
+                358,
+                769,
+                232,
+                769
+            ]
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.288,
+                0.468,
+                0.741,
+                0.864
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.212,
+                0.89,
+                0.817,
+                0.931
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                424,
+                1335,
+                1634,
+                1335,
+                1634,
+                1396,
+                424,
+                1396
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.941,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1796,
+                1411,
+                1842,
+                1411,
+                1842,
+                1450,
+                1796,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1118,
+                142,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.215,
+                0.35,
+                0.263
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                322,
+                700,
+                322,
+                700,
+                394,
+                154,
+                394
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.287,
+                0.682,
+                0.33
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                430,
+                1364,
+                430,
+                1364,
+                495,
+                152,
+                495
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.351,
+                0.943,
+                0.466
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                526,
+                1886,
+                526,
+                1886,
+                699,
+                152,
+                699
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.486,
+                0.52,
+                0.533
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                729,
+                1040,
+                729,
+                1040,
+                799,
+                152,
+                799
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.076,
+                0.287,
+                0.943,
+                0.533
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.241,
+                0.648,
+                0.721,
+                0.79
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B _ {T 2}, P 2} = D _ {A B _ {T 1}, P 1} \\left(\\frac {P _ {1}}{P _ {2}}\\right) \\left(\\frac {T _ {2}}{T _ {1}}\\right) ^ {\\frac {3}{2}} \\frac {\\Omega_ {D , T 1}}{\\Omega_ {D , T 2}}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.94,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1410,
+                1844,
+                1410,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.095,
+                0.317,
+                0.169
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                142,
+                634,
+                142,
+                634,
+                253,
+                154,
+                253
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.218,
+                0.943,
+                0.306
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                327,
+                1886,
+                327,
+                1886,
+                459,
+                150,
+                459
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.318,
+                0.944,
+                0.405
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                477,
+                1888,
+                477,
+                1888,
+                607,
+                150,
+                607
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.075,
+                0.218,
+                0.944,
+                0.405
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.896,
+                0.941,
+                0.92,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1792,
+                1411,
+                1840,
+                1411,
+                1840,
+                1450,
+                1792,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.559,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1118,
+                142,
+                1118,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.218,
+                0.298,
+                0.258
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                327,
+                596,
+                327,
+                596,
+                387,
+                154,
+                387
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.287,
+                0.943,
+                0.393
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                430,
+                1886,
+                430,
+                1886,
+                589,
+                152,
+                589
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.294,
+                0.471,
+                0.625,
+                0.628
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {1 0 ^ {- 3} T ^ {1 . 7 5} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {1 / 2}}{P \\left[ (\\Sigma v) _ {A} ^ {1 / 3} + (\\Sigma v) _ {B} ^ {1 / 3} \\right] ^ {2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.687,
+                0.354,
+                0.733
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                1030,
+                708,
+                1030,
+                708,
+                1099,
+                154,
+                1099
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.08,
+                0.754,
+                0.309,
+                0.798
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                160,
+                1131,
+                618,
+                1131,
+                618,
+                1197,
+                160,
+                1197
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.079,
+                0.822,
+                0.295,
+                0.865
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                158,
+                1233,
+                590,
+                1233,
+                590,
+                1297,
+                158,
+                1297
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.08,
+                0.89,
+                0.311,
+                0.925
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                160,
+                1335,
+                622,
+                1335,
+                622,
+                1387,
+                160,
+                1387
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1844,
+                1411,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.098,
+                0.556,
+                0.169
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                147,
+                1112,
+                147,
+                1112,
+                253,
+                152,
+                253
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.077,
+                0.219,
+                0.296,
+                0.258
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                328,
+                592,
+                328,
+                592,
+                387,
+                154,
+                387
+            ]
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.171,
+                0.297,
+                0.797,
+                0.781
+            ],
+            "angle": 0,
+            "content": "<table><tr><td colspan=\"6\">Atomic and structure diffusion-volume increments, v</td></tr><tr><td>C</td><td>16.5</td><td>Cl</td><td></td><td>19.5</td><td></td></tr><tr><td>H</td><td>1.98</td><td>S</td><td></td><td>17.0</td><td></td></tr><tr><td>O</td><td>5.48</td><td>Aromatic ring</td><td></td><td>-20.2</td><td></td></tr><tr><td>N</td><td>5.69</td><td>Heterocyclic ring</td><td></td><td>-20.2</td><td></td></tr><tr><td colspan=\"6\">Diffusion volumes for simple molecules, v</td></tr><tr><td>H2</td><td>7.07</td><td>Ar</td><td>16.1</td><td>H2O</td><td>12.7</td></tr><tr><td>D2</td><td>6.70</td><td>Kr</td><td>22.8</td><td>CCIF2</td><td>114.8</td></tr><tr><td>He</td><td>2.88</td><td>CO</td><td>18.9</td><td>SF6</td><td>69.7</td></tr><tr><td>N2</td><td>17.9</td><td>CO2</td><td>26.9</td><td>Cl2</td><td>37.7</td></tr><tr><td>O2</td><td>16.6</td><td>N2O</td><td>35.9</td><td>Br2</td><td>67.2</td></tr><tr><td>Air</td><td>20.1</td><td>NH3</td><td>14.9</td><td>SO2</td><td>41.1</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.822,
+                0.943,
+                0.93
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                1233,
+                1886,
+                1233,
+                1886,
+                1395,
+                150,
+                1395
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.896,
+                0.941,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1792,
+                1411,
+                1842,
+                1411,
+                1842,
+                1450,
+                1792,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.095,
+                0.322,
+                0.169
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                142,
+                644,
+                142,
+                644,
+                253,
+                154,
+                253
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.076,
+                0.216,
+                0.943,
+                0.309
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                324,
+                1886,
+                324,
+                1886,
+                463,
+                152,
+                463
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.896,
+                0.941,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1792,
+                1411,
+                1842,
+                1411,
+                1842,
+                1450,
+                1792,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                152,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.074,
+                0.2,
+                0.427,
+                0.243
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                300,
+                854,
+                300,
+                854,
+                364,
+                148,
+                364
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.264,
+                0.943,
+                0.347
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                396,
+                1886,
+                396,
+                1886,
+                520,
+                148,
+                520
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.368,
+                0.543,
+                0.414
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                552,
+                1086,
+                552,
+                1086,
+                621,
+                148,
+                621
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.432,
+                0.486,
+                0.474
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                648,
+                972,
+                648,
+                972,
+                711,
+                148,
+                711
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.074,
+                0.264,
+                0.943,
+                0.474
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.384,
+                0.492,
+                0.634,
+                0.58
+            ],
+            "angle": 0,
+            "content": "\\[\n\\varOmega_ {D} = \\varOmega_ {D o} + \\frac {0 . 1 9 6 \\delta_ {A B} ^ {2}}{T ^ {*}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.808,
+                0.485,
+                0.921,
+                0.563
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1616,
+                727,
+                1842,
+                727,
+                1842,
+                844,
+                1616,
+                844
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.427,
+                0.597,
+                0.593,
+                0.663
+            ],
+            "angle": 0,
+            "content": "\\[\n\\delta_ {A B} = (\\delta_ {A} \\delta_ {B}) ^ {\\frac {1}{2}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.408,
+                0.678,
+                0.611,
+                0.774
+            ],
+            "angle": 0,
+            "content": "\\[\n\\delta = \\frac {1 . 9 4 \\times 1 0 ^ {3} \\mu_ {p} ^ {2}}{V _ {b} T _ {b}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.073,
+                0.795,
+                0.391,
+                0.836
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mu_ {P} \\colon \\text {d i p o l e m o m e n t (D e b y e)}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.073,
+                0.858,
+                0.818,
+                0.903
+            ],
+            "angle": 0,
+            "content": "\\[\nV _ {b} \\colon \\mathrm {l i q u i d m o l a r v o l u m e o f c o m p o u n d a t i s b o i l i n g p o i n t (c m ^ {3} / m o l)}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.074,
+                0.921,
+                0.391,
+                0.964
+            ],
+            "angle": 0,
+            "content": "\\[\nT _ {b} \\colon \\mathrm {n o r m a l b o i l i n g p o i n t (K)}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1844,
+                1411,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.558,
+                0.168
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1116,
+                142,
+                1116,
+                252,
+                152,
+                252
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.075,
+                0.2,
+                0.456,
+                0.243
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                300,
+                912,
+                300,
+                912,
+                364,
+                150,
+                364
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.092,
+                0.329,
+                0.25,
+                0.38
+            ],
+            "angle": 0,
+            "content": "\\[\nT ^ {*} = \\kappa T / \\varepsilon_ {A B}\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.327,
+                0.329,
+                0.514,
+                0.38
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.584,
+                0.272,
+                0.792,
+                0.369
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {\\varepsilon_ {A B}}{\\kappa} = \\left(\\frac {\\varepsilon_ {A}}{\\kappa} \\frac {\\varepsilon_ {B}}{\\kappa}\\right) ^ {1 / 2}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.591,
+                0.375,
+                0.882,
+                0.427
+            ],
+            "angle": 0,
+            "content": "\\[\n\\varepsilon / \\kappa = 1. 1 8 (1 + 1. 3 \\delta^ {2}) T _ {b}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.1,
+                0.48,
+                0.307,
+                0.543
+            ],
+            "angle": 0,
+            "content": "\\[\n\\sigma_ {A B} = (\\sigma_ {A} \\sigma_ {B}) ^ {1 / 2}\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.327,
+                0.489,
+                0.514,
+                0.542
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.589,
+                0.482,
+                0.807,
+                0.586
+            ],
+            "angle": 0,
+            "content": "\\[\n\\sigma = \\left(\\frac {1 . 5 8 5 V _ {b}}{1 + 1 . 3 \\delta^ {2}}\\right) ^ {1 / 3}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.075,
+                0.65,
+                0.62,
+                0.741
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Omega_ {D _ {0}} = \\frac {A}{(T ^ {*}) ^ {B}} + \\frac {C}{\\exp (D T ^ {*})} + \\frac {E}{\\exp (F T ^ {*})} + \\frac {G}{\\exp (H T ^ {*})}\n\\]"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.075,
+                0.771,
+                0.474,
+                0.94
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>A = 1.06036</td><td>E = 1.03587</td></tr><tr><td>B = 0.15610</td><td>F = 1.52996</td></tr><tr><td>C = 0.19300</td><td>G = 1.76474</td></tr><tr><td>D = 0.47635</td><td>H = 3.89411</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1844,
+                1411,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.098,
+                0.323,
+                0.168
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                147,
+                646,
+                147,
+                646,
+                252,
+                152,
+                252
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.233,
+                0.949,
+                0.591
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                349,
+                1898,
+                349,
+                1898,
+                886,
+                148,
+                886
+            ]
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.244,
+                0.604,
+                0.773,
+                0.651
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                488,
+                906,
+                1546,
+                906,
+                1546,
+                976,
+                488,
+                976
+            ]
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.245,
+                0.655,
+                0.775,
+                0.938
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Compound</td><td>Molecular volume, in \\( {\\mathrm{{cm}}}^{3}/\\mathrm{g}\\mathrm{{mol}} \\)</td><td>Compound</td><td>Molecular volume, in \\( {\\mathrm{{cm}}}^{3}/\\mathrm{g}\\mathrm{{mol}} \\)</td></tr><tr><td>Hydrogen, \\( {\\mathrm{H}}_{2} \\)</td><td>14.3</td><td>Nitric oxide, NO</td><td>23.6</td></tr><tr><td>Oxygen, \\( {\\mathrm{O}}_{2} \\)</td><td>25.6</td><td>Nitrous oxide, \\( {\\mathrm{N}}_{2}\\mathrm{O} \\)</td><td>36.4</td></tr><tr><td>Nitrogen, \\( {\\mathrm{N}}_{2} \\)</td><td>31.2</td><td>Ammonia, \\( {\\mathrm{{NH}}}_{3} \\)</td><td>25.8</td></tr><tr><td>Air</td><td>29.9</td><td>Water, \\( {\\mathrm{H}}_{2}\\mathrm{O} \\)</td><td>18.9</td></tr><tr><td>Carbon monoxide, CO</td><td>30.7</td><td>Hydrogen sulfide, \\( {\\mathrm{H}}_{2}\\mathrm{\\;S} \\)</td><td>32.9</td></tr><tr><td>Carbon dioxide, \\( {\\mathrm{{CO}}}_{2} \\)</td><td>34.0</td><td>Bromine, \\( {\\mathrm{{Br}}}_{2} \\)</td><td>53.2</td></tr><tr><td>Carbonyl sulfide, COS</td><td>51.5</td><td>Chlorine, \\( {\\mathrm{{Cl}}}_{2} \\)</td><td>48.4</td></tr><tr><td>Sulfur dioxide, \\( {\\mathrm{{SO}}}_{2} \\)</td><td>44.8</td><td>Iodine, \\( {\\mathrm{I}}_{2} \\)</td><td>71.5</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.942,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1413,
+                1842,
+                1413,
+                1842,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.076,
+                0.095,
+                0.558,
+                0.173
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                152,
+                142,
+                1116,
+                142,
+                1116,
+                259,
+                152,
+                259
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.198,
+                0.553,
+                0.243
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                297,
+                1106,
+                297,
+                1106,
+                364,
+                150,
+                364
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.155,
+                0.321,
+                0.73,
+                0.422
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {1 - \\text {m i x t u r e}} = \\frac {1}{y _ {2} ^ {\\prime} / D _ {1 - 2} + y _ {3} ^ {\\prime} / D _ {1 - 3} + \\cdots + y _ {n} ^ {\\prime} / D _ {1 - n}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.843,
+                0.343,
+                0.959,
+                0.427
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1686,
+                514,
+                1918,
+                514,
+                1918,
+                640,
+                1686,
+                640
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.072,
+                0.515,
+                0.792,
+                0.564
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                144,
+                772,
+                1584,
+                772,
+                1584,
+                845,
+                144,
+                845
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.072,
+                0.575,
+                0.862,
+                0.628
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                144,
+                862,
+                1724,
+                862,
+                1724,
+                942,
+                144,
+                942
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.071,
+                0.64,
+                0.943,
+                0.728
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                142,
+                960,
+                1886,
+                960,
+                1886,
+                1092,
+                142,
+                1092
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.281,
+                0.776,
+                0.642,
+                0.868
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {2} ^ {\\prime} = \\frac {y _ {2}}{y _ {2} + y _ {3} + \\cdots y _ {n}} = \\frac {y _ {2}}{1 - y _ {1}}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.942,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1413,
+                1844,
+                1413,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.077,
+                0.095,
+                0.322,
+                0.168
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                154,
+                142,
+                644,
+                142,
+                644,
+                252,
+                154,
+                252
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.227,
+                0.946,
+                0.4
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                340,
+                1892,
+                340,
+                1892,
+                600,
+                150,
+                600
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.075,
+                0.42,
+                0.681,
+                0.469
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mathsf {y} _ {\\mathsf {S I H 4}} = 0. 0 0 7 5, \\qquad \\mathsf {y} _ {\\mathsf {H 2}} = 0. 0 1 5, \\qquad \\mathsf {y} _ {\\mathsf {N 2}} = 0. 9 7 7 5\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.545,
+                0.944,
+                0.72
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                817,
+                1888,
+                817,
+                1888,
+                1080,
+                150,
+                1080
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.921,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1842,
+                1411,
+                1842,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.074,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                148,
+                258
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.236,
+                0.797,
+                0.283
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                354,
+                1594,
+                354,
+                1594,
+                424,
+                148,
+                424
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.348,
+                0.377,
+                0.388
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                522,
+                754,
+                522,
+                754,
+                582,
+                148,
+                582
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.351,
+                0.4,
+                0.648,
+                0.551
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A A *} = \\frac {2 T ^ {\\frac {3}{2}}}{3 \\pi^ {\\frac {3}{2}} \\sigma_ {A} ^ {2} P} \\left(\\frac {\\kappa^ {3} N}{M _ {A}}\\right) ^ {\\frac {1}{2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.615,
+                0.546,
+                0.656
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                922,
+                1092,
+                922,
+                1092,
+                984,
+                150,
+                984
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.29,
+                0.668,
+                0.71,
+                0.86
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {2}{3} \\left(\\frac {\\kappa}{\\pi}\\right) ^ {\\frac {3}{2}} N ^ {\\frac {1}{2}} T ^ {\\frac {3}{2}} \\frac {\\left(\\frac {1}{2 M _ {A}} + \\frac {1}{2 M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\left(\\frac {\\sigma_ {A} + \\sigma_ {B}}{2}\\right) ^ {2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.869,
+                0.517,
+                0.909
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                1303,
+                1034,
+                1303,
+                1034,
+                1363,
+                150,
+                1363
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1844,
+                1411,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.074,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                148,
+                258
+            ]
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.075,
+                0.236,
+                0.348,
+                0.28
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                150,
+                354,
+                696,
+                354,
+                696,
+                420,
+                150,
+                420
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.095,
+                0.309,
+                0.446,
+                0.457
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {\\frac {3}{2}} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.531,
+                0.313,
+                0.89,
+                0.386
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1062,
+                469,
+                1780,
+                469,
+                1780,
+                579,
+                1062,
+                579
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.531,
+                0.394,
+                0.915,
+                0.47
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1062,
+                591,
+                1830,
+                591,
+                1830,
+                705,
+                1062,
+                705
+            ]
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.531,
+                0.313,
+                0.915,
+                0.47
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.091,
+                0.615,
+                0.289,
+                0.651
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                182,
+                922,
+                578,
+                922,
+                578,
+                976,
+                182,
+                976
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.087,
+                0.69,
+                0.42,
+                0.848
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {1 0 ^ {- 3} T ^ {1 . 7 5} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {1 / 2}}{P \\left[ (\\Sigma v) _ {A} ^ {1 / 3} + (\\Sigma v) _ {B} ^ {1 / 3} \\right] ^ {2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.531,
+                0.704,
+                0.953,
+                0.78
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1062,
+                1056,
+                1906,
+                1056,
+                1906,
+                1170,
+                1062,
+                1170
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.92,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1840,
+                1411,
+                1840,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "bbox": [
+                0.074,
+                0.095,
+                0.558,
+                0.172
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                142,
+                1116,
+                142,
+                1116,
+                258,
+                148,
+                258
+            ]
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.236,
+                0.591,
+                0.28
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                148,
+                354,
+                1182,
+                354,
+                1182,
+                420,
+                148,
+                420
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.095,
+                0.309,
+                0.446,
+                0.457
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {A B} = \\frac {0 . 0 0 1 8 5 8 T ^ {\\frac {3}{2}} \\left(\\frac {1}{M _ {A}} + \\frac {1}{M _ {B}}\\right) ^ {\\frac {1}{2}}}{P \\sigma_ {A B} ^ {2} \\Omega_ {D}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.531,
+                0.312,
+                0.756,
+                0.356
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1062,
+                468,
+                1512,
+                468,
+                1512,
+                534,
+                1062,
+                534
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.095,
+                0.527,
+                0.339,
+                0.612
+            ],
+            "angle": 0,
+            "content": "\\[\n\\varOmega_ {D} = \\varOmega_ {D o} + \\frac {0 . 1 9 6 \\delta_ {A B} ^ {2}}{T ^ {*}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.07,
+                0.727,
+                0.538,
+                0.767
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                140,
+                1090,
+                1076,
+                1090,
+                1076,
+                1150,
+                140,
+                1150
+            ]
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.085,
+                0.8,
+                0.613,
+                0.892
+            ],
+            "angle": 0,
+            "content": "\\[\nD _ {1 - \\text {m i x t u r e}} = \\frac {1}{y _ {2} ^ {\\prime} / D _ {1 - 2} + y _ {3} ^ {\\prime} / D _ {1 - 3} + \\cdots + y _ {n} ^ {\\prime} / D _ {1 - n}}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.897,
+                0.941,
+                0.922,
+                0.967
+            ],
+            "angle": 0,
+            "content": null,
+            "poly": [
+                1794,
+                1411,
+                1844,
+                1411,
+                1844,
+                1450,
+                1794,
+                1450
+            ]
+        }
+    ]
+]

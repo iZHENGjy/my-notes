@@ -1,71 +1,71 @@
 # ⚙️ Metadata
 
-Vault configuration, documentation, and organizational tools.
+Vault 的配置、文档、组织工具放这里。
 
-## Purpose
+## 干啥用的
 
-The metadata folder contains:
-- Documentation about the vault
-- Templates for consistent note creation
-- Reference guides and how-tos
-- Agent configurations
-- Workflow documentation
+metadata 文件夹放：
+- 关于 vault 本身的文档
+- 创建笔记用的模板（保持一致）
+- 参考指南、how-to
+- agent 配置
+- 工作流文档
 
-## Structure
+## 结构
 
 ```
 06_Metadata/
-├── Reference/         # Guides and documentation
-├── Templates/        # Note templates
-├── Agents/          # Claude Code agent configs
-├── Workflows/       # Documented processes
-└── Archive/        # Old configurations
+├── Reference/         # 指南和文档
+├── Templates/        # 笔记模板
+├── Agents/          # Claude Code agent 配置
+├── Workflows/       # 流程文档
+└── Archive/        # 旧配置
 ```
 
-## What Lives Here
+## 各目录放什么
 
 ### Reference
-- This vault's documentation
-- Claude Code prompt library
-- Style guides
-- Workflow documentation
-- Learning resources
+- 本 vault 的文档
+- Claude Code prompt 库
+- 风格指南
+- 工作流文档
+- 学习资料
 
 ### Templates
-- Project templates
-- Daily note templates
-- Meeting templates
-- Research templates
-- Review templates
+- 项目模板
+- 每日笔记模板
+- 会议模板
+- 研究模板
+- 复盘模板
 
 ### Agents
-- Thinking partner instructions
-- Research assistant config
-- Editor agent setup
-- Custom agent definitions
+- Thinking partner 指令
+- 研究助手配置
+- 编辑 agent 配置
+- 自定义 agent 定义
 
 ### Workflows
-- Weekly review process
-- Project completion checklist
-- Inbox processing guide
-- Archive procedures
+- 周复盘流程
+- 项目完成 checklist
+- Inbox 处理指南
+- 归档流程
 
-## Using Templates
+## 用模板
 
-### Manual
-1. Copy template content
-2. Create new note
-3. Paste and fill in
+### 手动
+1. 复制模板内容
+2. 新建笔记
+3. 粘贴 + 填空
 
-### With Claude Code
+### 用 Claude Code
 ```
-Create a new project using the project template.
-Name it [Project Name] and put it in 01_Projects.
+按 project template 建一个新项目，
+名字叫 [项目名]，放到 01_Projects 里。
 ```
 
-## Creating Custom Agents
+## 创建自定义 Agent
 
-Save agent instructions as markdown files:
+把 agent 指令存成 markdown 文件：
 
 ```markdown
 # Agent: [Name]
@@ -85,54 +85,54 @@ You are a [role description].
 - Always do Y
 ```
 
-Then reference in Claude Code:
+然后在 Claude Code 里引用：
 ```
-Use the instructions in 06_Metadata/Agents/[agent].md
-and help me with [task].
-```
-
-## Claude Code Prompts
-
-### Template Usage
-```
-Show me available templates in 06_Metadata/Templates.
-Create a new [type] note using the appropriate template.
+用 06_Metadata/Agents/[agent].md 里的指令，
+帮我做 [task]。
 ```
 
-### Documentation
-```
-Check 06_Metadata/Reference for documentation on [topic].
-Update the guide based on what we just learned.
-```
+## Claude Code 提示词
 
-### Workflow Execution
+### 模板使用
 ```
-Run the weekly review workflow from 06_Metadata/Workflows.
-Guide me through each step.
+看下 06_Metadata/Templates 里有什么模板。
+用合适的模板新建一个 [type] 笔记。
 ```
 
-## Maintenance
+### 文档
+```
+查下 06_Metadata/Reference 里关于 [话题] 的文档。
+基于刚学到的更新一下指南。
+```
 
-### Regular Updates
-- Update templates based on usage
-- Document new workflows as they emerge
-- Archive outdated configurations
-- Keep reference docs current
+### 跑工作流
+```
+跑 06_Metadata/Workflows 里的周复盘流程。
+带我一步步走。
+```
 
-### Version Control
-- Track changes to workflows
-- Document why changes were made
-- Keep archive of old versions
-- Date major updates
+## 维护
 
-## Best Practices
+### 定期更新
+- 基于实际使用更新模板
+- 新冒出来的工作流要写文档
+- 过时的配置归档
+- 参考文档保持最新
 
-- **Document as you go** - Capture workflows while fresh
-- **Iterate templates** - Improve based on usage
-- **Share configurations** - What works for you might help others
-- **Keep it simple** - Complex systems break
-- **Date everything** - Context matters
+### 版本控制
+- 跟踪工作流变更
+- 记录为啥改
+- 留旧版本归档
+- 大改时加日期
 
-## Remember
+## 几条建议
 
-Metadata is the operating system of your vault. Good metadata means consistent structure, repeatable workflows, and scalable growth. This is where you document not just what you know, but how you work.
+- **边做边记** — 工作流要趁热写下来
+- **模板要迭代** — 基于使用改进
+- **分享配置** — 对你管用的可能也帮到别人
+- **保持简单** — 复杂系统会崩
+- **加日期** — 上下文很重要
+
+## 记住
+
+Metadata 是你 vault 的操作系统。好的 metadata 意味着结构一致、流程可重复、能扩展生长。这里不仅记录"你知道什么"，更记录"你怎么干活"。

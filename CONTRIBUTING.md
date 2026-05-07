@@ -1,29 +1,27 @@
-# Contributing to Claudesidian
+# 贡献指南 — Claudesidian
 
-Thank you for your interest in contributing to claudesidian! This document
-provides guidelines for contributing to the project.
+感谢你想给 claudesidian 做贡献！本文档是给项目做贡献的规范。
 
-## Development Setup
+## 开发环境
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/claudesidian.git`
-3. Install dependencies: `pnpm install`
-4. Create a feature branch: `git checkout -b feature/your-feature-name`
+1. Fork 仓库
+2. Clone 你的 fork：`git clone https://github.com/yourusername/claudesidian.git`
+3. 装依赖：`pnpm install`
+4. 建 feature 分支：`git checkout -b feature/your-feature-name`
 
-## Commit Message Convention
+## Commit 信息规范
 
-We follow [Conventional Commits](https://www.conventionalcommits.org/) for clear
-commit history:
+我们用 [Conventional Commits](https://www.conventionalcommits.org/)，让 commit 历史清楚：
 
-- `feat:` New feature
-- `fix:` Bug fix
-- `docs:` Documentation changes
-- `style:` Code style changes (formatting, etc.)
-- `refactor:` Code refactoring
-- `test:` Test additions or changes
-- `chore:` Maintenance tasks
+- `feat:` 新功能
+- `fix:` Bug 修复
+- `docs:` 文档变更
+- `style:` 代码风格（格式化等）
+- `refactor:` 重构
+- `test:` 测试增删
+- `chore:` 维护性任务
 
-Examples:
+例：
 
 ```
 feat: add new research-assistant command
@@ -31,64 +29,63 @@ fix: correct attachment link updates in scripts
 docs: update README with MCP setup instructions
 ```
 
-## Versioning
+## 版本号
 
-We use [Semantic Versioning](https://semver.org/):
+用 [Semantic Versioning](https://semver.org/)：
 
-- MAJOR (1.0.0): Breaking changes
-- MINOR (0.1.0): New features (backward compatible)
-- PATCH (0.0.1): Bug fixes (backward compatible)
+- MAJOR (1.0.0)：破坏性变更
+- MINOR (0.1.0)：新功能（向后兼容）
+- PATCH (0.0.1)：Bug 修复（向后兼容）
 
-## Pull Request Process
+## Pull Request 流程
 
-1. Update the CHANGELOG.md with your changes under "Unreleased"
-2. Update documentation if needed
-3. Ensure all scripts still work
-4. Submit PR with clear description of changes
+1. 在 CHANGELOG.md 的 "Unreleased" 段写上你的变更
+2. 必要时更新文档
+3. 确保所有脚本还能跑
+4. 提 PR，写清楚改了什么
 
-## Changelog Updates
+## CHANGELOG 更新
 
-When contributing, add your changes to CHANGELOG.md under the "Unreleased"
-section:
+贡献时把变更加到 CHANGELOG.md 的 "Unreleased" 段：
 
 ```markdown
 ## [Unreleased]
 
 ### Added
 
-- Your new feature here
+- 你的新功能
 
 ### Fixed
 
-- Your bug fix here
+- 你的 bug 修复
 ```
 
-Use these categories:
+用这些分类：
 
-- **Added** - New features
-- **Changed** - Changes to existing functionality
-- **Deprecated** - Features to be removed
-- **Removed** - Removed features
-- **Fixed** - Bug fixes
-- **Security** - Security updates
+- **Added** — 新功能
+- **Changed** — 已有功能的变更
+- **Deprecated** — 准备移除的功能
+- **Removed** — 已移除的功能
+- **Fixed** — Bug 修复
+- **Security** — 安全更新
 
-## Release Process (Maintainers)
+## 发布流程（维护者用）
 
-1. Update version in package.json
-2. Move "Unreleased" items to new version in CHANGELOG.md
-3. Commit: `git commit -m "chore: release v0.2.0"`
-4. Tag: `git tag v0.2.0`
-5. Push: `git push && git push --tags`
-6. Create GitHub Release from tag, using changelog content
+1. 更新 package.json 里的版本号
+2. 把 CHANGELOG.md 里 "Unreleased" 的内容挪到新版本段
+3. Commit：`git commit -m "chore: release v0.2.0"`
+4. 打 tag：`git tag v0.2.0`
+5. 推：`git push && git push --tags`
+6. 在 GitHub 用 tag 创建 Release，正文用 changelog 内容
 
-## Code Style
+## 代码风格
 
-- Use clear, descriptive variable names
-- Comment complex logic
-- Keep functions focused and small
-- For Bash scripts, use portable shebangs like `#!/usr/bin/env bash` instead of hardcoding `/bin/bash`
-- Test your changes thoroughly
+- 变量名清晰、有描述性
+- 复杂逻辑加注释
+- 函数小而专一
+- Bash 脚本用可移植的 shebang，比如 `#!/usr/bin/env bash`，别硬编码 `/bin/bash`
+- 改动要充分测试
 
-## Questions?
+## 有问题？
 
-Feel free to open an issue for discussion before making large changes.
+大改之前先开 issue 讨论。

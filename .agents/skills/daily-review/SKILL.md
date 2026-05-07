@@ -1,81 +1,81 @@
 ---
 name: daily-review
-description: Conduct an end-of-day review to capture progress and set up tomorrow. Use when the user asks for a daily review, end of day wrap-up, EOD note, what they did today, or wants to reflect on the day and plan tomorrow.
+description: Conduct an end-of-day review to capture progress and set up tomorrow. Use when the user asks for a daily review, end of day wrap-up, EOD note, what they did today, or wants to reflect on the day and plan tomorrow. / 一天结束时做日复盘：记录进展、规划明天。当用户说"日复盘"、"今天收个尾"、"EOD 笔记"、"我今天做了啥"、想反思今天并规划明天时触发。
 ---
 
 # Daily Review
 
-Conduct an end-of-day review to capture progress and set up tomorrow.
+一天结束时做日复盘：记录进展、规划明天。
 
-## Review Process
+## 复盘流程
 
-1. **Today's Activity**
-   - Find all notes modified today
-   - Identify new notes created
-   - Review work across all projects
+1. **今日活动**
+   - 找出今天修改过的所有笔记
+   - 识别新创建的笔记
+   - 看看各项目的工作
 
-2. **Progress Assessment**
-   - What was accomplished?
-   - What got stuck or blocked?
-   - What unexpected discoveries emerged?
+2. **进展评估**
+   - 完成了什么？
+   - 卡住或被堵住的是什么？
+   - 冒出来什么意外发现？
 
-3. **Capture Insights**
-   - Key learnings from today
-   - New connections discovered
-   - Questions that arose
+3. **捕获洞察**
+   - 今天的关键收获
+   - 发现的新连接
+   - 出现的问题
 
-4. **Tomorrow's Setup**
-   - Top 3 priorities
-   - Open loops to close
-   - Questions to explore
+4. **明天准备**
+   - 前 3 个优先事项
+   - 待闭环的事
+   - 要探索的问题
 
-## Output Format
+## 输出格式
 
-Create or update a daily note with:
+创建或更新每日笔记：
 
 ```markdown
-# Daily Review - [Date]
+# 日复盘 - [日期]
 
-## Accomplished
+## 完成
 
-- ✓ [Completed item 1]
-- ✓ [Completed item 2]
+- ✓ [完成项 1]
+- ✓ [完成项 2]
 
-## Progress Made
+## 推进
 
-- [Project/Area]: [What moved forward]
-- [Project/Area]: [What moved forward]
+- [项目/Area]: [推进了什么]
+- [项目/Area]: [推进了什么]
 
-## Insights
+## 洞察
 
-- [Key realization or connection]
-- [Important learning]
+- [关键意识或连接]
+- [重要收获]
 
-## Blocked/Stuck
+## 卡住 / 受阻
 
-- [What didn't progress and why]
+- [没推进的事 + 为什么]
 
-## Discovered Questions
+## 出现的新问题
 
-- [New question that emerged]
-- [Thing to research]
+- [冒出来的新问题]
+- [要研究的事]
 
-## Tomorrow's Focus
+## 明天聚焦
 
-1. [Priority 1]
-2. [Priority 2]
-3. [Priority 3]
+1. [优先 1]
+2. [优先 2]
+3. [优先 3]
 
-## Open Loops
+## 待闭环
 
-- [ ] [Thing to remember]
-- [ ] [Person to follow up with]
-- [ ] [Idea to develop]
+- [ ] [要记得做的事]
+- [ ] [要跟进的人]
+- [ ] [要发展的想法]
 ```
 
-## Additional Actions
+## 附加动作
 
-- Move completed project tasks to archive
-- Update project status notes
-- Link related discoveries
-- Flag items needing attention
+- 已完成的项目任务挪到归档
+- 更新项目状态笔记
+- 链接相关发现
+- 标记需要关注的条目

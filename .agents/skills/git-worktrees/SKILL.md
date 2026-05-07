@@ -1,187 +1,184 @@
 ---
 name: git-worktrees
-description: Work with git worktrees for isolated parallel development. Use when starting feature work in isolation, when need separate workspace without branch switching, or when cleaning up worktrees after PR merge.
+description: Work with git worktrees for isolated parallel development. Use when starting feature work in isolation, when need separate workspace without branch switching, or when cleaning up worktrees after PR merge. / 用 git worktree 做隔离的并行开发。当要在隔离环境里开新 feature、需要不切分支的独立工作区、或 PR 合并后清理 worktree 时触发。
 ---
 
 # Git Worktrees
 
-## Overview
+## 概述
 
-Git worktrees create isolated workspaces sharing the same repository, allowing
-work on multiple branches simultaneously without switching. Each worktree is a
-separate directory with its own working tree, but they share the same `.git`
-history.
+Git worktree 在共享同一个仓库的前提下创建隔离的工作区，让你能同时在多个分支上工作而不用切换。每个 worktree 是一个独立目录，有自己的 working tree，但共享同一个 `.git` 历史。
 
-## When to Use Worktrees
+## 什么时候用
 
-- **Parallel development**: Work on feature A while feature B builds/tests
-- **Code review**: Check out PR branch without disrupting current work
-- **Experiments**: Try something risky without affecting main workspace
-- **Long-running tasks**: Keep main branch available while feature develops
+- **并行开发**：A 功能 build / test 时同时改 B 功能
+- **代码审查**：检出 PR 分支，不打断当前工作
+- **实验**：试一些有风险的东西，不影响主工作区
+- **长时间任务**：feature 开发期间保持 main 分支可用
 
-## Quick Reference
+## 速查
 
-| Action | Command |
+| 操作 | 命令 |
 |--------|---------|
-| List worktrees | `git worktree list` |
-| Create worktree | `git worktree add <path> -b <branch>` |
-| Create from existing branch | `git worktree add <path> <branch>` |
-| Remove worktree | `git worktree remove <path>` |
-| Prune stale worktrees | `git worktree prune` |
+| 列出 worktree | `git worktree list` |
+| 创建 worktree | `git worktree add <path> -b <branch>` |
+| 从已有分支创建 | `git worktree add <path> <branch>` |
+| 移除 worktree | `git worktree remove <path>` |
+| 清理过期 worktree | `git worktree prune` |
 
-## Creating Worktrees
+## 创建 Worktree
 
-### New Feature Branch
+### 新建 feature 分支
 
 ```bash
-# Create worktree with new branch
+# 创建 worktree + 新分支
 git worktree add .worktrees/my-feature -b feat/my-feature
 
-# Or specify base branch
+# 或指定 base 分支
 git worktree add .worktrees/my-feature -b feat/my-feature main
 ```
 
-### From Existing Branch
+### 从已有分支
 
 ```bash
-# Check out existing remote branch
+# 检出已有的远程分支
 git worktree add .worktrees/pr-review origin/fix-bug
 
-# Check out existing local branch
+# 检出已有本地分支
 git worktree add .worktrees/hotfix hotfix/urgent-fix
 ```
 
-## Directory Structure
+## 目录结构
 
 ```
 project/
-├── .git/                    # Shared git history
-├── .worktrees/              # Convention: keep worktrees here
-│   ├── feature-a/           # First worktree
-│   └── feature-b/           # Second worktree
-└── src/                     # Main worktree files
+├── .git/                    # 共享 git 历史
+├── .worktrees/              # 约定：worktree 都放这
+│   ├── feature-a/           # 第一个 worktree
+│   └── feature-b/           # 第二个 worktree
+└── src/                     # 主 worktree 文件
 ```
 
-## Setup After Creating Worktree
+## 创建后设置
 
-After creating a worktree, you typically need to:
+创建 worktree 后通常要做：
 
 ```bash
 cd .worktrees/my-feature
 
-# Install dependencies
-npm install  # or pnpm install, yarn, etc.
+# 装依赖
+npm install  # 或 pnpm install、yarn 等
 
-# Copy any required env files
+# 复制必要的 env 文件
 cp ../.env .env.local
 
-# Verify setup
+# 验证设置
 npm test
 ```
 
-## Safety Rules
+## 安全规则
 
-**NEVER remove a worktree with uncommitted changes without confirmation.**
+**绝不在没确认的情况下移除带未提交改动的 worktree。**
 
 ```bash
-# Check for uncommitted changes first
+# 先检查未提交改动
 git -C .worktrees/my-feature status --porcelain
 
-# If empty, safe to remove
+# 空的就可以安全移除
 git worktree remove .worktrees/my-feature
 
-# Delete the branch after merge (-d is safe, fails if not merged)
+# 合并后删除分支（-d 是安全的，没合并会失败）
 git branch -d feat/my-feature
 ```
 
-### Removal Decision Matrix
+### 移除决策矩阵
 
-| PR Merged? | Uncommitted Changes? | Action |
+| PR 已合并？ | 有未提交改动？ | 行动 |
 |------------|---------------------|--------|
-| Yes | No | Safe to remove |
-| Yes | Yes | Ask user - changes will be lost |
-| No | No | Do NOT remove - work not preserved |
-| No | Yes | Do NOT remove - active work |
+| 是 | 否 | 可以安全移除 |
+| 是 | 是 | 问用户 — 改动会丢 |
+| 否 | 否 | **不要**移除 — 工作没保留 |
+| 否 | 是 | **不要**移除 — 活跃工作 |
 
-## Cleaning Up Worktrees
+## 清理 Worktree
 
-### Manual Cleanup
+### 手动清理
 
 ```bash
-# 1. Check if work is merged (if using GitHub)
+# 1. 检查工作是否已合并（用 GitHub 的话）
 gh pr list --head feat/my-feature --state merged
 
-# 2. Check for uncommitted changes
+# 2. 检查未提交改动
 git -C .worktrees/my-feature status --porcelain
 
-# 3. Remove worktree (only if merged or confirmed with user)
+# 3. 移除 worktree（仅在已合并或用户确认时）
 git worktree remove .worktrees/my-feature
 
-# 4. Delete branch
+# 4. 删除分支
 git branch -d feat/my-feature
 ```
 
-### Prune Stale Worktrees
+### 清理过期 Worktree
 
-If a worktree directory was deleted manually:
+如果 worktree 目录被手动删了：
 
 ```bash
 git worktree prune
 ```
 
-## Common Patterns
+## 常见模式
 
-### Review a PR
+### 审查 PR
 
 ```bash
-# Create worktree from PR branch
+# 从 PR 分支创建 worktree
 git fetch origin pull/123/head:pr-123
 git worktree add .worktrees/pr-123 pr-123
 
-# Review, test, then clean up
+# 审查、测试，然后清理
 git worktree remove .worktrees/pr-123
 git branch -D pr-123
 ```
 
-### Parallel Feature Development
+### 并行 feature 开发
 
 ```bash
-# Main work continues in project root
-# Start new feature in worktree
+# 主工作在项目根目录继续
+# 在 worktree 里开新 feature
 git worktree add .worktrees/new-api -b feat/new-api
 
-# Work on both simultaneously
-code .worktrees/new-api  # Opens new VS Code window
+# 同时干两件事
+code .worktrees/new-api  # 打开新的 VS Code 窗口
 ```
 
-## Troubleshooting
+## 排错
 
 ### "Branch already checked out"
 
-A branch can only be checked out in one worktree at a time:
+一个分支同一时刻只能在一个 worktree 里检出：
 
 ```bash
-# Find where branch is checked out
+# 找出分支在哪检出
 git worktree list
 
-# Remove that worktree first, or use different branch
+# 先移除那个 worktree，或换个分支
 ```
 
 ### "Worktree directory not empty"
 
 ```bash
-# Force add if directory exists but isn't a worktree
+# 强制添加（如果目录存在但不是 worktree）
 git worktree add --force <path> <branch>
 ```
 
-### Locked Worktree
+### Worktree 被锁定
 
-If a worktree is locked (prevents accidental removal):
+如果 worktree 被锁了（防误删）：
 
 ```bash
-# Unlock it
+# 解锁
 git worktree unlock <path>
 
-# Then remove
+# 再移除
 git worktree remove <path>
 ```

@@ -1,40 +1,40 @@
 # {{title}}
 
-## Project Overview
-**Start Date**: {{date}}
-**Target Completion**: 
-**Status**: Active
+## 项目概览
+**起始日期**: {{date}}
+**目标完成日期**: 
+**状态**: 进行中
 
-## Objectives
+## 目标
 - [ ] 
 - [ ] 
 - [ ] 
 
-## Context
-<!-- Why this project? What problem does it solve? -->
+## 背景
+<!-- 为啥做这个项目？解决什么问题？ -->
 
-## Success Criteria
-<!-- How will we know this is complete? -->
+## 成功标准
+<!-- 怎么算"完成"？ -->
 
-## Key Resources
-<!-- Links to relevant notes, documents, people -->
+## 关键资源
+<!-- 相关笔记、文档、人物的链接 -->
 
-## Progress Log
-<!-- Claude Code will help maintain this -->
+## 进度日志
+<!-- Claude Code 会帮你维护 -->
 
-### {{date}} - Project Initiated
-- Set up project structure
-- Initial research phase
+### {{date}} - 项目启动
+- 搭好项目结构
+- 启动初步调研
 
-## Open Questions
-<!-- Track what we need to figure out -->
+## 未解问题
+<!-- 还需要搞清楚什么 -->
 - 
 - 
 
-## Next Actions
-<!-- Immediate next steps -->
+## 下一步
+<!-- 紧接着要做的事 -->
 - [ ] 
 - [ ] 
 
 ---
-*Using Claude Code? Say: "I'm working on {{title}} in thinking mode. Let's explore."*
+*在用 Claude Code？说："我在做 {{title}}，现在 thinking mode，咱们一起探索。"*

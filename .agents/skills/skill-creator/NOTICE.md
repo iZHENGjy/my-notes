@@ -1,27 +1,17 @@
-# skill-creator — attribution
+# skill-creator — 出处声明
 
-This skill is from the official Anthropic skills repository:
+本 skill 来自 Anthropic 官方 skill 仓库：
 **https://github.com/anthropics/skills/tree/main/skills/skill-creator**
 
-It is licensed under the Apache License 2.0 (see `LICENSE.txt` in this
-directory).
+按 Apache License 2.0 授权（见本目录 `LICENSE.txt`）。
 
-## Third-party notices
+## 第三方声明
 
-The upstream `anthropics/skills` repository maintains its third-party
-notices at:
+上游 `anthropics/skills` 仓库的第三方声明在：
 **https://github.com/anthropics/skills/blob/main/THIRD_PARTY_NOTICES.md**
 
-That document lists the licenses and attributions for third-party
-software used by skills in the upstream repo. Note that those notices
-cover dependencies of *other* skills in `anthropics/skills` (e.g.
-ffmpeg, imageio for video/image skills) and not necessarily the
-skill-creator skill itself, which is plain Python and Markdown. The
-link is included here for completeness so users can find the
-authoritative attribution for any upstream skill they pull in later.
+那里列出了上游仓库里 skill 用到的第三方软件的许可证和归属。注意：那些声明覆盖的是上游仓库**其他** skill 的依赖（比如视频 / 图像 skill 用的 ffmpeg、imageio），并不一定包括 skill-creator 本身 — 这个 skill 是纯 Python + Markdown，没什么依赖。这里附上链接是为了完整性，方便用户查阅以后引入的任何上游 skill 的权威归属信息。
 
-## Local modifications
+## 本地修改
 
-None. This skill was copied verbatim from the upstream commit. If you
-modify it locally, please add a "Local modifications" section below
-listing what changed and why.
+无。本 skill 从上游 commit 原样复制。如果你做了本地修改，请在下面加 "Local modifications" 段，说明改了什么、为什么改。

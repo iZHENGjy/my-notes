@@ -1,109 +1,108 @@
-# Gemini Vision MCP Server - Quick Start Guide
+# Gemini Vision MCP Server — 快速上手
 
-**For getting Gemini Vision working on a new machine in under 5 minutes**
+**新机器上 5 分钟内跑起来**
 
-## Prerequisites Check
+## 前置检查
 
-Run these commands to verify you have everything needed:
+跑这些命令确认环境齐活：
 
 ```bash
-node --version  # Should be v22+
-pnpm --version  # Should be installed
-claude --version  # Claude Code should be installed
+node --version  # 应该 v22+
+pnpm --version  # 应该已安装
+claude --version  # Claude Code 应该已安装
 ```
 
-If any are missing:
+如果缺哪个：
 
-- Node.js: Install from [nodejs.org](https://nodejs.org/) (v22+)
-- pnpm: `npm install -g pnpm`
-- Claude Code: Download from [claude.ai/code](https://claude.ai/code)
+- Node.js：从 [nodejs.org](https://nodejs.org/) 装（v22+）
+- pnpm：`npm install -g pnpm`
+- Claude Code：从 [claude.ai/code](https://claude.ai/code) 下载
 
-## Step 1: Get Your Gemini API Key
+## Step 1：拿 Gemini API Key
 
-1. Go to
-   [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-2. Click "Create API Key"
-3. Copy the key (starts with `AIzaSy...`)
+1. 访问 [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+2. 点 "Create API Key"
+3. 复制 key（`AIzaSy...` 开头）
 
-## Step 2: Set Up Environment Variable
+## Step 2：设置环境变量
 
-### For Linux/macOS with Bash:
+### Linux/macOS Bash：
 
 ```bash
 echo 'export GEMINI_API_KEY="your-actual-api-key-here"' >> ~/.bashrc
 source ~/.bashrc
-echo $GEMINI_API_KEY  # Verify it shows your key
+echo $GEMINI_API_KEY  # 验证一下能看到 key
 ```
 
-### For Linux/macOS with Zsh:
+### Linux/macOS Zsh：
 
 ```bash
 echo 'export GEMINI_API_KEY="your-actual-api-key-here"' >> ~/.zshrc
 source ~/.zshrc
-echo $GEMINI_API_KEY  # Verify it shows your key
+echo $GEMINI_API_KEY  # 验证一下能看到 key
 ```
 
-### For Windows PowerShell:
+### Windows PowerShell：
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable('GEMINI_API_KEY', 'your-key-here', 'User')
-# Restart PowerShell
-$env:GEMINI_API_KEY  # Verify it shows your key
+# 重启 PowerShell
+$env:GEMINI_API_KEY  # 验证一下能看到 key
 ```
 
-## Step 3: Install Dependencies
+## Step 3：装依赖
 
-**⚠️ CRITICAL: This step MUST be done before adding the MCP server!**
+**⚠️ 关键：这一步必须在加 MCP server 之前做！**
 
-Navigate to your Obsidian vault:
+进 Obsidian vault 目录：
 
 ```bash
-cd ~/dev/02_Areas/Obsidian  # Or wherever your vault is
+cd ~/dev/02_Areas/Obsidian  # 或你自己 vault 的位置
 ```
 
-Install the required dependencies:
+装依赖：
 
 ```bash
-# Install npm packages (REQUIRED - do this first!)
+# 装 npm 包（必须先做！）
 pnpm install
 
-# This installs:
-# - @google/generative-ai (Gemini API client)
-# - @modelcontextprotocol/sdk (MCP server framework)
-# - Other dependencies from package.json
+# 这一步会装：
+# - @google/generative-ai（Gemini API 客户端）
+# - @modelcontextprotocol/sdk（MCP server 框架）
+# - package.json 里的其他依赖
 ```
 
-**Common Error Fix**: If you see
-`Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@modelcontextprotocol/sdk'`,
-you forgot to run `pnpm install`!
+**常见错误**：如果看到
+`Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@modelcontextprotocol/sdk'`，
+说明你忘跑 `pnpm install` 了！
 
-**To hide node_modules from Obsidian** (optional but recommended):
+**让 Obsidian 隐藏 node_modules**（可选但推荐）：
 
-1. Open Obsidian
-2. Go to Settings → Files & Links → Excluded files
-3. Click "Manage"
-4. Add `node_modules/` to the list
-5. Optionally also add: `pnpm-lock.yaml`, `.gitignore`
+1. 打开 Obsidian
+2. Settings → Files & Links → Excluded files
+3. 点 "Manage"
+4. 把 `node_modules/` 加进列表
+5. 也可以加：`pnpm-lock.yaml`、`.gitignore`
 
-This keeps your vault clean while using standard Node.js module resolution.
+这样 vault 看起来干净，同时还能用标准的 Node.js 模块解析。
 
-## Step 4: Register the MCP Server
+## Step 4：注册 MCP Server
 
-**For project-scoped installation (recommended for team use):**
+**项目级安装（推荐用于团队协作）：**
 
 ```bash
-# Add server to project (creates .mcp.json file)
+# 加到项目（会创建 .mcp.json）
 claude mcp add --scope project gemini-vision node .claude/mcp-servers/gemini-vision.mjs
 ```
 
-**For user-scoped installation (personal use across all projects):**
+**用户级安装（个人跨项目用）：**
 
 ```bash
-# Add server to your user config
+# 加到用户配置
 claude mcp add --scope user gemini-vision node .claude/mcp-servers/gemini-vision.mjs
 ```
 
-After adding, you'll need to edit the `.mcp.json` file to add your API key:
+加完后需要编辑 `.mcp.json` 加 API key：
 
 ```json
 {
@@ -120,167 +119,166 @@ After adding, you'll need to edit the `.mcp.json` file to add your API key:
 }
 ```
 
-**IMPORTANT**:
+**注意**：
 
-- The command must be run from the Obsidian vault root directory
-- You MUST have run `pnpm install` first
-- The `.mcp.json` file is gitignored for security
+- 命令必须在 Obsidian vault 根目录跑
+- 必须先跑过 `pnpm install`
+- `.mcp.json` 已 gitignore 防止泄露
 
-## Step 5: Verify It's Working
+## Step 5：验证能用
 
-1. **Open a NEW Claude Code window** (critical - must be new):
+1. **打开一个新的 Claude Code 窗口**（必须是新的）：
 
    ```bash
    cd ~/dev/Obsidian
    claude
    ```
 
-2. **Check the server is connected**: Type `/mcp` in Claude
+2. **看 server 是否连上**：在 Claude 里输入 `/mcp`
 
-   You should see:
+   应该看到：
 
    ```
    gemini-vision ✔ connected
    ```
 
-3. **Test with an actual command**:
+3. **真跑一条命令试**：
    ```
-   Use gemini-vision to extract text from 05_Attachments/[any-image.png]
+   用 gemini-vision 从 05_Attachments/[任意图片.png] 提取文字
    ```
 
-## Troubleshooting
+## 排错
 
-### "gemini-vision failed" or not showing in /mcp
+### "gemini-vision failed" 或 /mcp 里看不到
 
-1. **MOST COMMON ISSUE - Dependencies not installed**:
+1. **最常见 — 依赖没装**：
 
    ```bash
-   # If you see: Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@modelcontextprotocol/sdk'
-   # Run this:
+   # 如果看到：Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@modelcontextprotocol/sdk'
+   # 跑这个：
    pnpm install
    ```
 
-   Then reconnect the MCP server in Claude Code.
+   然后在 Claude Code 里重连 MCP server。
 
-2. **Check API key is configured**:
-   - For project-scoped: Check `.mcp.json` has your API key in the env section
-   - For user-scoped: Check `~/.claude.json` has your API key
-   - The key should be in the format: `"GEMINI_API_KEY": "AIzaSy..."`
+2. **检查 API key 配置**：
+   - 项目级：检查 `.mcp.json` 的 env 段里有 API key
+   - 用户级：检查 `~/.claude.json` 里有 API key
+   - 格式应该是：`"GEMINI_API_KEY": "AIzaSy..."`
 
-3. **Test server can run directly**:
+3. **直接跑 server 测**：
 
    ```bash
    export GEMINI_API_KEY="your-api-key-here"
    node .claude/mcp-servers/gemini-vision.mjs
    ```
 
-   Should show: "🚀 Gemini Vision MCP Server running" Press Ctrl+C to exit.
+   应该看到："🚀 Gemini Vision MCP Server running"。Ctrl+C 退出。
 
-4. **Re-add the server (for project scope)**:
+4. **重新加 server（项目级）**：
 
    ```bash
    claude mcp remove gemini-vision --scope project
    claude mcp add --scope project gemini-vision node .claude/mcp-servers/gemini-vision.mjs
-   # Then edit .mcp.json to add your API key
+   # 然后编辑 .mcp.json 加 API key
    ```
 
-5. **Check logs**:
+5. **看日志**：
 
    ```bash
-   # Find log directory
+   # 找日志目录
    ls ~/Library/Caches/claude-cli-nodejs/*/mcp-logs-gemini-vision/
-   # Or on Linux:
+   # 或 Linux：
    ls ~/.cache/claude-cli-nodejs/*/mcp-logs-gemini-vision/
 
-   # View latest log
+   # 看最新日志
    tail -f [log-directory]/*.txt
    ```
 
-### "Cannot find module" errors
+### "Cannot find module" 错误
 
-1. **Verify package.json exists**:
+1. **确认 package.json 在**：
 
    ```bash
    cat package.json
    ```
 
-   Should show @google/generative-ai and @modelcontextprotocol/sdk
+   应该能看到 @google/generative-ai 和 @modelcontextprotocol/sdk
 
-2. **Reinstall dependencies**:
+2. **重装依赖**：
 
    ```bash
    rm -rf node_modules pnpm-lock.yaml
    pnpm install
    ```
 
-3. **Check node_modules was created**:
+3. **确认 node_modules 已生成**：
    ```bash
    ls node_modules/@google/generative-ai
    ```
 
-### Server runs but tools don't work
+### Server 起来了但工具不工作
 
-1. **Test API key directly**:
+1. **直接测 API key**：
 
    ```bash
    curl "https://generativelanguage.googleapis.com/v1beta/models?key=$GEMINI_API_KEY"
    ```
 
-   Should return a list of models, not an error.
+   应该返回模型列表，不是错误。
 
-2. **Check file paths**:
-   - Use absolute paths from vault root
-   - Example: `05_Attachments/image.png` not `./05_Attachments/image.png`
+2. **检查文件路径**：
+   - 用相对于 vault 根的绝对路径
+   - 例：`05_Attachments/image.png`，不要 `./05_Attachments/image.png`
 
-## Available Tools
+## 可用工具
 
-Once working, you can use these in Claude:
+跑起来后，在 Claude 里能用这些：
 
-### Image Analysis
-
-```
-# Analyze an image
-Use gemini-vision to analyze 05_Attachments/screenshot.png
-
-# Extract text (OCR)
-Use gemini-vision to extract text from 05_Attachments/document.jpg
-
-# Compare images
-Use gemini-vision to compare image1.png and image2.png
-
-# Suggest a filename
-Use gemini-vision to suggest a filename for IMG_1234.jpg
-
-# Analyze multiple images
-Use gemini-vision to analyze multiple: image1.png, image2.png, image3.png
-```
-
-### Video Analysis (NEW!)
+### 图像分析
 
 ```
-# Analyze a local video file
-Use gemini-vision to analyze video 05_Attachments/video.mp4
+# 分析图片
+用 gemini-vision 分析 05_Attachments/screenshot.png
 
-# Analyze a YouTube video
-Use gemini-vision to analyze YouTube video https://www.youtube.com/watch?v=VIDEO_ID
+# 提取文字（OCR）
+用 gemini-vision 从 05_Attachments/document.jpg 提取文字
 
-# Custom video analysis prompt
-Use gemini-vision to analyze video file.mp4 and extract all visible text
+# 对比图片
+用 gemini-vision 对比 image1.png 和 image2.png
+
+# 建议文件名
+用 gemini-vision 给 IMG_1234.jpg 建议文件名
+
+# 多图分析
+用 gemini-vision 分析多张：image1.png、image2.png、image3.png
 ```
 
-**Note:** Video processing may take 30-60 seconds as files need to reach ACTIVE
-state before analysis. The server will automatically wait and show progress
-updates.
+### 视频分析（新！）
 
-### Supported Formats
+```
+# 分析本地视频
+用 gemini-vision 分析视频 05_Attachments/video.mp4
 
-**Images:** JPG, JPEG, PNG, GIF, BMP, WebP **Videos:** MP4, AVI, MOV, WebM, MKV,
-WMV, FLV, 3GP, M4V **Documents:** PDF, TXT, DOC, DOCX, ODT, RTF **Special:**
-YouTube URLs (direct support without download)
+# 分析 YouTube 视频
+用 gemini-vision 分析 YouTube 视频 https://www.youtube.com/watch?v=VIDEO_ID
 
-## Quick Reinstall (If Already Set Up Once)
+# 自定义视频分析 prompt
+用 gemini-vision 分析视频 file.mp4，把里面所有可见文字提出来
+```
 
-If you've already set up the API key in your shell profile:
+**注意**：视频处理可能要 30-60 秒，因为文件需要进入 ACTIVE 状态才能分析。Server 会自动等待并显示进度。
+
+### 支持的格式
+
+**图片**：JPG、JPEG、PNG、GIF、BMP、WebP
+**视频**：MP4、AVI、MOV、WebM、MKV、WMV、FLV、3GP、M4V
+**文档**：PDF、TXT、DOC、DOCX、ODT、RTF
+**特殊**：YouTube URL（直接支持，不用下载）
+
+## 快速重装（之前装过的话）
+
+如果你 shell profile 里已经设了 API key：
 
 ```bash
 cd ~/dev/Obsidian
@@ -292,21 +290,21 @@ claude mcp add gemini-vision \
   -- node .claude/mcp-servers/gemini-vision.mjs
 ```
 
-Then open a new Claude window and test.
+然后开新的 Claude 窗口测试。
 
-## File Locations
+## 文件位置
 
-- **Server code**: `.claude/mcp-servers/gemini-vision.mjs`
-- **Dependencies**: `package.json`
-- **This guide**: `.claude/mcp-servers/GEMINI_VISION_QUICK_START.md`
+- **Server 代码**：`.claude/mcp-servers/gemini-vision.mjs`
+- **依赖**：`package.json`
+- **本指南**：`.claude/mcp-servers/GEMINI_VISION_QUICK_START.md`
 
-## Need Help?
+## 需要帮助？
 
-1. Check the troubleshooting section above
-2. Verify all prerequisites are installed
-3. Make sure you're in the Obsidian vault root directory
-4. Ensure the API key is properly set in your environment
+1. 先看上面的排错段
+2. 确认所有前置都装了
+3. 确认你在 Obsidian vault 根目录
+4. 确认环境变量里有 API key
 
 ---
 
-_Last tested: September 2025_
+_最后测试：2025 年 9 月_

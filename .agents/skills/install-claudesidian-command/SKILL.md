@@ -1,82 +1,79 @@
 ---
 name: install-claudesidian-command
-description: Install claudesidian shell command to launch Claude Code from anywhere. Use when the user wants to install a shell alias/launcher for their vault, or asks to set up the claudesidian command.
+description: Install claudesidian shell command to launch Claude Code from anywhere. Use when the user wants to install a shell alias/launcher for their vault, or asks to set up the claudesidian command. / 装一个 claudesidian shell 命令，从任何地方启动 Claude Code 进 vault。当用户要"装 vault 启动器"、"装 shell alias"、"设置 claudesidian 命令"时触发。
 ---
 
 # Install Claudesidian Command
 
-Creates a shell alias/function that allows you to run `claudesidian` from
-anywhere to open your vault in Claude Code.
+创建一个 shell alias / function，让你能从任何地方运行 `claudesidian` 在 Claude Code 里打开你的 vault。
 
-## Task
+## 任务
 
-Install a shell command that:
+装一个 shell 命令：
 
-1. Changes to your claudesidian vault directory
-2. Launches Claude Code
-3. Works from any directory in your terminal
+1. 切到你的 claudesidian vault 目录
+2. 启动 Claude Code
+3. 在终端任何目录都能用
 
-Similar to having a quick launcher for your vault.
+类似一个 vault 的快捷启动器。
 
-## Process
+## 流程
 
-### 1. **Detect Current Setup**
+### 1. **检测当前设置**
 
-- Check which shell the user is using (bash/zsh/fish)
-- Find the current working directory (vault path)
-- Determine the appropriate config file
+- 检查用户用什么 shell（bash / zsh / fish）
+- 找到当前工作目录（vault 路径）
+- 决定合适的配置文件
 
-### 2. **Create the Command**
+### 2. **创建命令**
 
-The command will be an alias that:
+命令是一个 alias，作用是：
 
-- Changes to the vault directory: `cd /path/to/your/vault`
-- Tries to resume existing session: `claude --resume 2>/dev/null`
-- Falls back to new session if no existing one: `|| claude`
-- All in one command with properly escaped path:
+- 切到 vault 目录：`cd /path/to/your/vault`
+- 尝试恢复已有会话：`claude --resume 2>/dev/null`
+- 没有就回退到新会话：`|| claude`
+- 全部装到一行，路径正确转义：
   `(cd "/path/to/vault" && (claude --resume 2>/dev/null || claude))`
 
-**Important:** The path must be properly escaped to handle spaces and special
-characters.
+**重要**：路径必须正确转义，处理空格和特殊字符。
 
-This automatically enters resume mode if there's an existing session, or starts
-a new one if not.
+这样自动进入 resume 模式（如果有已存会话），否则启动新会话。
 
-### 3. **Install to Shell Config**
+### 3. **装到 shell 配置**
 
-Add the alias to the appropriate config file:
+把 alias 加到合适的配置文件：
 
-- **Bash**: `~/.bashrc` or `~/.bash_profile`
-- **Zsh**: `~/.zshrc`
-- **Fish**: `~/.config/fish/config.fish`
+- **Bash**：`~/.bashrc` 或 `~/.bash_profile`
+- **Zsh**：`~/.zshrc`
+- **Fish**：`~/.config/fish/config.fish`
 
-### 4. **Verify Installation**
+### 4. **验证安装**
 
-- Show the added line
-- Remind user to reload their shell or source the config
-- Provide test command
+- 显示加进去的那行
+- 提醒用户重新加载 shell 或 source 配置
+- 给一个测试命令
 
-## Shell Detection
+## Shell 检测
 
-Detects the user's default shell, with support for command-line override:
+检测用户的默认 shell，支持命令行覆盖：
 
 ```bash
-# Check if shell specified as argument (/install-claudesidian-command zsh)
+# 检查 shell 是否作为参数传入（/install-claudesidian-command zsh）
 if [ -n "$1" ]; then
-  # User provided shell type as argument
+  # 用户用参数提供 shell 类型
   SHELL_TYPE="$1"
 else
-  # Auto-detect from $SHELL (user's default shell, not current shell)
+  # 从 $SHELL 自动检测（用户默认 shell，不是当前 shell）
   SHELL_TYPE=$(basename "$SHELL")
 fi
 
-# Validate shell type and set appropriate config file
+# 校验 shell 类型并设置合适的配置文件
 case "$SHELL_TYPE" in
   zsh)
     CONFIG_FILE="$HOME/.zshrc"
     ;;
   bash)
-    # Prefer .bashrc on Linux, .bash_profile on macOS
+    # Linux 上偏好 .bashrc，macOS 上偏好 .bash_profile
     if [ -f "$HOME/.bashrc" ]; then
       CONFIG_FILE="$HOME/.bashrc"
     else
@@ -98,31 +95,27 @@ echo "🐚 Installing for: $SHELL_TYPE"
 echo "📝 Config file: $CONFIG_FILE"
 ```
 
-**Key improvements:**
+**关键改进**：
 
-- Uses `$SHELL` to detect default shell (not `$ZSH_VERSION`/`$BASH_VERSION`
-  which detect current session)
-- Supports command-line argument to override auto-detection
-- Shows detected shell and config file for transparency
-- Validates shell type and provides clear error message for unsupported shells
+- 用 `$SHELL` 检测默认 shell（不用 `$ZSH_VERSION`/`$BASH_VERSION`，那俩检测的是当前会话）
+- 支持命令行参数覆盖自动检测
+- 显示检测到的 shell 和配置文件，便于核实
+- 校验 shell 类型，对不支持的给清楚错误
 
-## Installation Steps
+## 安装步骤
 
-1. **Detect shell**: Use argument if provided, otherwise auto-detect from
-   `$SHELL`
-2. **Get vault path**: Use `pwd` to get current directory
-3. **Escape the path**: Properly escape quotes and special characters for shell
-   safety
+1. **检测 shell**：有参数就用参数，否则从 `$SHELL` 自动检测
+2. **拿 vault 路径**：用 `pwd` 取当前目录
+3. **转义路径**：正确转义引号和特殊字符确保 shell 安全
    ```bash
-   # Escape backslashes FIRST (so we don't double-escape ones we add later)
+   # 先转义反斜杠（这样后面加的反斜杠不会被双重转义）
    ESCAPED_PATH="${VAULT_PATH//\\/\\\\}"
-   # Then escape double quotes
+   # 再转义双引号
    ESCAPED_PATH="${ESCAPED_PATH//\"/\\\"}"
    ```
-4. **Check if already installed**: Search config file for existing
-   `claudesidian` alias/function
+4. **检查是否已装**：在配置文件里搜已有的 `claudesidian` alias / function
    ```bash
-   # Check for existing alias/function
+   # 检查已有 alias / function
    if grep -q "alias claudesidian\|function claudesidian" "$CONFIG_FILE"; then
      echo "⚠️  Found existing claudesidian command:"
      grep -A 3 "claudesidian" "$CONFIG_FILE"
@@ -132,59 +125,54 @@ echo "📝 Config file: $CONFIG_FILE"
        echo "Installation cancelled. Existing command preserved."
        exit 0
      fi
-     # Mark for replacement (will remove before adding new one)
+     # 标记为替换（添加新的之前会移除旧的）
      REPLACING=true
    fi
    ```
-5. **Get user confirmation**: Show what will be added and get final confirmation
-6. **Create backup**: Only if proceeding with modification
+5. **拿用户确认**：显示要加的内容并最终确认
+6. **创建备份**：仅在确定要修改时
    ```bash
-   # Create backup with timestamp
+   # 带时间戳备份
    BACKUP_FILE="$CONFIG_FILE.backup-$(date +%Y%m%d-%H%M%S)"
    cp "$CONFIG_FILE" "$BACKUP_FILE"
    echo "💾 Backup created: $BACKUP_FILE"
    ```
-7. **Build the safe alias/function command**: Use the escaped path from step 3
+7. **构建安全的 alias / function 命令**：用步骤 3 转义后的路径
    ```bash
-   # CRITICAL: Use $ESCAPED_PATH in the command (not raw $VAULT_PATH)
+   # 关键：在命令里用 $ESCAPED_PATH（不是原始 $VAULT_PATH）
    if [ "$SHELL_TYPE" = "fish" ]; then
-     # Fish uses function syntax, not alias
+     # Fish 用 function 语法，不是 alias
      COMMAND_TEXT="function claudesidian
     cd \"$ESCAPED_PATH\" && (claude --resume 2>/dev/null; or claude)
     cd -
    end"
    else
-     # Bash/Zsh use alias syntax
-     # IMPORTANT: Use double quotes around $ESCAPED_PATH to preserve escaping
+     # Bash / Zsh 用 alias 语法
+     # 重要：$ESCAPED_PATH 外用双引号保留转义
      COMMAND_TEXT="alias claudesidian='(cd \"$ESCAPED_PATH\" && (claude --resume 2>/dev/null || claude))'"
    fi
    ```
-8. **Remove old command if replacing**:
+8. **替换时移除旧命令**：
    ```bash
    if [ "$REPLACING" = true ]; then
-     # Bash/Zsh: alias is a single line — delete just that line
+     # Bash / Zsh: alias 是单行 — 只删那行
      sed -i.tmp '/^alias claudesidian/d' "$CONFIG_FILE"
-     # Fish: function spans multiple lines — delete from `function claudesidian`
-     # to the matching `end`
+     # Fish: function 跨多行 — 从 `function claudesidian` 删到对应的 `end`
      sed -i.tmp '/^function claudesidian/,/^end$/d' "$CONFIG_FILE"
      rm -f "$CONFIG_FILE.tmp"
    fi
    ```
 
-   **Why two separate sed calls:** A combined range like
-   `/alias claudesidian\|function claudesidian/,/^end$/d` would, for the alias
-   case, keep eating lines until it found the next `^end$` somewhere else in
-   the file (or EOF). That could nuke unrelated config below. Single-line
-   delete for the alias, range delete for the function — never combine them.
-9. **Add command to config file**: Append using the escaped command text
+   **为什么两个独立的 sed**：合并的范围 `/alias claudesidian\|function claudesidian/,/^end$/d` 在 alias 情况下会一直吃行直到找到下一个 `^end$`（或 EOF），可能炸掉下方无关配置。alias 用单行删、function 用范围删 — 绝不合并。
+9. **把命令加到配置文件**：用转义后的命令文本追加
    ```bash
    echo "$COMMAND_TEXT" >> "$CONFIG_FILE"
    ```
-10. **Show success message**: With instructions to reload shell
+10. **显示成功消息**：附上重新加载 shell 的指示
 
-## Example Output
+## 输出示例
 
-**Bash/Zsh Example (with spaces in path to demonstrate escaping):**
+**Bash / Zsh 例子（路径含空格演示转义）**：
 
 ```
 🔧 Installing claudesidian command...
@@ -206,7 +194,7 @@ echo "📝 Config file: $CONFIG_FILE"
 ✨ Test it: Type 'claudesidian' from any directory!
 ```
 
-**Fish Shell Example:**
+**Fish Shell 例子**：
 
 ```
 🔧 Installing claudesidian command...
@@ -231,27 +219,27 @@ end
 ✨ Test it: Type 'claudesidian' from any directory!
 ```
 
-## Handling Special Characters
+## 处理特殊字符
 
-The implementation properly handles paths with:
+实现正确处理含以下字符的路径：
 
-- Spaces: `/Users/noah/My Vault`
-- Quotes: `/Users/noah/vault's backup`
-- Special characters that need escaping
+- 空格：`/Users/noah/My Vault`
+- 引号：`/Users/noah/vault's backup`
+- 需要转义的特殊字符
 
-Paths are double-quoted and any embedded quotes/backslashes are escaped.
+路径加双引号，内部引号 / 反斜杠会转义。
 
-## Fish Shell Support
+## Fish Shell 支持
 
-Fish shell uses different syntax than Bash/Zsh:
+Fish 语法和 Bash / Zsh 不同：
 
-**Bash/Zsh (alias):**
+**Bash / Zsh（alias）**：
 
 ```bash
 alias claudesidian='(cd "/path" && command)'
 ```
 
-**Fish (function):**
+**Fish（function）**：
 
 ```fish
 function claudesidian
@@ -260,50 +248,46 @@ function claudesidian
 end
 ```
 
-Key differences:
+关键区别：
 
-- Fish uses `function` keyword instead of `alias` for complex commands
-- Fish uses `; or` instead of `||` for fallback logic
-- Fish uses `cd -` to return to previous directory (instead of subshell)
-- Multi-line function definition instead of single-line alias
+- Fish 复杂命令用 `function` 关键字而不是 `alias`
+- Fish 用 `; or` 而不是 `||` 做回退逻辑
+- Fish 用 `cd -` 回到前一目录（而不是 subshell）
+- 多行 function 定义，而不是单行 alias
 
-The installation automatically detects Fish and uses the correct syntax.
+安装时自动检测 Fish 并用正确语法。
 
-## Security Considerations
+## 安全考量
 
-This command modifies your shell configuration file (a sensitive operation).
-Safety measures:
+这个命令会改你的 shell 配置文件（敏感操作）。安全措施：
 
-- **You'll see exactly what will be added** before any changes
-- **Timestamped backup is automatically created** before modification
-- **Vault path is properly escaped** to prevent injection attacks
-- **Only the claudesidian command is modified** - nothing else in your config
-- **Asks permission** before replacing existing commands
+- **改动前你能看到具体加什么**
+- **改动前自动建带时间戳的备份**
+- **vault 路径正确转义**防注入
+- **只改 claudesidian 命令** — 配置里其他东西不动
+- **替换已有命令前会问**
 
-If anything goes wrong, restore from: `$CONFIG_FILE.backup-YYYYMMDD-HHMMSS`
+出问题就从 `$CONFIG_FILE.backup-YYYYMMDD-HHMMSS` 恢复。
 
-## Important Notes
+## 注意事项
 
-- The command uses a subshell `()` (or `cd -` in Fish) so it returns to your
-  original directory after
-- Automatically tries to resume existing sessions, falls back to new session
-- If alias/function already exists, asks user if they want to replace it
-- Always shows what will be added before modifying config files
-- **Always creates timestamped backup** of config file before modifying (format:
-  `YYYYMMDD-HHMMSS`)
-- Backups are kept indefinitely - users can manually clean up old backups if
-  needed
-- Shows backup location so users know where to restore from if needed
+- 命令用 subshell `()`（Fish 用 `cd -`）保证执行完回到原目录
+- 自动尝试恢复已存会话，否则起新会话
+- alias / function 已存在时问用户要不要替换
+- 改配置前总是显示要加什么
+- **配置改动前永远建带时间戳备份**（格式：`YYYYMMDD-HHMMSS`）
+- 备份永久保留 — 用户可手动清旧的
+- 显示备份位置，方便用户必要时恢复
 
-## Usage Examples
+## 用法示例
 
-Install for your default shell (auto-detected):
+为默认 shell 安装（自动检测）：
 
 ```
 /install-claudesidian-command
 ```
 
-Install for specific shell (override auto-detection):
+为指定 shell 安装（覆盖自动检测）：
 
 ```
 /install-claudesidian-command zsh
@@ -311,29 +295,26 @@ Install for specific shell (override auto-detection):
 /install-claudesidian-command fish
 ```
 
-**When to specify shell:**
+**什么时候指定 shell**：
 
-- You use multiple shells and want to install for a specific one
-- Auto-detection picked the wrong shell
-- You're setting up for someone else
+- 你用多个 shell，要装到某一个
+- 自动检测选错了
+- 你在给别人装
 
-## How It Works
+## 工作原理
 
-**Bash/Zsh (alias with subshell):**
+**Bash / Zsh（alias + subshell）**：
 
 ```bash
 alias claudesidian='(cd "/path/to/vault" && (claude --resume 2>/dev/null || claude))'
 ```
 
-1. `(cd "/path/to/vault" && ...)` - Subshell that changes directory temporarily
-   (path is double-quoted for safety)
-2. `claude --resume 2>/dev/null` - Tries to resume existing session, suppresses
-   error
-3. `|| claude` - If resume fails (no session), starts new session
-4. After Claude exits, subshell closes and returns to original directory
-   automatically
+1. `(cd "/path/to/vault" && ...)` — Subshell 临时切目录（路径双引号保护）
+2. `claude --resume 2>/dev/null` — 尝试恢复已存会话，错误抑制
+3. `|| claude` — 恢复失败（无会话）就起新的
+4. Claude 退出后 subshell 关闭，自动回到原目录
 
-**Fish (function with cd -):**
+**Fish（function + cd -）**：
 
 ```fish
 function claudesidian
@@ -342,10 +323,7 @@ function claudesidian
 end
 ```
 
-1. `cd "/path/to/vault"` - Changes to vault directory (path is double-quoted for
-   safety)
-2. `claude --resume 2>/dev/null` - Tries to resume existing session, suppresses
-   error
-3. `; or claude` - If resume fails (no session), starts new session (Fish
-   syntax)
-4. `cd -` - Returns to previous directory after Claude exits
+1. `cd "/path/to/vault"` — 切到 vault 目录（路径双引号保护）
+2. `claude --resume 2>/dev/null` — 尝试恢复已存会话，错误抑制
+3. `; or claude` — 恢复失败就起新的（Fish 语法）
+4. `cd -` — Claude 退出后回到前一目录

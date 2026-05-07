@@ -1,109 +1,109 @@
 ---
 name: weekly-synthesis
-description: Create a comprehensive synthesis of the week's work and thinking. Use when the user asks for a weekly review, weekly synthesis, week-in-review, weekly wrap-up, or wants to reflect on the week and plan the next one.
+description: Create a comprehensive synthesis of the week's work and thinking. Use when the user asks for a weekly review, weekly synthesis, week-in-review, weekly wrap-up, or wants to reflect on the week and plan the next one. / 综合本周的工作和思考。当用户要"周复盘"、"weekly synthesis"、"week-in-review"、"周收尾"，或想反思本周并规划下周时触发。
 ---
 
 # Weekly Synthesis
 
-Create a comprehensive synthesis of the week's work and thinking.
+对本周工作和思考做一份全面综合。
 
-## Analysis Process
+## 分析流程
 
-1. **Gather Week's Work**
-   - All notes created this week
-   - All notes modified this week
-   - Projects that saw activity
+1. **收集本周工作**
+   - 本周创建的所有笔记
+   - 本周修改的所有笔记
+   - 有过活动的项目
 
-2. **Identify Patterns**
-   - Recurring themes
-   - Common challenges
-   - Breakthrough moments
-   - Energy patterns (what energized vs drained)
+2. **识别模式**
+   - 反复出现的主题
+   - 共同的挑战
+   - 突破时刻
+   - 能量模式（什么提神 vs 什么耗神）
 
-3. **Synthesize Learning**
-   - Key insights that emerged
-   - How thinking evolved
-   - Connections discovered
-   - Questions answered and raised
+3. **综合学习**
+   - 浮现出来的关键洞察
+   - 思考的演变
+   - 发现的连接
+   - 回答和提出的问题
 
-4. **Assess Progress**
-   - Projects advanced
-   - Areas maintained
-   - Resources added
-   - Items archived
+4. **评估进展**
+   - 推进的项目
+   - 维护的 area
+   - 新增的资源
+   - 已归档的条目
 
-## Output Format
+## 输出格式
 
-Create a weekly synthesis note:
+创建一份周综合笔记：
 
 ```markdown
-# Weekly Synthesis - Week of [Date]
+# 周综合 - [日期] 这一周
 
-## Week at a Glance
+## 一周概览
 
-- Notes created: [X]
-- Projects active: [List]
-- Major accomplishments: [List]
+- 创建笔记数：[X]
+- 活跃项目：[列表]
+- 主要成就：[列表]
 
-## Key Themes
+## 关键主题
 
-### Theme 1: [Name]
+### 主题 1: [名称]
 
-- Where it appeared: [contexts]
-- Why it matters: [significance]
-- Next actions: [what to do]
+- 出现的地方：[上下文]
+- 为什么重要：[意义]
+- 下一步：[要做什么]
 
-### Theme 2: [Name]
+### 主题 2: [名称]
 
-- Where it appeared: [contexts]
-- Why it matters: [significance]
-- Next actions: [what to do]
+- 出现的地方：[上下文]
+- 为什么重要：[意义]
+- 下一步：[要做什么]
 
-## Major Insights
+## 主要洞察
 
-1. [Insight with context]
-2. [Insight with context]
+1. [洞察 + 上下文]
+2. [洞察 + 上下文]
 
-## Progress by Project
+## 各项目进展
 
-### [Project Name]
+### [项目名]
 
-- What advanced:
-- What's blocked:
-- Next week's focus:
+- 推进了：
+- 卡住的：
+- 下周聚焦：
 
-## Questions Emerged
+## 出现的问题
 
-- [Question 1 - and why it matters]
-- [Question 2 - and why it matters]
+- [问题 1 — 以及为什么重要]
+- [问题 2 — 以及为什么重要]
 
-## Energy Audit
+## 能量审计
 
-- What gave energy:
-- What drained energy:
-- What to adjust:
+- 提神的：
+- 耗神的：
+- 要调整的：
 
-## Connections Made
+## 建立的连接
 
-- [Note A] ←→ [Note B]: [Why significant]
-- [Concept X] ←→ [Concept Y]: [New understanding]
+- [笔记 A] ←→ [笔记 B]：[为什么重要]
+- [概念 X] ←→ [概念 Y]：[新理解]
 
-## Next Week's Intentions
+## 下周意图
 
-1. [Primary focus]
-2. [Secondary focus]
-3. [Thing to explore]
+1. [主聚焦]
+2. [次聚焦]
+3. [想探索的]
 
-## To Process
+## 待处理
 
-- Inbox items: [count]
-- Orphaned notes: [list]
-- Missing connections: [identified]
+- Inbox 条目：[数量]
+- 孤儿笔记：[列表]
+- 缺失连接：[已识别]
 ```
 
-## Follow-up Actions
+## 后续动作
 
-- Archive completed projects
-- Clean up inbox
-- Update project status
-- Plan next week's focus
+- 归档已完成项目
+- 清理 inbox
+- 更新项目状态
+- 规划下周聚焦

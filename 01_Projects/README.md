@@ -1,105 +1,105 @@
 # 🎯 Projects
 
-Active initiatives with specific outcomes and deadlines.
+有明确产出和截止日期的活跃事务。
 
-## Purpose
+## 干啥用的
 
-Projects are **time-bound efforts** with:
-- Clear objectives and deliverables
-- Defined start and end dates
-- Specific success criteria
-- Measurable outcomes
+Projects 是**有时间边界**的事，特征：
+- 目标清楚、有可交付物
+- 有起止日期
+- 有具体的成功标准
+- 产出可衡量
 
-## What Belongs Here
+## 什么该放这里
 
-### Good Projects
-- "Q1 2024 Marketing Strategy" ✓
-- "Website Redesign" ✓
-- "Book Writing - AI & Creativity" ✓
-- "Conference Talk - BRXND NYC" ✓
+### 算 Project 的
+- "Q1 2024 营销策略" ✓
+- "网站改版" ✓
+- "写书 - AI 与创造力" ✓
+- "会议演讲 - BRXND NYC" ✓
 
-### Not Projects (These go in Areas)
-- "Health" ✗ (ongoing, no end date)
-- "Learning" ✗ (continuous activity)
-- "Team Management" ✗ (ongoing responsibility)
+### 不算 Project 的（这些应该放 Areas）
+- "健康" ✗（持续的，没有结束日期）
+- "学习" ✗（一直在做的事）
+- "团队管理" ✗（持续职责）
 
-## Project Structure
+## 项目结构
 
-Each project should have:
+每个项目应该长这样：
 ```
 Project_Name/
-├── README.md           # Project overview and status
-├── Research/          # Background materials
-├── Daily_Progress/    # Log of work sessions
-├── Drafts/           # Work in progress
-├── Resources/        # Supporting documents
-└── Output/          # Final deliverables
+├── README.md           # 项目概览和状态
+├── Research/          # 背景资料
+├── Daily_Progress/    # 每次工作记录
+├── Drafts/           # 草稿
+├── Resources/        # 支持材料
+└── Output/          # 最终交付物
 ```
 
-## Claude Code Workflows
+## Claude Code 工作流
 
-### Starting a Project
+### 启动项目
 ```
-Create a new project called [name] in 01_Projects.
-Set it up with the standard folder structure.
-I'm in thinking mode - help me define objectives.
-```
-
-### Project Research
-```
-I'm working on [project name].
-Search my vault for relevant existing notes.
-What connections exist to my other work?
+在 01_Projects 里新建项目 [name]，
+按标准目录结构搭好。
+我现在是 thinking mode — 帮我把目标想清楚。
 ```
 
-### Daily Progress
+### 项目调研
 ```
-Create a progress note for today in [project]/Daily_Progress.
-Here's what I accomplished: [summary]
-Questions that came up: [list]
-```
-
-### Project Status
-```
-Review all notes in [project folder].
-What's the current status?
-What are the key insights so far?
-What's left to complete?
+我在做 [项目名]。
+搜下 vault 里相关的已有笔记。
+和我其他工作有什么关联？
 ```
 
-### Project Completion
+### 每日进展
 ```
-Project [name] is complete.
-Create a retrospective covering:
-- Objectives vs outcomes
-- Key learnings
-- What to do differently next time
-Then help me archive it properly.
+在 [项目]/Daily_Progress 里建今天的进度笔记。
+今天完成的：[摘要]
+冒出来的问题：[列表]
 ```
 
-## Project Lifecycle
+### 项目状态
+```
+看下 [项目目录] 里所有笔记。
+现在啥状态？
+到目前最关键的洞察是什么？
+还差啥没做？
+```
 
-1. **Initiation**: Define objectives, success criteria
-2. **Research**: Gather relevant information
-3. **Development**: Daily progress, iterative work
-4. **Review**: Regular status checks
-5. **Completion**: Final output, retrospective
-6. **Archive**: Move to 04_Archive with summary
+### 项目收尾
+```
+项目 [name] 已完成。
+做一份回顾，覆盖：
+- 目标 vs 实际产出
+- 关键收获
+- 下次该改进的地方
+然后帮我归档好。
+```
 
-## Tips for Success
+## 项目生命周期
 
-- **Start with clear objectives** - Vague projects never end
-- **Use the template** - Consistency helps Claude Code help you
-- **Log progress daily** - Even "no progress" is worth noting
-- **Review weekly** - Keep projects on track
-- **Complete or kill** - Don't let projects linger
+1. **启动**：定目标、定成功标准
+2. **调研**：收集相关信息
+3. **开发**：每日推进、迭代
+4. **复盘**：定期检查状态
+5. **完成**：最终产出 + 回顾
+6. **归档**：连同 summary 移到 04_Archive
 
-## When to Archive
+## 几条经验
 
-Move projects to `04_Archive/` when:
-- All objectives are complete
-- The project is cancelled
-- It's been inactive for 30+ days
-- It's transformed into an Area (ongoing)
+- **目标要先想清楚** — 模糊的项目永远做不完
+- **用模板** — 一致性能让 Claude Code 更好帮你
+- **每天记一笔** — 哪怕"今天没进展"也值得写下来
+- **每周复盘** — 让项目不脱轨
+- **要么完成要么砍掉** — 别让项目无限拖
 
-Always create a summary note before archiving!
+## 什么时候归档
+
+把项目移到 `04_Archive/` 的时机：
+- 所有目标都完成了
+- 项目被取消了
+- 30 天以上没动过
+- 转化成 Area（变成长期事务）了
+
+归档前一定要先写 summary！

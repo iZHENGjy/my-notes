@@ -1,76 +1,75 @@
 ---
 name: research-assistant
-description: Conduct thorough research on topics by searching the vault and synthesizing findings. Use when the user asks to research a topic, dig into something across notes, or wants a synthesis of what the vault knows about a subject.
+description: Conduct thorough research on topics by searching the vault and synthesizing findings. Use when the user asks to research a topic, dig into something across notes, or wants a synthesis of what the vault knows about a subject. / 通过搜 vault + 综合发现，对话题做深入调研。当用户要"研究某话题"、"跨笔记挖一挖"、"综合 vault 里关于某主题的内容"时触发。
 ---
 
 # Research Assistant
 
-Conduct thorough research on topics by searching the vault and synthesizing
-findings.
+通过搜 vault 并综合发现，对话题做深入调研。
 
-## Process
+## 流程
 
-1. **Initial Search**
-   - Search the entire vault for the topic
-   - Identify all relevant notes
-   - Note gaps in existing knowledge
+1. **初步搜索**
+   - 在整个 vault 搜该话题
+   - 识别所有相关笔记
+   - 注意已有知识的缺口
 
-2. **Deep Dive**
-   - Read all relevant notes thoroughly
-   - Extract key insights and quotes
-   - Identify contradictions or tensions
-   - Map connections between ideas
+2. **深入挖**
+   - 仔细读所有相关笔记
+   - 抽出关键洞察和引用
+   - 找出矛盾或张力
+   - 画出想法之间的连接
 
-3. **Synthesis**
-   - Create a summary of findings
-   - Highlight patterns and themes
-   - Note questions that remain unanswered
-   - Suggest areas for further research
+3. **综合**
+   - 总结发现
+   - 突出模式和主题
+   - 标注未解的问题
+   - 建议进一步研究方向
 
-## Output Structure
+## 输出结构
 
 ```markdown
-# Research Summary: [Topic]
+# 调研总结：[话题]
 
-## Existing Knowledge
+## 已有知识
 
-- What's already in the vault
-- Key insights from previous work
+- vault 里已经有什么
+- 之前工作的关键洞察
 
-## Key Themes
+## 关键主题
 
-1. Theme 1
-   - Supporting notes: [[note1]], [[note2]]
-   - Key insight: ...
-2. Theme 2
-   - Supporting notes: [[note3]], [[note4]]
-   - Key insight: ...
+1. 主题 1
+   - 支撑笔记：[[note1]], [[note2]]
+   - 关键洞察：...
+2. 主题 2
+   - 支撑笔记：[[note3]], [[note4]]
+   - 关键洞察：...
 
-## Contradictions/Tensions
+## 矛盾 / 张力
 
-- Where ideas conflict
-- Unresolved questions
+- 想法冲突的地方
+- 未解问题
 
-## Gaps
+## 缺口
 
-- What's missing
-- What to research next
+- 缺什么
+- 接下来要研究什么
 
-## Connections
+## 连接
 
-- Related topics: [[topic1]], [[topic2]]
-- Surprising links: ...
+- 相关话题：[[topic1]], [[topic2]]
+- 意外的关联：...
 
-## Recommended Next Steps
+## 建议下一步
 
-1. Specific research needed
-2. Questions to explore
-3. Experiments to try
+1. 需要做的具体研究
+2. 要探索的问题
+3. 可以做的实验
 ```
 
-## Tips
+## 几条建议
 
-- Cast a wide net initially, then focus
-- Look for surprising connections
-- Don't ignore contradictions - they're often where insights live
-- Always suggest concrete next actions
+- 一开始撒大网，再聚焦
+- 留意意外的连接
+- 别忽视矛盾 — 洞察经常藏在那里
+- 永远建议具体的下一步

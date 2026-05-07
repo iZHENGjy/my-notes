@@ -1,136 +1,136 @@
 # 🔄 Areas
 
-Ongoing responsibilities and spheres of activity you maintain over time.
+长期持续的责任和活动领域。
 
-## Purpose
+## 干啥用的
 
-Areas are **ongoing responsibilities** that:
-- Have no end date
-- Require continuous attention
-- Define your roles and commitments
-- Need regular maintenance
+Areas 是**持续性责任**，特征：
+- 没有结束日期
+- 需要持续投入
+- 定义了你的角色和承诺
+- 需要定期维护
 
-## What Belongs Here
+## 什么该放这里
 
-### Personal Areas
-- Health & Fitness
-- Finances
-- Relationships
-- Personal Development
-- Home & Environment
+### 个人 Area
+- 健康与体能
+- 财务
+- 人际关系
+- 个人成长
+- 家庭与环境
 
-### Professional Areas
-- Team Management
-- Client Relationships
-- Professional Skills
-- Industry Knowledge
-- Networking
+### 职业 Area
+- 团队管理
+- 客户关系
+- 专业技能
+- 行业知识
+- 人脉网络
 
-### Creative Areas
-- Writing Practice
-- Content Creation
-- Learning & Research
-- Side Projects
+### 创作 Area
+- 写作训练
+- 内容创作
+- 学习与研究
+- 业余项目
 
-## Area Structure
+## Area 结构
 
-Each area might contain:
+每个 area 大致这样：
 ```
 Area_Name/
-├── README.md          # Overview and principles
-├── Goals/            # Current focus areas
-├── Resources/        # Reference materials
-├── Reviews/          # Periodic check-ins
-└── Ideas/           # Future possibilities
+├── README.md          # 概览和原则
+├── Goals/            # 当前关注点
+├── Resources/        # 参考资料
+├── Reviews/          # 定期复盘
+└── Ideas/           # 未来可能性
 ```
 
-## Claude Code Workflows
+## Claude Code 工作流
 
-### Area Review
+### Area 复盘
 ```
-Review my [area name] area.
-What patterns do you see in recent notes?
-What aspects need more attention?
-```
-
-### Setting Goals
-```
-Help me set quarterly goals for [area].
-Based on recent activity, what should I prioritize?
+看下我的 [area 名] area。
+最近的笔记里有什么模式？
+哪些方面需要更多关注？
 ```
 
-### Finding Gaps
+### 设定目标
 ```
-Analyze my [area] notes.
-What important topics am I not tracking?
-What questions should I be asking?
+帮我给 [area] 设季度目标。
+基于近期活动，应该优先做什么？
 ```
 
-### Cross-Area Analysis
+### 找盲区
 ```
-Compare my [Area A] and [Area B] notes.
-Where do they overlap?
-How might they inform each other?
+分析我的 [area] 笔记。
+有哪些重要话题我没在追？
+有哪些问题我应该问自己？
+```
+
+### 跨 Area 分析
+```
+对比我的 [Area A] 和 [Area B] 笔记。
+重叠在哪？
+怎么互相借鉴？
 ```
 
 ## Area vs Project
 
-**Ask yourself**: Does this have an end date?
+**问自己**：这事有没有结束日期？
 
-| Area (Ongoing) | Project (Time-bound) |
+| Area（长期） | Project（限时） |
 |---------------|---------------------|
-| "Health" | "Lose 10 pounds by June" |
-| "Finances" | "Create 2024 budget" |
-| "Writing" | "Finish blog post series" |
-| "Learning" | "Complete Python course" |
-| "Clients" | "Deliver Project X" |
+| "健康" | "6 月前减 10 斤" |
+| "财务" | "做 2024 年预算" |
+| "写作" | "写完一个博客系列" |
+| "学习" | "完成 Python 课程" |
+| "客户" | "交付项目 X" |
 
-## Maintenance Practices
+## 维护节奏
 
-### Weekly
-- Quick scan of each area
-- Note any urgent needs
-- Capture new ideas
+### 每周
+- 快速扫一遍每个 area
+- 标记紧急事项
+- 记下新想法
 
-### Monthly
-- Review goals and progress
-- Update resource lists
-- Clean up old notes
+### 每月
+- 复盘目标和进度
+- 更新参考资料
+- 清理旧笔记
 
-### Quarterly
-- Deep review with Claude Code
-- Adjust focus areas
-- Archive outdated material
+### 每季度
+- 用 Claude Code 深度复盘
+- 调整重心
+- 归档过时材料
 
-## Claude Code Prompts
+## Claude Code 提示词
 
-### Health Check
+### 健康检查
 ```
-Do a health check on all my areas.
-Which have recent activity?
-Which have been neglected?
-```
-
-### Balance Assessment
-```
-Looking at my areas, where am I spending most energy?
-What's out of balance?
+对我所有 area 做次健康检查。
+哪些最近有活动？
+哪些被冷落了？
 ```
 
-### Integration Opportunities
+### 平衡评估
 ```
-Find connections between my different areas.
-Where could better integration create value?
+看我的 area，最近精力主要花在哪？
+哪里失衡了？
 ```
 
-## Tips
+### 整合机会
+```
+找下我不同 area 之间的联系。
+哪些地方更好整合能创造价值？
+```
 
-- **Areas inform Projects** - Projects often emerge from area needs
-- **Keep them active** - Dead areas should be archived
-- **Review regularly** - Areas drift without attention
-- **Document standards** - What does "good" look like?
-- **Track metrics** - Even qualitative areas benefit from measurement
+## 几条建议
 
-## Remember
+- **Area 引出 Project** — 项目常常从 area 的需求里冒出来
+- **保持活跃** — 死掉的 area 该归档
+- **定期回看** — area 不打理就会漂移
+- **写下标准** — "做得好"是什么样子？
+- **量化跟踪** — 哪怕定性的 area 也能用指标辅助
 
-Areas are the backdrop of your life. They don't complete, but they evolve. Use Claude Code to help you see patterns and maintain balance across all your responsibilities.
+## 记住
+
+Area 是你生活的背景板。它们不会"完成"，但会演化。让 Claude Code 帮你看到模式，在所有责任之间保持平衡。

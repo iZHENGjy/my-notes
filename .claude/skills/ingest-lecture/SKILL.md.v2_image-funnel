@@ -1,0 +1,304 @@
+---
+name: ingest-lecture
+description: 把 PPT/PDF 课程材料整理成一份知识块组织的笔记,放到 01_Projects/<CODE>_中文名/L##.md。Triggers - "整理这节课" / "处理这份 PPT" / "ingest lecture" / "process slides" / "把这份 ppt 变成笔记"。
+---
+
+# Skill: ingest-lecture
+
+## Role
+
+把一份 lecture 材料(PPT / PDF / 截图 / 文本)转成**一份**知识块组织
+的 markdown 笔记。**不**逐 slide 镜像。用户会审,准确性优先于 polish。
+
+## When to trigger
+
+- "整理这份 lecture" / "处理这节课" / "把这份 ppt 变成笔记"
+- 用户附 `.pptx` / `.pdf` / 截图 / 课程文本
+
+不应触发:tutorial(走 ingest-tutorial)/ 模糊"summarize this"(先问)。
+
+## Inputs
+
+- Lecture 材料(PPT / PDF / 文本 / 图片)
+- **课程代码** + **周次** + **lecture 编号**(缺则问一次,不猜)
+- 可选:日期 / 标题
+
+## Outputs
+
+1. `01_Projects/<CODE>_中文名/L##_topic_snake.md`(1 个文件)
+2. 更新 `01_Projects/<CODE>_中文名/index.md`(MOC,增量追加 Week 段落)
+
+## Dependencies
+
+启动时读:
+- `06_Metadata/Templates/lecture-topic.md`(笔记模板)
+- `01_Projects/<CODE>_中文名/index.md`(MOC,若存在)
+
+工具:
+- `.scripts/mineru_extract.py`(PDF → markdown + images,用 MinerU API)
+- `.scripts/extract_images.py`(逐页 PNG 渲染,供 vision 核对;PPT 也用)
+- `.env` 含 `MINERU_API_TOKEN`(.gitignored,从 https://mineru.net/apiManage/token 申请)
+
+## Workflow
+
+### Step 1: 加载上下文
+
+1. 检查 `01_Projects/<CODE>_中文名/` 是否存在;若不存在,**问用户**课程
+   中文名 + 学期,创建文件夹 + 桩 `index.md`(MOC)。
+2. 读 MOC 看历史(domain_tags / 之前的 Week)。
+3. 加载 `06_Metadata/Templates/lecture-topic.md`。
+
+### Step 2: PDF/PPT 处理(MinerU 优先 + vision 兜底)
+
+#### 2a: PDF — 用 MinerU API 抽 markdown(基础底稿)
+
+```bash
+py .scripts/mineru_extract.py "<pdf_path>" "01_Projects/<CODE>_中文名/_attachments/" --model vlm
+```
+
+输出:
+- `_attachments/<pdf_stem>/full.md` — MinerU 抽的 markdown(含公式 + 表格)
+- `_attachments/<pdf_stem>/images/*.jpg` — MinerU 抽出的图片
+
+如果 MinerU 失败(token 过期 / 配额超 / 超时 / 网络),**fallback 到纯 vision 模式**(跳过 2a,只跑 2b)。
+
+#### 2b: 逐页渲染 PNG(供 vision 核对;PPT 唯一处理方式)
+
+```bash
+py .scripts/extract_images.py "<source>" "01_Projects/<CODE>_中文名/_attachments/_pages/" --prefix <CODE>_L## --pages --dpi 150
+```
+
+**PDF 也跑 2b**(供 vision 对照 MinerU 结果,补 MinerU 漏抽的内容)。
+**PPT 直接走 2b**(MinerU 不支持 .pptx)。
+文本 / 截图跳过整个 Step 2。
+
+### Step 3: 提取 + 核对(MinerU 底稿 + vision 补漏 + 图片描述)
+
+#### 3a: 读 MinerU markdown(若 PDF + 2a 成功)
+
+Read `_attachments/<pdf_stem>/full.md`,作为内容基础底稿。
+
+#### 3b: 用 vision 核对(逐页对比 MinerU)
+
+启动多个 sub-agent 并行,每个负责一段页码:
+
+| PDF 页数 | Agent 数 | 每个 Agent 负责 |
+|---|---|---|
+| ≤15 页 | 2 个 | 6-8 页 |
+| 16-40 页 | 3 个 | 8-13 页 |
+| >40 页 | 4 个 | 10-15 页 |
+
+每个 Agent 读 `_attachments/_pages/<page>.png`,对照 MinerU markdown 找出:
+- MinerU **漏抽**的文字 / 公式 / 注释
+- MinerU **误识**的字符(尤其公式 LaTeX)
+- 图表内容(MinerU 只产图片文件,不描述内容)
+
+输出每页一段:
+```
+### Slide X: [页面标题]
+**MinerU 已抽**: (从 full.md 对应段落复制)
+**vision 补漏**: (MinerU 漏的内容)
+**误识修正**: (公式 / 字符纠正)
+**本页图表**: (描述 + 引用旧 hash 文件名)
+```
+
+**纯 vision 模式**(2a 失败时):每页直接全文提取(不对照),格式同上但
+省"MinerU 已抽"段。
+
+#### 3c: 每个 sub-agent 必须额外输出两块清单(用于主线程聚合)
+
+**清单 A — 重命名清单**(本段所有图,无论是否值得嵌入):
+
+| 旧 hash | 新文件名 | 类型 |
+|---|---|---|
+| 5727695c... | CME222_L01_p01_cover_decor.jpg | decor |
+| b8879a64... | CME222_L01_p07_diffusion_concept.jpg | concept |
+| ... | ... | ... |
+
+**文件名格式**: `<CODE>_L##_p<页码>_<topic_slug>_<type>.jpg`(教材类去掉 L## 改用 `Ch##`)
+- `<topic_slug>`: 2-4 词 snake_case,描述图的内容(如 `dye_dispersion`、`LJ_potential`、`amine_co2_capture`)
+- `<type>` 枚举:`concept`(概念示意) / `data`(数据图、曲线、Arrhenius) / `flow`(工艺流程) / `formula`(公式截图,通常应 LaTeX 重写) / `table`(数据表) / `decor`(封面、过渡、卡通,装饰)
+
+**清单 B — 嵌入推荐清单**(只列推荐度 ≥ 3 的图):
+
+| 新文件名 | 推荐度 | 理由 | 建议放哪个知识块 |
+|---|---|---|---|
+| CME222_L01_p17_dye_dispersion_concept.jpg | 5 | 浓度梯度驱动力最直观示意 | 知识块 1 — 浓度梯度 |
+
+**推荐度 5 级**:
+
+| 度 | 含义 | 主线程动作 |
+|---|---|---|
+| **5** | 必嵌(核心概念图、关键流程图、独家数据图) | Read 验证 + 必嵌 |
+| **4** | 强烈建议(重要示意、典型工艺图、补 markdown 不能表达的) | Read 验证 + 多半嵌入 |
+| **3** | 可嵌可不嵌(一般概念图,可有可无) | 不 Read,跳过 |
+| 2 | 重复信息(已被 markdown / LaTeX 覆盖) | 不必列入清单 |
+| 1 | 装饰 / 过渡(封面、卡通、烟囱照片) | 不必列入清单 |
+
+#### 3d: 主线程聚合(收齐所有 sub-agent 输出后)
+
+**1. 批量重命名**
+
+合并所有 sub-agent 的清单 A,主线程在 Bash 里跑 mv:
+
+```bash
+cd 01_Projects/<CODE>_中文名/_attachments/<pdf_stem>/images/
+mv 5727695c....jpg CME222_L01_p01_cover_decor.jpg
+mv b8879a64....jpg CME222_L01_p07_diffusion_concept.jpg
+# ...
+```
+
+**冲突处理**:
+- 不同 sub-agent 给同一 hash 起不同名 → 取第一个 sub-agent 的
+- 不同 hash 起同名 → 后者加 `_v2` 后缀
+- 同一 sub-agent 内重复名 → sub-agent 输出有 bug,要求其重出
+
+**2. 选择性 Read 推荐度 ≥ 4 的图**
+
+合并所有 sub-agent 的清单 B,按推荐度从高到低排序。主线程对**所有推荐度 ≥ 4** 的图用 Read 工具亲眼 verify 一次。
+
+> ⚠️ 这是关键步骤 — sub-agent 描述可能不准 / 推荐可能过激 / 也可能保守。**主线程亲眼看后才能定嵌入**,不能盲信 sub-agent 推荐清单。
+
+Read 后,主线程为每张推荐度 ≥ 4 的图打标:
+- **VERIFIED 嵌入**: sub-agent 推荐对 + 主线程同意 → 写笔记时按建议位置嵌入
+- **VERIFIED 跳过**: 主线程看后认为不必嵌(如已被 LaTeX/markdown 覆盖、装饰性比想象中强、描述误导)
+- **追加嵌入**: 主线程看时发现 sub-agent 没列(推荐度 ≤ 3)但其实重要的(罕见,但发生时直接加进嵌入清单)
+
+**3. 嵌图数量由内容决定,不预设上限**
+
+工艺/数据丰富章节 10+ 张正常;导论/概念章节 2-3 张正常。让推荐度阈值和主线程 verify 自然决定。
+
+#### 3e: 覆盖率确认
+
+每页 slide 都必须在 3b 的提取结果里出现。缺失就 Read 补读。
+
+### Step 3.5: 备份 MinerU markdown(防误删)
+
+把每讲 / 每章的 MinerU `full.md` 复制到课程目录的**集中备份**处 — 这样以后回查"原始抽取"不必翻嵌套子目录,文件名也直观。
+
+```bash
+mkdir -p "01_Projects/<CODE>_中文名/_attachments/_mineru_md/"
+cp "01_Projects/<CODE>_中文名/_attachments/<pdf_stem>/full.md" \
+   "01_Projects/<CODE>_中文名/_attachments/_mineru_md/L##_full.md"
+```
+
+**命名规则**:
+- 课程讲座: `L##_full.md`(对应 lecture 号)
+- 教材章节: `Ch##_full.md`(对应章号)
+- 一份 PDF 跨多章/多讲: `L##_part1_full.md` / `L##_part2_full.md`
+
+**为什么显式备份(而不是只靠原 MinerU 输出目录)**:
+- 原输出在 `_attachments/<pdf_stem>/full.md`,目录名是 PDF 文件名(如 "CME 222 Lecture 1") — 不直观,跨讲查找麻烦
+- 万一将来清理 `_attachments/<pdf_stem>/` 子目录,显式备份能保住"回查原文"能力
+- 图片重命名后,原 `full.md` 里的 hash 引用会失效 — 但备份保留了**抽取那一刻的完整原貌**(用于审计 / 回查)
+
+### Step 3.6: 清理临时页
+
+```bash
+rm -rf 01_Projects/<CODE>_中文名/_attachments/_pages/
+```
+
+**保留**:
+- `_attachments/<pdf_stem>/`(MinerU 原始输出 + 重命名后的 images,主要为图片)
+- `_attachments/_mineru_md/L##_full.md`(**显式备份的 markdown,长期保留**)
+
+### Step 4: 生成笔记
+
+按 `06_Metadata/Templates/lecture-topic.md` 模板填:
+
+- **frontmatter**:按模板字段写(`lecture: L##`)
+- **知识结构图**:Mermaid 图展示本讲核心概念关系
+- **知识块**:**按逻辑主题组织,不按 slide 编号**
+  - 每个知识块 = 一个独立可理解的知识点
+  - 公式用 LaTeX + 一行中文解读
+  - **目标读者 = 高中毕业生**,笔记要脱离 PPT 后独立可读
+- **术语定义**:首次术语必须就地定义 1-2 句(若 PPT 没解释)
+- **图片嵌入**:
+  - **只嵌入主线程在 3d 步骤中亲自 Read 过且 VERIFIED 的图** — 不嵌没看过的
+  - 用 3d 重命名后的语义化文件名: `![[CME222_L01_p17_dye_dispersion_concept.jpg]]`
+  - 紧跟相关知识块,加一行 `> 说明` 解释图的内容
+  - **嵌图数量由内容决定,不预设上限** — 工艺/数据丰富的章节 10+ 张,导论章 2-3 张都正常
+  - 装饰图(`*_decor.jpg`)、已被 LaTeX/markdown 表达的公式截图、低信息量重复图,**不嵌**
+- **内容层次**:
+  - PPT 原文 → 折叠在末尾 `> [!info]-` callout
+  - AI 解释 → 正文知识块,无标记
+  - AI 延伸 → `> [!tip] 延伸(非 PPT 内容)` callout
+- **疑问**:3-5 个具体可操作的问题,放 `## 我的疑问` 段
+
+### Step 5: 自检
+
+- **slide 覆盖率**:每页核心信息是否在某知识块?未覆盖标"跳过(装饰
+  /过渡)"或补充。报告 `Slides 覆盖: 18/20`。
+- **术语自洽**:首次术语是否已定义?未定义补完。
+
+### Step 6: 增量 MOC 更新
+
+`index.md` **追加** Week 段落(不改已有):
+
+```markdown
+## Week {{WEEK}}
+
+{{一两句概要}}
+
+- [[L##_topic_snake]]
+
+**本周疑问**:
+- (汇总笔记里的 1-3 个关键疑问)
+```
+
+**Append-only**:不修改已有 Week 段落。
+
+### Step 7: 报告
+
+```markdown
+## Ingestion complete: <CODE> Week ## L##
+
+**笔记**: [[L##_topic_snake]]
+**Slides 覆盖**: X/Y(跳过 Z 页:课程信息页/装饰页)
+**术语自洽**: N/N(全部已定义或已链接)
+**图片**: 嵌入 N 张 / verify M 张(推荐度≥4) / MinerU 共抽 K 张
+**疑问汇总**:
+- (笔记里的疑问)
+```
+
+## Rules
+
+1. **不编造 slide 内容** — PPT 文字稀疏时写"原文未明",不要自己编
+2. **解读长度匹配 slide 密度** — 一行 slide 一行解读。术语首次定义除外
+3. **AI 延伸必须用 `> [!tip] 延伸(非 PPT 内容)` callout** — 不混进正文
+4. **MOC 更新 append-only** — 不改已有 Week 段落
+
+## Example
+
+**Good**(知识块 + 图):
+```markdown
+## 知识块 1 — Fick 第一定律
+
+扩散通量与浓度梯度成正比:
+
+$$J_A = -D_{AB} \frac{dc_A}{dz}$$
+
+**解读**: A 组分通量 = 扩散系数 × 浓度梯度的负值。负号表示
+扩散从高浓度到低浓度方向。
+
+[[扩散系数]] $D_{AB}$ 量级决定传质速率——气体 ~10⁻⁵ m²/s,
+液体 ~10⁻⁹ m²/s。
+
+![[CME222_L02_s09.png]]
+> Fick 定律示意:通量方向沿浓度降低方向
+
+> [!tip] 延伸(非 PPT 内容)
+> Fick 定律与傅里叶导热 $q = -k\nabla T$ 形式完全类比。
+```
+
+**Bad**:全英文 / slide-by-slide 镜像 / 没有知识块组织 / 通用 padding 替代具体解读。
+
+## Failure modes
+
+| 模式 | 触发 | 处理 |
+|---|---|---|
+| PDF 读 password-protected 误报 | Read 工具说 PDF 加密但实际未加密 | 改用 `PyMuPDF`(`import fitz`)提取 |
+| 课程文件夹不存在 | `01_Projects/<CODE>_中文名/` 没有 | 问用户中文名 + 学期,创建文件夹 + index.md,**不擅自猜** |
+| extract_images.py 失败 | PPT 解析错 / 0 图 | WARN,继续生成笔记(无图嵌入),报告用户 |
+| MOC 已存在但 frontmatter 不合规 | index.md 缺 frontmatter | WARN,只追加 Week 段,**不修 frontmatter** |
+| 一讲多 PDF/PPT | 用户传多份附件 | 逐份提取后合并到**同一笔记**;不为每份生成独立笔记 |
