@@ -78,7 +78,7 @@ py .scripts/extract_images.py "<source>" "01_Projects/<CODE>_中文名/_attachme
 
 Read `_attachments/<pdf_stem>/full.md`,作为内容基础底稿。
 
-#### 3b: 用 vision 核对(逐页对比 MinerU)
+#### 3b: vision 核对 + 图片重命名 + 嵌入推荐(sub-agent 三块输出)
 
 启动多个 sub-agent 并行,每个负责一段页码:
 
@@ -88,46 +88,74 @@ Read `_attachments/<pdf_stem>/full.md`,作为内容基础底稿。
 | 16-40 页 | 3 个 | 8-13 页 |
 | >40 页 | 4 个 | 10-15 页 |
 
-每个 Agent 读 `_attachments/_pages/<page>.png`,对照 MinerU markdown 找出:
-- MinerU **漏抽**的文字 / 公式 / 注释
-- MinerU **误识**的字符(尤其公式 LaTeX)
-- 图表内容(MinerU 只产图片文件,不描述内容)
+每个 Agent 读 `_attachments/_pages/<page>.png` + MinerU md 对应段,**输出三块**:
 
-输出每页一段:
+**块 1 — 逐页核对**(每页一段):
+
 ```
 ### Slide X: [页面标题]
 **MinerU 已抽**: (从 full.md 对应段落复制)
-**vision 补漏**: (MinerU 漏的内容)
+**vision 补漏**: (MinerU 漏的文字 / 公式 / callout)
 **误识修正**: (公式 / 字符纠正)
-**本页图表**: (描述 + 引用 images/ 文件名)
+**本页图表**: (描述 + 引用 hash)
 ```
 
-**纯 vision 模式**(2a 失败时):每页直接全文提取(不对照),格式同上但
-省"MinerU 已抽"段。
+**块 2 — 图片重命名清单**(本段所有 MinerU 抽出的图,**全部都要列**):
 
-#### 3c: 描述 MinerU 抽出的图片
+| 旧 hash | 新文件名 | 类型 |
+|---|---|---|
+| `45f8...cd97` | `<CODE>_L##_p<2位页码>_<topic-slug>_<type>.jpg` | concept |
 
-对 `_attachments/<pdf_stem>/images/` 下每张图,用 Read 工具 vision 描述:
-- 图的类型(示意图 / 数据曲线 / 流程图 / 化学结构 / 表格图)
-- 主要内容(用 1-2 句中文描述)
-- 涉及的概念(用 wikilink 标注)
-- 是否值得嵌入笔记(信息量低的装饰图标"跳过")
+`type` 取值:`concept` / `data` / `flow` / `formula` / `table` / `decor`
 
-可以和 3b 合并跑(同一 sub-agent 负责一段页码 + 该段涉及图片描述)。
+**块 3 — 嵌入推荐清单**(只列推荐度 ≥ 3):
+
+| 新文件名 | 推荐度 | 理由 | 建议放哪个知识块 |
+|---|---|---|---|
+| ... | 5 | ... | ... |
+
+推荐度尺度:5 必嵌 / 4 强烈建议 / 3 可嵌可不嵌 / 2-1 不必列。
+
+**纯 vision 模式**(2a 失败时):无块 2/3(没 MinerU 图),只输出块 1。
+
+#### 3c: 主线程聚合(批量 mv + verify Read)
+
+收齐所有 sub-agent 报告后,**主线程做**:
+
+1. **批量 mv**:按"块 2 重命名清单"把 `_attachments/<pdf_stem>/images/` 下的 hash 文件名改成语义名。
+2. **verify Read**:对"块 3"中**推荐度 ≥ 4** 的图,Read 一次亲眼看 — 确认 sub-agent 描述准、值得嵌。每张图打三种 verdict:
+   - **VERIFIED 嵌入** — 进笔记
+   - **VERIFIED 跳过** — 不进笔记(sub-agent 推荐度高估)
+   - **追加嵌入** — sub-agent 没推荐但 Read 时发现值得嵌
 
 #### 3d: 覆盖率确认
 
-每页 slide 都必须在 3b 的提取结果里出现。缺失就 Read 补读。
+每页 slide 都必须在块 1 里出现。缺失就 Read 补读。
 
-### Step 3.5: 清理临时页
+### Step 3.5: 备份 MinerU markdown + 清理临时页
 
 ```bash
+# 1. 备份 MinerU 原始 markdown(防 _attachments/<pdf_stem>/ 误删丢失内容)
+mkdir -p 01_Projects/<CODE>_中文名/_attachments/_mineru_md/
+cp "01_Projects/<CODE>_中文名/_attachments/<pdf_stem>/full.md" \
+   "01_Projects/<CODE>_中文名/_attachments/_mineru_md/L##_full.md"
+
+# 2. 清理逐页 PNG(供 vision 用,vision 跑完不再需要)
 rm -rf 01_Projects/<CODE>_中文名/_attachments/_pages/
 ```
 
-**保留** `_attachments/<pdf_stem>/`(MinerU 抽的 markdown + images 留作参考)。
+**保留** `_attachments/<pdf_stem>/`(MinerU 抽的 markdown + 已重命名的图)。
 
 ### Step 4: 生成笔记
+
+**先看目标 `L##_<topic>.md` 是否已存在且非空**(增量 vs 重写决策):
+
+- **已存在且非空**:
+  1. Read 旧版列章节清单
+  2. **优先 Edit 增量改动**(加图、修 OCR 错、补漏)— **不 Write 重写**
+  3. 仅在用户明确说"重写"或旧版质量不可接受时才 Write
+  4. Write 前列「v2 章节 vs v1 章节」对照清单,**v2 章节数 ≥ v1 章节数**
+- **不存在或空**:按下面模板从零写。
 
 按 `06_Metadata/Templates/lecture-topic.md` 模板填:
 
@@ -222,3 +250,4 @@ $$J_A = -D_{AB} \frac{dc_A}{dz}$$
 | extract_images.py 失败 | PPT 解析错 / 0 图 | WARN,继续生成笔记(无图嵌入),报告用户 |
 | MOC 已存在但 frontmatter 不合规 | index.md 缺 frontmatter | WARN,只追加 Week 段,**不修 frontmatter** |
 | 一讲多 PDF/PPT | 用户传多份附件 | 逐份提取后合并到**同一笔记**;不为每份生成独立笔记 |
+| sub-agent 报告主导写笔记 | 主线程拿到 sub-agent 输出 + MinerU md 后**没 Read 旧笔记 / 模板**就动笔 | **STOP**,回到 Step 4 开头先 Read 旧笔记列章节清单,再决定 Edit 还是 Write |
